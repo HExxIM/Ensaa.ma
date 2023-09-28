@@ -1,6 +1,8 @@
+import Link from 'next/link'
+import Image from 'next/image'
+
 //svgs
-import moonLogo from '../../../../public/Assets/moonLogo.svg';
-import playIcon from ''
+import playIcon from '../../../../../public/svg/playIcon.svg'
 
 export default function HeroSection() {
   return (
@@ -9,7 +11,9 @@ export default function HeroSection() {
           <h1>Together we can make it real!</h1>
           <p>We assure u a better environment at ENSAA.</p>
           <div>
-            <Link href="/">{}</Link>
+            <Link href="/">
+              <Image src={playIcon} alt="me" width="64" height="64"></Image>
+            </Link>
           </div>
         </div>
         <div></div>
