@@ -1,0 +1,7 @@
+.Hero_container p{
+    color: white;
+}
+
+.Hero_container{
+    display: flex;
+}

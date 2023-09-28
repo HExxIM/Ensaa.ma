@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-
+import styles from './Hero.module.css'
 //svgs
 import moonLogo from '../../../../../public/svg/moonLogo.svg';
 import playIcon from '../../../../../public/svg/playIcon.svg'
@@ -12,8 +12,8 @@ import facebookLogo from '../../../../../public/svg/facebookLogo.svg'
 
 export default function HeroSection() {
   return (
-    <div className='Hero-container'>
-        <div className='Hero-left'>
+    <div className={styles.Hero_container}>
+        <div className={styles.Hero_left}>
           <h1>Together we can make it real!</h1>
           <p>We assure u a better environment at ENSAA.</p>
           <div>
