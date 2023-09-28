@@ -12,6 +12,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-top: 3%;
 }
 .Hero_container .Hero_left .Hero_texts {
   line-height: 60px;
@@ -30,10 +31,14 @@
   -webkit-text-fill-color: transparent;
   margin-bottom: 20px;
 }
+.Hero_container .Hero_left .Hero_texts .description {
+  margin-top: -3%;
+}
 .Hero_container .Hero_left .Hero_texts .button_promo {
   display: flex;
   align-items: center;
   gap: 30px;
+  margin-top: -1%;
 }
 .Hero_container .Hero_left .Hero_texts .button_promo .button {
   background: var(--light-glow);
@@ -51,7 +56,7 @@
 }
 .Hero_container .Hero_left .social_media {
   display: flex;
-  gap: 1.5rem;
+  gap: 1.25rem;
 }
 .Hero_container .Hero_right {
   width: 55%;
