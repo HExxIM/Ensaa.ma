@@ -1,19 +1,33 @@
 .Hero_container {
-  height: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
-.Hero_container .Hero_left .slogon {
-  font-size: 3rem;
-  text-transform: uppercase;
-  background: var(--light-glow);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.Hero_container .Hero_left {
+	padding-left: 5%;
 }
 .Hero_container .Hero_left p {
-  color: white;
+	color: white;
+	font-weight: 200;
+}
+.Hero_container .Hero_left .slogon {
+	font-size: 3.5rem;
+	line-height: 60px;
+	text-transform: uppercase;
+	background: var(--light-glow);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.Hero_container .Hero_left .button {
+	display: flex;
+	background: var(--light-glow);
+	width: -moz-fit-content;
+	width: fit-content;
+}
+.Hero_container .Hero_left .social_media > element {
+	padding: 20px;
 }
 .Hero_container .moonLogo {
-  mix-blend-mode: color-dodge;
-}/*# sourceMappingURL=Hero.module.css.map */
+	mix-blend-mode: color-dodge;
+} /*# sourceMappingURL=Hero.module.css.map */
