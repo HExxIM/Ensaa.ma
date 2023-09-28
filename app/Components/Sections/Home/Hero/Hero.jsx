@@ -9,7 +9,6 @@ import instaLogo from '../../../../../public/svg/instaLogo.svg'
 import XLogo from '../../../../../public/svg/XLogo.svg'
 import facebookLogo from '../../../../../public/svg/facebookLogo.svg'
 
-
 export default function HeroSection() {
   return (
     <div>
