@@ -1,6 +1,6 @@
 /* Import Montserrat and Poppins from Google Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 /* Define the custom properties (variables) for your design system */
 :root {
@@ -8,23 +8,21 @@
   --font-secondary: "Poppins", sans-serif;
 
   /* Colors */
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --dark-black: #050311;
+  --dark-blue: #081e30;
+  --light-blue: #4fdedc;
+  --golden: #f4c45b;
 
   /* Gradients */
-  --primary-glow: conic-gradient(
-    from 180deg at 50% 50%,
-    #16abff33 0deg,
-    #0885ff33 55deg,
-    #54d6ff33 120deg,
-    #0071ff33 160deg,
-    transparent 360deg
+  --light-glow: linear-gradient(
+    90deg,
+    var(--light-blue) -8.41%,
+    var(--golden) 145.69%
   );
-
-  --secondary-glow: radial-gradient(
-    rgba(255, 255, 255, 1),
-    rgba(255, 255, 255, 0)
+  --dark-glow: linear-gradient(
+    178deg,
+    var(--dark-black) 33.7%,
+    var(--light-blue) 186.88%
   );
 }
 
@@ -39,14 +37,7 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
-  font-family: var(--font-secondary);
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: var(--dark-glow);
 }
 
 h1,
@@ -56,6 +47,10 @@ h4,
 h5,
 h6 {
   font-family: var(--font-primary);
+}
+
+p {
+  font-family: var(--font-secondary);
 }
 
 a {
