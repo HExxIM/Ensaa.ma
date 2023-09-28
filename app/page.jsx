@@ -1,6 +1,6 @@
 
 //Components
-import HeroSection from "./Components/Sections/Home/Hero/page";
+import HeroSection from "./Components/Sections/Home/Hero/Hero";
 
 export default function Home() {
   return (
