@@ -3,10 +3,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 .Hero_container .Hero_left {
+  width: 50%;
   padding-left: 5%;
-  height: 65%;
+  height: 70%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -20,16 +22,17 @@
   font-weight: 200;
 }
 .Hero_container .Hero_left .Hero_texts h1 {
-  font-size: 4rem;
+  font-size: 4.2rem;
   font-weight: bolder;
   text-transform: uppercase;
   background: var(--light-glow);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 .Hero_container .Hero_left .Hero_texts .button_promo {
   display: flex;
+  align-items: center;
   gap: 30px;
 }
 .Hero_container .Hero_left .Hero_texts .button_promo .button {
@@ -39,6 +42,7 @@
   align-items: center;
   padding: 0 12px;
   gap: 10px;
+  height: 2.5rem;
 }
 .Hero_container .Hero_left .Hero_texts .button_promo .button p {
   text-transform: uppercase;
@@ -47,8 +51,14 @@
 }
 .Hero_container .Hero_left .social_media {
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem;
 }
-.Hero_container .moonLogo {
+.Hero_container .Hero_right {
+  width: 55%;
+}
+.Hero_container .Hero_right .moonLogo {
   mix-blend-mode: color-dodge;
+  position: absolute;
+  top: -0.25rem;
+  right: -4rem;
 }/*# sourceMappingURL=Hero.module.css.map */
