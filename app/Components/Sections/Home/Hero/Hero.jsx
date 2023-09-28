@@ -13,40 +13,41 @@ export default function HeroSection() {
 	return (
 		<div className={styles.Hero_container}>
 			<div className={styles.Hero_left}>
-				<h1 className={styles.slogon}>
-					Together we
-					<br />
-					can make it
-					<br />
-					real!
-				</h1>
-				<p className={styles.description}>
-					We assure u a better environment at ENSAA.
-				</p>
-				<div>
-					<div>
+				<div className={styles.Hero_texts}>
+					<h1 className={styles.slogon}>
+						Together we
+						<br />
+						can make it
+						<br />
+						real!
+					</h1>
+					<p className={styles.description}>
+						We assure u a better environment at ENSAA.
+					</p>
+					<div className={styles.button_promo}>
 						<Link href="/" className={styles.button}>
-							<Image src={playIcon} alt="play"></Image>
+							<Image src={playIcon} alt="play" className={styles.play}></Image>
 							<p>watch a video</p>
 						</Link>
 						<p>25th promotion</p>
 					</div>
-					<div className={styles.social_media}>
-						<Link href="/">
-							<Image src={discordLogo} height="30" width="30"></Image>
-						</Link>
-						<Link href="/">
-							<Image src={instaLogo} height="30" width="30"></Image>
-						</Link>
-						<Link href="/">
-							<Image src={XLogo} height="30" width="30"></Image>
-						</Link>
-						<Link href="/">
-							<Image src={facebookLogo} height="30" width="30"></Image>
-						</Link>
-					</div>
+				</div>
+				<div className={styles.social_media}>
+					<Link href="/">
+						<Image src={discordLogo} height="30" width="30"></Image>
+					</Link>
+					<Link href="/">
+						<Image src={instaLogo} height="30" width="30"></Image>
+					</Link>
+					<Link href="/">
+						<Image src={XLogo} height="30" width="30"></Image>
+					</Link>
+					<Link href="/">
+						<Image src={facebookLogo} height="30" width="30"></Image>
+					</Link>
 				</div>
 			</div>
+
 			<div>
 				<Image
 					src={moonLogo}
