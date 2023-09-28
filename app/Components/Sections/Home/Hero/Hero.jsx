@@ -14,7 +14,7 @@ export default function HeroSection() {
   return (
     <div className={styles.Hero_container}>
         <div className={styles.Hero_left}>
-          <h1>Together we can make it real!</h1>
+          <h1 className={styles.slogon}>Together we<br/>can make it<br/>real!</h1>
           <p>We assure u a better environment at ENSAA.</p>
           <div>
             <div>
@@ -33,7 +33,7 @@ export default function HeroSection() {
           </div>
         </div>
         <div>
-          <Image src={moonLogo} alt='moonlogo' height="1153" width="1171" ></Image>
+          <Image src={moonLogo} alt='moonlogo' height="615" width="750" className={styles.moonLogo} ></Image>
         </div>
     </div>
   )

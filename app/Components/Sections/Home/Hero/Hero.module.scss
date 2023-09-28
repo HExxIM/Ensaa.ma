@@ -1,0 +1,25 @@
+
+.Hero_container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .Hero_left {
+        .slogon {
+            font-size: 3rem;
+            text-transform: uppercase;
+            background: var(--light-glow);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        p {
+            color: white;
+        }
+    }
+    .moonLogo {
+        mix-blend-mode: color-dodge;
+    }
+}
+  
+  
+  

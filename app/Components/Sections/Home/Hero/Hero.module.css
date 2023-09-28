@@ -1,7 +1,19 @@
-.Hero_container p{
-    color: white;
+.Hero_container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-
-.Hero_container{
-    display: flex;
+.Hero_container .Hero_left .slogon {
+  font-size: 3rem;
+  text-transform: uppercase;
+  background: var(--light-glow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
+.Hero_container .Hero_left p {
+  color: white;
+}
+.Hero_container .moonLogo {
+  mix-blend-mode: color-dodge;
+}/*# sourceMappingURL=Hero.module.css.map */
