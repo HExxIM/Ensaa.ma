@@ -1,8 +1,11 @@
 
+//Components
+import HeroSection from "./Components/Sections/Home/Hero/page";
+
 export default function Home() {
   return (
-    <>haschsadjkc</>
     //Hero
+    <HeroSection/>
     //ensa
     //dreamers
     //ade
