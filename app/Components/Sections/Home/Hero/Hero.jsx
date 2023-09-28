@@ -14,13 +14,9 @@ export default function HeroSection() {
 		<div className={styles.Hero_container}>
 			<div className={styles.Hero_left}>
 				<div className={styles.Hero_texts}>
-					<h1 className={styles.slogon}>
-						Together we
-						<br />
-						can make it
-						<br />
-						real!
-					</h1>
+					<h1>Together we</h1>
+					<h1>can make it</h1>
+					<h1>real!</h1>
 					<p className={styles.description}>
 						We assure u a better environment at ENSAA.
 					</p>

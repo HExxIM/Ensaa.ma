@@ -16,12 +16,14 @@
 				font-size: 1.4rem;
 				font-weight: 200;
 			}
-			.slogon {
-				font-size: 3.5rem;
+			h1 {
+				font-size: 4rem;
+				font-weight: bolder;
 				text-transform: uppercase;
 				background: var(--light-glow);
 				-webkit-background-clip: text;
 				-webkit-text-fill-color: transparent;
+				margin-bottom: 15px;
 			}
 			.button_promo {
 				display: flex;
@@ -44,6 +46,8 @@
 			}
 		}
 		.social_media {
+			display: flex;
+			gap: 1rem;
 		}
 	}
 	.moonLogo {

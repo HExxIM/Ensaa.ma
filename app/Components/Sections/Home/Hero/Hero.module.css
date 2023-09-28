@@ -19,12 +19,14 @@
   font-size: 1.4rem;
   font-weight: 200;
 }
-.Hero_container .Hero_left .Hero_texts .slogon {
-  font-size: 3.5rem;
+.Hero_container .Hero_left .Hero_texts h1 {
+  font-size: 4rem;
+  font-weight: bolder;
   text-transform: uppercase;
   background: var(--light-glow);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  margin-bottom: 15px;
 }
 .Hero_container .Hero_left .Hero_texts .button_promo {
   display: flex;
@@ -42,6 +44,10 @@
   text-transform: uppercase;
   font-weight: 500;
   font-size: 1.3rem;
+}
+.Hero_container .Hero_left .social_media {
+  display: flex;
+  gap: 1rem;
 }
 .Hero_container .moonLogo {
   mix-blend-mode: color-dodge;
