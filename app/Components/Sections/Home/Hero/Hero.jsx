@@ -48,8 +48,8 @@ export default function HeroSection() {
 				<Image
 					src={moonLogo}
 					alt="moonlogo"
-					height="645"
-					width="765"
+					height="650"
+					width="767"
 					className={styles.moonLogo}
 				></Image>
 			</div>

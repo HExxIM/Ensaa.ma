@@ -1,5 +1,6 @@
 .Hero_container {
-  height: 100%;
+  background-image: var(--dark-glow);
+  height: 100vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -56,7 +57,7 @@
 }
 .Hero_container .Hero_left .social_media {
   display: flex;
-  gap: 1.25rem;
+  gap: 1.5rem;
 }
 .Hero_container .Hero_right {
   width: 55%;
@@ -65,5 +66,5 @@
   mix-blend-mode: color-dodge;
   position: absolute;
   top: -0.25rem;
-  right: -4rem;
+  right: -3.5rem;
 }/*# sourceMappingURL=Hero.module.css.map */
