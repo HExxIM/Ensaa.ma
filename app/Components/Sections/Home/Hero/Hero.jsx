@@ -12,8 +12,8 @@ import facebookLogo from '../../../../../public/svg/facebookLogo.svg'
 
 export default function HeroSection() {
   return (
-    <div>
-        <div>
+    <div className='Hero-container'>
+        <div className='Hero-left'>
           <h1>Together we can make it real!</h1>
           <p>We assure u a better environment at ENSAA.</p>
           <div>
@@ -27,8 +27,8 @@ export default function HeroSection() {
             <div>
               <Image src={discordLogo} width="37" height="42"></Image>
               <Image src={instaLogo} width="42" height="42"></Image>
-              <Image src={XLogo} width="37" height="42"></Image>
-              <Image src={facebookLogo} width="37" height="42"></Image>
+              <Image src={XLogo} width="49" height="42"></Image>
+              <Image src={facebookLogo} width="42" height="42"></Image>
             </div>
           </div>
         </div>
