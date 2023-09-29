@@ -5,11 +5,14 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  position: relative;
+  overflow: hidden;
   .ContactUs {
     display: flex;
     align-items: center;
     width: 100%;
     justify-content: center;
+    z-index: 2;
     form {
       display: flex;
       flex-direction: column;
@@ -49,13 +52,28 @@
       }
     }
   }
-  .eatrh {
-    height: 100vh;
-    position: absolute;
-    right: 0;
-    object-fit: contain;
+  .background_elements {
+    position: absolute; // This makes the background elements position relative to the Footer_container
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    .eatrh {
+      height: 100%; // Ensure it's not bigger than the footer
+      position: absolute;
+      right: -8.5vw;
+      object-fit: contain;
+    }
+
+    .shapeBlurLeft {
+      height: 100%;
+      position: absolute;
+      left: -35vw;
+    }
   }
   .bottom_elements {
+    z-index: 2;
     .logo_socials_links {
       display: flex;
       justify-content: space-between;

@@ -18,13 +18,14 @@ import Button from "../../UI/Button";
 export default function Footer() {
   return (
     <div className={styles.Footer_container}>
-      <Image src={eatrh} alt="Eatrh" className={styles.eatrh}></Image>
-      <Image
-        src={shapeBlurBottom}
-        alt="shapeBlurBottom"
-        className={styles.shapeBlurBottom}
-      ></Image>
-
+      <div className={styles.background_elements}>
+        <Image src={eatrh} alt="Eatrh" className={styles.eatrh}></Image>
+        <Image
+          src={shapeBlurBottom}
+          alt="shapeBlurLeft"
+          className={styles.shapeBlurLeft}
+        ></Image>
+      </div>
       <div className={styles.ContactUs}>
         <Image
           src={contactUsTitle}
