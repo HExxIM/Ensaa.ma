@@ -63,20 +63,6 @@
   gap: 30px;
   margin-top: -1%;
 }
-.Hero_container .Hero_left .Hero_texts .button_promo .button {
-  background: var(--light-glow);
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 12px;
-  gap: 10px;
-  height: 2.5rem;
-}
-.Hero_container .Hero_left .Hero_texts .button_promo .button p {
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 1.3rem;
-}
 .Hero_container .Hero_right .moonLogo {
   mix-blend-mode: color-dodge;
   z-index: 1;

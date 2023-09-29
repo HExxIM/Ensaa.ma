@@ -10,6 +10,7 @@ import shapeBlurTop from "../../../../../public/svg/shapeBlurTop.svg";
 
 //components
 import SocialMediaList from "../../../UI/SocialMediaList";
+import Button from "../../../UI/Button";
 
 export default function HeroSection() {
   return (
@@ -26,10 +27,7 @@ export default function HeroSection() {
             We assure you a better environment at ENSAA.
           </p>
           <div className={styles.button_promo}>
-            <Link href="/" className={styles.button}>
-              <Image src={playIcon} alt="play" className={styles.play}></Image>
-              <p>watch a video</p>
-            </Link>
+            <Button text="watch a video" link="/" icon={playIcon} />
             <p>25th promotion</p>
           </div>
         </div>
