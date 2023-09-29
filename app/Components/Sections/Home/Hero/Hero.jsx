@@ -12,9 +12,11 @@ import shapeBlurTop from "../../../../../public/svg/shapeBlurTop.svg";
 import SocialMediaList from "../../../UI/SocialMediaList";
 
 export default function HeroSection() {
-
   return (
     <div className={styles.Hero_container}>
+      <Image src={shapeBlurBottom} className={styles.blurBottom}></Image>
+      <Image src={shapeBlurTop} className={styles.blurTop}></Image>
+
       <div className={styles.Hero_left}>
         <div className={styles.Hero_texts}>
           <h1>Together we</h1>
@@ -31,8 +33,9 @@ export default function HeroSection() {
             <p>25th promotion</p>
           </div>
         </div>
-        <SocialMediaList/>
+        <SocialMediaList />
       </div>
+
       <div className={styles.Hero_right}>
         <Image
           src={moonLogo}
@@ -40,8 +43,6 @@ export default function HeroSection() {
           className={styles.moonLogo}
         ></Image>
       </div>
-      <Image src={shapeBlurBottom} className={styles.blurBottom}></Image>
-      <Image src={shapeBlurTop} className={styles.blurTop}></Image>
     </div>
   );
 }
