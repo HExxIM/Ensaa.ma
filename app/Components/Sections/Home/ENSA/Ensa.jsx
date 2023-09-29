@@ -1,4 +1,6 @@
 
+//svg
+import BoxTitle from '../../../../../public/svg/BoxTitle';
 
 export default function ensaSection() {
   return (

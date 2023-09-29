@@ -1,0 +1,47 @@
+.container {
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 7%;
+  position: relative;
+}
+.container .Box {
+  position: relative;
+  width: 35%;
+}
+.container .Box .BoxContainer {
+  width: 100%;
+}
+.container .Box .title {
+  position: absolute;
+  text-transform: uppercase;
+  top: 35%;
+  left: 20%;
+}
+.container .mainInfos {
+  display: flex;
+  align-items: center;
+}
+.container .mainInfos .text {
+  font-size: 1.2rem;
+  width: 70%;
+  line-height: 150%;
+}
+.container .mainInfos .logo {
+  width: 30%;
+  height: 70%;
+}
+.container .blurRight, .container .blurLeft {
+  position: absolute;
+  width: 50%;
+}
+.container .blurRight {
+  right: -20%;
+}
+.container .blurLeft {
+  left: -25%;
+  top: 1%;
+}/*# sourceMappingURL=infosContainer.module.css.map */
