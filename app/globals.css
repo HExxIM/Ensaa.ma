@@ -35,6 +35,7 @@
 
 html,
 body {
+  background-image: var(--dark-glow);
   max-width: 100vw;
   overflow-x: hidden;
   height: 100%;
