@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-
+import styles from 
 //svgs
 import dreamersLogo from "../../../../public/svg/dreamersLogo.svg"
 
@@ -32,7 +32,7 @@ export default function NavBar() {
   ))
 
   return (
-    <div>
+    <div className={styles.NavContainer}>
       <Image src={dreamersLogo}></Image>
       <div>{NavList}</div>
       <Button text="Contact us" link="/contact"/>
