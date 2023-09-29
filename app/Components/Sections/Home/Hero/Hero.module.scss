@@ -25,11 +25,12 @@
 				font-weight: bolder;
 				text-transform: uppercase;
 				background: var(--light-glow);
+				background-clip: text;
 				-webkit-background-clip: text;
 				-webkit-text-fill-color: transparent;
 				margin-bottom: 20px;
 			}
-			.description{
+			.description {
 				margin-top: -3%;
 			}
 			.button_promo {
@@ -60,7 +61,7 @@
 			gap: 1.5rem;
 		}
 	}
-	.Hero_right{
+	.Hero_right {
 		width: 55%;
 		.moonLogo {
 			mix-blend-mode: color-dodge;
