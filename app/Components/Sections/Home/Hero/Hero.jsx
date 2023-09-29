@@ -30,7 +30,7 @@ export default function HeroSection() {
             <p>25th promotion</p>
           </div>
         </div>
-        <SocialMediaList />
+        <SocialMediaList iconsSize="30" iconsGap="1.2rem" />
       </div>
 
       <div className={styles.Hero_right}>

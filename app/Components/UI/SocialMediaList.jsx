@@ -7,7 +7,7 @@ import linkedinLogo from "../../../public/svg/linkedinLogo.svg";
 import facebookLogo from "../../../public/svg/facebookLogo.svg";
 import XLogo from "../../../public/svg/XLogo.svg";
 
-export default function socialMediaList() {
+export default function socialMediaList({ iconsSize, iconsGap }) {
   const socialMedia = [
     {
       name: "instagram",
@@ -38,13 +38,18 @@ export default function socialMediaList() {
 
   const socialMediaList = socialMedia.map((media) => (
     <Link href={media.link} key={media.name} target="_blank">
-      <Image src={media.logo} height="30" width="30" alt={media.name} />
+      <Image
+        src={media.logo}
+        height={iconsSize}
+        width={iconsSize}
+        alt={media.name}
+      />
     </Link>
   ));
 
   const socialMediaStyles = {
     display: "flex",
-    gap: "1.5rem",
+    gap: `${iconsGap}`,
   };
 
   return <div style={socialMediaStyles}>{socialMediaList}</div>;

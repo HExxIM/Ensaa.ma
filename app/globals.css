@@ -21,8 +21,8 @@
   );
   --dark-glow: linear-gradient(
     180deg,
-    var(--dark-black) 33.7%,
-    var(--light-blue) 186.88%
+    var(--dark-black) 20%,
+    var(--light-blue) 270%
   );
 }
 
