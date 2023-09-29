@@ -12,6 +12,7 @@ export default function Button({ icon, text, link }) {
     height: "2.5rem",
   };
   const TextStyles = {
+    color: "white",
     textTransform: "uppercase",
     fontWeight: "400",
     fontSize: "1.3rem",
