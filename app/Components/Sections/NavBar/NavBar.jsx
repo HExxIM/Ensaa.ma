@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import styles from 
+import styles from './NavBar.module.css'
 //svgs
 import dreamersLogo from "../../../../public/svg/dreamersLogo.svg"
 
