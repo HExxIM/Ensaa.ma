@@ -1,6 +1,7 @@
 .Hero_container {
 	background-image: var(--dark-glow);
 	height: 100vh;
+	overflow: hidden;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -52,8 +53,6 @@
 						font-size: 1.3rem;
 					}
 				}
-				p {
-				}
 			}
 		}
 		.social_media {
@@ -62,12 +61,25 @@
 		}
 	}
 	.Hero_right {
-		width: 55%;
 		.moonLogo {
 			mix-blend-mode: color-dodge;
 			position: absolute;
-			top: -0.25rem;
-			right: -3.5rem;
+			top: -1.7rem;
+			right: -4rem;
+			height: 110vh;
+			width: 55%;
+			animation: rotate 10s ease-in-out infinite;
+		}
+		@keyframes rotate {
+			0% {
+				rotate: 0deg;
+			}
+			50% {
+				rotate: 180deg;
+			}
+			100% {
+				rotate: 360deg;
+			}
 		}
 	}
 }

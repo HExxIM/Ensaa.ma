@@ -18,7 +18,7 @@ export default function HeroSection() {
 					<h1>can make it</h1>
 					<h1>real!</h1>
 					<p className={styles.description}>
-						We assure u a better environment at ENSAA.
+						We assure you a better environment at ENSAA.
 					</p>
 					<div className={styles.button_promo}>
 						<Link href="/" className={styles.button}>
@@ -48,8 +48,6 @@ export default function HeroSection() {
 				<Image
 					src={moonLogo}
 					alt="moonlogo"
-					height="650"
-					width="767"
 					className={styles.moonLogo}
 				></Image>
 			</div>
