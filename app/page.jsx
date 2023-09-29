@@ -8,7 +8,7 @@ export default function Home() {
 			{/* Hero */}
 			<HeroSection />
 			{/* ensa */}
-			{/* <ensaSection/> */}
+			<ensaSection/>
 			{/* dreamers */}
 			{/* ade */}
 			{/* clubs */}
