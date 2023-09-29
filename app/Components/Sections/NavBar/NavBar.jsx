@@ -1,7 +1,11 @@
 import Link from "next/link";
+import Image from "next/image";
 
 //svgs
 import dreamersLogo from "../../../../public/svg/dreamersLogo.svg"
+
+//components
+import Button from "../../UI/Button";
 
 export default function NavBar() {
   const NavElements = [
@@ -29,11 +33,9 @@ export default function NavBar() {
 
   return (
     <div>
-      <div>{dreamersLogo}</div>
+      <Image src={dreamersLogo}></Image>
       <div>{NavList}</div>
-      <div>
-
-      </div>
+      <Button text="Contact us" link="/contact"/>
     </div>
   )
 }
