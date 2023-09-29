@@ -55,10 +55,6 @@
 				}
 			}
 		}
-		.social_media {
-			display: flex;
-			gap: 1.5rem;
-		}
 	}
 	.Hero_right {
 		.moonLogo {
@@ -81,5 +77,15 @@
 				rotate: 360deg;
 			}
 		}
+	}
+	.blurBottom{
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	}
+	.blurTop{
+		position: absolute;
+		top: 0;
+		right: 0;
 	}
 }

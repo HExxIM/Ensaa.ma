@@ -57,10 +57,6 @@
   font-weight: 500;
   font-size: 1.3rem;
 }
-.Hero_container .Hero_left .social_media {
-  display: flex;
-  gap: 1.5rem;
-}
 .Hero_container .Hero_right .moonLogo {
   mix-blend-mode: color-dodge;
   position: absolute;
@@ -80,4 +76,14 @@
   100% {
     rotate: 360deg;
   }
+}
+.Hero_container .blurBottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.Hero_container .blurTop {
+  position: absolute;
+  top: 0;
+  right: 0;
 }/*# sourceMappingURL=Hero.module.css.map */
