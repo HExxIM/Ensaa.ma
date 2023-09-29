@@ -19,7 +19,7 @@ export default function Button({ icon, text, link }) {
   };
   return (
     <Link href={link} style={ButtonStyles}>
-      <Image src={icon} alt={text}></Image>
+      {icon && <Image src={icon} alt={text}></Image>}
       <p style={TextStyles}>{text}</p>
     </Link>
   );
