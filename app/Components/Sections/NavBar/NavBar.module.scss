@@ -1,4 +1,16 @@
 .NavContainer{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 12%;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    backdrop-filter: blur(2px);
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    .logo{
+        height: 40%;
+    }
 }
