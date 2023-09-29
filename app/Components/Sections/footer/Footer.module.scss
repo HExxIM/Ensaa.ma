@@ -1,4 +1,9 @@
 .Footer_container {
   height: 100vh;
-  padding: 0 5%;
+  padding-left: 5%;
+  .eatrh {
+    height: 100vh;
+    position: absolute;
+    right: 0;
+  }
 }
