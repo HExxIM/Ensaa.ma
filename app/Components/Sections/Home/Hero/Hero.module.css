@@ -79,11 +79,37 @@
 }
 .Hero_container .blurBottom {
   position: absolute;
-  bottom: 0;
-  left: 0;
+  bottom: -55%;
+  left: -10%;
+  width: 50%;
+  animation: translateBottom 10s ease-in-out infinite;
 }
 .Hero_container .blurTop {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: -60%;
+  right: -20%;
+  width: 50%;
+  animation: translateTop 10s ease-in-out infinite;
+}
+@keyframes translateBottom {
+  0% {
+    transform: translateX(0%);
+  }
+  50% {
+    transform: translateX(180%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+@keyframes translateTop {
+  0% {
+    transform: translateX(0%);
+  }
+  50% {
+    transform: translateX(-180%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
 }/*# sourceMappingURL=Hero.module.css.map */
