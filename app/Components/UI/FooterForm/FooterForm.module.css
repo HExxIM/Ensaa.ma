@@ -49,5 +49,11 @@
   opacity: 0.5;
 }
 .form .success {
-  font-size: medium;
+  font-size: large;
+  font-family: var(--font-primary);
+  background: var(--light-glow);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 300;
 }/*# sourceMappingURL=FooterForm.module.css.map */

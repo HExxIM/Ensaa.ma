@@ -51,13 +51,13 @@ export default function FooterForm() {
       "key-ac1a298a5db50cbda051c38079855468-db137ccd-67b3593b";
     const MAILGUN_DOMAIN =
       "sandbox45da17f0e795445a8b5e6c34ce88b636.mailgun.org";
-
     const formData = new FormData();
-    formData.append("from", `${name} <${email}>`);
+    formData.append("from", `${inputFields.email}`);
     formData.append("to", `ensaagadirade@gmail.com`);
-    formData.append("subject", `Website Contact Us - ${name}`);
-    formData.append("text", text);
-
+    formData.append("subject", `Website Contact Us - ${inputFields.name}`);
+    formData.append("text", `${inputFields.text}`);
+    console.log(inputFields);
+    console.log(formData);
     try {
       const response = await fetch(
         `https://api.mailgun.net/v3/${MAILGUN_DOMAIN}/messages`,
@@ -81,11 +81,14 @@ export default function FooterForm() {
       console.error("Error sending email:", error);
     }
   };
-
   useEffect(() => {
-    if (Object.keys(errors).length === 0 && submitting) {
-      finishSubmit();
-    }
+    const sendEmail = async () => {
+      if (Object.keys(errors).length === 0 && submitting) {
+        await finishSubmit(); // Wait for finishSubmit to complete
+      }
+    };
+
+    sendEmail();
   }, [errors]);
 
   return (
@@ -93,7 +96,7 @@ export default function FooterForm() {
       <div>
         <label htmlFor="name">Your Name</label>
         <input
-          value={name}
+          value={inputFields.name}
           onChange={handleChange}
           type="text"
           name="name"
@@ -105,7 +108,7 @@ export default function FooterForm() {
       <div>
         <label htmlFor="email">Your Email</label>
         <input
-          value={email}
+          value={inputFields.email}
           onChange={handleChange}
           type="email"
           name="email"
@@ -117,7 +120,7 @@ export default function FooterForm() {
       <div>
         <label htmlFor="text">Your Text</label>
         <textarea
-          value={text}
+          value={inputFields.text}
           onChange={handleChange}
           name="text"
           id="text"
@@ -131,7 +134,7 @@ export default function FooterForm() {
         send
       </button>
       {Object.keys(errors).length === 0 && submitting && (
-        <span className={Styles.success}>Successfully submitted ✓</span>
+        <span className={Styles.success}>Thank you for your message!</span>
       )}
     </form>
   );
