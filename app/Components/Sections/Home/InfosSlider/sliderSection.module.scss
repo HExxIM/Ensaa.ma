@@ -13,16 +13,16 @@
         align-items: center;
         justify-content: center;
         gap: 15%;
-        width: 100%;
+        width: 200%;
         height: 100%;
         animation: scroll 15s linear infinite;
     }
     @keyframes scroll {
         0% {
-          left: 0;
+          transform: translateX(100%); /* Start from the right */
         }
         100% {
-          left: -100%;
+          transform: translateX(-100%); /* Move to the left */
         }
     }
     .blurRight,
