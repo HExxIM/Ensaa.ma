@@ -8,8 +8,7 @@
   .blurBottom,
   .blurTop {
     position: absolute;
-    scale: 0.8;
-    opacity: 0.5;
+    scale: 1.3;
     animation-duration: 15s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
@@ -17,14 +16,14 @@
   }
 
   .blurBottom {
-    bottom: -75vh;
-    left: -30vw;
+    bottom: -45vh;
+    left: -20vw;
     animation-name: translateBottom;
   }
 
   .blurTop {
-    top: -60vh;
-    right: -30vw;
+    top: -30vh;
+    right: -15vw;
     animation-name: translateTop;
   }
 

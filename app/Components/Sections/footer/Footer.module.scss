@@ -6,7 +6,6 @@
   flex-direction: column;
   justify-content: space-between;
   position: relative;
-  overflow: hidden;
   .ContactUs {
     display: flex;
     align-items: center;
@@ -60,10 +59,24 @@
     height: 100%;
     z-index: 1;
     .eatrh {
-      height: 100%; // Ensure it's not bigger than the footer
       position: absolute;
-      right: -8.5vw;
+      scale: 1.2;
+      right: -25vw;
+      opacity: 0.4;
+      bottom: 0;
       object-fit: contain;
+      animation-name: rotate;
+      animation-duration: 70s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+    }
+    @keyframes rotate {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
     }
 
     .shapeBlurLeft {

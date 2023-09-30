@@ -41,13 +41,14 @@
   .blurRight,
   .blurLeft {
     position: absolute;
-    width: 50%;
+    height: fit-content;
   }
   .blurRight {
-    right: -20%;
+    right: -30vw;
+    bottom: -20vh;
   }
   .blurLeft {
-    left: -25%;
-    top: 1%;
+    left: -30vw;
+    top: -18vh;
   }
 }

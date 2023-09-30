@@ -6,7 +6,6 @@
   flex-direction: column;
   justify-content: space-between;
   position: relative;
-  overflow: hidden;
 }
 .Footer_container .ContactUs {
   display: flex;
@@ -59,11 +58,25 @@
   z-index: 1;
 }
 .Footer_container .background_elements .eatrh {
-  height: 100%;
   position: absolute;
-  right: -8.5vw;
+  scale: 1.2;
+  right: -25vw;
+  opacity: 0.4;
+  bottom: 0;
   -o-object-fit: contain;
      object-fit: contain;
+  animation-name: rotate;
+  animation-duration: 70s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 .Footer_container .background_elements .shapeBlurLeft {
   position: absolute;
