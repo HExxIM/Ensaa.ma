@@ -129,7 +129,7 @@ export default function FooterForm() {
         send
       </button>
       {Object.keys(errors).length === 0 && submitting && (
-        <span className={Styles.success}>Successfully submitted ✓</span>
+        <span className={Styles.success}>Thank you for your message!</span>
       )}
     </form>
   )
