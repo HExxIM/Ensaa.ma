@@ -1,6 +1,5 @@
 .Hero_container {
   height: 100vh;
-  // overflow: hidden;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -9,22 +8,23 @@
   .blurBottom,
   .blurTop {
     position: absolute;
-    width: 50%;
-    animation-duration: 10s;
+    scale: 0.8;
+    opacity: 0.5;
+    animation-duration: 15s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     z-index: 2; // Above the moonLogo
   }
 
   .blurBottom {
-    bottom: -55%;
-    left: -10%;
+    bottom: -75vh;
+    left: -30vw;
     animation-name: translateBottom;
   }
 
   .blurTop {
-    top: -60%;
-    right: -20%;
+    top: -60vh;
+    right: -30vw;
     animation-name: translateTop;
   }
 
@@ -80,7 +80,7 @@
       height: 110vh;
       width: 55%;
       animation-name: rotate;
-      animation-duration: 10s;
+      animation-duration: 15s;
       animation-timing-function: ease-in-out;
       animation-iteration-count: infinite;
     }
@@ -103,7 +103,7 @@
       transform: translateX(0%);
     }
     50% {
-      transform: translateX(180%);
+      transform: translateX(110%);
     }
     100% {
       transform: translateX(0%);
@@ -115,7 +115,7 @@
       transform: translateX(0%);
     }
     50% {
-      transform: translateX(-180%);
+      transform: translateX(-110%);
     }
     100% {
       transform: translateX(0%);

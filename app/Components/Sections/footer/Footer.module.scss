@@ -67,9 +67,9 @@
     }
 
     .shapeBlurLeft {
-      height: 100%;
       position: absolute;
-      left: -35vw;
+      left: -30vw;
+      object-fit: contain;
     }
   }
   .bottom_elements {

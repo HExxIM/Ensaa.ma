@@ -6,10 +6,10 @@ import styles from "./Footer.module.css";
 import ADELogo from "../../../../public/svg/ADELogo.svg";
 import Rectangle from "../../../../public/svg/Rectangle.svg";
 import contactUsTitle from "../../../../public/svg/contactUsTitle.svg";
-import shapeBlurBottom from "../../../../public/svg/shapeBlurBottom.svg";
 
 //images
 import eatrh from "../../../../public/images/earth.webp";
+import shapeBlur from "../../../../public/images/shapeBlur.webp";
 
 //components
 import SocialMediaList from "../../UI/SocialMediaList";
@@ -21,7 +21,7 @@ export default function Footer() {
       <div className={styles.background_elements}>
         <Image src={eatrh} alt="Eatrh" className={styles.eatrh}></Image>
         <Image
-          src={shapeBlurBottom}
+          src={shapeBlur}
           alt="shapeBlurLeft"
           className={styles.shapeBlurLeft}
         ></Image>

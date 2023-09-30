@@ -66,9 +66,10 @@
      object-fit: contain;
 }
 .Footer_container .background_elements .shapeBlurLeft {
-  height: 100%;
   position: absolute;
-  left: -35vw;
+  left: -30vw;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .Footer_container .bottom_elements {
   z-index: 2;
