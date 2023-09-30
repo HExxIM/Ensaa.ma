@@ -1,23 +1,30 @@
-.NavContainer{
+.NavContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 11%;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  background: linear-gradient(
+    180deg,
+    rgba(63, 215, 78, 0.03) 0%,
+    rgba(63, 215, 78, 0.03) 75.48%,
+    rgba(63, 215, 78, 0) 100%
+  );
+  backdrop-filter: blur(5px);
+  padding-left: 4%;
+  padding-right: 5%;
+  .logo {
+    height: 40%;
+  }
+  .NavList {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    height: 12%;
-    width: 100%;
-    position: fixed;
-    z-index: 10;
-    backdrop-filter: blur(5px);
-    padding-left: 4%;
-    padding-right: 5%;
-    .logo{
-        height: 40%;
-    }
-    .NavList{
-        display: flex;
-        justify-content: space-between;
-        width:23vw;
-        font-size: 1rem;
-        text-transform: uppercase;
-        font-weight: 500;
-    }
+    width: 23vw;
+    font-family: var(--font-primary);
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
 }

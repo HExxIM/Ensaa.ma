@@ -25,6 +25,7 @@ export default function SectionInfosList() {
   ];
   const SectionInfosList = sectionInfos.map((section) => (
     <InfosContainer
+      key={section.title}
       title={section.title}
       text={section.text}
       logo={section.logo}
