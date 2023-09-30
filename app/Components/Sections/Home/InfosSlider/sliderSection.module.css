@@ -12,15 +12,14 @@
 .container .Slider {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 15%;
+  justify-content: space-between;
   width: 200%;
   height: 100%;
   animation: scroll 15s linear infinite;
 }
 @keyframes scroll {
   0% {
-    transform: translateX(100%); /* Start from the right */
+    transform: translateX(0); /* Start from the right */
   }
   100% {
     transform: translateX(-100%); /* Move to the left */
