@@ -17,8 +17,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.form div input,
-.form div textarea {
+.form div input, .form div textarea {
   color: white;
   font-size: 1rem;
   padding: 10px 16px;
