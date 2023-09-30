@@ -117,5 +117,5 @@ export default function FooterForm() {
         <span className={Styles.success}>Successfully submitted ✓</span>
       )}
     </form>
-  );
+  )
 }

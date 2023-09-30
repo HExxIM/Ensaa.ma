@@ -44,4 +44,11 @@
   font-size: 1.3rem;
   border: 0;
   cursor: pointer;
+}
+.form .error {
+  font-size: smaller;
+  opacity: 0.5;
+}
+.form .success {
+  font-size: medium;
 }/*# sourceMappingURL=FooterForm.module.css.map */

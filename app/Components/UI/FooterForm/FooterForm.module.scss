@@ -1,50 +1,56 @@
 .form {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  div {
     display: flex;
     flex-direction: column;
-    gap: 0.3rem;
-    label {
-      font-family: var(--font-primary);
-      font-size: 1.3rem;
-      font-weight: 300;
+    gap: 1rem;
+    div {
+      display: flex;
+      flex-direction: column;
+      gap: 0.3rem;
+      label {
+        font-family: var(--font-primary);
+        font-size: 1.3rem;
+        font-weight: 300;
+        background: var(--light-glow);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      input,textarea {
+        color: white;
+        font-size: 1rem;
+        padding: 10px 16px;
+        box-sizing: border-box;
+        border-image: var(--light-glow) 10;
+        border-width: 2px;
+        border-style: solid;
+        background: linear-gradient(
+          90deg,
+          rgba(201, 255, 254, 0.02) -8.41%,
+          rgba(255, 237, 199, 0.02) 145.69%
+        );
+        resize: none;
+      }
+      textarea:focus,
+      input:focus {
+        outline: none;
+      }
+    }
+    .button{
       background: var(--light-glow);
-      background-clip: text;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-    input,
-    textarea {
+      padding: 0 12px;
+      height: 2.5rem;
       color: white;
-      font-size: 1rem;
-      padding: 10px 16px;
-      box-sizing: border-box;
-      border-image: var(--light-glow) 10;
-      border-width: 2px;
-      border-style: solid;
-      background: linear-gradient(
-        90deg,
-        rgba(201, 255, 254, 0.02) -8.41%,
-        rgba(255, 237, 199, 0.02) 145.69%
-      );
-      resize: none;
+      text-transform: uppercase;
+      font-weight: 400;
+      font-size: 1.3rem;
+      border: 0;
+      cursor: pointer;
     }
-    textarea:focus,
-    input:focus {
-      outline: none;
+    .error{
+      font-size: smaller;
+      opacity: 0.5;
+    }
+    .success{
+      font-size: medium;
     }
   }
-  .button {
-    background: var(--light-glow);
-    padding: 0 12px;
-    height: 2.5rem;
-    color: white;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 1.3rem;
-    border: 0;
-    cursor: pointer;
-  }
-}
