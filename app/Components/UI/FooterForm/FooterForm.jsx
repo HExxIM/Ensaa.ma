@@ -1,11 +1,8 @@
 'use client'
 import Styles from './FooterForm.module.css';
 import { useState,useEffect,useRef } from 'react';
-//components
-import Button from "../../UI/Button";
 
 export default function FooterForm() {
-    const formRef = useRef(null);
     const [inputFields, setInputFields] = useState({
         name: "",
         email: "",
@@ -17,7 +14,7 @@ export default function FooterForm() {
     const validateValues = (inputValues) => {
         let errors = {};
         if(inputValues.name){
-            if (inputValues.name.length < 30) {
+            if (inputValues.name.length > 30) {
               errors.name = "Name too long!";
             }
         }else{
@@ -54,13 +51,11 @@ export default function FooterForm() {
 
   return (
     <>
-        {Object.keys(errors).length === 0 && submitting ? (
-            <span className="success">Successfully submitted ✓</span>
-        ) : null}
-        <form className={Styles.form} onSubmit={handleSubmit} ref={formRef}>
+        <form className={Styles.form} onSubmit={handleSubmit}>
             <div>
                 <label htmlFor="name">Your Name</label>
-                <input value={inputFields.name} onChange={handleChange} type='text' name="Your Name" id="name" cols="40" rows="1"></input>
+                <input value={inputFields.name} onChange={handleChange} type='text' name="name" id="name" cols="40" rows="1"></input>
+                {errors.name && <span className={Styles.error}>{errors.name}</span>}
             </div>
             <div>
                 <label htmlFor="email">Your Email</label>
@@ -68,28 +63,23 @@ export default function FooterForm() {
                     value={inputFields.email}
                     onChange={handleChange}
                     type='email'
-                    name="Your Email"
+                    name="email"
                     id="email"
                     cols="40"
                     rows="1"
                 ></input>
+                {errors.email && <span className={Styles.error}>{errors.email}</span>}
             </div>
             <div>
                 <label htmlFor="text">Your Text</label>
-                <textarea value={inputFields.text} onChange={handleChange} name="Your Text" id="text" cols="40" rows="5"></textarea>
+                <textarea value={inputFields.text} onChange={handleChange} name="text" id="text" cols="40" rows="5"></textarea>
+                {errors.text && <span className={Styles.error}>{errors.text}</span>}
             </div>
-            <Button 
-                text="send" 
-                link="/" 
-                onclick={
-                    (e) => {
-                            e.preventDefault();
-                            if (formRef.current) {
-                                formRef.current.submit();
-                            }}
-                        }
-            />
+            <button className={Styles.button} type="submit">send</button>
     </form>
+    {Object.keys(errors).length === 0 && submitting ? (
+            <span className="success">Successfully submitted ✓</span>
+        ) : null}
   </>
   )
 }

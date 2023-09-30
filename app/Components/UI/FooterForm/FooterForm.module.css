@@ -32,4 +32,15 @@
 .form div textarea:focus,
 .form div input:focus {
   outline: none;
+}
+.form .button {
+  background: var(--light-glow);
+  padding: 0 12px;
+  height: 2.5rem;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1.3rem;
+  border: 0;
+  cursor: pointer;
 }/*# sourceMappingURL=FooterForm.module.css.map */
