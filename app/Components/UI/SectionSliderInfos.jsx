@@ -12,24 +12,52 @@ export default function SliderInfos() {
       title: "OUR CLUBS",
       images: [
         {
-          name: "ADE",
-          src: ADELogo,
-        },
-        {
           name: "Ensa Agadir",
           src: EnsaLogo,
         },
         {
+          name: "ADE",
+          src: ADELogo,
+        },
+        {
+          name: "ADE",
+          src: ADELogo,
+        },
+        {
+          name: "ADE",
+          src: ADELogo,
+        },
+        {
+          name: "ADE",
+          src: ADELogo,
+        },
+        {
+          name: "ADE",
+          src: ADELogo,
+        },
+        {
+          name: "ADE",
+          src: ADELogo,
+        },
+        {
+          name: "ADE",
+          src: ADELogo,
+        },
+        {
+          name: "ADE",
+          src: ADELogo,
+        },
+        {
+          name: "ADE",
+          src: ADELogo,
+        },
+        {
+          name: "ADE",
+          src: ADELogo,
+        },
+        {
           name: "Dreamers",
           src: moonLogo,
-        },
-        {
-          name: "ADE",
-          src: ADELogo,
-        },
-        {
-          name: "ADE",
-          src: ADELogo,
         },
       ],
     },

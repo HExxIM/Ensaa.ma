@@ -10,18 +10,23 @@
   overflow: hidden;
 }
 .container .Slider {
+  z-index: 4;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  width: 200%;
+  gap: 20px;
   height: 100%;
+  width: 200%;
+  animation: scroll 20s linear infinite;
 }
 @keyframes scroll {
   0% {
-    transform: translateX(0); /* Start from the right */
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-50%);
   }
   100% {
-    transform: translateX(-100%); /* Move to the left */
+    transform: translateX(-100%);
   }
 }
 .container .blurRight,
