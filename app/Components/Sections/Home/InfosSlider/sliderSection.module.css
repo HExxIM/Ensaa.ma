@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 7%;
+  padding: 7% 0;
   position: relative;
   overflow: hidden;
 }
@@ -15,10 +15,11 @@
   justify-content: space-between;
   width: 200%;
   height: 100%;
+  animation: scroll 15s linear infinite;
 }
-@keyframes scroll {
+@keyframes slide {
   0% {
-    transform: translateX(0); /* Start from the right */
+    transform: translateX(100%); /* Start from the right */
   }
   100% {
     transform: translateX(-100%); /* Move to the left */
@@ -35,4 +36,4 @@
 .container .blurLeft {
   left: -25%;
   top: 1%;
-}/*# sourceMappingURL=sliderSection.module.css.map */
+} /*# sourceMappingURL=sliderSection.module.css.map */

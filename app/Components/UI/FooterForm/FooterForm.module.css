@@ -1,0 +1,35 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.form div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.form div label {
+  font-family: var(--font-primary);
+  font-size: 1.3rem;
+  font-weight: 300;
+  background: var(--light-glow);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.form div textarea {
+  color: white;
+  font-size: 1rem;
+  padding: 10px 16px;
+  box-sizing: border-box;
+  -o-border-image: var(--light-glow) 10;
+     border-image: var(--light-glow) 10;
+  border-width: 2px;
+  border-style: solid;
+  background: linear-gradient(90deg, rgba(201, 255, 254, 0.02) -8.41%, rgba(255, 237, 199, 0.02) 145.69%);
+  resize: none;
+}
+.form div textarea:focus,
+.form div input:focus {
+  outline: none;
+}/*# sourceMappingURL=FooterForm.module.css.map */
