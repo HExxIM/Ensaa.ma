@@ -1,4 +1,4 @@
-import InfosContainer from "./InfosContainer/InfosContainer";
+import InfosContainer from "../Sections/Home/InfosContainer/InfosContainer";
 
 //svg
 import EnsaLogo from "../../../public/svg/EnsaLogo.svg";
