@@ -8,23 +8,6 @@
   padding: 7%;
   position: relative;
 }
-.container .Box {
-  width: 22rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.container .Box .BoxContainer {
-  width: 100%;
-}
-.container .Box .title {
-  position: absolute;
-  text-transform: uppercase;
-  font-family: var(--font-primary);
-  font-weight: 600;
-  padding-right: 1rem;
-}
 .container .mainInfos {
   display: flex;
   align-items: center;

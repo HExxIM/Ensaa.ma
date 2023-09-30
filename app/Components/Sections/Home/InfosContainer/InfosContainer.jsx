@@ -1,7 +1,9 @@
 import Image from "next/image";
 import styles from "./infosContainer.module.css";
-//svg
+
+//Images
 import shapeBlur from "../../../../../public/images/shapeBlur.webp";
+
 //components
 import TitleBox from "../../../UI/TitleBox";
 

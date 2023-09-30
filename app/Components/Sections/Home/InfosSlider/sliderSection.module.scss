@@ -1,0 +1,40 @@
+.container{
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7%;
+    position: relative;
+    overflow: hidden;
+    .Slider{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15%;
+        width: 100%;
+        height: 100%;
+        animation: scroll 15s linear infinite;
+    }
+    @keyframes scroll {
+        0% {
+          left: 0;
+        }
+        100% {
+          left: -100%;
+        }
+    }
+    .blurRight,
+    .blurLeft {
+      position: absolute;
+      width: 50%;
+    }
+    .blurRight {
+      right: -20%;
+    }
+    .blurLeft {
+      left: -25%;
+      top: 1%;
+    }
+}
