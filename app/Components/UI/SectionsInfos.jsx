@@ -23,12 +23,13 @@ export default function SectionInfosList() {
       text: "As the ADE for ENSAA, our mission is to strengthen connections between students, professors, and administrators through effective communication. We aim to create an environment where ensaistes can easily engage with their professors and administration. Join us in transforming the student-administration dynamic into a partnership that empowers everyone at ENSAA. Together, we're building a harmonious academic community where ensaistes' voices are valued and acted upon.",
     },
   ];
-  const SectionInfosList = sectionInfos.map((section) => (
+  const SectionInfosList = sectionInfos.map((section, index) => (
     <InfosContainer
       key={section.title}
       title={section.title}
       text={section.text}
       logo={section.logo}
+      position={index % 2 === 0 ? "right" : "left"}
     />
   ));
   return <>{SectionInfosList}</>;
