@@ -46,25 +46,34 @@ export default function FooterForm() {
   };
 
   const finishSubmit = async () => {
-    try {
-      const response = await fetch("/api/sendEmail", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(inputFields),
-      });
-
-      if (response.status === 200) {
-        console.log("Message sent successfully");
-      } else {
-        console.error("Error sending message");
-      }
-    } catch (error) {
-      console.error("There was an error sending the message", error);
+        const MAILGUN_API_KEY = 'pubkey-709ce6221ae5e33afef04cf89bb77c55';
+        const MAILGUN_DOMAIN = 'sandbox45da17f0e795445a8b5e6c34ce88b636.mailgun.org';
+        const formData = new FormData();
+        formData.append('from', `${email}`);
+        formData.append('to', `ensaagadirade@gmail.com`);
+        formData.append('subject', `Website Contact Us - ${name}`);
+        formData.append('text', `${text}`);
+        console.log(formData);
+        try {
+            const response = await fetch(`https://api.mailgun.net/v3/${MAILGUN_DOMAIN}/messages`, {
+            method: 'POST',
+            headers: {
+                Authorization: `Basic ${btoa(`api:${MAILGUN_API_KEY}`)}`,
+            },
+            body: formData,
+            });
+        
+            if (response.ok) {
+            const data = await response.json();
+            console.log('Email sent:', data);
+            } else {
+            const errorData = await response.json();
+            console.error('Error sending email:', errorData);
+            }
+        } catch (error) {
+            console.error('Error sending email:', error);
+        }
     }
-  };
-
   useEffect(() => {
     if (Object.keys(errors).length === 0 && submitting) {
       finishSubmit();
