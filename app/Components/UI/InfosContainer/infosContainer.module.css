@@ -21,6 +21,9 @@
 .container .Box .title {
   position: absolute;
   text-transform: uppercase;
+  font-family: var(--font-primary);
+  font-weight: 600;
+  padding-right: 1rem;
 }
 .container .mainInfos {
   display: flex;
