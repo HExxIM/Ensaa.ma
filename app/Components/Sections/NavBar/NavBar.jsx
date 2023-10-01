@@ -29,6 +29,10 @@ export default function NavBar() {
       title: "Press",
       path: "/Press",
     },
+    {
+      title: "Team",
+      path: "/Team",
+    },
   ];
 
   const ElementActiveStyles = (path) => {
