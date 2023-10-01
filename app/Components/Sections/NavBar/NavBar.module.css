@@ -13,7 +13,7 @@
   padding-right: 5%;
 }
 .NavContainer .logo {
-  height: 40%;
+  scale: 0.8;
 }
 .NavContainer .NavList {
   display: flex;

@@ -58,7 +58,9 @@ export default function NavBar() {
 
   return (
     <div className={styles.NavContainer}>
-      <Image className={styles.logo} src={dreamersLogo}></Image>
+      <Link className={styles.logo} href="/">
+        <Image src={dreamersLogo}></Image>
+      </Link>
       <div className={styles.NavList}>{NavList}</div>
       <Button text="Contact us" link="/Contact" />
     </div>
