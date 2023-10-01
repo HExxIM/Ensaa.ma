@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 //svgs
-import ErrorIllustration from "../public/images/ErrorIllustration.png";
+import ErrorIllustration from "../public/images/ErrorIllustration.webp";
 
 export default function NotFound() {
   const ErrorContainerStyle = {
@@ -12,12 +12,13 @@ export default function NotFound() {
     justifyContent: "center",
     alignItems: "center",
     position: "relative",
-    backgrounImage: "url('/images/ErrorIllustration.png')",
+    overflow: "hidden",
   };
   const ErrorIllustrationStyle = {
     // height: "100%",
-    // opacity: "0.5",
+    opacity: "0.4",
     // objectFit: "cover",
+    // mixBlendMode: "color-dodge",
   };
 
   const Error404TextStyle = {
@@ -25,7 +26,6 @@ export default function NotFound() {
     top: "50%",
     left: "50%",
     transform: "translate(-50%,-50%)",
-
     textAlign: "center",
     color: "#fff",
     fontSize: "2.5rem",
