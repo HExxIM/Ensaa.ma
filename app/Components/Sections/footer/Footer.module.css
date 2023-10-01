@@ -10,6 +10,27 @@
   height: 100%;
   z-index: 1;
 }
+.container .logo_socials_links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .logo_socials_links .logo_socials {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.container .logo_socials_links .links {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-family: var(--font-primary);
+}
+.container .copyrights {
+  text-align: center;
+  font-family: var(--font-primary);
+  font-weight: 200;
+}
 .container .eatrh {
   position: absolute;
   scale: 1.2;
