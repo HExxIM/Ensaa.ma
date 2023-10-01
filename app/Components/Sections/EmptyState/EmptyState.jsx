@@ -6,7 +6,7 @@ import emptyStateIllustration from '../../../../public/images/emptyStateIllustra
 export default function EmptyState() {
     const EmptyStateStyles = {
         container:{
-            height: "100vh",
+            height: "83vh",
             display: "flex",
             flexDirection: "column",
             justifyContent: "center",
