@@ -15,23 +15,37 @@ export default function NotFound() {
     overflow: "hidden",
   };
   const ErrorIllustrationStyle = {
-    // height: "100%",
-    opacity: "0.4",
-    // objectFit: "cover",
-    // mixBlendMode: "color-dodge",
+    opacity: "0.3",
+    scale: "1.07",
+    transform: "translateX(2%)",
   };
 
   const Error404TextStyle = {
-    position: "absolute",
-    top: "50%",
-    left: "50%",
-    transform: "translate(-50%,-50%)",
-    textAlign: "center",
-    color: "#fff",
-    fontSize: "2.5rem",
-    fontWeight: "bold",
-    textShadow: "0px 0px 20px rgba(0,0,0,0.5)",
+    allText: {
+      position: "absolute",
+      textAlign: "center",
+      fontFamily: "var(--font-primary)",
+      top: "50%",
+      left: "50%",
+      transform: "translate(-50%, -50%)",
+      width: "100%",
+    },
+    h1: {
+      background: "var(--light-glow)",
+      backgroundClip: "text",
+      WebkitBackgroundClip: "text",
+      WebkitTextFillColor: "transparent",
+      fontWeight: "600",
+      fontSize: "7rem",
+    },
+    p: {
+      color: "#fff",
+      fontSize: "3rem",
+      fontWeight: "200",
+      textTransform: "capitalize",
+    },
   };
+
   return (
     <div style={ErrorContainerStyle}>
       <Image
@@ -39,9 +53,9 @@ export default function NotFound() {
         alt="Error 404"
         style={ErrorIllustrationStyle}
       />
-      <div style={Error404TextStyle}>
-        <h1>404</h1>
-        <p>Page not found</p>
+      <div style={Error404TextStyle.allText}>
+        <h1 style={Error404TextStyle.h1}>ERROR 404</h1>
+        <p style={Error404TextStyle.p}>Page not found</p>
       </div>
     </div>
   );
