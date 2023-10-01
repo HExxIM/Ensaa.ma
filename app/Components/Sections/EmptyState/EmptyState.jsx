@@ -14,7 +14,7 @@ export default function EmptyState() {
             color: "white"
         },
         p:{
-            fontSize: "2.5rem",
+            fontSize: "2.2rem",
             fontWeight: "200",
         }
     }
