@@ -1,12 +1,12 @@
 import Image from 'next/image';
 
-//svg
+//Images
+import emptyStateIllustration from '../../../../public/images/emptyStateIllustration.webp'
 
 export default function EmptyState() {
     const EmptyStateStyles = {
         container:{
             height: "100vh",
-            padding: "7% 5% 2% 5%",
             display: "flex",
             flexDirection: "column",
             justifyContent: "center",
@@ -14,13 +14,13 @@ export default function EmptyState() {
             color: "white"
         },
         p:{
-            fontSize: "3rem",
+            fontSize: "2.5rem",
             fontWeight: "200",
         }
     }
   return (
     <div style={EmptyStateStyles.container}>
-        <Image  alt="Empty State"/>
+        <Image src={emptyStateIllustration} alt="Empty State"/>
         <p style={EmptyStateStyles.p}>Oops</p>
         <p style={EmptyStateStyles.p}>There's nothing here, yet</p>
     </div>
