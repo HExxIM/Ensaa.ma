@@ -1,0 +1,50 @@
+.container{
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7% 5% 0 5%;
+    position: relative;
+    .ContactUs {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+        z-index: 2;
+      }
+    .background_elements {
+        position: absolute; 
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        .eatrh {
+          position: absolute;
+          scale: 1.2;
+          right: -25vw;
+          opacity: 0.4;
+          bottom: 0;
+          object-fit: contain;
+          animation-name: rotate;
+          animation-duration: 70s;
+          animation-timing-function: linear;
+          animation-iteration-count: infinite;
+        }
+        @keyframes rotate {
+          0% {
+            transform: rotate(0deg);
+          }
+          100% {
+            transform: rotate(360deg);
+          }
+        }
+    
+        .shapeBlurLeft {
+          position: absolute;
+          left: -30vw;
+          object-fit: contain;
+        }
+      }
+}

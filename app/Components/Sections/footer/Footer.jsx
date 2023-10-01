@@ -5,36 +5,13 @@ import styles from "./Footer.module.css";
 //svgs
 import ADELogo from "../../../../public/svg/ADELogo.svg";
 import Rectangle from "../../../../public/svg/Rectangle.svg";
-import contactUsTitle from "../../../../public/svg/contactUsTitle.svg";
-
-//images
-import eatrh from "../../../../public/images/earth.webp";
-import shapeBlur from "../../../../public/images/shapeBlur.webp";
 
 //components
 import SocialMediaList from "../../UI/SocialMediaList";
-import FooterForm from "../../UI/FooterForm/FooterForm";
 
 export default function Footer() {
   return (
-    <div className={styles.Footer_container}>
-      <div className={styles.background_elements}>
-        <Image src={eatrh} alt="Eatrh" className={styles.eatrh}></Image>
-        <Image
-          src={shapeBlur}
-          alt="shapeBlurLeft"
-          className={styles.shapeBlurLeft}
-        ></Image>
-      </div>
-      <div className={styles.ContactUs}>
-        <Image
-          src={contactUsTitle}
-          alt="contact Us Title"
-          className={styles.contactUsTitle}
-        ></Image>
-        <FooterForm/>
-      </div>
-      <div className={styles.bottom_elements}>
+      <div className={styles.container}>
         <div className={styles.logo_socials_links}>
           <div className={styles.logo_socials}>
             <Image
@@ -61,6 +38,5 @@ export default function Footer() {
           Copyright © ADE ENSAA | Designed by ZEUS
         </p>
       </div>
-    </div>
   );
 }

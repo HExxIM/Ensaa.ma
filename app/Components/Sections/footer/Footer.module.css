@@ -1,28 +1,16 @@
-.Footer_container {
-  height: 100vh;
-  padding: 7% 5% 2% 5%;
+.container {
+  padding: 0 5% 2% 5%;
   color: white;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  position: relative;
-}
-.Footer_container .ContactUs {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  justify-content: center;
-  z-index: 2;
-}
-.Footer_container .background_elements {
   position: absolute;
-  top: 0;
-  left: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
   width: 100%;
   height: 100%;
   z-index: 1;
 }
-.Footer_container .background_elements .eatrh {
+.container .eatrh {
   position: absolute;
   scale: 1.2;
   right: -25vw;
@@ -30,7 +18,10 @@
   bottom: 0;
   -o-object-fit: contain;
      object-fit: contain;
-  animation: rotate 70s linear infinite;
+  animation-name: rotate;
+  animation-duration: 70s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 @keyframes rotate {
   0% {
@@ -40,32 +31,33 @@
     transform: rotate(360deg);
   }
 }
-.Footer_container .background_elements .shapeBlurLeft {
+.container .shapeBlurLeft {
   position: absolute;
   left: -30vw;
   -o-object-fit: contain;
      object-fit: contain;
 }
-.Footer_container .bottom_elements {
+
+.bottom_elements {
   z-index: 2;
 }
-.Footer_container .bottom_elements .logo_socials_links {
+.bottom_elements .logo_socials_links {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.Footer_container .bottom_elements .logo_socials_links .logo_socials {
+.bottom_elements .logo_socials_links .logo_socials {
   display: flex;
   align-items: center;
   gap: 1rem;
 }
-.Footer_container .bottom_elements .logo_socials_links .links {
+.bottom_elements .logo_socials_links .links {
   display: flex;
   align-items: center;
   gap: 2rem;
   font-family: var(--font-primary);
 }
-.Footer_container .bottom_elements .copyrights {
+.bottom_elements .copyrights {
   text-align: center;
   font-family: var(--font-primary);
   font-weight: 200;
