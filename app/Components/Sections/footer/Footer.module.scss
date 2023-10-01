@@ -27,10 +27,7 @@
       opacity: 0.4;
       bottom: 0;
       object-fit: contain;
-      animation-name: rotate;
-      animation-duration: 70s;
-      animation-timing-function: linear;
-      animation-iteration-count: infinite;
+      animation: rotate 70s linear infinite;
     }
     @keyframes rotate {
       0% {
