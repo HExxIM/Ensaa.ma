@@ -5,7 +5,7 @@ import ErrorIllustration from "../public/images/ErrorIllustration.webp";
 
 export default function NotFound() {
   const ErrorContainerStyle = {
-    height: "100vh",
+    height: "83vh",
     padding: "7% 5% 2% 5%",
     display: "flex",
     flexDirection: "column",
