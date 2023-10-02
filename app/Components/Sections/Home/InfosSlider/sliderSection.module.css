@@ -26,9 +26,9 @@
   animation-play-state: paused;
 }
 .container .Slider > div:hover {
-  scale: 1.03;
+  scale: 1.02;
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.15s ease-in-out;
 }
 .container .Slider:hover > div:not(:hover) {
   filter: blur(4px);
