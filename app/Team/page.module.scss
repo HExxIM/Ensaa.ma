@@ -10,16 +10,43 @@
         align-items: center;
         flex-direction: column;
         overflow: hidden;
-        width: 200%;
+        width: 100%;
         z-index: 5;
         padding-top: 4%;
-        .cardsList{
+        .cardsList1,.cardsList2{
             display: flex;
             gap: 1%;
             width: 200%;
             justify-content: center;
-            transition: transform 0.3s ease;
         }
+        .cardsList1{
+            animation: scrollL 30s linear infinite alternate;
+        }
+        .cardsList2{
+            animation: scrollR 30s linear infinite alternate;
+        }
+        @keyframes scrollL {
+            0% {
+              transform: translateX(0);
+            }
+            50% {
+              transform: translateX(8%);
+            }
+            100% {
+              transform: translateX(-8%);
+            }
+          }
+        @keyframes scrollR {
+            0% {
+              transform: translateX(0);
+            }
+            50% {
+              transform: translateX(-10%);
+            }
+            100% {
+              transform: translateX(10%);
+            }
+          }
     }
     .blurBottom {
         position: absolute;
