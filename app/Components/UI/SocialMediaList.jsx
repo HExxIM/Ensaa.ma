@@ -6,7 +6,6 @@ import instaLogo from "../../../public/svg/instaLogo.svg";
 import linkedinLogo from "../../../public/svg/linkedinLogo.svg";
 import facebookLogo from "../../../public/svg/facebookLogo.svg";
 import XLogo from "../../../public/svg/XLogo.svg";
-import { Birthstone } from "next/font/google";
 
 export default function socialMediaList({ iconsSize, iconsGap, brightness }) {
   const socialMedia = [
