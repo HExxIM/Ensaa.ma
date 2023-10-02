@@ -52,6 +52,26 @@ export default function SliderInfos() {
           src: ADELogo,
         },
         {
+          name: "ADE",
+          src: ADELogo,
+        },
+        {
+          name: "ADE",
+          src: ADELogo,
+        },
+        {
+          name: "ADE",
+          src: ADELogo,
+        },
+        {
+          name: "ADE",
+          src: ADELogo,
+        },
+        {
+          name: "ADE",
+          src: ADELogo,
+        },
+        {
           name: "Dreamers",
           src: moonLogo,
         },

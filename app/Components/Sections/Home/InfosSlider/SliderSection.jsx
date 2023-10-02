@@ -15,7 +15,7 @@ export default function SliderSection({ title, images }) {
 
   return (
     <div className={styles.container}>
-      <TitleBox title={title} />
+      <TitleBox title={title} className={styles.titleBox} />
       <div className={styles.Slider}>{imagesSlider}</div>
       <Image className={styles.blurRight} src={shapeBlur}></Image>
       <Image className={styles.blurLeft} src={shapeBlur}></Image>
