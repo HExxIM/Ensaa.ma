@@ -6,8 +6,9 @@ import instaLogo from "../../../public/svg/instaLogo.svg";
 import linkedinLogo from "../../../public/svg/linkedinLogo.svg";
 import facebookLogo from "../../../public/svg/facebookLogo.svg";
 import XLogo from "../../../public/svg/XLogo.svg";
+import { Birthstone } from "next/font/google";
 
-export default function socialMediaList({ iconsSize, iconsGap }) {
+export default function socialMediaList({ iconsSize, iconsGap, brightness }) {
   const socialMedia = [
     {
       name: "instagram",
@@ -39,6 +40,7 @@ export default function socialMediaList({ iconsSize, iconsGap }) {
   const socialMediaList = socialMedia.map((media) => (
     <Link href={media.link} key={media.name} target="_blank">
       <Image
+        style={{ filter: `brightness(${brightness})` }}
         src={media.logo}
         height={iconsSize}
         width={iconsSize}

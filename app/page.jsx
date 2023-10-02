@@ -1,7 +1,7 @@
 //Components
 import HeroSection from "./Components/Sections/Home/Hero/Hero";
 import SectionInfosList from "./Components/UI/SectionsInfos";
-import SectionSliderInfos from "./Components/UI/SectionClubsInfos";
+import SectionSliderInfos from "./Components/UI/ClubsInfos";
 import ContactUs from "./Components/Sections/ContactUs/ContactUs.jsx";
 
 export default function Home() {

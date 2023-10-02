@@ -24,7 +24,7 @@ export default function Footer() {
             alt="Rectangle"
             className={styles.Rectangle}
           ></Image>
-          <SocialMediaList iconsSize="25" iconsGap="1rem" />
+          <SocialMediaList iconsSize="25" iconsGap="1rem" brightness="10" />
         </div>
         <div className={styles.links}>
           <Link href="/" target="_blank">
@@ -37,6 +37,6 @@ export default function Footer() {
       <p className={styles.copyrights}>
         Copyright © ADE ENSAA | Designed by ZEUS
       </p>
-  </div>
+    </div>
   );
 }
