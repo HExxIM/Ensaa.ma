@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function SliderCard({ image, name }) {
   const containerStyles = {
-    height: "280px",
-    width: "50%",
+    height: "42vh",
+    width: "200px",
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
@@ -17,7 +17,7 @@ export default function SliderCard({ image, name }) {
 
   return (
     <div style={containerStyles}>
-      <Image src={image} width={160} height={180} />
+      <Image src={image} width={140} height={140} />
       <h2>{name}</h2>
     </div>
   );

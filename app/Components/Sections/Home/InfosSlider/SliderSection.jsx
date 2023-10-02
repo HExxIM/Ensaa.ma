@@ -9,9 +9,7 @@ import TitleBox from "../../../UI/TitleBox";
 import SliderCard from "../../../UI/SliderCard";
 
 export default function SliderSection({ title, images }) {
-  const doubledImages = [...images, ...images];
-
-  const imagesSlider = doubledImages.map((img, index) => (
+  const imagesSlider = images.map((img, index) => (
     <SliderCard key={`${img.name}-${index}`} image={img.src} name={img.name} />
   ));
 
