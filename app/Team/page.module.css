@@ -1,17 +1,35 @@
 .container {
   height: 83vh;
   display: flex;
-  justify-content: center;
+  position: relative;
+  align-items: center;
+}
+.container .main {
+  display: flex;
+  height: 100%;
+  justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
   overflow: hidden;
-  gap: 4%;
-  padding-top: 6%;
-  padding-bottom: 2%;
+  width: 200%;
+  z-index: 5;
+  padding-top: 4%;
 }
-.container .cardsList {
+.container .main .cardsList {
   display: flex;
   gap: 1%;
   width: 200%;
   justify-content: center;
+}
+.container .blurBottom {
+  position: absolute;
+  bottom: -45vh;
+  left: -20vw;
+  z-index: 2;
+}
+.container .blurTop {
+  position: absolute;
+  top: -30vh;
+  right: -15vw;
+  z-index: 2;
 }/*# sourceMappingURL=page.module.css.map */
