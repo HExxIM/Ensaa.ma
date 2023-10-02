@@ -1,0 +1,10 @@
+.container{
+    height: 83vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .cardsList{
+        display: flex;
+    }
+}

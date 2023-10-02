@@ -1,0 +1,10 @@
+.container {
+  height: 83vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container .cardsList {
+  display: flex;
+}/*# sourceMappingURL=page.module.css.map */
