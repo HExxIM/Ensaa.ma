@@ -1,10 +1,12 @@
-import styles from './page.module.css'
+import styles from './page.module.css';
+import Image from 'next/image';
 
 //components
 import EmptyState from "../Components/Sections/EmptyState/EmptyState";
 import MemberCard from '../Components/UI/MemberCard/MemberCard';
 
 //images 
+import shapeBlur from "../../public/images/shapeBlur.webp";
 import Hassan from '../../public/images/Hassan.png'
 
 export default function page() {
@@ -132,12 +134,16 @@ export default function page() {
 
   return (
     <div className={styles.container}>
-      <div className={styles.cardsList}>
-        {membersList1}
+      <div className={styles.main}>
+        <div className={styles.cardsList}>
+          {membersList1}
+        </div>
+        <div className={styles.cardsList}>
+          {membersList2}
+        </div>
       </div>
-      <div className={styles.cardsList}>
-        {membersList2}
-      </div>
+      <Image src={shapeBlur} className={styles.blurBottom}></Image>
+      <Image src={shapeBlur} className={styles.blurTop}></Image>
     </div>
   )
 }
