@@ -9,7 +9,7 @@ import eatrh from "../../../../public/images/earth.webp";
 import shapeBlur from "../../../../public/images/shapeBlur.webp";
 
 //components
-import FooterForm from "../../UI/FooterForm/FooterForm";
+import FooterForm from "../../UI/ContactForm/ContactForm";
 
 export default function ContactUs() {
   return (

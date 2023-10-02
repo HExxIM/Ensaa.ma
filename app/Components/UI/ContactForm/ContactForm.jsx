@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Styles from "./FooterForm.module.css";
+import Styles from "./ContactForm.module.css";
 import FormData from "form-data";
 
 export default function FooterForm() {
