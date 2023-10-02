@@ -12,14 +12,22 @@
   }
   .Slider {
     z-index: 4;
-    display: -webkit-box;
+    display: flex;
+    width: fit-content;
     align-items: center;
     gap: 1vw;
     height: 100%;
-    animation: scroll 4s ease-in-out infinite;
+    animation: scroll 20s ease-in-out infinite;
     padding: 0 1vw;
     &:hover {
       animation-play-state: paused;
+    }
+  }
+  .Slider > div {
+    &:hover {
+      scale: 1.1;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
     }
   }
 
@@ -34,33 +42,6 @@
       transform: translateX(0);
     }
   }
-  // .Slider {
-  //   padding: 0 15px;
-  //   z-index: 4;
-  //   display: flex;
-  //   align-items: center;
-  //   gap: 15px;
-  //   justify-content: flex-start;
-  //   height: 100%;
-  //   width: 100vw;
-  //   animation: scroll 20s ease-in-out infinite;
-
-  //   &:hover {
-  //     animation-play-state: paused;
-  //   }
-  // }
-
-  // @keyframes scroll {
-  //   0% {
-  //     transform: translateX(0);
-  //   }
-  //   50% {
-  //     transform: translateX(calc((200px + 15px + 7px) * -8));
-  //   }
-  //   100% {
-  //     transform: translateX(0);
-  //   }
-  // }
 
   .blurRight,
   .blurLeft {
