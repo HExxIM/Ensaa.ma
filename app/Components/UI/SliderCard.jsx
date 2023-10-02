@@ -2,13 +2,13 @@ import Image from "next/image";
 
 export default function SliderCard({ image, name }) {
   const containerStyles = {
-    height: "45vh",
-    width: "200px",
+    height: "38vh",
+    width: "13vw",
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
     justifyContent: "space-evenly",
-    padding: "10px 30px",
+    padding: "3vh 1vw",
     borderRadius: "20px",
     textAlign: "center",
     background:
@@ -16,16 +16,18 @@ export default function SliderCard({ image, name }) {
     backdropFilter: "blur(50px)",
   };
 
+  const imageContainerStyles = {
+    position: "relative",
+    width: "80%",
+    height: "80%",
+  };
+
   return (
     <div style={containerStyles}>
-      <Image
-        src={image}
-        alt={name}
-        width={120} // specify a default width
-        height={120} // specify a default height (this determines the aspect ratio)
-        sizes="(max-width: 600px) 15vw, 120px"
-      />
-      <h2>{name}</h2>
+      <div style={imageContainerStyles}>
+        <Image src={image} alt={name} layout="fill" objectFit="contain" />
+      </div>
+      <h3>{name}</h3>
     </div>
   );
 }
