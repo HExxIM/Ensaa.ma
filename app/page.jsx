@@ -7,8 +7,8 @@ import ContactUs from "./Components/Sections/ContactUs/ContactUs.jsx";
 export default function Home() {
   return (
     <>
-      {/* <HeroSection />
-      <SectionInfosList /> */}
+      <HeroSection />
+      <SectionInfosList />
       <SectionSliderInfos />
       <ContactUs />
     </>
