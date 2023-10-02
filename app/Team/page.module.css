@@ -5,8 +5,9 @@
   align-items: center;
   flex-direction: column;
   overflow: hidden;
-  gap: 5%;
-  padding-top: 5%;
+  gap: 4%;
+  padding-top: 6%;
+  padding-bottom: 2%;
 }
 .container .cardsList {
   display: flex;
