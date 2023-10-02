@@ -151,10 +151,10 @@ export default function page() {
   return (
     <div className={styles.container}>
       <div className={styles.main}>
-        <div className={styles.cardsList}>
+        <div className={styles.cardsList1}>
           {membersList1}
         </div>
-        <div className={styles.cardsList}>
+        <div className={styles.cardsList2}>
           {membersList2}
         </div>
       </div>
