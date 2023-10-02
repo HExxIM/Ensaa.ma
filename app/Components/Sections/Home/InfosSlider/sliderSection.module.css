@@ -7,6 +7,10 @@
   position: relative;
   overflow: hidden;
 }
+.container .titleBox {
+  display: flex;
+  justify-content: center;
+}
 .container .Slider {
   padding: 0 15px;
   z-index: 4;
@@ -16,7 +20,7 @@
   justify-content: flex-start;
   height: 100%;
   width: 100vw;
-  animation: scroll 10s ease-in-out infinite;
+  animation: scroll 20s ease-in-out infinite;
 }
 .container .Slider:hover {
   animation-play-state: paused;

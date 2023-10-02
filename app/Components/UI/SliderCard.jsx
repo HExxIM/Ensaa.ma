@@ -18,7 +18,13 @@ export default function SliderCard({ image, name }) {
 
   return (
     <div style={containerStyles}>
-      <Image src={image} width={120} height={120} />
+      <Image
+        src={image}
+        alt={name}
+        width={120} // specify a default width
+        height={120} // specify a default height (this determines the aspect ratio)
+        sizes="(max-width: 600px) 15vw, 120px"
+      />
       <h2>{name}</h2>
     </div>
   );
