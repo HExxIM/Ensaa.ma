@@ -5,8 +5,10 @@ export default function MemberCard({image,name,post,description}) {
   return (
     <div className={styles.card}>
       <Image className={styles.img} src={image}/>
-      <h3 className={styles.name}>{name}</h3>
-      <span className={styles.post}>{post}</span>
+      <div className={styles.titles}>
+        <h3 className={styles.name}>{name}</h3>
+        <span className={styles.post}>{post}</span>
+      </div>
       <p className={styles.description}>{description}</p>
     </div>
   )

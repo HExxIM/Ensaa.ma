@@ -7,21 +7,26 @@
     border-radius: 0.40219rem;
     background: linear-gradient(178deg, rgba(5, 3, 17, 0.30) 33.7%, rgba(38, 169, 167, 0.30) 186.88%);
     backdrop-filter: blur(63px);
-    width: 11.5rem;
+    width: 11.8rem;
     height: 13rem;
-    gap: 0.25rem;
+    gap: 0.35rem;
     padding:2rem 1rem;
     .img{
         border-radius: 100%;
         width: 53%;
         height: 57%;
     }
-    .name{
-        font-size: 1.17rem;
-    }
-    .post{
-        font-size: x-small;
-        opacity: 0.5;
+    .titles{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .name{
+            font-size: 1.17rem;
+        }
+        .post{
+            font-size: x-small;
+            opacity: 0.5;
+        }
     }
     .description{
         font-size: small;

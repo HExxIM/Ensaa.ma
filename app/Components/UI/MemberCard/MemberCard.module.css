@@ -8,9 +8,9 @@
   background: linear-gradient(178deg, rgba(5, 3, 17, 0.3) 33.7%, rgba(38, 169, 167, 0.3) 186.88%);
   -webkit-backdrop-filter: blur(63px);
           backdrop-filter: blur(63px);
-  width: 11.5rem;
+  width: 11.8rem;
   height: 13rem;
-  gap: 0.25rem;
+  gap: 0.35rem;
   padding: 2rem 1rem;
 }
 .card .img {
@@ -18,10 +18,15 @@
   width: 53%;
   height: 57%;
 }
-.card .name {
+.card .titles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card .titles .name {
   font-size: 1.17rem;
 }
-.card .post {
+.card .titles .post {
   font-size: x-small;
   opacity: 0.5;
 }
