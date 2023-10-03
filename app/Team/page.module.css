@@ -15,19 +15,6 @@
   z-index: 5;
   padding-top: 4%;
 }
-.container .main .carouselContainer {
-  display: flex;
-  overflow: hidden;
-  width: 100%;
-  position: relative;
-}
-.container .main .carouselContainer .cardsList {
-  display: flex;
-  gap: 1%;
-  width: 200%;
-  justify-content: center;
-  cursor: grab;
-}
 .container .blurBottom {
   position: absolute;
   bottom: -45vh;
