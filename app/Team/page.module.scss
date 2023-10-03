@@ -13,40 +13,47 @@
         width: 100%;
         z-index: 5;
         padding-top: 4%;
-        .cardsList1,.cardsList2{
-            display: flex;
-            gap: 1%;
-            width: 200%;
-            justify-content: center;
-        }
-        .cardsList1{
-            animation: scrollL 30s linear infinite alternate;
-        }
-        .cardsList2{
-            animation: scrollR 30s linear infinite alternate;
-        }
-        @keyframes scrollL {
-            0% {
-              transform: translateX(0);
-            }
-            50% {
-              transform: translateX(8%);
-            }
-            100% {
-              transform: translateX(-8%);
-            }
+        .carouselContainer{
+          display: flex;
+          overflow: hidden;
+          width: 100%; 
+          position: relative;
+          .cardsList{
+              display: flex;
+              gap: 1%;
+              width: 200%;
+              justify-content: center;
+              cursor: grab;
           }
-        @keyframes scrollR {
-            0% {
-              transform: translateX(0);
-            }
-            50% {
-              transform: translateX(-10%);
-            }
-            100% {
-              transform: translateX(10%);
-            }
-          }
+        }
+        // .cardsList1{
+        //     animation: scrollL 30s linear infinite alternate;
+        // }
+        // .cardsList2{
+        //     animation: scrollR 30s linear infinite alternate;
+        // }
+        // @keyframes scrollL {
+        //     0% {
+        //       transform: translateX(0);
+        //     }
+        //     50% {
+        //       transform: translateX(8%);
+        //     }
+        //     100% {
+        //       transform: translateX(-8%);
+        //     }
+        //   }
+        // @keyframes scrollR {
+        //     0% {
+        //       transform: translateX(0);
+        //     }
+        //     50% {
+        //       transform: translateX(-10%);
+        //     }
+        //     100% {
+        //       transform: translateX(10%);
+        //     }
+        //   }
     }
     .blurBottom {
         position: absolute;

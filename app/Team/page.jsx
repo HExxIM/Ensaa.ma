@@ -1,5 +1,7 @@
+'use client'
 import styles from './page.module.css';
 import Image from 'next/image';
+import { useRef } from 'react';
 
 //components
 import EmptyState from "../Components/Sections/EmptyState/EmptyState";
@@ -148,14 +150,65 @@ export default function page() {
     />
   ));
 
+  const carouselRef1 = useRef(null);
+  const carouselRef2 = useRef(null);
+  let isDown = useRef(false);
+  let startX = useRef(null);
+  let scrollLeft = useRef(null);
+
+  const handleMouseDown = (e) => {
+    isDown.current = true;
+    if (carouselRef1) {
+      startX.current = e.pageX - carouselRef1.current.offsetLeft;
+      scrollLeft.current = carouselRef1.current.scrollLeft;
+    }else{
+      startX.current = e.pageX - carouselRef2.current.offsetLeft;
+      scrollLeft.current = carouselRef2.current.scrollLeft;
+    }
+  };
+
+  const handleMouseUp = () => {
+    isDown.current = false;
+  };
+
+  const handleMouseMove = (e) => {
+    if (!isDown.current) return;
+    e.preventDefault();
+    if (carouselRef1) {
+      const x = e.pageX - carouselRef1.current.offsetLeft;
+      const walk = x - startX.current;
+      carouselRef1.current.scrollLeft = scrollLeft.current - walk;
+    }else{
+      const x = e.pageX - carouselRef2.current.offsetLeft;
+      const walk = x - startX.current;
+      carouselRef2.current.scrollLeft = scrollLeft.current - walk;
+    }
+  };
+
   return (
     <div className={styles.container}>
       <div className={styles.main}>
-        <div className={styles.cardsList1}>
-          {membersList1}
+        <div 
+            ref={carouselRef1}
+            onMouseDown={handleMouseDown}
+            onMouseUp={handleMouseUp}
+            onMouseMove={handleMouseMove} 
+            className={styles.carouselContainer}
+          >
+          <div className={styles.cardsList}>
+            {membersList1}
+          </div>
         </div>
-        <div className={styles.cardsList2}>
-          {membersList2}
+        <div 
+            ref={carouselRef2}
+            onMouseDown={handleMouseDown}
+            onMouseUp={handleMouseUp}
+            onMouseMove={handleMouseMove} 
+            className={styles.carouselContainer}
+          >
+          <div className={styles.cardsList}>
+            {membersList2}
+          </div>
         </div>
       </div>
       <Image src={shapeBlur} className={styles.blurBottom}></Image>
