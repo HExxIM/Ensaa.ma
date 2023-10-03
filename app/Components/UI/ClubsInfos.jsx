@@ -1,7 +1,17 @@
 //svg
-import ADELogo from "../../../public/svg/ADELogo.svg";
-import EnsaLogo from "../../../public/svg/EnsaLogo.svg";
-import moonLogo from "../../../public/svg/moonLogo.svg";
+import apps from "../../../public/svg/ClubsLogos/apps.svg";
+import fsf from "../../../public/svg/ClubsLogos/fsf.svg";
+import Enactus from "../../../public/svg/ClubsLogos/Enactus.svg";
+import tac from "../../../public/svg/ClubsLogos/tac.png";
+import meca from "../../../public/svg/ClubsLogos/meca.png";
+import CRRT from "../../../public/svg/ClubsLogos/CRRT.png";
+import Harmony from "../../../public/svg/ClubsLogos/Harmony.png";
+import Ecolos from "../../../public/svg/ClubsLogos/Ecolos.png";
+import Indus from "../../../public/svg/ClubsLogos/Indus.png";
+import sportif from "../../../public/svg/ClubsLogos/sportif.png";
+import Social from "../../../public/svg/ClubsLogos/Social.png";
+import Btp from "../../../public/svg/ClubsLogos/Btp.png";
+import CreaArt from "../../../public/svg/ClubsLogos/CreaArt.png";
 
 //components
 import SliderSection from "../Sections/Home/InfosSlider/SliderSection";
@@ -12,68 +22,56 @@ export default function SliderInfos() {
       title: "OUR CLUBS",
       images: [
         {
-          name: "Ensa Agadir",
-          src: EnsaLogo,
+          name: "APPS Club",
+          src: apps,
         },
         {
-          name: "ADE",
-          src: ADELogo,
+          name: "FSF Club",
+          src: fsf,
         },
         {
-          name: "ADE",
-          src: ADELogo,
+          name: "Club Tac",
+          src: tac,
         },
         {
-          name: "ADE",
-          src: ADELogo,
+          name: "Club Mecanique",
+          src: meca,
         },
         {
-          name: "ADE",
-          src: ADELogo,
+          name: "Club Robotique",
+          src: CRRT,
         },
         {
-          name: "ADE",
-          src: ADELogo,
+          name: "Club Enactus",
+          src: Enactus,
         },
         {
-          name: "ADE",
-          src: ADELogo,
+          name: "Club Harmony",
+          src: Harmony,
         },
         {
-          name: "ADE",
-          src: ADELogo,
+          name: "Club Ecolos",
+          src: Ecolos,
         },
         {
-          name: "ADE",
-          src: ADELogo,
+          name: "Club Industriel",
+          src: Indus,
         },
         {
-          name: "ADE",
-          src: ADELogo,
+          name: "Club Sportif",
+          src: sportif,
         },
         {
-          name: "ADE",
-          src: ADELogo,
+          name: "Club Social",
+          src: Social,
         },
         {
-          name: "ADE",
-          src: ADELogo,
+          name: "Club BTP",
+          src: Btp,
         },
         {
-          name: "ADE",
-          src: ADELogo,
-        },
-        {
-          name: "ADE",
-          src: ADELogo,
-        },
-        {
-          name: "ADE",
-          src: ADELogo,
-        },
-        {
-          name: "Dreamers",
-          src: moonLogo,
+          name: "Club CreaArt",
+          src: CreaArt,
         },
       ],
     },
