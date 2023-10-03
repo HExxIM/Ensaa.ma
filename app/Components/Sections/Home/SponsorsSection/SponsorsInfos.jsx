@@ -71,7 +71,7 @@ export default function SponsorsInfosList() {
   ];
 
   const SponsorsInfosList = SponsorsInfos.map((club, index) => (
-    <Image key={index} src={club.src} name={club.name} height={100} />
+    <Image key={index} src={club.src} name={club.name} height={80} />
   ));
   return <div>{SponsorsInfosList}</div>;
 }
