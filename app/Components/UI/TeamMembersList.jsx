@@ -79,8 +79,8 @@ function generateMembersData() {
         "UI is the saddle, the stirrups, & the reins. UX is the feeling you get being able to ride the horse.",
     },
     {
-      name: "Salma Mahmoud",
-      Image: Salma,
+      name: "Soumaya Arouch",
+      Image: Somaya,
       post: "Assistant Member",
       description:
         "UI is the saddle, the stirrups, & the reins. UX is the feeling you get being able to ride the horse.",
@@ -135,8 +135,8 @@ function generateMembersData() {
         "UI is the saddle, the stirrups, & the reins. UX is the feeling you get being able to ride the horse.",
     },
     {
-      name: "Soumaya Arouch",
-      Image: Somaya,
+      name: "Salma Mahmoud",
+      Image: Salma,
       post: "Assistant Member",
       description:
         "UI is the saddle, the stirrups, & the reins. UX is the feeling you get being able to ride the horse.",

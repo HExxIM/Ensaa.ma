@@ -1,3 +1,4 @@
+import styles from './sliderSection.module.css'
 //svg
 import apps from "../../../../../public/svg/ClubsLogos/apps.svg";
 import fsf from "../../../../../public/svg/ClubsLogos/fsf.svg";
@@ -76,5 +77,5 @@ export default function ClubsInfosList() {
     <ClubCard key={index} image={club.src} name={club.name} />
   ));
 
-  return <>{ClubsInfosList}</>;
+  return <div className={styles.clubsList}>{ClubsInfosList}</div>;
 }

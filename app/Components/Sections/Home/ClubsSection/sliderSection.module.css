@@ -14,22 +14,29 @@
 .container .Slider {
   z-index: 4;
   display: flex;
+  overflow: hidden;
   width: -moz-fit-content;
   width: fit-content;
+  position: relative;
+  margin: auto;
+}
+.container .Slider .clubsList {
+  display: flex;
+  width: 100%;
   gap: 1vw;
   animation: scroll 20s cubic-bezier(0.24, 0, 0.76, 1) infinite;
   padding: 0 1vw;
   margin: auto;
 }
-.container .Slider:hover {
+.container .Slider .clubsList:hover {
   animation-play-state: paused;
 }
-.container .Slider > div:hover {
+.container .Slider .clubsList > div:hover {
   scale: 1.02;
   cursor: pointer;
   transition: all 0.15s ease-in-out;
 }
-.container .Slider:hover > div:not(:hover) {
+.container .Slider .clubsList:hover > div:not(:hover) {
   filter: blur(4px);
 }
 @keyframes scroll {

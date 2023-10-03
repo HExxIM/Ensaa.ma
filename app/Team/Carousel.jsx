@@ -40,7 +40,7 @@ export default function Carousel({ children,direction }) {
     width: '200%',
     justifyContent: 'center',
     cursor: 'grab',
-    animation: `${animation} 10s linear infinite alternate`,
+    animation: `${animation} 10s cubic-bezier(0.24, 0, 0.76, 1) infinite alternate`,
   };
 
   return (
