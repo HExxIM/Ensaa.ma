@@ -1,0 +1,47 @@
+.container {
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 7% 0;
+  position: relative;
+  overflow: hidden;
+}
+.container .titleBox {
+  display: flex;
+  justify-content: center;
+}
+.container .Slider {
+  z-index: 4;
+  background-color: rgba(168, 168, 168, 0.2);
+  white-space: nowrap;
+  padding: 2vh 2vw;
+  margin: auto;
+}
+.container .Slider div {
+  display: inline-block;
+  animation: slide 15s linear infinite;
+}
+.container .Slider div img {
+  margin: 2vh 2vw;
+}
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+.container .blurRight,
+.container .blurLeft {
+  position: absolute;
+  width: 50%;
+}
+.container .blurRight {
+  right: -20%;
+}
+.container .blurLeft {
+  left: -25%;
+  top: 1%;
+}/*# sourceMappingURL=SponsorsSection.module.css.map */

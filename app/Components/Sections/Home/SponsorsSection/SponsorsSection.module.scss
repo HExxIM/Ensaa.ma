@@ -1,0 +1,60 @@
+.container {
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 7% 0;
+  position: relative;
+  overflow: hidden;
+  .titleBox {
+    display: flex;
+    justify-content: center;
+  }
+  .Slider {
+    z-index: 4;
+    background-color: rgb(168, 168, 168, 0.2);
+    white-space: nowrap;
+    padding: 2vh 2vw;
+    margin: auto;
+    // &:hover div {
+    //   animation-play-state: paused;
+    // }
+    div {
+      display: inline-block;
+      animation: slide 15s linear infinite;
+      img {
+        margin: 2vh 2vw;
+        // &:hover {
+        //   scale: 1.02;
+        //   cursor: pointer;
+        //   transition: all 0.15s ease-in-out;
+        // }
+      }
+    }
+  }
+  // .Slider:hover > div:not(:hover) {
+  //   filter: blur(4px);
+  // }
+
+  @keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+  .blurRight,
+  .blurLeft {
+    position: absolute;
+    width: 50%;
+  }
+  .blurRight {
+    right: -20%;
+  }
+  .blurLeft {
+    left: -25%;
+    top: 1%;
+  }
+}
