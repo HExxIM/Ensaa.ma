@@ -14,7 +14,7 @@ import Btp from "../../../public/svg/ClubsLogos/Btp.png";
 import CreaArt from "../../../public/svg/ClubsLogos/CreaArt.png";
 
 //components
-import SliderSection from "../Sections/Home/InfosSlider/SliderSection";
+import SliderSection from "../Sections/Home/ClubsSlider/SliderSection";
 
 export default function SliderInfos() {
   const sliderInfos = [

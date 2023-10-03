@@ -1,5 +1,5 @@
 //components
-import MemberCard from "./MemberCard/MemberCard";
+import MemberCard from "./MemberCard";
 
 //images
 import Hassan from "../../../public/images/Hassan.png";

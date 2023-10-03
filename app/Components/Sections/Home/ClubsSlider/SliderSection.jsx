@@ -6,7 +6,7 @@ import shapeBlur from "../../../../../public/images/shapeBlur.webp";
 
 //components
 import TitleBox from "../../../UI/TitleBox";
-import SliderCard from "../../../UI/SliderCard";
+import SliderCard from "../../../UI/ClubsCard";
 
 export default function SliderSection({ title, images }) {
   const imagesSlider = images.map((img, index) => (

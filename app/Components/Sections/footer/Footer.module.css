@@ -5,6 +5,8 @@
   flex-direction: column;
   justify-content: center;
   width: 100%;
+  position: relative;
+  z-index: 15;
 }
 .container .logo_socials_links {
   display: flex;

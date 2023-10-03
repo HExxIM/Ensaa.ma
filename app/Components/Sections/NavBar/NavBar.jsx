@@ -1,13 +1,41 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
-import styles from "./NavBar.module.css";
 import { usePathname } from "next/navigation";
 //svgs
 import dreamersLogo from "../../../../public/svg/dreamersLogo.svg";
 
 //components
 import Button from "../../UI/Button";
+
+const navStyles = {
+  NavContainer: {
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "center",
+    height: "11%",
+    width: "100%",
+    position: "fixed",
+    zIndex: 10,
+    background:
+      "linear-gradient(180deg, rgba(63, 215, 78, 0.03) 0%, rgba(63, 215, 78, 0.03) 75.48%, rgba(63, 215, 78, 0) 100%)",
+    backdropFilter: "blur(5px)",
+    paddingLeft: "4%",
+    paddingRight: "5%",
+  },
+  logo: {
+    transform: "scale(0.8)",
+  },
+  NavList: {
+    display: "flex",
+    justifyContent: "space-between",
+    width: "25vw",
+    fontFamily: "var(--font-primary)",
+    fontSize: "1rem",
+    textTransform: "uppercase",
+    fontWeight: 500,
+  },
+};
 
 export default function NavBar() {
   const pathname = usePathname();
@@ -57,11 +85,11 @@ export default function NavBar() {
   ));
 
   return (
-    <div className={styles.NavContainer}>
-      <Link className={styles.logo} href="/">
+    <div style={navStyles.NavContainer}>
+      <Link style={navStyles.logo} href="/">
         <Image src={dreamersLogo}></Image>
       </Link>
-      <div className={styles.NavList}>{NavList}</div>
+      <div style={navStyles.NavList}>{NavList}</div>
       <Button text="Contact us" link="/Contact" />
     </div>
   );
