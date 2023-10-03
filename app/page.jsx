@@ -8,11 +8,11 @@ import ContactUs from "./Components/Sections/ContactUs/ContactUs.jsx";
 export default function Home() {
   return (
     <>
-      {/* <HeroSection />
+      <HeroSection />
       <SectionInfosList />
-      <ClubsSection /> */}
+      <ClubsSection />
       <SponsorsSection />
-      {/* <ContactUs /> */}
+      <ContactUs />
     </>
   );
 }
