@@ -23,42 +23,78 @@ import zakaria from "../../../public/images/zakaria.png";
 function generateMembersData() {
   const members = [
     {
-      name: "Hassan elqadi",
-      Image: Hassan,
+      name: "Malak Bourrich",
+      Image: Malak,
       post: "UX/UI Designer",
       description:
         "UI is the saddle, the stirrups, & the reins. UX is the feeling you get being able to ride the horse.",
     },
     {
-      name: "Hassan elqadi",
-      Image: Mouad,
+      name: "Abdelhamid ElBannani",
+      Image: Abdelhamid,
       post: "UX/UI Designer",
       description:
         "UI is the saddle, the stirrups, & the reins. UX is the feeling you get being able to ride the horse.",
     },
     {
-      name: "Hassan elqadi",
-      Image: Founani,
-      post: "UX/UI Designer",
-      description:
-        "UI is the saddle, the stirrups, & the reins. UX is the feeling you get being able to ride the horse.",
-    },
-    {
-      name: "Hassan elqadi",
+      name: "Ayoub Bahti",
       Image: Ayoub,
       post: "UX/UI Designer",
       description:
         "UI is the saddle, the stirrups, & the reins. UX is the feeling you get being able to ride the horse.",
     },
     {
-      name: "Hassan elqadi",
-      Image: Ibtissam,
+      name: "Mouad Benlamine",
+      Image: Mouad,
       post: "UX/UI Designer",
       description:
         "UI is the saddle, the stirrups, & the reins. UX is the feeling you get being able to ride the horse.",
     },
     {
-      name: "Hassan elqadi",
+      name: "mohamed Elfounani",
+      Image: Founani,
+      post: "UX/UI Designer",
+      description:
+        "UI is the saddle, the stirrups, & the reins. UX is the feeling you get being able to ride the horse.",
+    },
+    {
+      name: "Imad Aouragh",
+      Image: Imad,
+      post: "UX/UI Designer",
+      description:
+        "UI is the saddle, the stirrups, & the reins. UX is the feeling you get being able to ride the horse.",
+    },
+    {
+      name: "Samira Errai",
+      Image: Samira,
+      post: "UX/UI Designer",
+      description:
+        "UI is the saddle, the stirrups, & the reins. UX is the feeling you get being able to ride the horse.",
+    },
+    {
+      name: "Khalid Et-tazy",
+      Image: Khalid,
+      post: "UX/UI Designer",
+      description:
+        "UI is the saddle, the stirrups, & the reins. UX is the feeling you get being able to ride the horse.",
+    },
+
+    {
+      name: "Soumaya Arouch",
+      Image: Somaya,
+      post: "UX/UI Designer",
+      description:
+        "UI is the saddle, the stirrups, & the reins. UX is the feeling you get being able to ride the horse.",
+    },
+    {
+      name: "Wissal Benider",
+      Image: Wissal,
+      post: "UX/UI Designer",
+      description:
+        "UI is the saddle, the stirrups, & the reins. UX is the feeling you get being able to ride the horse.",
+    },
+    {
+      name: "Mohamed Baroudi",
       Image: Baroudi,
       post: "UX/UI Designer",
       description:
@@ -66,76 +102,41 @@ function generateMembersData() {
     },
     {
       name: "Hassan elqadi",
-      Image: Attik,
+      Image: Hassan,
       post: "UX/UI Designer",
       description:
         "UI is the saddle, the stirrups, & the reins. UX is the feeling you get being able to ride the horse.",
     },
     {
-      name: "Hassan elqadi",
+      name: "Ibtissam Massa",
+      Image: Ibtissam,
+      post: "UX/UI Designer",
+      description:
+        "UI is the saddle, the stirrups, & the reins. UX is the feeling you get being able to ride the horse.",
+    },
+    {
+      name: "Zakaria Ahrbil",
       Image: zakaria,
       post: "UX/UI Designer",
       description:
         "UI is the saddle, the stirrups, & the reins. UX is the feeling you get being able to ride the horse.",
     },
     {
-      name: "Hassan elqadi",
-      Image: Imad,
+      name: "Manal Attik",
+      Image: Attik,
       post: "UX/UI Designer",
       description:
         "UI is the saddle, the stirrups, & the reins. UX is the feeling you get being able to ride the horse.",
     },
     {
-      name: "Hassan elqadi",
-      Image: Khalid,
-      post: "UX/UI Designer",
-      description:
-        "UI is the saddle, the stirrups, & the reins. UX is the feeling you get being able to ride the horse.",
-    },
-    {
-      name: "Hassan elqadi",
-      Image: Malak,
-      post: "UX/UI Designer",
-      description:
-        "UI is the saddle, the stirrups, & the reins. UX is the feeling you get being able to ride the horse.",
-    },
-    {
-      name: "Hassan elqadi",
-      Image: Wissal,
-      post: "UX/UI Designer",
-      description:
-        "UI is the saddle, the stirrups, & the reins. UX is the feeling you get being able to ride the horse.",
-    },
-    {
-      name: "Hassan elqadi",
-      Image: Samira,
-      post: "UX/UI Designer",
-      description:
-        "UI is the saddle, the stirrups, & the reins. UX is the feeling you get being able to ride the horse.",
-    },
-    {
-      name: "Hassan elqadi",
+      name: "Mehdi Abouelmouahib",
       Image: Mehdi,
       post: "UX/UI Designer",
       description:
         "UI is the saddle, the stirrups, & the reins. UX is the feeling you get being able to ride the horse.",
     },
     {
-      name: "Hassan elqadi",
-      Image: Somaya,
-      post: "UX/UI Designer",
-      description:
-        "UI is the saddle, the stirrups, & the reins. UX is the feeling you get being able to ride the horse.",
-    },
-    {
-      name: "Hassan elqadi",
-      Image: Abdelhamid,
-      post: "UX/UI Designer",
-      description:
-        "UI is the saddle, the stirrups, & the reins. UX is the feeling you get being able to ride the horse.",
-    },
-    {
-      name: "Hassan elqadi",
+      name: "Salma Mahmoud",
       Image: Salma,
       post: "UX/UI Designer",
       description:

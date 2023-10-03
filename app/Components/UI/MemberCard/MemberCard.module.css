@@ -15,7 +15,7 @@
 .card .img {
   border-radius: 100%;
   width: 52%;
-  height: 48%;
+  height: 45%;
 }
 .card .titles {
   display: flex;
@@ -23,7 +23,7 @@
   align-items: center;
 }
 .card .titles .name {
-  font-size: 1.1rem;
+  font-size: 0.85rem;
 }
 .card .titles .post {
   font-size: xx-small;
