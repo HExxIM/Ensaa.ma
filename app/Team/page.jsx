@@ -16,8 +16,8 @@ export default function page() {
   return (
     <div className={styles.container}>
       <div className={styles.main}>
-        <Carousel>{getMembersList1()}</Carousel>
-        <Carousel>{getMembersList2()}</Carousel>
+        <Carousel direction="right">{getMembersList1()}</Carousel>
+        <Carousel direction="left">{getMembersList2()}</Carousel>
       </div>
       <Image src={shapeBlur} className={styles.blurBottom}></Image>
       <Image src={shapeBlur} className={styles.blurTop}></Image>
