@@ -10,41 +10,58 @@
     display: flex;
     justify-content: center;
   }
-  .Slider {
-    z-index: 4;
-    background-color: rgb(168, 168, 168, 0.2);
-    white-space: nowrap;
-    padding: 2vh 2vw;
+  .Sliders {
     margin: auto;
-    // &:hover div {
-    //   animation-play-state: paused;
+    .Slider1,
+    .Slider2 {
+      z-index: 4;
+      background-color: rgb(168, 168, 168, 0.2);
+      white-space: nowrap;
+      padding: 2vh 2vw;
+
+      // &:hover div {
+      //   animation-play-state: paused;
+      // }
+      div {
+        display: inline-block;
+        animation: slide 15s linear infinite;
+        img {
+          margin: 2vh 2vw;
+          // &:hover {
+          //   scale: 1.02;
+          //   cursor: pointer;
+          //   transition: all 0.15s ease-in-out;
+          // }
+        }
+      }
+    }
+    .Slider1 div {
+      animation: slide1 15s linear infinite;
+    }
+    .Slider2 div {
+      animation: slide2 15s linear infinite;
+    }
+    // .Slider:hover > div:not(:hover) {
+    //   filter: blur(4px);
     // }
-    div {
-      display: inline-block;
-      animation: slide 15s linear infinite;
-      img {
-        margin: 2vh 2vw;
-        // &:hover {
-        //   scale: 1.02;
-        //   cursor: pointer;
-        //   transition: all 0.15s ease-in-out;
-        // }
+
+    @keyframes slide1 {
+      from {
+        transform: translateX(0);
+      }
+      to {
+        transform: translateX(-100%);
+      }
+    }
+    @keyframes slide2 {
+      from {
+        transform: translateX(-100%);
+      }
+      to {
+        transform: translateX(0);
       }
     }
   }
-  // .Slider:hover > div:not(:hover) {
-  //   filter: blur(4px);
-  // }
-
-  @keyframes slide {
-    from {
-      transform: translateX(0);
-    }
-    to {
-      transform: translateX(-100%);
-    }
-  }
-
   .blurRight,
   .blurLeft {
     position: absolute;

@@ -14,9 +14,15 @@ export default function SponsorsSection() {
       <div className={styles.titleBox}>
         <TitleBox title="Our Sponsors" />
       </div>
-      <div className={styles.Slider}>
-        <SponsorsInfosList />
-        <SponsorsInfosList />
+      <div className={styles.Sliders}>
+        <div className={styles.Slider1}>
+          <SponsorsInfosList />
+          <SponsorsInfosList />
+        </div>
+        <div className={styles.Slider2}>
+          <SponsorsInfosList />
+          <SponsorsInfosList />
+        </div>
       </div>
       <Image className={styles.blurRight} src={shapeBlur}></Image>
       <Image className={styles.blurLeft} src={shapeBlur}></Image>
