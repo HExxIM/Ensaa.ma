@@ -1,6 +1,7 @@
 import { useRef } from "react";
+import './carousel.css';
 
-export default function Carousel({ children }) {
+export default function Carousel({ children,direction }) {
   const carouselRef = useRef(null);
   const isDown = useRef(false);
   const startX = useRef(null);
@@ -24,20 +25,22 @@ export default function Carousel({ children }) {
     carouselRef.current.scrollLeft = scrollLeft.current - walk;
   };
 
-  const styles = {
-    carouselContainer: {
-      display: "flex",
-      overflow: "hidden",
-      width: "100%",
-      position: "relative",
-    },
-    cardsList: {
-      display: "flex",
-      gap: "1%",
-      width: "200%",
-      justifyContent: "center",
-      cursor: "grab",
-    },
+  const animation = direction === "right" ? "scrollR" : "scrollL";
+
+  const carouselContainerStyles = {
+    display: 'flex',
+    overflow: 'hidden',
+    width: '100%',
+    position: 'relative',
+  };
+
+  const cardsListStyles = {
+    display: 'flex',
+    gap: '1%',
+    width: '200%',
+    justifyContent: 'center',
+    cursor: 'grab',
+    animation: `${animation} 10s linear infinite alternate`,
   };
 
   return (
@@ -46,9 +49,9 @@ export default function Carousel({ children }) {
       onMouseDown={handleMouseDown}
       onMouseUp={handleMouseUp}
       onMouseMove={handleMouseMove}
-      style={styles.carouselContainer}
+      style={carouselContainerStyles}
     >
-      <div style={styles.cardsList}>{children}</div>
+      <div style={cardsListStyles}>{children}</div>
     </div>
   );
 }
