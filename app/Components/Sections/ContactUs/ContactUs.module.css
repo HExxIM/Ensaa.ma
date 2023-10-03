@@ -23,21 +23,11 @@
 }
 .container .background_elements .eatrh {
   position: absolute;
-  scale: 1.2;
-  right: -25vw;
-  opacity: 0.4;
-  height: 100vh;
+  right: -10vw;
+  opacity: 0.6;
   -o-object-fit: contain;
      object-fit: contain;
-  animation: rotate 70s linear infinite;
-}
-@keyframes rotate {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+  height: 100vh;
 }
 .container .background_elements .shapeBlurLeft {
   position: absolute;
