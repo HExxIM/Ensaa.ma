@@ -6,19 +6,17 @@ import shapeBlur from "../../../../../public/images/shapeBlur.webp";
 
 //components
 import TitleBox from "../../../UI/TitleBox";
-import SliderCard from "../../../UI/ClubsCard";
+import ClubsInfosList from "./ClubsInfos.jsx";
 
-export default function SliderSection({ title, images }) {
-  const imagesSlider = images.map((img, index) => (
-    <SliderCard key={`${img.name}-${index}`} image={img.src} name={img.name} />
-  ));
-
+export default function ClubsSection() {
   return (
     <div className={styles.container}>
       <div className={styles.titleBox}>
-        <TitleBox title={title} />
+        <TitleBox title="Our Clubs" />
       </div>
-      <div className={styles.Slider}>{imagesSlider}</div>
+      <div className={styles.Slider}>
+        <ClubsInfosList />
+      </div>
       <Image className={styles.blurRight} src={shapeBlur}></Image>
       <Image className={styles.blurLeft} src={shapeBlur}></Image>
     </div>

@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function SliderCard({ image, name }) {
+export default function ClubCard({ image, name }) {
   const containerStyles = {
     height: "38vh",
     width: "13vw",
