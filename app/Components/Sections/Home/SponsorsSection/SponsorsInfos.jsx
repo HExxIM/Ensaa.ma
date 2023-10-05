@@ -1,72 +1,57 @@
 import Image from "next/image";
 //svg
-import apps from "../../../../../public/svg/ClubsLogos/apps.svg";
-import fsf from "../../../../../public/svg/ClubsLogos/fsf.svg";
-import Enactus from "../../../../../public/svg/ClubsLogos/Enactus.svg";
-import tac from "../../../../../public/svg/ClubsLogos/tac.png";
-import meca from "../../../../../public/svg/ClubsLogos/meca.png";
-import CRRT from "../../../../../public/svg/ClubsLogos/CRRT.png";
-import Harmony from "../../../../../public/svg/ClubsLogos/Harmony.png";
-import Ecolos from "../../../../../public/svg/ClubsLogos/Ecolos.png";
-import Indus from "../../../../../public/svg/ClubsLogos/Indus.png";
-import sportif from "../../../../../public/svg/ClubsLogos/sportif.png";
-import Social from "../../../../../public/svg/ClubsLogos/Social.png";
-import Btp from "../../../../../public/svg/ClubsLogos/Btp.png";
-import CreaArt from "../../../../../public/svg/ClubsLogos/CreaArt.png";
+import Vetcam from "../../../../../public/svg/Sponsors/Vetcam.svg";
+import institutFrancais from "../../../../../public/svg/Sponsors/institutFrancais.svg";
+import AgadirMobilite from "../../../../../public/svg/Sponsors/AgadirMobilite.svg";
+import CRISoussmassa from "../../../../../public/svg/Sponsors/CRISoussmassa.png";
+import LPEE from "../../../../../public/svg/Sponsors/LPEE.svg";
+import Logo2M from "../../../../../public/svg/Sponsors/Logo2M.svg";
+import aloula from "../../../../../public/svg/Sponsors/aloula.svg";
+import urbaineAga from "../../../../../public/svg/Sponsors/urbaineAga.svg";
+import Anapec from "../../../../../public/svg/Sponsors/Anapec.svg";
+import SocieteGenerale from "../../../../../public/svg/Sponsors/SocieteGenerale.svg";
 
 export default function SponsorsInfosList() {
   const SponsorsInfos = [
     {
-      name: "APPS Club",
-      src: apps,
+      name: "Vetcam",
+      src: Vetcam,
     },
     {
-      name: "FSF Club",
-      src: fsf,
+      name: "Institute français",
+      src: institutFrancais,
     },
     {
-      name: "Club Tac",
-      src: tac,
+      name: "Agadir mobilité",
+      src: AgadirMobilite,
     },
     {
-      name: "Club Mecanique",
-      src: meca,
+      name: "CRI Souss massa",
+      src: CRISoussmassa,
     },
     {
-      name: "Club Robotique",
-      src: CRRT,
+      name: "LPEE",
+      src: LPEE,
     },
     {
-      name: "Club Enactus",
-      src: Enactus,
+      name: "2M",
+      src: Logo2M,
     },
     {
-      name: "Club Harmony",
-      src: Harmony,
+      name: "Al Oula",
+      src: aloula,
     },
     {
-      name: "Club Ecolos",
-      src: Ecolos,
+      name: "agence urbaine agadir",
+      src: urbaineAga,
     },
     {
-      name: "Club Industriel",
-      src: Indus,
+      name: "Anapec",
+      src: Anapec,
     },
     {
-      name: "Club Sportif",
-      src: sportif,
-    },
-    {
-      name: "Club Social",
-      src: Social,
-    },
-    {
-      name: "Club BTP",
-      src: Btp,
-    },
-    {
-      name: "Club CreaArt",
-      src: CreaArt,
+      name: "Societe Generale",
+      src: SocieteGenerale,
     },
   ];
 
