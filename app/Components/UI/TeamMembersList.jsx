@@ -2,23 +2,23 @@
 import MemberCard from "./MemberCard";
 
 //images
-import Hassan from "../../../public/images/Hassan.png";
-import Abdelhamid from "../../../public/images/Abdelhamid.png";
-import Attik from "../../../public/images/Attik.png";
-import Ayoub from "../../../public/images/Ayoub.png";
-import Baroudi from "../../../public/images/Baroudi.png";
-import Founani from "../../../public/images/Founani.png";
-import Ibtissam from "../../../public/images/Ibtissam.png";
-import Imad from "../../../public/images/Imad.png";
-import Khalid from "../../../public/images/Khalid.png";
-import Malak from "../../../public/images/Malak.png";
-import Mehdi from "../../../public/images/Mehdi.png";
-import Mouad from "../../../public/images/Mouad.png";
-import Salma from "../../../public/images/Salma.png";
-import Samira from "../../../public/images/Samira.png";
-import Somaya from "../../../public/images/Somaya.png";
-import Wissal from "../../../public/images/Wissal.png";
-import zakaria from "../../../public/images/zakaria.png";
+import Hassan from "../../../public/images/TeamMembers/Hassan.png";
+import Abdelhamid from "../../../public/images/TeamMembers/Abdelhamid.png";
+import Attik from "../../../public/images/TeamMembers/Attik.png";
+import Ayoub from "../../../public/images/TeamMembers/Ayoub.png";
+import Baroudi from "../../../public/images/TeamMembers/Baroudi.png";
+import Founani from "../../../public/images/TeamMembers/Founani.png";
+import Ibtissam from "../../../public/images/TeamMembers/Ibtissam.png";
+import Imad from "../../../public/images/TeamMembers/Imad.png";
+import Khalid from "../../../public/images/TeamMembers/Khalid.png";
+import Malak from "../../../public/images/TeamMembers/Malak.png";
+import Mehdi from "../../../public/images/TeamMembers/Mehdi.png";
+import Mouad from "../../../public/images/TeamMembers/Mouad.png";
+import Salma from "../../../public/images/TeamMembers/Salma.png";
+import Samira from "../../../public/images/TeamMembers/Samira.png";
+import Somaya from "../../../public/images/TeamMembers/Somaya.png";
+import Wissal from "../../../public/images/TeamMembers/Wissal.png";
+import zakaria from "../../../public/images/TeamMembers/zakaria.png";
 
 function generateMembersData() {
   const members = [

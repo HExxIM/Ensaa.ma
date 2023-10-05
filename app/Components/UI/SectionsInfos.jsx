@@ -1,9 +1,9 @@
 import InfosContainer from "../Sections/Home/InfosContainer/InfosContainer";
 
 //svg
-import EnsaLogo from "../../../public/svg/EnsaLogo.svg";
-import ADELogo from "../../../public/svg/ADELogo.svg";
-import moonLogo from "../../../public/svg/moonLogo.svg";
+import EnsaLogo from "../../../public/svg/AdeAssets/EnsaLogo.svg";
+import ADELogo from "../../../public/svg/AdeAssets/ADELogo.svg";
+import moonLogo from "../../../public/svg/AdeAssets/moonLogo.svg";
 
 export default function SectionInfosList() {
   const sectionInfos = [

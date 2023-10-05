@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 //svgs
-import dreamersLogo from "../../../../public/svg/dreamersLogo.svg";
+import dreamersLogo from "../../../../public/svg/AdeAssets/dreamersLogo.svg";
 
 //components
 import Button from "../../UI/Button";

@@ -1,4 +1,4 @@
-import styles from './sliderSection.module.css'
+import styles from "./sliderSection.module.css";
 //svg
 import apps from "../../../../../public/svg/ClubsLogos/apps.svg";
 import fsf from "../../../../../public/svg/ClubsLogos/fsf.svg";

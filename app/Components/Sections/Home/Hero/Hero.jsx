@@ -2,8 +2,8 @@ import Image from "next/image";
 import styles from "./Hero.module.css";
 
 //assets
-import moonLogo from "../../../../../public/svg/moonLogo.svg";
-import playIcon from "../../../../../public/svg/playIcon.svg";
+import moonLogo from "../../../../../public/svg/AdeAssets/moonLogo.svg";
+import playIcon from "../../../../../public/svg/icons/playIcon.svg";
 import shapeBlur from "../../../../../public/images/shapeBlur.webp";
 
 //components

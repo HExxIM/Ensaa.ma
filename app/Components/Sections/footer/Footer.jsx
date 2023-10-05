@@ -3,8 +3,8 @@ import Link from "next/link";
 import styles from "./Footer.module.css";
 
 //svgs
-import ADELogo from "../../../../public/svg/ADELogo.svg";
-import Rectangle from "../../../../public/svg/Rectangle.svg";
+import ADELogo from "../../../../public/svg/AdeAssets/ADELogo.svg";
+import Rectangle from "../../../../public/svg/icons/Rectangle.svg";
 
 //components
 import SocialMediaList from "../../UI/SocialMediaList";
