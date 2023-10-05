@@ -4,7 +4,6 @@
   justify-content: space-between;
   align-items: center;
   position: relative;
-
   .blurBottom,
   .blurTop {
     position: absolute;
@@ -14,59 +13,53 @@
     animation-iteration-count: infinite;
     z-index: 2; // Above the moonLogo
   }
-
   .blurBottom {
     bottom: -45vh;
     left: -20vw;
     animation-name: translateBottom;
   }
-
   .blurTop {
     top: -30vh;
     right: -15vw;
     animation-name: translateTop;
   }
-
   .Hero_left {
-    width: 50%;
-    padding-left: 5%;
-    height: 70%;
+    width: 50vw;
+    margin: 0 0 2vh 5vw;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    margin-top: 5%;
+    justify-content: center;
+    gap: 3vh;
     z-index: 4; // Above the blurs, Hero_right, and moonLogo
-
-    .Hero_texts {
-      line-height: 60px;
-
-      p {
-        color: white;
-        font-size: 1.4rem;
-        font-weight: 200;
-      }
-
-      h1 {
-        font-size: 4.2rem;
-        font-weight: bolder;
-        text-transform: uppercase;
-        background: var(--light-glow);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        margin-bottom: 20px;
-      }
-
-      .description {
-        margin-top: -3%;
-      }
-      .button_promo {
-        display: flex;
-        align-items: center;
-        gap: 30px;
-        margin-top: -1%;
-      }
+    p {
+      color: white;
+      font-size: 1.4rem;
+      font-weight: 100;
     }
+    h1 {
+      font-size: 3.8rem;
+      font-weight: bolder;
+      text-transform: uppercase;
+      background: var(--light-glow);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 20px;
+    }
+    .description {
+      margin-top: -5vh;
+    }
+    .button_promo {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      margin-top: -1%;
+    }
+  }
+  .socialMedia {
+    position: absolute;
+    bottom: 10vh;
+    padding-left: 5vw;
   }
 
   .Hero_right {
