@@ -15,7 +15,8 @@ export default function Button({ icon, text, link }) {
     color: "white",
     textTransform: "uppercase",
     fontWeight: "400",
-    fontSize: "1.3rem",
+    fontSize: "1.2rem",
+    whiteSpace: "nowrap",
   };
   return (
     <Link href={link} style={ButtonStyles}>

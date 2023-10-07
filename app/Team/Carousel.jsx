@@ -1,7 +1,7 @@
 import { useRef } from "react";
-import './carousel.css';
+import "./carousel.css";
 
-export default function Carousel({ children,direction }) {
+export default function Carousel({ children, direction }) {
   const carouselRef = useRef(null);
   const isDown = useRef(false);
   const startX = useRef(null);
@@ -28,18 +28,18 @@ export default function Carousel({ children,direction }) {
   const animation = direction === "right" ? "scrollR" : "scrollL";
 
   const carouselContainerStyles = {
-    display: 'flex',
-    overflow: 'hidden',
-    width: '100%',
-    position: 'relative',
+    display: "flex",
+    overflow: "hidden",
+    width: "100%",
+    position: "relative",
   };
 
   const cardsListStyles = {
-    display: 'flex',
-    gap: '1%',
-    width: '200%',
-    justifyContent: 'center',
-    cursor: 'grab',
+    display: "flex",
+    gap: "1%",
+    width: "200%",
+    justifyContent: "center",
+    cursor: "grab",
     animation: `${animation} 10s cubic-bezier(0.24, 0, 0.76, 1) infinite alternate`,
   };
 

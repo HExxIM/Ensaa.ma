@@ -1,24 +1,24 @@
 //components
-import MemberCard from "./MemberCard";
+import MemberCard from "../Components/UI/MemberCard";
 
 //images
-import Hassan from "../../../public/images/TeamMembers/Hassan.png";
-import Abdelhamid from "../../../public/images/TeamMembers/Abdelhamid.png";
-import Attik from "../../../public/images/TeamMembers/Attik.png";
-import Ayoub from "../../../public/images/TeamMembers/Ayoub.png";
-import Baroudi from "../../../public/images/TeamMembers/Baroudi.png";
-import Founani from "../../../public/images/TeamMembers/Founani.png";
-import Ibtissam from "../../../public/images/TeamMembers/Ibtissam.png";
-import Imad from "../../../public/images/TeamMembers/Imad.png";
-import Khalid from "../../../public/images/TeamMembers/Khalid.png";
-import Malak from "../../../public/images/TeamMembers/Malak.png";
-import Mehdi from "../../../public/images/TeamMembers/Mehdi.png";
-import Mouad from "../../../public/images/TeamMembers/Mouad.png";
-import Salma from "../../../public/images/TeamMembers/Salma.png";
-import Samira from "../../../public/images/TeamMembers/Samira.png";
-import Somaya from "../../../public/images/TeamMembers/Somaya.png";
-import Wissal from "../../../public/images/TeamMembers/Wissal.png";
-import zakaria from "../../../public/images/TeamMembers/zakaria.png";
+import Hassan from "../../public/images/TeamMembers/Hassan.png";
+import Abdelhamid from "../../public/images/TeamMembers/Abdelhamid.png";
+import Attik from "../../public/images/TeamMembers/Attik.png";
+import Ayoub from "../../public/images/TeamMembers/Ayoub.png";
+import Baroudi from "../../public/images/TeamMembers/Baroudi.png";
+import Founani from "../../public/images/TeamMembers/Founani.png";
+import Ibtissam from "../../public/images/TeamMembers/Ibtissam.png";
+import Imad from "../../public/images/TeamMembers/Imad.png";
+import Khalid from "../../public/images/TeamMembers/Khalid.png";
+import Malak from "../../public/images/TeamMembers/Malak.png";
+import Mehdi from "../../public/images/TeamMembers/Mehdi.png";
+import Mouad from "../../public/images/TeamMembers/Mouad.png";
+import Salma from "../../public/images/TeamMembers/Salma.png";
+import Samira from "../../public/images/TeamMembers/Samira.png";
+import Somaya from "../../public/images/TeamMembers/Somaya.png";
+import Wissal from "../../public/images/TeamMembers/Wissal.png";
+import zakaria from "../../public/images/TeamMembers/zakaria.png";
 
 function generateMembersData() {
   const members = [
@@ -27,7 +27,7 @@ function generateMembersData() {
       Image: Malak,
       post: "Head of sponsoring",
       description:
-        "UI is the saddle, the stirrups, & the reins. UX is the feeling you get being able to ride the horse.",
+        "UI is the saddle, the stirrups, & the reins. UX is the feeling you get being able .",
     },
     {
       name: "Abdelhamid ElBannani",
@@ -41,7 +41,7 @@ function generateMembersData() {
       Image: Ayoub,
       post: "Treasurer",
       description:
-        "UI is the saddle, the stirrups, & the reins. UX is the feeling you get being able to ride the horse.",
+        "UI is the saddle, the stirrups, & the reins. UX is the feeling you get being .",
     },
     {
       name: "Mouad Benlamine",

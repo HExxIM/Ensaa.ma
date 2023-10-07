@@ -6,10 +6,7 @@ import Image from "next/image";
 import shapeBlur from "../../public/images/shapeBlur.webp";
 
 // components
-import {
-  getMembersList1,
-  getMembersList2,
-} from "../Components/UI/TeamMembersList";
+import { getMembersList1, getMembersList2 } from "./TeamMembersList";
 import Carousel from "./Carousel";
 
 export default function page() {
