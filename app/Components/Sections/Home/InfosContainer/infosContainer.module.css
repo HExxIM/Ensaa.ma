@@ -35,4 +35,32 @@
 .container .blurLeft {
   left: -30vw;
   top: -18vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    height: 100vh;
+    padding: 7%;
+    gap: 4.5vh;
+  }
+  .container .mainInfos {
+    flex-direction: column;
+    text-align: center;
+    gap: 3vh;
+  }
+  .container .mainInfos .text {
+    font-size: 1rem;
+    width: 100%;
+    line-height: 150%;
+    font-weight: 300;
+    order: 2;
+  }
+  .container .mainInfos .logo {
+    width: 40%;
+    order: 1;
+  }
+  .container .blurRight,
+  .container .blurLeft {
+    display: none;
+  }
 }/*# sourceMappingURL=infosContainer.module.css.map */
