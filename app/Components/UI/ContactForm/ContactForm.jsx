@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Styles from "./ContactForm.module.css";
-import FormData from "form-data";
+import emailjs from "@emailjs/browser";
 
 export default function FooterForm() {
   const [inputFields, setInputFields] = useState({
@@ -46,49 +46,36 @@ export default function FooterForm() {
     setSubmitting(true);
   };
 
-  const finishSubmit = async () => {
-    const MAILGUN_API_KEY =
-      "key-ac1a298a5db50cbda051c38079855468-db137ccd-67b3593b";
-    const MAILGUN_DOMAIN =
-      "sandbox45da17f0e795445a8b5e6c34ce88b636.mailgun.org";
-    const formData = new FormData();
-    formData.append("from", `${inputFields.email}`);
-    formData.append("to", `ensaagadirade@gmail.com`);
-    formData.append("subject", `Website Contact Us - ${inputFields.name}`);
-    formData.append("text", `${inputFields.text}`);
-    console.log(inputFields);
-    console.log(formData);
-    try {
-      const response = await fetch(
-        `https://api.mailgun.net/v3/${MAILGUN_DOMAIN}/messages`,
-        {
-          method: "POST",
-          headers: {
-            Authorization: `Basic ${btoa(`api:${MAILGUN_API_KEY}`)}`,
-          },
-          body: formData,
-        }
-      );
+  const finishSubmit = () => {
+    // Your EmailJS service ID, template ID, and Public Key
+    const serviceId = "service_nd4xmf8";
+    const templateId = "template_vgi8tak";
+    const publicKey = "U8ihL4ObRinNhluBw";
 
-      if (response.ok) {
-        const data = await response.json();
-        console.log("Email sent:", data);
-      } else {
-        const errorData = await response.json();
-        console.error("Error sending email:", errorData);
-      }
-    } catch (error) {
-      console.error("Error sending email:", error);
-    }
-  };
-  useEffect(() => {
-    const sendEmail = async () => {
-      if (Object.keys(errors).length === 0 && submitting) {
-        await finishSubmit(); // Wait for finishSubmit to complete
-      }
+    // Create a new object that contains dynamic template params
+    const templateParams = {
+      from_name: name,
+      from_email: email,
+      to_name: "ADE",
+      message: text,
     };
 
-    sendEmail();
+    // Send the email using EmailJS
+    emailjs
+      .send(serviceId, templateId, templateParams, publicKey)
+      .then((response) => {
+        console.log("Email sent successfully!", response);
+        setInputFields({ name: "", email: "", text: "" });
+      })
+      .catch((error) => {
+        console.error("Error sending email:", error);
+      });
+  };
+
+  useEffect(() => {
+    if (Object.keys(errors).length === 0 && submitting) {
+      finishSubmit();
+    }
   }, [errors]);
 
   return (

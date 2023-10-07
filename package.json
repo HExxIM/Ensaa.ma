@@ -9,8 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "mailgun-js": "^0.22.0",
-    "mailgun.js": "^9.3.0",
+    "@emailjs/browser": "^3.11.0",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest"
