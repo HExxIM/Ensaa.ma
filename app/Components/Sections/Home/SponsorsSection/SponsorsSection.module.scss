@@ -59,3 +59,26 @@
     top: 1%;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .container {
+    height: 80vh;
+    .Sliders {
+      width: 95vw;
+      .Slider1,
+      .Slider2 {
+        padding: 2vh 2vw;
+        div {
+          img {
+            margin: 2vh 2vw;
+            scale: 0.9;
+          }
+        }
+      }
+    }
+    .blurRight,
+    .blurLeft {
+      display: none;
+    }
+  }
+}

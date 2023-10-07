@@ -54,4 +54,26 @@
 .container .blurLeft {
   left: -25%;
   top: 1%;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    height: 80vh;
+  }
+  .container .Sliders {
+    width: 95vw;
+  }
+  .container .Sliders .Slider1,
+  .container .Sliders .Slider2 {
+    padding: 2vh 2vw;
+  }
+  .container .Sliders .Slider1 div img,
+  .container .Sliders .Slider2 div img {
+    margin: 2vh 2vw;
+    scale: 0.9;
+  }
+  .container .blurRight,
+  .container .blurLeft {
+    display: none;
+  }
 }/*# sourceMappingURL=SponsorsSection.module.css.map */
