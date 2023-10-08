@@ -1,10 +1,23 @@
+"use client";
+import { useState, useEffect } from "react";
 import Image from "next/image";
 
 //svg
 import BoxTitle from "../../../public/svg/icons/BoxTitle.svg";
 
 export default function TitleBox({ title }) {
+  const [windowWidth, setWindowWidth] = useState(null);
+  useEffect(() => {
+    setWindowWidth(window.innerWidth);
+
+    const handleResize = () => setWindowWidth(window.innerWidth);
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   const BoxStyles = {
+    scale: windowWidth <= 600 ? "0.75" : "1",
     width: "22rem",
     display: "flex",
     flexDirection: "column",
