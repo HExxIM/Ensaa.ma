@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import Image from "next/image";
 import styles from "./sliderSection.module.css";
 import { useRef } from "react";
@@ -38,7 +38,7 @@ export default function ClubsSection() {
       <div className={styles.titleBox}>
         <TitleBox title="Our Clubs" />
       </div>
-      <div 
+      <div
         className={styles.Slider}
         ref={carouselRef}
         onMouseDown={handleMouseDown}

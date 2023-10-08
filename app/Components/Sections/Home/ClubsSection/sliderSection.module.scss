@@ -1,9 +1,8 @@
 .container {
-  height: 100vh;
   color: white;
   display: flex;
   flex-direction: column;
-  padding: 7% 0;
+  margin: 5vh 0;
   position: relative;
   .titleBox {
     display: flex;
@@ -19,9 +18,9 @@
     .clubsList {
       display: flex;
       width: 100%;
-      gap: 1vw;
-      animation: scroll 20s cubic-bezier(0.24, 0, 0.76, 1) infinite;
-      padding: 0 1vw;
+      gap: 10px;
+      animation: scroll 5s cubic-bezier(0.24, 0, 0.76, 1) infinite;
+      padding: 0 10px;
       margin: auto;
       &:hover {
         animation-play-state: paused;
@@ -44,7 +43,7 @@
       transform: translateX(0);
     }
     50% {
-      transform: translateX(calc((13vw) * -6.4));
+      transform: translateX(calc((200px * 13 + 10px * 12 + 10px * 2) / -2));
     }
     100% {
       transform: translateX(0);
@@ -63,4 +62,18 @@
     left: -25%;
     top: 1%;
   }
+}
+
+@media only screen and (max-width: 1100px) {
+  // @keyframes scroll {
+  //   0% {
+  //     transform: translateX(0);
+  //   }
+  //   50% {
+  //     transform: translateX(calc((200px) * -9));
+  //   }
+  //   100% {
+  //     transform: translateX(0);
+  //   }
+  // }
 }

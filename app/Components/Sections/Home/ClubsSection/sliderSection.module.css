@@ -1,9 +1,8 @@
 .container {
-  height: 100vh;
   color: white;
   display: flex;
   flex-direction: column;
-  padding: 7% 0;
+  margin: 5vh 0;
   position: relative;
 }
 .container .titleBox {
@@ -22,9 +21,9 @@
 .container .Slider .clubsList {
   display: flex;
   width: 100%;
-  gap: 1vw;
-  animation: scroll 20s cubic-bezier(0.24, 0, 0.76, 1) infinite;
-  padding: 0 1vw;
+  gap: 10px;
+  animation: scroll 5s cubic-bezier(0.24, 0, 0.76, 1) infinite;
+  padding: 0 10px;
   margin: auto;
 }
 .container .Slider .clubsList:hover {
@@ -43,7 +42,7 @@
     transform: translateX(0);
   }
   50% {
-    transform: translateX(-83.2vw);
+    transform: translateX(-1370px);
   }
   100% {
     transform: translateX(0);
