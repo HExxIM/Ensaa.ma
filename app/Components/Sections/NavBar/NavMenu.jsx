@@ -1,9 +1,20 @@
 import "./NavBar.css";
+import Image from "next/image";
 
-export default function NavMenu({Navlist}) {
+//svgs
+import CloseNavMobile from "../../../../public/svg/icons/CloseNavMobile.svg"
+
+//components
+import Button from "../../UI/Button";
+
+export default function NavMenu({Navlist,setShowmenu}) {
   return (
     <div className="NavMenu">
-        {Navlist}
+        <div className="Navlist">
+            {Navlist}
+            <Button text="Contact us" link="/Contact" />
+        </div>
+        <Image onClick={() => setShowmenu(false)} className="closeMenu" src={CloseNavMobile}/>
     </div>
   )
 }
