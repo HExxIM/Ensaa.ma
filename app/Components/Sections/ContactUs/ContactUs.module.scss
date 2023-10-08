@@ -10,6 +10,9 @@
     width: 100%;
     justify-content: center;
     z-index: 2;
+    .contactUsTitle {
+      margin-left: -5vw;
+    }
   }
   .background_elements {
     position: absolute;
@@ -20,10 +23,10 @@
     z-index: 1;
     .eatrh {
       position: absolute;
-      right: -10vw;
+      right: -12vw;
       opacity: 0.6;
       object-fit: contain;
-      height: 80vh;
+      height: 100%;
     }
     .shapeBlurLeft {
       position: absolute;
@@ -31,6 +34,46 @@
       opacity: 0.6;
       bottom: 0;
       object-fit: contain;
+    }
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .container {
+    .background_elements {
+      .eatrh {
+        right: -15vw;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .container {
+    .ContactUs {
+      scale: 0.8;
+      margin: -2vh 0;
+    }
+    .background_elements {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .container {
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 7% 5% 0 5%;
+    position: relative;
+    .ContactUs {
+      scale: 0.7;
+      margin: -8vh 0;
+    }
+    .background_elements {
+      scale: 0;
+      display: none;
     }
   }
 }
