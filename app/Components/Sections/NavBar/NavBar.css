@@ -31,6 +31,9 @@
 .NavList a {
   margin: 0 0.8vw;
 }
+.menuButton{
+  cursor: pointer;
+}
 .NavMenu{
   position: absolute;
   top: 0%;
@@ -57,6 +60,7 @@
 }
 .closeMenu{
   scale: 0.8;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 900px) {

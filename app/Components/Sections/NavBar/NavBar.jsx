@@ -86,7 +86,7 @@ export default function NavBar() {
       {showmenu && <NavMenu setShowmenu={setShowmenu} Navlist={NavList}/>}
       {!(windowWidth <= 800)
         ? <Button text="Contact us" link="/Contact" /> 
-        : <Image onClick={() => setShowmenu(!showmenu)} src={navMobile}/>}
+        : <Image className="menuButton" onClick={() => setShowmenu(!showmenu)} src={navMobile}/>}
     </div>
   );
 }
