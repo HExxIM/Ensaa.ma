@@ -1,5 +1,4 @@
 .container {
-  height: 88vh;
   color: white;
   display: flex;
   align-items: center;
@@ -27,11 +26,13 @@
   opacity: 0.6;
   -o-object-fit: contain;
      object-fit: contain;
-  height: 100vh;
+  height: 80vh;
 }
 .container .background_elements .shapeBlurLeft {
   position: absolute;
   left: -30vw;
+  opacity: 0.6;
+  bottom: 0;
   -o-object-fit: contain;
      object-fit: contain;
 }/*# sourceMappingURL=ContactUs.module.css.map */

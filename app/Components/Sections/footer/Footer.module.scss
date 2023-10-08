@@ -1,5 +1,5 @@
 .container {
-  padding: 3vh 3vw;
+  padding: 5vh 5vw;
   color: white;
   display: flex;
   flex-direction: column;
@@ -27,5 +27,24 @@
     text-align: center;
     font-family: var(--font-primary);
     font-weight: 200;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .container {
+    .logo_socials_links {
+      margin: 0 0 5vh 0;
+      flex-direction: column;
+      .logo_socials {
+        margin: 5vh 0;
+        flex-direction: column;
+        .Rectangle {
+          display: none;
+        }
+      }
+      .links {
+        gap: 2rem;
+      }
+    }
   }
 }

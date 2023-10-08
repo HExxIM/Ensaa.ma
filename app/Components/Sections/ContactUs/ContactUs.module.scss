@@ -1,5 +1,4 @@
 .container {
-  height: 88vh;
   color: white;
   display: flex;
   align-items: center;
@@ -24,21 +23,13 @@
       right: -10vw;
       opacity: 0.6;
       object-fit: contain;
-      height: 100vh;
-      // animation: rotate 70s linear infinite;
+      height: 80vh;
     }
-    // @keyframes rotate {
-    //   0% {
-    //     transform: rotate(0deg);
-    //   }
-    //   100% {
-    //     transform: rotate(360deg);
-    //   }
-    // }
-
     .shapeBlurLeft {
       position: absolute;
       left: -30vw;
+      opacity: 0.6;
+      bottom: 0;
       object-fit: contain;
     }
   }
