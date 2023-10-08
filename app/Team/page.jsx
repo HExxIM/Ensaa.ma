@@ -6,15 +6,13 @@ import Image from "next/image";
 import shapeBlur from "../../public/images/shapeBlur.webp";
 
 // components
-import { getMembersList1, getMembersList2 } from "./TeamMembersList";
-import Carousel from "./Carousel";
+import TeamMembersList from "./TeamMembersList";
 
 export default function page() {
   return (
     <div className={styles.container}>
-      <div className={styles.main}>
-        <Carousel direction="right">{getMembersList1()}</Carousel>
-        <Carousel direction="left">{getMembersList2()}</Carousel>
+      <div className={styles.Team}>
+        <TeamMembersList />
       </div>
       <Image src={shapeBlur} className={styles.blurBottom}></Image>
       <Image src={shapeBlur} className={styles.blurTop}></Image>
