@@ -8,12 +8,12 @@ import BoxTitle from "../../../public/svg/icons/BoxTitle.svg";
 export default function TitleBox({ title }) {
   const [windowWidth, setWindowWidth] = useState(null);
   useEffect(() => {
-    setWindowWidth(window.innerWidth);
-
-    const handleResize = () => setWindowWidth(window.innerWidth);
-    window.addEventListener("resize", handleResize);
-
-    return () => window.removeEventListener("resize", handleResize);
+    if (typeof window !== "undefined") {
+      setWindowWidth(window.innerWidth);
+      const handleResize = () => setWindowWidth(window.innerWidth);
+      window.addEventListener("resize", handleResize);
+      return () => window.removeEventListener("resize", handleResize);
+    }
   }, []);
 
   const BoxStyles = {

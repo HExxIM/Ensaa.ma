@@ -7,14 +7,16 @@ import ErrorIllustration from "../public/images/ErrorIllustration.webp";
 
 export default function NotFound() {
   const [windowWidth, setWindowWidth] = useState(null);
+
   useEffect(() => {
-    setWindowWidth(window.innerWidth);
-
-    const handleResize = () => setWindowWidth(window.innerWidth);
-    window.addEventListener("resize", handleResize);
-
-    return () => window.removeEventListener("resize", handleResize);
+    if (typeof window !== "undefined") {
+      setWindowWidth(window.innerWidth);
+      const handleResize = () => setWindowWidth(window.innerWidth);
+      window.addEventListener("resize", handleResize);
+      return () => window.removeEventListener("resize", handleResize);
+    }
   }, []);
+
   const ErrorContainerStyle = {
     padding: "8vh 5vw ",
     display: "flex",
