@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
   position: relative;
   .blurBottom,
   .blurTop {
@@ -136,19 +137,27 @@
 @media only screen and (max-width: 768px) {
   .Hero_container {
     .Hero_left {
+      width: 60vw;
+
       p {
-        font-size: 1rem;
+        font-size: 1.1rem;
       }
       h1 {
-        font-size: 2.5rem;
+        font-size: 2.9rem;
+      }
+    }
+    .socialMedia {
+      img {
+        scale: 0.9;
       }
     }
     .Hero_right {
       .moonLogo {
+        opacity: 0.6;
         top: -1.7rem;
         right: -4rem;
         height: 110vh;
-        width: 55%;
+        width: 70%;
       }
     }
   }
@@ -167,18 +176,18 @@
     }
     .Hero_left {
       width: 100vw;
-      margin: 0;
       align-items: center;
+      margin: 0;
       p {
         font-size: 1.3rem;
         font-weight: 100;
       }
       h1 {
-        font-size: 3.5rem;
-        margin-bottom: 0;
+        font-size: 2.5rem;
+        margin: 0 8vw;
       }
       .description {
-        margin-top: 0;
+        margin: 0 8vw;
       }
       .button_promo {
         display: flex;

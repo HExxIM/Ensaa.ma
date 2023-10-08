@@ -17,8 +17,9 @@
       font-weight: 300;
     }
     .logo {
-      width: 25vw;
-      height: 40vh;
+      width: 20vw;
+      height: fit-content;
+      margin: 2vh 3vw;
     }
   }
   .blurRight,
@@ -36,7 +37,7 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .container {
     margin: 10vh 5vw;
     gap: 0vh;
@@ -52,8 +53,7 @@
         order: 2;
       }
       .logo {
-        width: 35vw;
-        height: 35vh;
+        width: 40vw;
         order: 1;
       }
     }

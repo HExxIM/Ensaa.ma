@@ -1,9 +1,8 @@
 .container {
-  height: 100vh;
   color: white;
   display: flex;
   flex-direction: column;
-  padding: 7% 0;
+  margin: 5vh 5vw;
   position: relative;
 }
 .container .titleBox {
@@ -12,7 +11,7 @@
 }
 .container .Sliders {
   width: 90vw;
-  margin: auto;
+  margin: 2vh 0;
   overflow: hidden;
   -webkit-mask-image: linear-gradient(to right, transparent, black 15%, black 85%, transparent);
           mask-image: linear-gradient(to right, transparent, black 15%, black 85%, transparent);
@@ -21,7 +20,7 @@
 .container .Sliders .Slider2 {
   z-index: 4;
   white-space: nowrap;
-  padding: 2vh 2vw;
+  padding: 1vh 2vw;
 }
 .container .Sliders .Slider1 div,
 .container .Sliders .Slider2 div {
@@ -57,20 +56,16 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .container {
-    height: 80vh;
-  }
   .container .Sliders {
     width: 95vw;
   }
   .container .Sliders .Slider1,
   .container .Sliders .Slider2 {
-    padding: 2vh 2vw;
+    scale: 0.6;
   }
   .container .Sliders .Slider1 div img,
   .container .Sliders .Slider2 div img {
-    margin: 2vh 2vw;
-    scale: 0.9;
+    margin: 2vh 6vw;
   }
   .container .blurRight,
   .container .blurLeft {

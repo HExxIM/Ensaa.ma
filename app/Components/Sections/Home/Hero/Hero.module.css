@@ -124,17 +124,24 @@
   }
 }
 @media only screen and (max-width: 768px) {
+  .Hero_container .Hero_left {
+    width: 60vw;
+  }
   .Hero_container .Hero_left p {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
   .Hero_container .Hero_left h1 {
-    font-size: 2.5rem;
+    font-size: 2.9rem;
+  }
+  .Hero_container .socialMedia img {
+    scale: 0.9;
   }
   .Hero_container .Hero_right .moonLogo {
+    opacity: 0.6;
     top: -1.7rem;
     right: -4rem;
     height: 110vh;
-    width: 55%;
+    width: 70%;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -151,19 +158,19 @@
   }
   .Hero_container .Hero_left {
     width: 100vw;
-    margin: 0;
     align-items: center;
+    margin: 0;
   }
   .Hero_container .Hero_left p {
     font-size: 1.3rem;
     font-weight: 100;
   }
   .Hero_container .Hero_left h1 {
-    font-size: 3.5rem;
-    margin-bottom: 0;
+    font-size: 2.5rem;
+    margin: 0 8vw;
   }
   .Hero_container .Hero_left .description {
-    margin-top: 0;
+    margin: 0 8vw;
   }
   .Hero_container .Hero_left .button_promo {
     display: flex;

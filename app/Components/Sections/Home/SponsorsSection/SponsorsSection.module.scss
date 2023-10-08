@@ -1,9 +1,8 @@
 .container {
-  height: 100vh;
   color: white;
   display: flex;
   flex-direction: column;
-  padding: 7% 0;
+  margin: 5vh 5vw;
   position: relative;
   .titleBox {
     display: flex;
@@ -11,7 +10,7 @@
   }
   .Sliders {
     width: 90vw;
-    margin: auto;
+    margin: 2vh 0;
     overflow: hidden;
     mask-image: linear-gradient(
       to right,
@@ -24,7 +23,7 @@
     .Slider2 {
       z-index: 4;
       white-space: nowrap;
-      padding: 2vh 2vw;
+      padding: 1vh 2vw;
       div {
         display: inline-block;
         animation: slide 20s linear infinite;
@@ -62,16 +61,14 @@
 
 @media only screen and (max-width: 768px) {
   .container {
-    height: 80vh;
     .Sliders {
       width: 95vw;
       .Slider1,
       .Slider2 {
-        padding: 2vh 2vw;
+        scale: 0.6;
         div {
           img {
-            margin: 2vh 2vw;
-            scale: 0.9;
+            margin: 2vh 6vw;
           }
         }
       }
