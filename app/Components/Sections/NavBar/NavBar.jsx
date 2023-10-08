@@ -2,7 +2,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { useState,useEffect } from "react";
+import { useState, useEffect } from "react";
 import "./NavBar.css";
 
 //svgs
@@ -70,23 +70,30 @@ export default function NavBar() {
       setShowmenu(false);
     };
 
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
 
     return () => {
-      window.removeEventListener('resize', handleResize);
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
 
   return (
     <div className="NavContainer">
       <Link className="logo" href="/">
-        <Image src={dreamersLogo}></Image>
+        <Image src={dreamersLogo} alt="Logo"></Image>
       </Link>
       {!(windowWidth <= 800) && <div className="NavList">{NavList}</div>}
-      {showmenu && <NavMenu setShowmenu={setShowmenu} Navlist={NavList}/>}
-      {!(windowWidth <= 800)
-        ? <Button text="Contact us" link="/Contact" /> 
-        : <Image className="menuButton" onClick={() => setShowmenu(!showmenu)} src={navMobile}/>}
+      {showmenu && <NavMenu setShowmenu={setShowmenu} Navlist={NavList} />}
+      {!(windowWidth <= 800) ? (
+        <Button text="Contact us" link="/Contact" />
+      ) : (
+        <Image
+          className="menuButton"
+          alt="menuButton"
+          onClick={() => setShowmenu(!showmenu)}
+          src={navMobile}
+        />
+      )}
     </div>
   );
 }

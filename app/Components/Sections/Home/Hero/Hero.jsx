@@ -13,8 +13,12 @@ import Button from "../../../UI/Button";
 export default function HeroSection() {
   return (
     <div className={styles.Hero_container}>
-      <Image src={shapeBlur} className={styles.blurBottom}></Image>
-      <Image src={shapeBlur} className={styles.blurTop}></Image>
+      <Image
+        src={shapeBlur}
+        alt="blurBottom"
+        className={styles.blurBottom}
+      ></Image>
+      <Image src={shapeBlur} alt="blurTop" className={styles.blurTop}></Image>
 
       <div className={styles.Hero_left}>
         <h1>

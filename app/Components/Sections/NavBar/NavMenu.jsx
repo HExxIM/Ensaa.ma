@@ -2,19 +2,24 @@ import "./NavBar.css";
 import Image from "next/image";
 
 //svgs
-import CloseNavMobile from "../../../../public/svg/icons/CloseNavMobile.svg"
+import CloseNavMobile from "../../../../public/svg/icons/CloseNavMobile.svg";
 
 //components
 import Button from "../../UI/Button";
 
-export default function NavMenu({Navlist,setShowmenu}) {
+export default function NavMenu({ Navlist, setShowmenu }) {
   return (
     <div className="NavMenu">
-        <div className="Navlist">
-            {Navlist}
-            <Button text="Contact us" link="/Contact" />
-        </div>
-        <Image onClick={() => setShowmenu(false)} className="closeMenu" src={CloseNavMobile}/>
+      <div className="Navlist">
+        {Navlist}
+        <Button text="Contact us" link="/Contact" />
+      </div>
+      <Image
+        onClick={() => setShowmenu(false)}
+        className="closeMenu"
+        alt="closeMenu"
+        src={CloseNavMobile}
+      />
     </div>
-  )
+  );
 }

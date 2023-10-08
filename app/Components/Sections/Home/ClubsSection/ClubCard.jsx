@@ -25,7 +25,7 @@ export default function ClubCard({ image, name }) {
   return (
     <div style={containerStyles}>
       <div style={imageContainerStyles}>
-        <Image src={image} alt={name} layout="fill" objectFit="contain" />
+        <Image src={image} alt={name}   />
       </div>
       <h3>{name}</h3>
     </div>

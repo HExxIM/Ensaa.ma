@@ -39,7 +39,7 @@ export default function TitleBox({ title }) {
 
   return (
     <dir style={BoxStyles}>
-      <Image style={BoxContainerStyles} src={BoxTitle}></Image>
+      <Image style={BoxContainerStyles} alt="BoxTitle" src={BoxTitle}></Image>
       <h1 style={titleStyles}>{title}</h1>
     </dir>
   );

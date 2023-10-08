@@ -47,8 +47,12 @@ export default function ClubsSection() {
       >
         <ClubsInfosList />
       </div>
-      <Image className={styles.blurRight} src={shapeBlur}></Image>
-      <Image className={styles.blurLeft} src={shapeBlur}></Image>
+      <Image
+        className={styles.blurRight}
+        alt="blurRight"
+        src={shapeBlur}
+      ></Image>
+      <Image className={styles.blurLeft} alt="blurLeft" src={shapeBlur}></Image>
     </div>
   );
 }

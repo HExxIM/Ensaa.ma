@@ -43,8 +43,16 @@ export default function EmptyState() {
         <p style={EmptyStateStyles.p}>Oops</p>
         <p style={EmptyStateStyles.p}>There's nothing here, yet</p>
       </div>
-      <Image src={shapeBlur} style={EmptyStateStyles.blurBottom}></Image>
-      <Image src={shapeBlur} style={EmptyStateStyles.blurTop}></Image>
+      <Image
+        src={shapeBlur}
+        alt="blurBottom"
+        style={EmptyStateStyles.blurBottom}
+      ></Image>
+      <Image
+        src={shapeBlur}
+        alt="blurTop"
+        style={EmptyStateStyles.blurTop}
+      ></Image>
     </div>
   );
 }

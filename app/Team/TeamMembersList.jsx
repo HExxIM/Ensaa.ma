@@ -151,6 +151,7 @@ export default function TeamMembersList() {
       image={member.Image}
       name={member.name}
       post={member.post}
+      alt={member.name}
       description={member.description}
     />
   ));

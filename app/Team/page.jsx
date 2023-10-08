@@ -14,8 +14,12 @@ export default function page() {
       <div className={styles.Team}>
         <TeamMembersList />
       </div>
-      <Image src={shapeBlur} className={styles.blurBottom}></Image>
-      <Image src={shapeBlur} className={styles.blurTop}></Image>
+      <Image
+        src={shapeBlur}
+        alt="shapeBlur"
+        className={styles.blurBottom}
+      ></Image>
+      <Image src={shapeBlur} alt="shapeBlur" className={styles.blurTop}></Image>
     </div>
   );
 }

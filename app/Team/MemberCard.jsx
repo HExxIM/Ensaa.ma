@@ -43,7 +43,7 @@ const styles = {
 export default function MemberCard({ image, name, post, description }) {
   return (
     <div style={styles.card}>
-      <Image style={styles.img} src={image} />
+      <Image style={styles.img} alt="Image" src={image} />
       <div style={styles.titles}>
         <h3 style={styles.name}>{name}</h3>
         <span style={styles.post}>{post}</span>
