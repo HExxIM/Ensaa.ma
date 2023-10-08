@@ -1,12 +1,22 @@
+"use client";
+import { useState, useEffect } from "react";
 import Image from "next/image";
 
 //svgs
 import ErrorIllustration from "../public/images/ErrorIllustration.webp";
 
 export default function NotFound() {
+  const [windowWidth, setWindowWidth] = useState(null);
+  useEffect(() => {
+    setWindowWidth(window.innerWidth);
+
+    const handleResize = () => setWindowWidth(window.innerWidth);
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
   const ErrorContainerStyle = {
-    height: "83vh",
-    padding: "7% 5% 2% 5%",
+    padding: "8vh 5vw ",
     display: "flex",
     flexDirection: "column",
     justifyContent: "center",
@@ -16,8 +26,9 @@ export default function NotFound() {
   };
   const ErrorIllustrationStyle = {
     opacity: "0.3",
-    scale: "1.07",
+    scale: windowWidth <= 650 ? "0.5" : "1.07",
     transform: "translateX(2%)",
+    margin: windowWidth <= 650 ? "-20vh 0" : "0vh 0",
   };
 
   const Error404TextStyle = {
@@ -36,11 +47,11 @@ export default function NotFound() {
       WebkitBackgroundClip: "text",
       WebkitTextFillColor: "transparent",
       fontWeight: "600",
-      fontSize: "7rem",
+      fontSize: windowWidth <= 650 ? "4rem" : "7rem",
     },
     p: {
       color: "#fff",
-      fontSize: "3rem",
+      fontSize: windowWidth <= 650 ? "2rem" : "3rem",
       fontWeight: "200",
       textTransform: "capitalize",
     },
