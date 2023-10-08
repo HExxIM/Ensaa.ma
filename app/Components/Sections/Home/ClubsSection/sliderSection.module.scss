@@ -2,7 +2,7 @@
   color: white;
   display: flex;
   flex-direction: column;
-  margin: 5vh 0;
+  margin: 15vh 0;
   position: relative;
   .titleBox {
     display: flex;
@@ -14,7 +14,7 @@
     overflow: hidden;
     width: fit-content;
     position: relative;
-    margin: auto;
+    margin-top: 5vh;
     .clubsList {
       display: flex;
       width: 100%;
@@ -43,7 +43,7 @@
       transform: translateX(0);
     }
     50% {
-      transform: translateX(calc((200px * 13 + 10px * 12 + 10px * 2) / -2));
+      transform: translateX(-50%);
     }
     100% {
       transform: translateX(0);
@@ -65,15 +65,239 @@
 }
 
 @media only screen and (max-width: 1100px) {
-  // @keyframes scroll {
-  //   0% {
-  //     transform: translateX(0);
-  //   }
-  //   50% {
-  //     transform: translateX(calc((200px) * -9));
-  //   }
-  //   100% {
-  //     transform: translateX(0);
-  //   }
-  // }
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-60%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-61.85%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-63.7%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-65.7%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-67.2%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-68.125%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-69.8%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-71.6%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-73.36%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-75.26%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-77.1%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-78.91%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-81%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-82.9%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-85.5%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-87.5%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-89%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
 }
