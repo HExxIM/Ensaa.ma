@@ -35,8 +35,7 @@
   position: absolute;
   display: flex;
   flex-direction: column;
-  top: 90%;
-  background: var(--light-glow);
+  width: 100%;
 }
 
 @media only screen and (max-width: 900px) {

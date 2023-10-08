@@ -60,14 +60,12 @@ export default function NavBar() {
     </Link>
   ));
 
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-  const [showmenu, setShowmenu] = useState(window.innerWidth <= 600);
+  const [showmenu, setShowmenu] = useState(!window.innerWidth <= 800);
 
   useEffect(() => {
     const handleResize = () => {
       const newWindowWidth = window.innerWidth;
-      setWindowWidth(newWindowWidth);
-      setShowmenu(newWindowWidth <= 600);
+      setShowmenu(!newWindowWidth <= 800);
     };
 
     window.addEventListener('resize', handleResize);
@@ -82,10 +80,10 @@ export default function NavBar() {
       <Link className="logo" href="/">
         <Image src={dreamersLogo}></Image>
       </Link>
-      {!(window.innerWidth <= 600)
+      {!(window.innerWidth <= 800)
         && <div className="NavList">{NavList}</div>}
       {showmenu && <NavMenu Navlist={NavList}/>}
-      {!(window.innerWidth <= 600)
+      {!(window.innerWidth <= 800)
         ? <Button text="Contact us" link="/Contact" /> 
         : <Image onClick={() => setShowmenu(!showmenu)} src={navMobile}/>}
     </div>
