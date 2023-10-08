@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./infosContainer.module.css";
 
-//Images
+//Imagess
 import shapeBlur from "../../../../../public/images/shapeBlur.webp";
 
 //components
