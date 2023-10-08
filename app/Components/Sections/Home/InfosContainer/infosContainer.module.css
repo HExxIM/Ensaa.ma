@@ -1,12 +1,12 @@
 .container {
-  height: 100vh;
   color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 7%;
+  margin: 15vh 5vw;
   position: relative;
+  gap: 5vh;
 }
 .container .mainInfos {
   display: flex;
@@ -19,8 +19,8 @@
   font-weight: 300;
 }
 .container .mainInfos .logo {
-  width: 30%;
-  height: 70%;
+  width: 25vw;
+  height: 40vh;
 }
 .container .blurRight,
 .container .blurLeft {
@@ -39,9 +39,8 @@
 
 @media only screen and (max-width: 600px) {
   .container {
-    height: 100vh;
-    padding: 7%;
-    gap: 4.5vh;
+    margin: 10vh 5vw;
+    gap: 0vh;
   }
   .container .mainInfos {
     flex-direction: column;
@@ -56,7 +55,8 @@
     order: 2;
   }
   .container .mainInfos .logo {
-    width: 40%;
+    width: 35vw;
+    height: 35vh;
     order: 1;
   }
   .container .blurRight,
