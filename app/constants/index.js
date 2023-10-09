@@ -1,0 +1,1 @@
+import memberPics from "./memberPics";
