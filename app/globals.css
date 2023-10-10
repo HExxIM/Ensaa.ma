@@ -37,7 +37,7 @@ html,
 body {
   background-image: var(--dark-glow);
   overflow-x: hidden;
-  height: 100%;
+  height: 100vh;
   position: relative;
   scroll-snap-type: y mandatory;
   -ms-overflow-style: none; /*for Internet Explorer, Edge */
