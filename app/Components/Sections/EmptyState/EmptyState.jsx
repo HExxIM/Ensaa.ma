@@ -27,8 +27,10 @@ export default function EmptyState() {
     },
     blurTop: {
       position: "absolute",
-      top: "-35vh",
-      right: "-15vw",
+      top: "-40vh",
+      right: "50vh",
+      scale: "1.3",
+      opacity: "0.7",
     },
   };
   return (
