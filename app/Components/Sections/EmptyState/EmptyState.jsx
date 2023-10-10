@@ -10,7 +10,7 @@ export default function EmptyState() {
       display: "flex",
       justifyContent: "center",
       alignItems: "center",
-      margin: "8vh 5vw ",
+      margin: "12vh 5vw 5vh 5vw ",
       position: "relative",
     },
     main: {
@@ -25,11 +25,6 @@ export default function EmptyState() {
       fontWeight: "200",
       textAlign: "center",
     },
-    blurBottom: {
-      position: "absolute",
-      bottom: "-45vh",
-      left: "-20vw",
-    },
     blurTop: {
       position: "absolute",
       top: "-35vh",
@@ -43,11 +38,6 @@ export default function EmptyState() {
         <p style={EmptyStateStyles.p}>Oops</p>
         <p style={EmptyStateStyles.p}>There's nothing here, yet</p>
       </div>
-      <Image
-        src={shapeBlur}
-        alt="blurBottom"
-        style={EmptyStateStyles.blurBottom}
-      ></Image>
       <Image
         src={shapeBlur}
         alt="blurTop"
