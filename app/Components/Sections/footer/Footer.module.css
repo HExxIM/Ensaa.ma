@@ -45,4 +45,7 @@
   .container .logo_socials_links .links {
     gap: 5vw;
   }
+  .container .copyrights {
+    font-size: 0.8rem;
+  }
 }/*# sourceMappingURL=Footer.module.css.map */
