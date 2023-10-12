@@ -4,6 +4,7 @@
   align-items: center;
   padding: 7% 5% 0 5%;
   position: relative;
+  margin: 14vh 5vw 10vh 5vw;
 }
 .container .ContactUs {
   display: flex;

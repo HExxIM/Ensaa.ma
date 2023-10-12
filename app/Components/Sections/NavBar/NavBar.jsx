@@ -12,7 +12,7 @@ import navMobile from "../../../../public/svg/icons/navMobile.svg";
 //components
 import Button from "../../UI/Button";
 import NavMenu from "./NavMenu";
-import ClickOutsideHandler from "../../UI/ClickOutsideHandler";
+import ClickOutsideHandler from "../../ClickOutsideHandler";
 
 export default function NavBar() {
   const pathname = usePathname();

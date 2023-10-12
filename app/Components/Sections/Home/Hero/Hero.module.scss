@@ -3,7 +3,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   position: relative;
   .blurBottom,
   .blurTop {
@@ -166,9 +165,9 @@
 @media only screen and (max-width: 600px) {
   .Hero_container {
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     text-align: center;
+    height: 90vh;
+    padding-top: 17vh;
     .blurBottom,
     .blurTop {
       display: none;
@@ -208,10 +207,9 @@
     .Hero_right {
       .moonLogo {
         opacity: 0.3;
-        top: -10vh;
+        top: -22vh;
         scale: 1.3;
         right: 0;
-        height: 100vh;
         width: 100vw;
       }
     }
