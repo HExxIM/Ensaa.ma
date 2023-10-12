@@ -1,6 +1,12 @@
 "use client";
 import styles from "./page.module.css";
 import Image from "next/image";
+import Head from 'next/head';
+
+const metadata = {
+  title: "Ensaa - Team",
+  description: "ADE Ensaa",
+};
 
 // images
 import shapeBlur from "../../public/images/shapeBlur.webp";
