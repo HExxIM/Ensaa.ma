@@ -12,6 +12,7 @@ import navMobile from "../../../../public/svg/icons/navMobile.svg";
 //components
 import Button from "../../UI/Button";
 import NavMenu from "./NavMenu";
+import ClickOutsideHandler from "../../UI/ClickOutsideHandler";
 
 export default function NavBar() {
   const pathname = usePathname();
@@ -63,6 +64,10 @@ export default function NavBar() {
   const [showmenu, setShowmenu] = useState(false);
   const [windowWidth, setWindowWidth] = useState(null); // changed from window.innerWidth
 
+  const handleOutsideClick = () => {
+    setShowmenu(false);
+  };
+
   useEffect(() => {
     if (typeof window !== "undefined") {
       setWindowWidth(window.innerWidth);
@@ -73,22 +78,24 @@ export default function NavBar() {
   }, []);
 
   return (
-    <div className="NavContainer">
-      <Link className="logo" href="/">
-        <Image src={dreamersLogo} alt="Logo"></Image>
-      </Link>
-      {!(windowWidth <= 800) && <div className="NavList">{NavList}</div>}
-      {showmenu && <NavMenu setShowmenu={setShowmenu} Navlist={NavList} />}
-      {!(windowWidth <= 800) ? (
-        <Button text="Contact us" link="/Contact" />
-      ) : (
-        <Image
-          className="menuButton"
-          alt="menuButton"
-          onClick={() => setShowmenu(!showmenu)}
-          src={navMobile}
-        />
-      )}
-    </div>
+    <ClickOutsideHandler onClickOutside={handleOutsideClick}>
+      <div className="NavContainer">
+        <Link className="logo" href="/">
+          <Image src={dreamersLogo} alt="Logo"></Image>
+        </Link>
+        {!(windowWidth <= 800) && <div className="NavList">{NavList}</div>}
+        {showmenu && <NavMenu setShowmenu={setShowmenu} Navlist={NavList} />}
+        {!(windowWidth <= 800) ? (
+          <Button text="Contact us" link="/Contact" />
+        ) : (
+          <Image
+            className="menuButton"
+            alt="menuButton"
+            onClick={() => setShowmenu(!showmenu)}
+            src={navMobile}
+          />
+        )}
+      </div>
+    </ClickOutsideHandler>
   );
 }
