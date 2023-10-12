@@ -6,8 +6,9 @@ import SponsorsSection from "./Components/Sections/Home/SponsorsSection/Sponsors
 import ContactUs from "./Components/Sections/ContactUs/ContactUs.jsx";
 
 export const metadata = {
-  title: "Ensaa - Home",
-  description: "ADE Ensaa",
+  title: "ENSAA - Home",
+  description: "Welcome to ADE ENSAA. Discover the latest news, clubs, events, and more.",
+  keywords: "ADE, Dreamers, ENSAA, home, news, clubs, events, welcome"
 };
 
 export default function Home() {
