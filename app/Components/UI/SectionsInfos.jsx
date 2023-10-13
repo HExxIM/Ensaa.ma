@@ -10,7 +10,7 @@ export default function SectionInfosList() {
     {
       title: "Ensa agadir",
       logo: EnsaLogo,
-      text: "L'Ecole Nationale des Sciences Appliquées-Agadir, c'est un établissement de formation d'ingénieur créée en 1999 qui offre, en cinq ans, aux jeunes bacheliers scrupuleusement sélectionnés, une formation professionnelle, diversifiée, complète et relativement polyvalente.",
+      text: "The National School of Applied Sciences-Agadir (ENSAA) is an engineering training institution established in 1999. It provides a comprehensive and relatively versatile professional education over the course of five years to meticulously selected high school graduates.",
     },
     {
       title: "Dreamers",

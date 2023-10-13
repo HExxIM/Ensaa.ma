@@ -86,21 +86,6 @@ export const members = [
       "UI is the saddle, the stirrups, & the reins. UX is the feeling you get being able to ride the horse.",
   },
   {
-    name: "Mehdi Abouelmouahib",
-    Image: members_pics.Mehdi,
-    post: "Assistant Member",
-    description:
-      "Like lines of code👨🏻‍💻, the choices we make in life determine the output we receive. Choose Wisely🧙🏼‍♂️!",
-  },
-  {
-    name: "Somaya Arouch",
-    Image: members_pics.Somaya,
-    post: "Assistant Member",
-    description:
-      "A lot of people tell me I’m a bit dreamy. But I like the idea of that. Of being somewhere else.",
-  },
-
-  {
     name: "Wissal Benider",
     Image: members_pics.Wissal,
     post: "Head of communication",
@@ -114,7 +99,20 @@ export const members = [
     description:
       "Strategic Sponsorship Manager : Expert in driving partnerships.",
   },
-
+  {
+    name: "Mehdi Abouelmouahib",
+    Image: members_pics.Mehdi,
+    post: "Assistant Member",
+    description:
+      "Like lines of code 👨🏻‍💻, the choices we make in life determine the output we receive. Choose Wisely 🧙🏼‍♂️!",
+  },
+  {
+    name: "Somaya Arouch",
+    Image: members_pics.Somaya,
+    post: "Assistant Member",
+    description:
+      "A lot of people tell me I’m a bit dreamy. But I like the idea of that. Of being somewhere else.",
+  },
   {
     name: "Salma Mahmoud",
     Image: members_pics.Salma,
