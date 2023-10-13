@@ -63,6 +63,7 @@
   position: absolute;
   bottom: 10vh;
   padding-left: 5vw;
+  z-index: 3;
 }
 .Hero_container .Hero_right .moonLogo {
   mix-blend-mode: color-dodge;
