@@ -36,10 +36,15 @@ export default function socialMediaList({ iconsSize, iconsGap, brightness }) {
     },
   ];
 
+  const mediaStyles = {
+    filter: `brightness(${brightness})`,
+    cursor: "pointer",
+  };
+
   const socialMediaList = socialMedia.map((media) => (
     <Link href={media.link} key={media.name} target="_blank">
       <Image
-        style={{ filter: `brightness(${brightness})` }}
+        style={mediaStyles}
         src={media.logo}
         height={iconsSize}
         width={iconsSize}

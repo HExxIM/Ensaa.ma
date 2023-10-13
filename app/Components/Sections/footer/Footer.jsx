@@ -27,11 +27,11 @@ export default function Footer() {
           <SocialMediaList iconsSize="25" iconsGap="1rem" brightness="10" />
         </div>
         <div className={styles.links}>
-          <Link href="/" target="_blank">
+          <Link href="#">
             Terms of service
           </Link>
-          <Link href="/">Contact</Link>
-          <Link href="/">Report</Link>
+          <Link href="/Contact">Contact</Link>
+          <Link href="#">Report</Link>
         </div>
       </div>
       <p className={styles.copyrights}>
