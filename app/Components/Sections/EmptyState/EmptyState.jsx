@@ -12,7 +12,7 @@ export default function EmptyState() {
       alignItems: "center",
       // margin: "14vh 5vw 5vh 5vw ",
       position: "relative",
-      height: "78vh",
+      height: "50vh",
     },
     main: {
       display: "flex",
