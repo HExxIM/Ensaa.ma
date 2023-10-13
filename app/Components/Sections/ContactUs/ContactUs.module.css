@@ -4,7 +4,6 @@
   align-items: center;
   padding: 7% 5% 0 5%;
   position: relative;
-  height: 78vh;
 }
 .container .ContactUs {
   display: flex;
@@ -62,6 +61,7 @@
     align-items: center;
     padding: 7% 5% 0 5%;
     position: relative;
+    height: 50vh;
   }
   .container .ContactUs {
     scale: 0.7;
