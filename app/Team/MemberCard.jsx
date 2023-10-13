@@ -15,9 +15,19 @@ const styles = {
     padding: "1.5rem 0.5rem",
     gap: "10px",
   },
-  img: {
+  imgContainer: {
+    width: "100px",
+    height: "100px",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
     borderRadius: "100%",
-    width: "60%",
+    overflow: "hidden",
+  },
+  img: {
+    width: "100%",
+    height: "100%",
+    objectFit: "cover",
   },
   titles: {
     display: "flex",
@@ -43,7 +53,9 @@ const styles = {
 export default function MemberCard({ image, name, post, description }) {
   return (
     <div style={styles.card}>
-      <Image style={styles.img} alt="Image" src={image} />
+      <div style={styles.imgContainer}>
+        <Image style={styles.img} alt="Image" src={image} />
+      </div>
       <div style={styles.titles}>
         <h3 style={styles.name}>{name}</h3>
         <span style={styles.post}>{post}</span>
