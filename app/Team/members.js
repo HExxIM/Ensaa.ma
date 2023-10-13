@@ -6,7 +6,7 @@ export const members = [
     Image: members_pics.Mouad,
     post: "President",
     description:
-      "UI is the saddle, the stirrups, & the reins. UX is the feeling you get being able to ride the horse.",
+      "If your actions inspire others to dream more, and become more, you are a leader.",
   },
   {
     name: "mohamed Elfounani",
@@ -27,14 +27,14 @@ export const members = [
     Image: members_pics.Abdelhamid,
     post: "General secretary",
     description:
-      "UI is the saddle, the stirrups, & the reins. UX is the feeling you get being able to ride the horse.",
+      "” العلم يجمع، والجهل يُفرِّق، فإذا اختلف الناس بعد العلم فلأنهم ما أرادوا به وجه الله ﴿فَمَا ٱخْتَلَفُوٓا إِلَّا مِنۢ بَعْدِ مَا جَآءَهُمُ الْعِلْمُۖ بَغْياَۢ بَيْنَهُمُۥٓۖ ﴾ “",
   },
   {
     name: "Manal Attik",
     Image: members_pics.Attik,
     post: "Head of Int/Ext Relations",
     description:
-      "UI is the saddle, the stirrups, & the reins. UX is the feeling you get being able to ride the horse.",
+      "Passion is energy. Feel the power that comes from focusing on what excites you.",
   },
   {
     name: "Mohamed Baroudi",
@@ -90,14 +90,14 @@ export const members = [
     Image: members_pics.Mehdi,
     post: "Assistant Member",
     description:
-      "UI is the saddle, the stirrups, & the reins. UX is the feeling you get being able to ride the horse.",
+      "Like lines of code👨🏻‍💻, the choices we make in life determine the output we receive. Choose Wisely🧙🏼‍♂️!",
   },
   {
-    name: "Soumaya Arouch",
+    name: "Somaya Arouch",
     Image: members_pics.Somaya,
     post: "Assistant Member",
     description:
-      "UI is the saddle, the stirrups, & the reins. UX is the feeling you get being able to ride the horse.",
+      "A lot of people tell me I’m a bit dreamy. But I like the idea of that. Of being somewhere else.",
   },
 
   {
@@ -112,7 +112,7 @@ export const members = [
     Image: members_pics.Malak,
     post: "Head of sponsoring",
     description:
-      "UI is the saddle, the stirrups, & the reins. UX is the feeling you get being able .",
+      "Strategic Sponsorship Manager : Expert in driving partnerships.",
   },
 
   {
