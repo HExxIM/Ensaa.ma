@@ -6,7 +6,7 @@
   font-weight: bolder;
   text-transform: uppercase;
   color: white;
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.4rem;
 }
 .container h1 span {
   background: var(--light-glow);
@@ -17,5 +17,5 @@
 .container .cardsContainer {
   display: flex;
   flex-direction: column;
-  gap: 1.2rem;
+  gap: 1.7rem;
 }/*# sourceMappingURL=page.module.css.map */

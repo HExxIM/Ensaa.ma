@@ -12,7 +12,20 @@ export const metadata = {
 };
 
 export default function page() {
-  const clubCards = clubsInfos.map((club,index)=>(
+  // Function to shuffle an array randomly using Fisher-Yates shuffle
+  function shuffleArray(array) {
+    const shuffledArray = [...array];
+    for (let i = shuffledArray.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffledArray[i], shuffledArray[j]] = [shuffledArray[j], shuffledArray[i]];
+    }
+    return shuffledArray;
+  }
+  // Shuffle the clubsInfos array
+  const shuffledClubsInfos = shuffleArray(clubsInfos);
+
+  // Map the shuffled array to ClubCard components
+  const clubCards = shuffledClubsInfos.map((club, index) => (
     <ClubCard
       key={club.name}
       image={club.src}
