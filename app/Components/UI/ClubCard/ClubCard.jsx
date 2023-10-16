@@ -6,10 +6,10 @@ import Link from 'next/link';
 import SocialMediaList from "../../UI/SocialMediaList";
 //svg
 import link from "../../../../public/svg/icons/link.svg";
-export default function ClubCard({image, name, description, links}) {
+export default function ClubCard({image, name, description, links,index}) {
+  const flexdirection = index%2===0 ? 'row' : 'row-reverse';
   return (
-    // align-items: flex-start;
-    <div className={styles.card}>
+    <div style={{ flexDirection:flexdirection }} className={styles.card}>
         <div className={styles.imgContainer}>
             <Image width={120} src={image} alt={name} />
         </div>

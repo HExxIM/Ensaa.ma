@@ -12,13 +12,14 @@ export const metadata = {
 };
 
 export default function page() {
-  const clubCards = clubsInfos.map((club)=>(
+  const clubCards = clubsInfos.map((club,index)=>(
     <ClubCard
       key={club.name}
       image={club.src}
       name={club.name}
       description={club.description}
       links={club.links}
+      index={index}
     />
   ))
   return (

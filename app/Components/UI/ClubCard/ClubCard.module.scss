@@ -1,8 +1,6 @@
 .card{
     width: 100%;
     display: flex;
-    flex-direction: row;
-    align-items: center;
     color: white;
     height: 15rem;
     background:linear-gradient(90deg, rgba(201, 255, 254, 0.1) -8.41%, rgba(255, 237, 199, 0.1) 145.69%);
@@ -24,7 +22,10 @@
             font-weight: 600;
             font-size: 1.55rem;
             margin-bottom: 1rem;
-
+            background: var(--light-glow);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
         p{
             font-weight: 300;
