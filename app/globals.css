@@ -1,6 +1,4 @@
 /* Import Montserrat and Poppins from Google Fonts */
-@import url("public/fonts/Montserrat/Montserrat.css");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 /* Define the custom properties (variables) for your design system */
 :root {
