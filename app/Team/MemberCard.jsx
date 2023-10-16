@@ -36,10 +36,10 @@ const styles = {
     textAlign: "center",
   },
   name: {
-    fontSize: "0.85rem",
+    fontSize: "0.87rem",
   },
   post: {
-    fontSize: "xx-small",
+    fontSize: "x-small",
     opacity: "0.5",
   },
   description: {
