@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export default function ClubsInfosList() {
   const ClubsInfosList = clubsInfos.map((club, index) => (
-    <Link href="/Clubs">
+    <Link href={"/Clubs/"+club.slug}>
       <ClubCard key={index} image={club.src} name={club.name} />
     </Link>
   ));

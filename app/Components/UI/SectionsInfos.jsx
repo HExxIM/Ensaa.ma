@@ -29,7 +29,7 @@ export default function SectionInfosList() {
       title={section.title}
       text={section.text}
       logo={section.logo}
-      position={index % 2 === 0 ? "right" : "left"}
+      flexdirection ={index%2===0 ? 'row' : 'row-reverse'}
     />
   ));
   return <>{SectionInfosList}</>;

@@ -7,21 +7,14 @@ import shapeBlur from "../../../../../public/images/shapeBlur.webp";
 //components
 import TitleBox from "../../../UI/TitleBox";
 
-export default function InfosContainer({ text, logo, title, position }) {
+export default function InfosContainer({ text, logo, title, flexdirection }) {
   return (
     <div className={styles.container}>
       <TitleBox title={title} />
-      {position == "right" ? (
-        <div className={styles.mainInfos}>
-          <Image className={styles.logo} alt="Logo" src={logo}></Image>
-          <p className={styles.text}>{text}</p>
-        </div>
-      ) : (
-        <div className={styles.mainInfos}>
-          <p className={styles.text}>{text}</p>
-          <Image className={styles.logo} alt="Logo" src={logo}></Image>
-        </div>
-      )}
+      <div style={{ flexDirection:flexdirection }} className={styles.mainInfos}>
+        <Image className={styles.logo} alt="Logo" src={logo}></Image>
+        <p className={styles.text}>{text}</p>
+      </div>
       <Image
         className={styles.blurRight}
         alt="blurRight"

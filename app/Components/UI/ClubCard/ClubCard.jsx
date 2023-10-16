@@ -6,13 +6,13 @@ import Link from 'next/link';
 import SocialMediaList from "../../UI/SocialMediaList";
 //svg
 import link from "../../../../public/svg/icons/link.svg";
-export default function ClubCard({image, name, description, links,index}) {
+export default function ClubCard({image, name, description, links,index, slug}) {
   const flexdirection = index%2===0 ? 'row' : 'row-reverse';
   return (
     <div style={{ flexDirection:flexdirection }} className={styles.card}>
-        <div className={styles.imgContainer}>
+        <Link href={"/Clubs/"+slug} className={styles.imgContainer}>
             <Image width={120} src={image} alt={name} />
-        </div>
+        </Link>
         <div className={styles.SocialMediaList}>
           <SocialMediaList direction='column' className={styles.SocialMediaList} links={links} iconsSize="25" iconsGap="1rem" brightness="10" />
         </div>
@@ -20,7 +20,7 @@ export default function ClubCard({image, name, description, links,index}) {
             <h3>{name}</h3>
             <p>{description}</p>
         </div>
-        <Link href={links.website} className={styles.linkContainer}>
+        <Link href={"/Clubs/"+slug} className={styles.linkContainer}>
           <Image src={link} alt="link" width={20} height={20} />
         </Link>
     </div>

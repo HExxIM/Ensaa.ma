@@ -33,6 +33,7 @@ export default function page() {
       description={club.description}
       links={club.links}
       index={index}
+      slug={club.slug}
     />
   ))
   return (

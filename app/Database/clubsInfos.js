@@ -16,6 +16,7 @@ import CreaArt from "../../public/svg/ClubsLogos/CreaArt.png";
 export default [
   {
     name: "APPS Club",
+    slug: "apps",
     src: apps,
     description:"Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand ....composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand ....",
     links:{
@@ -29,6 +30,7 @@ export default [
   },
   {
     name: "FSF Club",
+    slug: "fsf",
     src: fsf,
     description:"Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand ....composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand ....",
     links:{
@@ -42,6 +44,7 @@ export default [
   },
   {
     name: "Club Tac",
+    slug: "tac",
     src: tac,
     description:"Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand ....composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand ....",
     links:{
@@ -55,6 +58,7 @@ export default [
   },
   {
     name: "Club Mecanique",
+    slug: "mecanique",
     src: meca,
     description:"Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand ....composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand ....",
     links:{
@@ -68,6 +72,7 @@ export default [
   },
   {
     name: "Club Robotique",
+    slug: "robotique",
     src: CRRT,
     description:"Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand ....composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand ....",
     links:{
@@ -81,6 +86,7 @@ export default [
   },
   {
     name: "Club Enactus",
+    slug: "enactus",
     src: Enactus,
     description:"Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand ....composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand ....",
     links:{
@@ -94,6 +100,7 @@ export default [
   },
   {
     name: "Club Harmony",
+    slug: "harmony",
     src: Harmony,
     description:"Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand ....composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand ....",
     links:{
@@ -107,6 +114,7 @@ export default [
   },
   {
     name: "Club Ecolos",
+    slug: "ecolos",
     src: Ecolos,
     description:"Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand ....composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand ....",
     links:{
@@ -120,6 +128,7 @@ export default [
   },
   {
     name: "Club Industriel",
+    slug  : "industriel",
     src: Indus,
     description:"Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand ....composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand ....",
     links:{
@@ -133,6 +142,7 @@ export default [
   },
   {
     name: "Club Sportif",
+    slug: "sportif",
     src: sportif,
     description:"Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand ....composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand ....",
     links:{
@@ -146,6 +156,7 @@ export default [
   },
   {
     name: "Club Social",
+    slug  : "social",
     src: Social,
     description:"Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand ....composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand ....",
     links:{
@@ -159,6 +170,7 @@ export default [
   },
   {
     name: "Club BTP",
+    slug: "btp",
     src: Btp,
     description:"Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand ....composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand ....",
     links:{
@@ -172,6 +184,7 @@ export default [
   },
   {
     name: "Club CreaArt",
+    slug  : "creaart",
     src: CreaArt,
     description:"Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand ....composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand ....",
     links:{
