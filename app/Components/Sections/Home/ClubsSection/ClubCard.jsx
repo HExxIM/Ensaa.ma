@@ -2,12 +2,12 @@ import Image from "next/image";
 
 export default function ClubCard({ image, name }) {
   const containerStyles = {
-    height: "250px",
-    width: "200px",
+    height: "220px",
+    width: "170px",
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
-    padding: "3vh 1vw 4vh 1vw",
+    padding: "3vh 10px 4vh 10px",
     borderRadius: "20px",
     textAlign: "center",
     background:
@@ -27,7 +27,7 @@ export default function ClubCard({ image, name }) {
   return (
     <div style={containerStyles}>
       <div style={imageContainerStyles}>
-        <Image src={image} alt={name} width={120} />
+        <Image src={image} alt={name} width={100} />
       </div>
       <h3>{name}</h3>
     </div>
