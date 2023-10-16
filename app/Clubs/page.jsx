@@ -1,5 +1,7 @@
+import styles from "./page.module.css";
 //components
 import EmptyState from "../Components/Sections/EmptyState/EmptyState";
+import ClubCard from "../Components/UI/ClubCard/ClubCard";
 
 export const metadata = {
   title: "ENSAA - Clubs",
@@ -9,6 +11,8 @@ export const metadata = {
 
 export default function page() {
   return (
-    <EmptyState/>
+    <div className={styles.container}>
+      <h1><span>Discover</span> our clubs</h1>
+    </div>
   )
 }

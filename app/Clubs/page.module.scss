@@ -1,0 +1,28 @@
+.container{
+    height: 100%;
+    padding: 20vh 5vw;
+    h1{
+        font-size: 2rem;
+        font-weight: bolder;
+        text-transform: uppercase;
+        color: white;
+        span{
+            background: var(--light-glow);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+    .imgContainer{
+        background:linear-gradient(90deg, rgba(201, 255, 254, 0.1) -8.41%, rgba(255, 237, 199, 0.1) 145.69%);
+        backdrop-filter: blur(50px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}

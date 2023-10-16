@@ -1,0 +1,30 @@
+.container {
+  height: 100%;
+  padding: 20vh 5vw;
+}
+.container h1 {
+  font-size: 2rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: white;
+}
+.container h1 span {
+  background: var(--light-glow);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.container .imgContainer {
+  background: linear-gradient(90deg, rgba(201, 255, 254, 0.1) -8.41%, rgba(255, 237, 199, 0.1) 145.69%);
+  -webkit-backdrop-filter: blur(50px);
+          backdrop-filter: blur(50px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .imgContainer img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=page.module.css.map */
