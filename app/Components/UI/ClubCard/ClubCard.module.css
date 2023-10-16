@@ -1,3 +1,50 @@
 .card {
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  height: 15rem;
+  background: linear-gradient(90deg, rgba(201, 255, 254, 0.1) -8.41%, rgba(255, 237, 199, 0.1) 145.69%);
+  -webkit-backdrop-filter: blur(50px);
+          backdrop-filter: blur(50px);
+}
+.card .imgContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 100%;
+}
+.card .textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 4%;
+}
+.card .textContainer h3 {
+  font-weight: 600;
+  font-size: 1.55rem;
+  margin-bottom: 1rem;
+}
+.card .textContainer p {
+  font-weight: 300;
+  line-height: 165%;
+}
+.card .SocialMediaList {
+  background: linear-gradient(180deg, #070813 -5%, #4FDEDC 105%);
+  height: 100%;
+  padding: 0% 1.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card .linkContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1.5%;
+  background: linear-gradient(180deg, #070813 -5%, #4FDEDC 105%);
+  height: 100%;
 }/*# sourceMappingURL=ClubCard.module.css.map */

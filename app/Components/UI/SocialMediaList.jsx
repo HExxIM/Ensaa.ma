@@ -7,31 +7,31 @@ import linkedinLogo from "../../../public/svg/SocialMedia/linkedinLogo.svg";
 import facebookLogo from "../../../public/svg/SocialMedia/facebookLogo.svg";
 import XLogo from "../../../public/svg/SocialMedia/XLogo.svg";
 
-export default function socialMediaList({ iconsSize, iconsGap, brightness }) {
+export default function socialMediaList({ iconsSize, iconsGap, brightness,links,direction }) {
   const socialMedia = [
     {
       name: "instagram",
-      link: "https://www.instagram.com/ade.ensaa/",
+      link: links.instagram,
       logo: instaLogo,
     },
     {
       name: "facebook",
-      link: "https://www.facebook.com/adeensaa/",
+      link: links.facebook,
       logo: facebookLogo,
     },
     {
       name: "linkedin",
-      link: "https://www.linkedin.com/company/ade-ensa-agadir",
+      link: links.linkedin,
       logo: linkedinLogo,
     },
     {
       name: "X",
-      link: "#",
+      link: links.X,
       logo: XLogo,
     },
     {
       name: "discord",
-      link: "https://discord.gg/3FyqYt7",
+      link: links.discord,
       logo: discordLogo,
     },
   ];
@@ -56,6 +56,7 @@ export default function socialMediaList({ iconsSize, iconsGap, brightness }) {
   const socialMediaStyles = {
     display: "flex",
     gap: `${iconsGap}`,
+    flexDirection: `${direction}`,
   };
 
   return <div style={socialMediaStyles}>{socialMediaList}</div>;

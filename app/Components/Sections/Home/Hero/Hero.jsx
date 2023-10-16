@@ -11,6 +11,13 @@ import SocialMediaList from "../../../UI/SocialMediaList";
 import Button from "../../../UI/Button";
 
 export default function HeroSection() {
+  const adelinks = {
+    facebook: "https://www.facebook.com/ade.ensaa",
+    instagram: "https://www.instagram.com/ade.ensaa/",
+    linkedin: "https://www.linkedin.com/company/ade-ensaa/",
+    X: "#",
+    discord: "https://discord.gg/3q2j5t4",
+  }
   return (
     <div className={styles.Hero_container}>
       <Image
@@ -37,7 +44,7 @@ export default function HeroSection() {
         </div>
       </div>
       <div className={styles.socialMedia}>
-        <SocialMediaList iconsSize="30" iconsGap="1.2rem" brightness="1" />
+        <SocialMediaList direction='row' links={adelinks} iconsSize="30" iconsGap="1.2rem" brightness="1" />
       </div>
       <div className={styles.Hero_right}>
         <Image
