@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "./Footer.module.css";
 
+
 //svgs
 import ADELogo from "../../../../public/svg/AdeAssets/ADELogo.svg";
 import Rectangle from "../../../../public/svg/icons/Rectangle.svg";
@@ -10,6 +11,15 @@ import Rectangle from "../../../../public/svg/icons/Rectangle.svg";
 import SocialMediaList from "../../UI/SocialMediaList";
 
 export default function Footer() {
+
+  const adelinks = {
+    facebook: "https://www.facebook.com/ade.ensaa",
+    instagram: "https://www.instagram.com/ade.ensaa/",
+    linkedin: "https://www.linkedin.com/company/ade-ensaa/",
+    X: "#",
+    discord: "https://discord.gg/3q2j5t4",
+  }
+  
   return (
     <div className={styles.container}>
       <div className={styles.logo_socials_links}>
@@ -24,7 +34,7 @@ export default function Footer() {
             alt="Rectangle"
             className={styles.Rectangle}
           ></Image>
-          <SocialMediaList iconsSize="25" iconsGap="1rem" brightness="10" />
+          <SocialMediaList direction='row' links={adelinks} iconsSize="25" iconsGap="1rem" brightness="10" />
         </div>
         <div className={styles.links}>
           <Link href="#">
