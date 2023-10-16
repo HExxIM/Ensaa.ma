@@ -5,7 +5,7 @@
   padding: 7% 5% 0 5%;
   position: relative;
   // margin: 10vh 0 10vh 0;
-  // height: 78vh;
+  height: 78vh;
   .ContactUs {
     display: flex;
     align-items: center;
@@ -28,7 +28,7 @@
       right: -12vw;
       opacity: 0.6;
       object-fit: contain;
-      height: 100%;
+      height: 100vh;
     }
     .shapeBlurLeft {
       position: absolute;
@@ -53,7 +53,6 @@
 @media only screen and (max-width: 1100px) {
   .container {
     .ContactUs {
-      scale: 0.8;
       margin: -2vh 0;
     }
     .background_elements {
@@ -67,12 +66,12 @@
     color: white;
     display: flex;
     align-items: center;
-    padding: 7% 5% 0 5%;
+    // padding: 7% 5% 0 5%;
     position: relative;
-    height: 50vh;
+    height: 70vh;
     .ContactUs {
-      scale: 0.7;
-      margin: -8vh 0;
+      scale: 0.8;
+      // margin: -8vh 0;
     }
     .background_elements {
       scale: 0;
