@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function ClubCard({ image, name }) {
   const containerStyles = {
-    height: "210px",
-    width: "155px",
+    height: "205px",
+    width: "150px",
     display: "flex",
     flexDirection: "column",
     alignItems: "center",

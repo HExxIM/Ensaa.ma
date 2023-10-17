@@ -15,6 +15,7 @@
   display: flex;
   position: relative;
   margin-top: 5vh;
+  width: 100vw;
 }
 .container .Slider .clubsList {
   display: flex;
@@ -22,8 +23,7 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
-  padding: 0 10px;
-  margin: auto 0;
+  margin: auto 10px;
 }
 .container .Slider .clubsList > div:hover {
   cursor: pointer;

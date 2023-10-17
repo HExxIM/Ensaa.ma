@@ -14,6 +14,7 @@
     display: flex;
     position: relative;
     margin-top: 5vh;
+    width: 100vw;
     .clubsList {
       display: flex;
       flex-wrap: wrap;
@@ -21,8 +22,7 @@
       align-items: center;
       gap: 10px;
       // animation: scroll 2s cubic-bezier(0.24, 0, 0.76, 1) infinite;
-      padding: 0 10px;
-      margin: auto 0;
+      margin: auto 10px;
       // &:hover {
       //   animation-play-state: paused;
       // }
