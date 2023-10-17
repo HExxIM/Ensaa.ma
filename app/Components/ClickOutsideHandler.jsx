@@ -1,7 +1,7 @@
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef } from "react";
 
 export default function ClickOutsideHandler({ children, onClickOutside }) {
-    const wrapperRef = useRef(null);
+  const wrapperRef = useRef(null);
 
   useEffect(() => {
     function handleClickOutside(event) {
@@ -12,11 +12,11 @@ export default function ClickOutsideHandler({ children, onClickOutside }) {
     }
 
     // Attach the event listener when the component mounts
-    document.addEventListener('mousedown', handleClickOutside);
+    document.addEventListener("mousedown", handleClickOutside);
 
     // Clean up the event listener when the component unmounts
     return () => {
-      document.removeEventListener('mousedown', handleClickOutside);
+      document.removeEventListener("mousedown", handleClickOutside);
     };
   }, [onClickOutside]);
 

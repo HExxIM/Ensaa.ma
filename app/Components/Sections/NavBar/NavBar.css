@@ -31,10 +31,10 @@
 .NavList a {
   margin: 0 0.8vw;
 }
-.menuButton{
+.menuButton {
   cursor: pointer;
 }
-.NavMenu{
+.NavMenu {
   position: absolute;
   top: 0%;
   right: 0%;
@@ -42,23 +42,23 @@
   justify-content: space-between;
   width: 100%;
   padding: 9% 10%;
-  background: rgba(6, 4, 18,0.97);
+  background: rgba(6, 4, 18, 0.97);
   backdrop-filter: blur(51px);
   height: 23rem;
   border-radius: 7px;
 }
-.Navlist{
+.Navlist {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.Navlist a{
+.Navlist a {
   font-family: var(--font-primary);
   font-size: 1.2rem;
   text-transform: uppercase;
   font-weight: 500;
 }
-.closeMenu{
+.closeMenu {
   scale: 0.8;
   cursor: pointer;
 }
@@ -76,7 +76,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .NavContainer{
+  .NavContainer {
     position: relative;
     padding: 4% 8% 2% 2%;
     backdrop-filter: blur(0px);
