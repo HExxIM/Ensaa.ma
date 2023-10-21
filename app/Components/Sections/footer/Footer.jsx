@@ -47,7 +47,10 @@ export default function Footer() {
         </div>
       </div>
       <p className={styles.copyrights}>
-        Copyright © ADE ENSAA | Designed by ZEUS
+        Copyright © ADE ENSAA | Developped by{" "}
+        <Link href="Developpers" className={styles.Developpers}>
+          Developpers
+        </Link>
       </p>
     </div>
   );
