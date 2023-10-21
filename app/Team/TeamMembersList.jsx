@@ -1,5 +1,5 @@
 //components
-import MemberCard from "./MemberCard";
+import MemberCard from "../Components/UI/MemberCard";
 import { members } from "../Database/members";
 
 //images

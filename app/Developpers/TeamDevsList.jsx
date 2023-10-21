@@ -1,12 +1,12 @@
 //components
-import DeveloppedCard from "./DeveloppedCard";
+import MemberCard from "../Components/UI/MemberCard";
 import { devs } from "../Database/Developpes";
 
 //images
 
 export default function TeamDevsList() {
   return devs.map((dev) => (
-    <DeveloppedCard
+    <MemberCard
       key={dev.name}
       image={dev.Image}
       name={dev.name}
