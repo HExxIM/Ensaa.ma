@@ -83,9 +83,9 @@ export default function NavBar() {
         <Link className="logo" href="/">
           <Image src={dreamersLogo} alt="Logo"></Image>
         </Link>
-        {!(windowWidth <= 800) && <div className="NavList">{NavList}</div>}
+        {!(windowWidth <= 820) && <div className="NavList">{NavList}</div>}
         {showmenu && <NavMenu setShowmenu={setShowmenu} Navlist={NavList} />}
-        {!(windowWidth <= 800) ? (
+        {!(windowWidth <= 820) ? (
           <Button text="Contact us" link="/Contact" />
         ) : (
           <Image
