@@ -21,9 +21,43 @@
   grid: auto/repeat(2, 1fr);
   gap: 3%;
   margin-bottom: 5vh;
+  justify-content: center;
+  align-items: center;
 }
 .container .allnews {
   display: flex;
   flex-wrap: wrap;
   gap: 4vh;
+  justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 1025px) {
+  .container {
+    gap: 4vh;
+  }
+  .container .recentlyposted {
+    grid: auto/repeat(1, 1fr);
+    width: 100%;
+    gap: 1%;
+    margin-bottom: 1vh;
+  }
+}
+@media only screen and (max-width: 912px) {
+  .container {
+    padding-top: 13vh;
+    padding-bottom: 2vh;
+    padding-left: 8vw;
+    padding-right: 8vw;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    padding-bottom: 2vh;
+    padding-top: 6vh;
+    padding-left: 8vw;
+    padding-right: 8vw;
+  }
+  .container h1 {
+    font-size: 1.5rem;
+  }
 }/*# sourceMappingURL=page.module.css.map */

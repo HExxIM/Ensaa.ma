@@ -1,10 +1,21 @@
+"use client";
 import Image from "next/image"
 import styles from './NewsCard.module.css'
-import Button from "../Button"
+import { useState, useEffect } from "react";
 
 export default function NewsCard({title,category,description,img,direction}) {
+  const [windowWidth, setWindowWidth] = useState(null); // changed from window.innerWidth
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      setWindowWidth(window.innerWidth);
+      const handleResize = () => setWindowWidth(window.innerWidth);
+      window.addEventListener("resize", handleResize);
+      return () => window.removeEventListener("resize", handleResize);
+    }
+  }, []);
   return (
-    <div style={{ flexDirection:direction }} className={styles.card}>
+    <div style={{ flexDirection:(windowWidth<=600 ? 'column' : direction) }} className={styles.card}>
         <div className={styles.imgContainer}>
             {/* <Image width={120} src={img}/> */}
         </div>

@@ -8,12 +8,7 @@ import SocialMediaList from "../../UI/SocialMediaList";
 //svg
 import link from "../../../../public/svg/icons/link.svg";
 export default function ClubCard({image, name, description, links,index, slug}) {
-  const [showmenu, setShowmenu] = useState(false);
   const [windowWidth, setWindowWidth] = useState(null); // changed from window.innerWidth
-
-  const handleOutsideClick = () => {
-    setShowmenu(false);
-  };
 
   useEffect(() => {
     if (typeof window !== "undefined") {

@@ -2,10 +2,11 @@
   display: flex;
   color: white;
   gap: 1%;
+  align-items: center;
 }
 .card .imgContainer {
-  width: 290px;
-  height: 190px;
+  width: 295px;
+  height: 195px;
   background-color: white;
 }
 .card .textContainer {
