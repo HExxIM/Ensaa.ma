@@ -17,7 +17,7 @@ export default function NewsCard({title,category,description,img,direction}) {
   return (
     <div style={{ flexDirection:(windowWidth<=600 ? 'column' : direction) }} className={styles.card}>
         <div className={styles.imgContainer}>
-            {/* <Image width={120} src={img}/> */}
+            <Image src={img} className={styles.img}/>
         </div>
         <div className={styles.textContainer}>
             <span className={styles.category}>{category}</span>
