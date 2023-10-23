@@ -3,6 +3,10 @@
     color: white;
     padding: 18vh 5vw;
     justify-content: space-between;
+    iframe{
+        border-radius: 6px;
+        height: 360px;
+    }
     .main{
         display: flex;
         gap: 4vh;
