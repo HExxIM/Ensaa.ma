@@ -77,15 +77,20 @@ export default function NavBar() {
     }
   }, []);
 
+  useEffect(() => {
+    setShowmenu(false); // Ensure that the menu is initially hidden
+  }, [windowWidth]); // Trigger this effect when windowWidth changes
+
+
   return (
     <ClickOutsideHandler onClickOutside={handleOutsideClick}>
       <div className="NavContainer">
         <Link className="logo" href="/">
           <Image src={dreamersLogo} alt="Logo"></Image>
         </Link>
-        {!(windowWidth <= 820) && <div className="NavList">{NavList}</div>}
+        {(windowWidth >= 820)  && <div className="NavList">{NavList}</div>}
         {showmenu && <NavMenu setShowmenu={setShowmenu} Navlist={NavList} />}
-        {!(windowWidth <= 820) ? (
+        {(windowWidth >= 820) ? (
           <Button text="Contact us" link="/Contact" />
         ) : (
           <Image
