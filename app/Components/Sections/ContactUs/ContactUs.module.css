@@ -51,21 +51,6 @@
     margin: -2vh 0;
   }
   .container .background_elements {
-    display: none;
-  }
-}
-@media only screen and (max-width: 900px) {
-  .container {
-    color: white;
-    display: flex;
-    align-items: center;
-    position: relative;
-    height: 70vh;
-  }
-  .container .ContactUs {
-    scale: 0.8;
-  }
-  .container .background_elements {
     scale: 0;
     display: none;
   }
