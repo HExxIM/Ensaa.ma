@@ -1,7 +1,10 @@
 import styles from './page.module.css'
 import Head from 'next/head'
+import Image from "next/image";
 //data
 import clubsInfos from "../../Database/clubsInfos.js";
+// images
+import shapeBlur from "../../../public/images/shapeBlur.webp";
 
 export const metadata = {
   description: "Explore the diverse clubs and organizations at ENSAA.",
@@ -24,6 +27,12 @@ export default function page({params}) {
         </p>
       </div>
       <iframe src={club.links.instagram+'embed/'} allowtransparency="true" scrolling='no' frameborder="0"></iframe>
+      {/* <Image
+        src={shapeBlur}
+        alt="shapeBlur"
+        className={styles.blurBottom}
+      ></Image>
+      <Image src={shapeBlur} alt="shapeBlur" className={styles.blurTop}></Image> */}
     </div>
   )
 }

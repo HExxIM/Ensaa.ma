@@ -3,16 +3,17 @@
   color: white;
   padding: 18vh 5vw;
   justify-content: space-between;
+  gap: 3vw;
 }
 .container iframe {
   border-radius: 6px;
   height: 360px;
+  width: 280px;
 }
 .container .main {
   display: flex;
   gap: 4vh;
   flex-direction: column;
-  width: 70%;
 }
 .container .main h1 {
   font-weight: bolder;
@@ -35,4 +36,39 @@
 .container .main p {
   font-weight: 300;
   line-height: 180%;
+}
+
+@media only screen and (max-width: 912px) {
+  .container {
+    padding-top: 13vh;
+    padding-bottom: 2vh;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    flex-direction: column;
+    gap: 3vh;
+  }
+  .container iframe {
+    height: 690px;
+    width: 100%;
+  }
+  .container .main {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    padding-bottom: 2vh;
+    padding-top: 4vh;
+    padding-left: 8vw;
+    padding-right: 8vw;
+  }
+  .container iframe {
+    height: 390px;
+  }
+  .container .main {
+    gap: 3vh;
+  }
+  .container .main h1 {
+    font-size: 2rem;
+  }
 }/*# sourceMappingURL=page.module.css.map */
