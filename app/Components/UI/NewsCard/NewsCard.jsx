@@ -22,7 +22,7 @@ export default function NewsCard({title,category,description,img,direction}) {
         <div className={styles.textContainer}>
             <span className={styles.category}>{category}</span>
             <h3>{title}</h3>
-            <p>{description}</p>
+            <p>{description.slice(0,105)}...</p>
         </div>
     </div>
   )
