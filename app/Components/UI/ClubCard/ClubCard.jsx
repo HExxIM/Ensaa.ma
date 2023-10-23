@@ -27,7 +27,7 @@ export default function ClubCard({image, name, description, links,index, slug}) 
             <Image width={120} src={image} alt={name} />
         </Link>
         <div className={styles.SocialMediaList}>
-          <SocialMediaList direction={socialsDirection} className={styles.SocialMediaList} links={links} iconsSize="25" iconsGap="1rem" brightness="10" />
+          <SocialMediaList direction={socialsDirection} className={styles.SocialMediaList} links={links} iconsSize="23" iconsGap="1rem" brightness="10" />
         </div>
         <Link href={"/Clubs/"+slug} className={styles.textContainer}>
             <h3>{name}</h3>

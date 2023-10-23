@@ -42,6 +42,7 @@ export default function socialMediaList({ iconsSize, iconsGap, brightness,links,
   };
 
   const socialMediaList = socialMedia.map((media) => (
+    media.link &&
     <Link href={media.link} key={media.name} target="_blank">
       <Image
         style={mediaStyles}

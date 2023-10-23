@@ -18,7 +18,8 @@ export default function page() {
       title={item.title} 
       category={item.category} 
       description={item.description}
-      img={item.img}
+      img={item.images[0]}
+      slug={item.slug}
       direction="row"
     />
   ));
@@ -28,7 +29,8 @@ export default function page() {
       title={item.title} 
       category={item.category} 
       description={item.description}
-      img={item.img}
+      img={item.images[0]}
+      slug={item.slug}
       direction="column"
     />
     ));

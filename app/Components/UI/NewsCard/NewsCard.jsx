@@ -2,8 +2,9 @@
 import Image from "next/image"
 import styles from './NewsCard.module.css'
 import { useState, useEffect } from "react";
+import Link from "next/link";
 
-export default function NewsCard({title,category,description,img,direction}) {
+export default function NewsCard({slug,title,category,description,img,direction}) {
   const [windowWidth, setWindowWidth] = useState(null); // changed from window.innerWidth
 
   useEffect(() => {
@@ -15,7 +16,7 @@ export default function NewsCard({title,category,description,img,direction}) {
     }
   }, []);
   return (
-    <div style={{ flexDirection:(windowWidth<=600 ? 'column' : direction) }} className={styles.card}>
+    <Link href={"/News/"+category+"/"+slug} style={{ flexDirection:(windowWidth<=600 ? 'column' : direction) }} className={styles.card}>
         <div className={styles.imgContainer}>
             <Image src={img} className={styles.img}/>
         </div>
@@ -24,6 +25,6 @@ export default function NewsCard({title,category,description,img,direction}) {
             <h3>{title}</h3>
             <p>{description.slice(0,105)}...</p>
         </div>
-    </div>
+    </Link>
   )
 }
