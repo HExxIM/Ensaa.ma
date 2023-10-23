@@ -25,6 +25,7 @@ export default function NotFound() {
     alignItems: "center",
     position: "relative",
     overflow: "hidden",
+    height: "100vh",
   };
   const ErrorIllustrationStyle = {
     opacity: "0.3",
