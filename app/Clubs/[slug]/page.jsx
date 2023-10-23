@@ -23,7 +23,7 @@ export default function page({params}) {
           {club.text}
         </p>
       </div>
-      <iframe src='https://www.instagram.com/ade.ensaa/embed/' allowtransparency="true" scrolling='no' frameborder="0"></iframe>
+      <iframe src={club.links.instagram+'embed/'} allowtransparency="true" scrolling='no' frameborder="0"></iframe>
     </div>
   )
 }
