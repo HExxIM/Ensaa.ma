@@ -1,20 +1,13 @@
 "use client";
 import { useState, useEffect } from "react";
 import Image from "next/image";
+import useViewportWidth from '../../hooks/useViewportWidth';
 
 //svg
 import BoxTitle from "../../../public/svg/icons/BoxTitle.svg";
 
 export default function TitleBox({ title }) {
-  const [windowWidth, setWindowWidth] = useState(null);
-  useEffect(() => {
-    if (typeof window !== "undefined") {
-      setWindowWidth(window.innerWidth);
-      const handleResize = () => setWindowWidth(window.innerWidth);
-      window.addEventListener("resize", handleResize);
-      return () => window.removeEventListener("resize", handleResize);
-    }
-  }, []);
+  const windowWidth = useViewportWidth();
 
   const BoxStyles = {
     scale: windowWidth <= 600 ? "0.75" : "1",

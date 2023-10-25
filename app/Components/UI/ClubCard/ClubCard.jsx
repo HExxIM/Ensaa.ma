@@ -3,21 +3,13 @@ import { useState, useEffect } from "react";
 import styles from './ClubCard.module.css'
 import Image from 'next/image'
 import Link from 'next/link';
+import useViewportWidth from '../../../hooks/useViewportWidth';
 //components
 import SocialMediaList from "../../UI/SocialMediaList";
 //svg
 import link from "../../../../public/svg/icons/link.svg";
 export default function ClubCard({image, name, description, links,index, slug}) {
-  const [windowWidth, setWindowWidth] = useState(null); // changed from window.innerWidth
-
-  useEffect(() => {
-    if (typeof window !== "undefined") {
-      setWindowWidth(window.innerWidth);
-      const handleResize = () => setWindowWidth(window.innerWidth);
-      window.addEventListener("resize", handleResize);
-      return () => window.removeEventListener("resize", handleResize);
-    }
-  }, []);
+  const windowWidth = useViewportWidth();
 
   const flexdirection = windowWidth <= 800 ? '' : (index%2===0 ? 'row' : 'row-reverse');
   const socialsDirection = windowWidth <= 800 ? 'row' : 'column';
