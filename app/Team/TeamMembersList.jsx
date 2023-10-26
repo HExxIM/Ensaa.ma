@@ -13,6 +13,7 @@ export default function TeamMembersList() {
       post={member.post}
       alt={member.name}
       description={member.description}
+      linkedin={member.linkedin}
     />
   ));
 }

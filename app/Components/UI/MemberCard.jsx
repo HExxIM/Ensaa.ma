@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const styles = {
   card: {
@@ -50,9 +51,9 @@ const styles = {
   },
 };
 
-export default function MemberCard({ image, name, post, description }) {
+export default function MemberCard({ image, name, post, description, linkedin }) {
   return (
-    <div style={styles.card}>
+    <Link href={linkedin} target="blank" style={styles.card}>
       <div style={styles.imgContainer}>
         <Image style={styles.img} alt="Image" src={image} />
       </div>
@@ -61,6 +62,6 @@ export default function MemberCard({ image, name, post, description }) {
         <span style={styles.post}>{post}</span>
       </div>
       <p style={styles.description}>{description}</p>
-    </div>
+    </Link>
   );
 }
