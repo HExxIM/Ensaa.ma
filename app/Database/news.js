@@ -2,15 +2,16 @@ import coverimg from "../../public/images/TeamMembers/Ibtissam.jpeg";
 import pic from "../../public/images/pic.jpeg";
 export default [
   {
-    title: "Set video playback speed with javascript",
-    slug: "set-video-playback-speed-with-javascript",
-    category: "javascript",
+    title: "An Evening of Elegance: The Ensaiste Tradition Gala",
+    slug: "Gala",
+    category: "Entertainment",
     description:
-      "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression....",
+      "Entre cours quotidiens, contrôles hebdomadaires et travaux à rendre en permanence, voilà ....",
     images: [coverimg],
     links: {
-      facebook: "https://www.instagram.com/ade.ensaa/",
-      instagram: "https://www.instagram.com/ade.ensaa/",
+      facebook:
+        "https://www.facebook.com/photo/?fbid=725488382930295&set=a.454223453390124",
+      instagram: "https://www.instagram.com/p/CyyxnjsosCT/",
       X: "",
       linkedin: "https://www.instagram.com/ade.ensaa/",
       discord: "",
