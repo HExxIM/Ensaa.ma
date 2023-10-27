@@ -5,7 +5,7 @@ export const members = [
     name: "Mouad Benlamine",
     Image: members_pics.Mouad,
     post: "President",
-    linkedin:'',
+    linkedin:'https://www.linkedin.com/in/mouad-benlamine-002671201/',
     description:
       "If your actions inspire others to dream more, and become more, you are a leader.",
   },
@@ -13,7 +13,7 @@ export const members = [
     name: "Mohamed El Founani",
     Image: members_pics.Founani,
     post: "Vice-President",
-    linkedin:'',
+    linkedin:'https://www.linkedin.com/in/mohamed-euler-founani/',
     description:
       "life's a set of gears ⚙. You can have high torque🔧, but low horsepower 🏇",
   },
@@ -21,7 +21,7 @@ export const members = [
     name: "Ayoub Bahti",
     Image: members_pics.Ayoub,
     post: "Treasurer",
-    linkedin:'',
+    linkedin:'https://www.linkedin.com/in/ayoub-bahti/',
     description:
       "Opportunities don’t happen .you create them.",
   },
@@ -29,7 +29,7 @@ export const members = [
     name: "Abdelhamid ElBannani",
     Image: members_pics.Abdelhamid,
     post: "General secretary",
-    linkedin:'https://www.linkedin.com/in/abdelhamid-el-bannani/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+    linkedin:'https://www.linkedin.com/in/abdelhamid-el-bannani/',
     description:
       "وَٱلْكَاتبينَ بسُمْر ٱلْخطِّ مَا تركَت أقْلامُهُمْ حرفَ جسْمٍ غَيْرمُنْعَجمِ",
   },
@@ -37,7 +37,7 @@ export const members = [
     name: "Manal Attik",
     Image: members_pics.Attik,
     post: "Head of Int/Ext Relations",
-    linkedin:'',
+    linkedin:'https://www.linkedin.com/in/manal-attik-71b492279/',
     description:
       "Passion is energy. Feel the power that comes from focusing on what excites you.",
   },
@@ -45,7 +45,7 @@ export const members = [
     name: "Mohamed Baroudi",
     Image: members_pics.Baroudi,
     post: "Head of Logistics",
-    linkedin:'',
+    linkedin:'https://www.linkedin.com/in/medbaroudi/',
     description:
       "The magic you are looking for is in the work you're avoiding",
   },
@@ -53,7 +53,7 @@ export const members = [
     name: "Imad Aouragh",
     Image: members_pics.Imad,
     post: "Team coordinator",
-    linkedin:'',
+    linkedin:'https://www.linkedin.com/in/imad-aouragh-496607221/',
     description:
       "UI is the saddle, the stirrups, & the reins. UX is the feeling you get being able to ride the horse.",
   },
@@ -61,7 +61,7 @@ export const members = [
     name: "Khalid Et-tazy",
     Image: members_pics.Khalid,
     post: "Event Manager",
-    linkedin:'',
+    linkedin:'https://www.linkedin.com/in/khalid-et-tazy-860a741b6/',
     description:
       "Se réunir est un début, rester ensemble est un progrès, travailler ensemble est la réussite.",
   },
@@ -69,15 +69,15 @@ export const members = [
     name: "Samira Errai",
     Image: members_pics.Samira,
     post: "Clubs Coordinator",
-    linkedin:'https://www.linkedin.com/in/samira-errai-0656b2184/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+    linkedin:'https://www.linkedin.com/in/samira-errai-0656b2184/',
     description:
-      "UI is the saddle, the stirrups, & the reins. UX is the feeling you get being able to ride the horse.",
+      "It is hard work, perseverance, sacrifice, and a genuine love for what you do. Not luck!",
   },
   {
     name: "Hassan elqadi",
     Image: members_pics.Hassan,
     post: "Head of Innovation and IT",
-    linkedin:'',
+    linkedin:'https://www.linkedin.com/in/el-qadi/',
     description:
       "UI is the saddle, the stirrups, & the reins. UX is the feeling you get being able to ride the horse.",
   },
@@ -85,7 +85,7 @@ export const members = [
     name: "Ibtissam Massa",
     Image: members_pics.Ibtissam,
     post: "Student Affairs Coordinator",
-    linkedin:'',
+    linkedin:'https://www.linkedin.com/in/ibtissam-massa/',
     description:
       "UI is the saddle, the stirrups, & the reins. UX is the feeling you get being able to ride the horse.",
   },
@@ -93,7 +93,7 @@ export const members = [
     name: "Zakaria Ahrbil",
     Image: members_pics.zakaria,
     post: "Designer and SM",
-    linkedin:'',
+    linkedin:'https://www.linkedin.com/in/zakaria-ahrbil-772041236/',
     description:
       "UI is the saddle, the stirrups, & the reins. UX is the feeling you get being able to ride the horse.",
   },
@@ -101,7 +101,7 @@ export const members = [
     name: "Wissal Benider",
     Image: members_pics.Wissal,
     post: "Head of communication",
-    linkedin:'',
+    linkedin:'https://www.linkedin.com/in/wissal-benider-578471221/',
     description:
       "UI is the saddle, the stirrups, & the reins. UX is the feeling you get being able to ride the horse.",
   },
@@ -109,7 +109,7 @@ export const members = [
     name: "Malak Bourrich",
     Image: members_pics.Malak,
     post: "Head of sponsoring",
-    linkedin:'',
+    linkedin:'https://www.linkedin.com/in/malak-bourrich-6a5193249/',
     description:
       "Strategic Sponsorship Manager : Expert in driving partnerships.",
   },
@@ -117,7 +117,7 @@ export const members = [
     name: "Mehdi Abouelmouahib",
     Image: members_pics.Mehdi,
     post: "Assistant Member",
-    linkedin:'https://www.linkedin.com/in/mehdi-abouelmouahib-52b161254/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
+    linkedin:'https://www.linkedin.com/in/mehdi-abouelmouahib-52b161254/',
     description:
       "Like lines of code 👨🏻‍💻, the choices we make in life determine the output we receive. Choose Wisely 🧙🏼‍♂️!",
   },
@@ -125,7 +125,7 @@ export const members = [
     name: "Somaya Arouch",
     Image: members_pics.Somaya,
     post: "Assistant Member",
-    linkedin:'',
+    linkedin:'https://www.linkedin.com/in/somaya-arouch-889982265/',
     description:
       "A lot of people tell me I’m a bit dreamy. But I like the idea of that. Of being somewhere else.",
   },
@@ -133,7 +133,7 @@ export const members = [
     name: "Salma Mahmoud",
     Image: members_pics.Salma,
     post: "Assistant Member",
-    linkedin:'',
+    linkedin:'https://www.linkedin.com/in/salma-mahmoud-981719230/',
     description:
       "Team work is the art of harmonizing diverse talents towards a common vision",
   },
