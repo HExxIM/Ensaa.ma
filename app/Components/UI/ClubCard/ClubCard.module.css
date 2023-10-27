@@ -62,10 +62,10 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 30rem;
+    height: 23rem;
   }
   .card .imgContainer {
-    height: 50%;
+    height: 100%;
   }
   .card .textContainer h3 {
     font-size: 1.4rem;
@@ -74,13 +74,7 @@
     line-height: 140%;
     font-size: small;
   }
-  .card .SocialMediaList {
-    background: linear-gradient(90deg, #070813 -5%, #4FDEDC 105%);
-    height: 50px;
-    padding: 2% 5%;
-  }
-  .card .linkContainer {
-    background: linear-gradient(90deg, #070813 -5%, #4FDEDC 105%);
-    height: 40px;
+  .card .SocialMediaList, .card .linkContainer {
+    display: none;
   }
 }/*# sourceMappingURL=ClubCard.module.css.map */
