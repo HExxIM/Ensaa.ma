@@ -103,7 +103,7 @@ export const members = [
     post: "Head of communication",
     linkedin:'https://www.linkedin.com/in/wissal-benider-578471221/',
     description:
-      "UI is the saddle, the stirrups, & the reins. UX is the feeling you get being able to ride the horse.",
+      "life begins at the end of your comfort zone",
   },
   {
     name: "Malak Bourrich",

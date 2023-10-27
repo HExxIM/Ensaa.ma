@@ -13,7 +13,7 @@ import Mouad from "../../public/images/TeamMembers/Mouad.jpeg";
 import Salma from "../../public/images/TeamMembers/Salma.png";
 import Samira from "../../public/images/TeamMembers/Samira.png";
 import Somaya from "../../public/images/TeamMembers/Somaya.png";
-import Wissal from "../../public/images/TeamMembers/Wissal.jpg";
+import Wissal from "../../public/images/TeamMembers/Wissal.jpeg";
 import zakaria from "../../public/images/TeamMembers/zakaria.png";
 
 export default {

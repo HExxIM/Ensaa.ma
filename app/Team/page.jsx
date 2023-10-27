@@ -1,13 +1,11 @@
-"use client";
 import styles from "./page.module.css";
 import Image from "next/image";
-import Head from 'next/head';
 
-// export const metadata = {
-//   title: "ENSAA - Team",
-//   description: "Meet the dedicated team behind ENSAA and learn more about us.",
-//   keywords: "ADE, Dreamers, ENSAA, team, members, about us, leadership, dedicated"
-// };
+export const metadata = {
+  title: "ENSAA - Team",
+  description: "Meet the dedicated team behind ENSAA and learn more about us.",
+  keywords: "ADE, Dreamers, ENSAA, team, members, about us, leadership, dedicated"
+};
 
 // images
 import shapeBlur from "../../public/images/shapeBlur.webp";
