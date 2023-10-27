@@ -28,7 +28,7 @@ export default function page() {
   const clubCards = shuffledClubsInfos.map((club, index) => (
     <ClubCard
       key={club.name}
-      image={club.src}
+      image={club.logo}
       name={club.name}
       description={club.description}
       links={club.links}
