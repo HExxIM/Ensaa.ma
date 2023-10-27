@@ -15,7 +15,7 @@ import Button from "../../UI/Button";
 import NavMenu from "./NavMenu";
 
 //utils
-import ClickOutsideHandler from "../../utils/ClickOutsideHandler";
+import ClickOutsideHandler from "../../UI/ClickOutsideHandler";
 
 export default function NavBar() {
   const pathname = usePathname();
