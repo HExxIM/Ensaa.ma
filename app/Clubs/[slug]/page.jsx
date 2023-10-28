@@ -22,8 +22,26 @@ export default function page({ params }) {
     <div className={styles.container}>
       <div className={styles.main}>
         <h1>{club.name}</h1>
-        <div className={styles.imgContainer}></div>
-        <p>{club.text}</p>
+        {club.content.map((item, index) => (
+          <>
+            {item.title && <h2>{item.title}</h2>}
+            {item.subtitle && <h3>{item.subtitle}</h3>}
+            {item.text && <p>{item.text}</p>}
+            {item.img && (
+              <div className={styles.imgContainer}>
+                <Image className={styles.img} alt={slug} src={item.img} />
+              </div>
+            )}
+          </>
+        ))}
+        <SocialMediaList
+          direction="row"
+          className={styles.SocialMediaList}
+          links={club.links}
+          iconsSize="26"
+          iconsGap="1.5rem"
+          brightness="1"
+        />
       </div>
       <iframe
         src={club.links.instagram + "embed/"}
