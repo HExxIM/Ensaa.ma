@@ -6,7 +6,7 @@ export default [
     slug: "Gala",
     category: "Entertainment",
     description:
-      "Entre cours quotidiens, contrôles hebdomadaires et travaux à rendre en permanence, voilà ....",
+      "Entre cours quotidiens, contrôles hebdomadaires et travaux à rendre en permanence, voilà ...",
     images: [coverimg],
     links: {
       facebook:

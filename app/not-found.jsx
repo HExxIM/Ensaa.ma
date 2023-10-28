@@ -1,31 +1,23 @@
 "use client";
 import { useState, useEffect } from "react";
 import Image from "next/image";
+import useViewportWidth from "./hooks/useViewportWidth";
 
 //svgs
 import ErrorIllustration from "../public/images/ErrorIllustration.webp";
 
 export default function NotFound() {
-  const [windowWidth, setWindowWidth] = useState(null);
-
-  useEffect(() => {
-    if (typeof window !== "undefined") {
-      setWindowWidth(window.innerWidth);
-      const handleResize = () => setWindowWidth(window.innerWidth);
-      window.addEventListener("resize", handleResize);
-      return () => window.removeEventListener("resize", handleResize);
-    }
-  }, []);
+  const windowWidth = useViewportWidth();
 
   const ErrorContainerStyle = {
-    padding: "8vh 5vw ",
     display: "flex",
     flexDirection: "column",
     justifyContent: "center",
     alignItems: "center",
     position: "relative",
     overflow: "hidden",
-    height: "100vh",
+    height: "80vh",
+    margin: "12vh 0 0 0 ",
   };
   const ErrorIllustrationStyle = {
     opacity: "0.3",
