@@ -10,7 +10,7 @@ export default function NewsCard({slug,title,category,description,img,direction}
   return (
     <Link href={"/News/"+category+"/"+slug} style={{ flexDirection:(windowWidth<=600 ? 'column' : direction) }} className={styles.card}>
         <div className={styles.imgContainer}>
-            <Image src={img} className={styles.img}/>
+            <Image src={img} alt={slug} className={styles.img}/>
         </div>
         <div className={styles.textContainer}>
             <span className={styles.category}>{category}</span>

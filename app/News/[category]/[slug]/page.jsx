@@ -18,7 +18,7 @@ export default function page({params}) {
           New.content.map((item, index) => (
             <>
             <div className={styles.imgContainer}>
-              <Image src={item.img}/>
+              <Image className={styles.img} alt={slug} src={item.img}/>
             </div>
             <p>
               {item.text}

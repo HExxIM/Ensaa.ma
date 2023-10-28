@@ -5,6 +5,8 @@ import Image from "next/image";
 import clubsInfos from "../../Database/clubsInfos.js";
 // images
 import shapeBlur from "../../../public/images/shapeBlur.webp";
+//components
+import SocialMediaList from "../../Components/UI/SocialMediaList";
 
 export const metadata = {
   description: "Explore the diverse clubs and organizations at ENSAA.",
@@ -22,9 +24,6 @@ export default function page({ params }) {
         <h1>{club.name}</h1>
         <div className={styles.imgContainer}></div>
         <p>{club.text}</p>
-        {club.text.map((txt) => {
-          <p>{txt}</p>;
-        })}
       </div>
       <iframe
         src={club.links.instagram + "embed/"}

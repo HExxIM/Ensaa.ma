@@ -23,7 +23,7 @@ export default function ClubCard({image, name, description, links,index, slug}) 
         </div>
         <Link href={"/Clubs/"+slug} className={styles.textContainer}>
             <h3>{name}</h3>
-            <p>{description}</p>
+            <p>{description.slice(0,300)}...</p>
         </Link>
         <Link href={"/Clubs/"+slug} className={styles.linkContainer}>
           <Image src={link} alt="link" width={20} height={20} />
