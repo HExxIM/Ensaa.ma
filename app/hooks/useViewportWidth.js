@@ -1,25 +1,24 @@
 import { useEffect, useState } from "react";
 
 const useViewportWidth = () => {
-  if (typeof window !== "undefined") {
-    const [viewportWidth, setViewportWidth] = useState(window.innerWidth);
+  const [viewportWidth, setViewportWidth] = useState(window.innerWidth);
 
-    useEffect(() => {
-      const handleResize = (entries) => {
-        setViewportWidth(entries[0].contentRect.width);
-      };
+  useEffect(() => {
+    const handleResize = (entries) => {
+      setViewportWidth(entries[0].contentRect.width);
+    };
 
-      const resizeObserver = new ResizeObserver(handleResize);
-      // Observe the body element for changes in width
-      resizeObserver.observe(document.body);
+    const resizeObserver = new ResizeObserver(handleResize);
+    // Observe the body element for changes in width
+    resizeObserver.observe(document.body);
 
-      return () => {
-        // Clean up by unobserving it
-        resizeObserver.unobserve(document.body);
-      };
-    }, []);
-    return viewportWidth;
-  }
+    return () => {
+      // Clean up by unobserving it
+      resizeObserver.unobserve(document.body);
+    };
+  }, []);
+
+  return viewportWidth;
 };
 
 export default useViewportWidth;
