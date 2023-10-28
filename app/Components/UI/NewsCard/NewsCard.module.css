@@ -3,6 +3,7 @@
   color: white;
   gap: 1%;
   align-items: center;
+  flex-direction: row;
 }
 .card .imgContainer {
   width: 295px;
@@ -42,4 +43,10 @@
   font-weight: 300;
   line-height: 165%;
   font-size: small;
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=NewsCard.module.css.map */

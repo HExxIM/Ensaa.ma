@@ -1,0 +1,51 @@
+.ErrorContainerStyle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 80vh;
+  margin: 12vh 0 0 0;
+}
+.ErrorIllustrationStyle {
+  opacity: 0.3;
+  scale: 1.07;
+  transform: translateX(2%);
+  margin: 0 0;
+}
+.ErrorTexts {
+  position: absolute;
+  text-align: center;
+  font-family: var(--font-primary);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+.ErrorTexts h1 {
+  background: var(--light-glow);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+  font-size: 7rem;
+}
+.ErrorTexts p {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 200;
+  text-transform: capitalize;
+}
+
+@media only screen and (max-width: 650px) {
+  .ErrorContainerStyle {
+    scale: 0.5;
+    margin: -10vh 0;
+  }
+  .ErrorTexts h1 {
+    font-size: 4rem;
+  }
+  .ErrorTexts p {
+    font-size: 2rem;
+  }
+}

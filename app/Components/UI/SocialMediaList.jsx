@@ -7,7 +7,13 @@ import linkedinLogo from "../../../public/svg/SocialMedia/linkedinLogo.svg";
 import facebookLogo from "../../../public/svg/SocialMedia/facebookLogo.svg";
 import XLogo from "../../../public/svg/SocialMedia/XLogo.svg";
 
-export default function socialMediaList({ iconsSize, iconsGap, brightness,links,direction }) {
+export default function socialMediaList({
+  iconsSize,
+  iconsGap,
+  brightness,
+  links,
+  direction,
+}) {
   const socialMedia = [
     {
       name: "instagram",
@@ -41,18 +47,20 @@ export default function socialMediaList({ iconsSize, iconsGap, brightness,links,
     cursor: "pointer",
   };
 
-  const socialMediaList = socialMedia.map((media) => (
-    media.link &&
-    <Link href={media.link} key={media.name} target="_blank">
-      <Image
-        style={mediaStyles}
-        src={media.logo}
-        height={iconsSize}
-        width={iconsSize}
-        alt={media.name}
-      />
-    </Link>
-  ));
+  const socialMediaList = socialMedia.map(
+    (media) =>
+      media.link && (
+        <Link href={media.link} key={media.name} target="_blank">
+          <Image
+            style={mediaStyles}
+            src={media.logo}
+            height={iconsSize}
+            width={iconsSize}
+            alt={media.name}
+          />
+        </Link>
+      )
+  );
 
   const socialMediaStyles = {
     display: "flex",

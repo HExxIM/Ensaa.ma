@@ -1,84 +1,89 @@
-.card{
+.card {
+  width: 100%;
+  display: flex;
+  color: white;
+  height: 15rem;
+  background: linear-gradient(
+    90deg,
+    rgba(201, 255, 254, 0.1) -8.41%,
+    rgba(255, 237, 199, 0.1) 145.69%
+  );
+  backdrop-filter: blur(50px);
+  .imgContainer {
     width: 100%;
     display: flex;
-    color: white;
-    height: 15rem;
-    background:linear-gradient(90deg, rgba(201, 255, 254, 0.1) -8.41%, rgba(255, 237, 199, 0.1) 145.69%);
-    backdrop-filter: blur(50px);
-    .imgContainer{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: white;
-        height: 100%;
-        padding: 5%;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 100%;
+    padding: 5%;
+  }
+  .textContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 3%;
+    h3 {
+      font-weight: 600;
+      font-size: 1.55rem;
+      margin-bottom: 0.7rem;
+      background: var(--light-glow);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
-    .textContainer{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 3%;
-        h3{
-            font-weight: 600;
-            font-size: 1.55rem;
-            margin-bottom: 0.7rem;
-            background: var(--light-glow);
-            background-clip: text;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-        p{
-            font-weight: 300;
-            line-height: 165%;
-        }
+    p {
+      font-weight: 300;
+      line-height: 165%;
     }
-    .SocialMediaList{
-        background: linear-gradient(180deg, #070813 -5%, #4FDEDC 105%);
-        height: 100%;
-        padding: 0% 1.5%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .linkContainer{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 0 1.5%;
-        background: linear-gradient(180deg, #070813 -5%, #4FDEDC 105%);
-        height: 100%;
-    }
+  }
+  .SocialMediaList {
+    background: linear-gradient(180deg, #070813 -5%, #4fdedc 105%);
+    height: 100%;
+    padding: 0% 1.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .linkContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1.5%;
+    background: linear-gradient(180deg, #070813 -5%, #4fdedc 105%);
+    height: 100%;
+  }
 }
-@media only screen and (max-width: 912px){
-    .card{
-        .textContainer{
-            p{
-                line-height: 140%;
-            }
-        }
+@media only screen and (max-width: 912px) {
+  .card {
+    .textContainer {
+      p {
+        line-height: 140%;
+      }
     }
+  }
 }
-@media only screen and (max-width: 800px){
-    .card{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        height: 23rem;
-        .imgContainer{
-            height: 100%;
-        }
-        .textContainer{
-            h3{
-                font-size: 1.4rem;
-            }
-            p{
-                line-height: 140%;
-                font-size: small;
-            }
-        }
-        .SocialMediaList,.linkContainer{
-            display: none;
-        }
+@media only screen and (max-width: 800px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 23rem;
+    .imgContainer {
+      height: 100%;
     }
+    .textContainer {
+      h3 {
+        font-size: 1.4rem;
+      }
+      p {
+        line-height: 140%;
+        font-size: small;
+      }
+    }
+    .SocialMediaList,
+    .linkContainer {
+      display: none;
+    }
+  }
 }
