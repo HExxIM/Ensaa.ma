@@ -8,7 +8,8 @@ import clubsInfos from "../Database/clubsInfos";
 export const metadata = {
   title: "ENSAA - Clubs",
   description: "Explore the diverse clubs and organizations at ENSAA.",
-  keywords: "ADE, Dreamers, ENSAA, clubs, organizations, student groups, explore"
+  keywords:
+    "ADE, Dreamers, ENSAA, clubs, organizations, student groups, explore",
 };
 
 export default function page() {
@@ -17,7 +18,10 @@ export default function page() {
     const shuffledArray = [...array];
     for (let i = shuffledArray.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
-      [shuffledArray[i], shuffledArray[j]] = [shuffledArray[j], shuffledArray[i]];
+      [shuffledArray[i], shuffledArray[j]] = [
+        shuffledArray[j],
+        shuffledArray[i],
+      ];
     }
     return shuffledArray;
   }
@@ -35,13 +39,13 @@ export default function page() {
       index={index}
       slug={club.slug}
     />
-  ))
+  ));
   return (
     <div className={styles.container}>
-      <h1><span>Discover</span> our clubs</h1>
-      <div className={styles.cardsContainer}>
-        {clubCards}
-      </div>
+      <h1>
+        <span>Discover</span> our clubs
+      </h1>
+      <div className={styles.cardsContainer}>{clubCards}</div>
     </div>
-  )
+  );
 }
