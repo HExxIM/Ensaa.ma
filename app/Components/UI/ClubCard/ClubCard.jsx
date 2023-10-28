@@ -15,33 +15,35 @@ export default function ClubCard({
   index,
   slug,
 }) {
-  const windowWidth = useViewportWidth();
+  if (typeof window !== "undefined") {
+    const windowWidth = useViewportWidth();
 
-  const flexdirection =
-    windowWidth <= 800 ? "" : index % 2 === 0 ? "row" : "row-reverse";
-  const socialsDirection = windowWidth <= 800 ? "row" : "column";
-  return (
-    <div style={{ flexDirection: flexdirection }} className={styles.card}>
-      <Link href={"/Clubs/" + slug} className={styles.imgContainer}>
-        <Image width={120} src={image} alt={name} />
-      </Link>
-      <div className={styles.SocialMediaList}>
-        <SocialMediaList
-          direction={socialsDirection}
-          className={styles.SocialMediaList}
-          links={links}
-          iconsSize="23"
-          iconsGap="1rem"
-          brightness="10"
-        />
+    const flexdirection =
+      windowWidth <= 800 ? "" : index % 2 === 0 ? "row" : "row-reverse";
+    const socialsDirection = windowWidth <= 800 ? "row" : "column";
+    return (
+      <div style={{ flexDirection: flexdirection }} className={styles.card}>
+        <Link href={"/Clubs/" + slug} className={styles.imgContainer}>
+          <Image width={120} src={image} alt={name} />
+        </Link>
+        <div className={styles.SocialMediaList}>
+          <SocialMediaList
+            direction={socialsDirection}
+            className={styles.SocialMediaList}
+            links={links}
+            iconsSize="23"
+            iconsGap="1rem"
+            brightness="10"
+          />
+        </div>
+        <Link href={"/Clubs/" + slug} className={styles.textContainer}>
+          <h3>{name}</h3>
+          <p>{description.slice(0, 300)}...</p>
+        </Link>
+        <Link href={"/Clubs/" + slug} className={styles.linkContainer}>
+          <Image src={link} alt="link" width={20} height={20} />
+        </Link>
       </div>
-      <Link href={"/Clubs/" + slug} className={styles.textContainer}>
-        <h3>{name}</h3>
-        <p>{description.slice(0, 300)}...</p>
-      </Link>
-      <Link href={"/Clubs/" + slug} className={styles.linkContainer}>
-        <Image src={link} alt="link" width={20} height={20} />
-      </Link>
-    </div>
-  );
+    );
+  }
 }
