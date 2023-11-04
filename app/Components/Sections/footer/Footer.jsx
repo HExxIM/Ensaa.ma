@@ -48,7 +48,7 @@ export default function Footer() {
       </div>
       <p className={styles.copyrights}>
         Copyright © ADE ENSAA | Developped by{" "}
-        <Link href="Developpers" className={styles.Developpers}>
+        <Link href="/Developpers" className={styles.Developpers}>
           DevTeam
         </Link>
       </p>

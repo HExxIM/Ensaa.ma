@@ -51,9 +51,15 @@ const styles = {
   },
 };
 
-export default function MemberCard({ image, name, post, description, linkedin }) {
+export default function MemberCard({
+  image,
+  name,
+  post,
+  description,
+  linkedin,
+}) {
   return (
-    <Link href={linkedin} target="blank" style={styles.card}>
+    <Link href={linkedin ?? ""} target="blank" style={styles.card}>
       <div style={styles.imgContainer}>
         <Image style={styles.img} alt="Image" src={image} />
       </div>
