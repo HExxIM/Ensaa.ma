@@ -9,6 +9,12 @@
     rgba(255, 237, 199, 0.1) 145.69%
   );
   backdrop-filter: blur(50px);
+  &:nth-child(even) {
+    flex-direction: row;
+  }
+  &:nth-child(odd) {
+    flex-direction: row-reverse;
+  }
   .imgContainer {
     width: 100%;
     display: flex;
@@ -66,9 +72,11 @@
 @media only screen and (max-width: 800px) {
   .card {
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
     height: 23rem;
+    &:nth-child() {
+      flex-direction: column;
+    }
     .imgContainer {
       height: 100%;
     }

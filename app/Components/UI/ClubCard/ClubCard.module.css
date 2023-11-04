@@ -7,6 +7,12 @@
   -webkit-backdrop-filter: blur(50px);
           backdrop-filter: blur(50px);
 }
+.card:nth-child(even) {
+  flex-direction: row;
+}
+.card:nth-child(odd) {
+  flex-direction: row-reverse;
+}
 .card .imgContainer {
   width: 100%;
   display: flex;
@@ -60,9 +66,14 @@
 @media only screen and (max-width: 800px) {
   .card {
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
     height: 23rem;
+  }
+  .card:nth-child(even) {
+    flex-direction: column;
+  }
+  .card:nth-child(odd) {
+    flex-direction: column;
   }
   .card .imgContainer {
     height: 100%;
