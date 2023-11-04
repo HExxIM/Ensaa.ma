@@ -1,5 +1,5 @@
 import Image from "next/image";
-import "./TitleBox.css";
+import "./titleBox.css";
 //svg
 import BoxTitle from "../../../public/svg/icons/BoxTitle.svg";
 
