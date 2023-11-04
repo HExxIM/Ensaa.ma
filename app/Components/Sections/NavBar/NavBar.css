@@ -32,7 +32,7 @@
   margin: 0 0.8vw;
 }
 .menuButton {
-  cursor: pointer;
+  display: none;
 }
 .NavMenu {
   position: absolute;
@@ -71,7 +71,7 @@
 
 @media only screen and (max-width: 800px) {
   .NavList a {
-    margin: 0 0vw;
+    margin: 0;
   }
 }
 
@@ -83,5 +83,18 @@
   }
   .logo {
     scale: 0.7;
+  }
+}
+
+@media only screen and (max-width: 820px) {
+  .NavList {
+    display: none;
+  }
+  .menuButton {
+    display: block;
+    cursor: pointer;
+  }
+  .contactUsButton {
+    display: none;
   }
 }

@@ -4,7 +4,6 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
 import "./NavBar.css";
-import useViewportWidth from "../../../hooks/useViewportWidth";
 
 //svgs
 import dreamersLogo from "../../../../public/svg/AdeAssets/dreamersLogo.svg";
@@ -70,11 +69,9 @@ export default function NavBar() {
     setShowmenu(false);
   };
 
-  const windowWidth = useViewportWidth();
-
   useEffect(() => {
     setShowmenu(false); // Ensure that the menu is initially hidden
-  }, [windowWidth]); // Trigger this effect when windowWidth changes
+  }, []);
 
   return (
     <ClickOutsideHandler onClickOutside={handleOutsideClick}>
@@ -82,18 +79,15 @@ export default function NavBar() {
         <Link className="logo" href="/">
           <Image src={dreamersLogo} alt="Logo"></Image>
         </Link>
-        {windowWidth >= 820 && <div className="NavList">{NavList}</div>}
+        <div className="NavList">{NavList}</div>
         {showmenu && <NavMenu setShowmenu={setShowmenu} Navlist={NavList} />}
-        {windowWidth >= 820 ? (
-          <Button text="Contact us" link="/Contact" />
-        ) : (
-          <Image
-            className="menuButton"
-            alt="menuButton"
-            onClick={() => setShowmenu(!showmenu)}
-            src={navMobile}
-          />
-        )}
+        <Button className="contactUsButton" text="Contact us" link="/Contact" />
+        <Image
+          className="menuButton"
+          alt="menuButton"
+          onClick={() => setShowmenu(!showmenu)}
+          src={navMobile}
+        />
       </div>
     </ClickOutsideHandler>
   );
