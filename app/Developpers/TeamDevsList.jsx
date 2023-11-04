@@ -1,6 +1,6 @@
 //components
 import MemberCard from "../Components/UI/MemberCard";
-import { devs } from "../Database/TeamDevsList";
+import { devs } from "../Database/Developpes";
 
 //images
 
