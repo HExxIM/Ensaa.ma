@@ -302,7 +302,7 @@ export default [
     slug: "ecolos",
     logo: Ecolos,
     description:
-      "Ecolos is a club that represents the energetics, environmental and electrical engineering branches of the national school of applied sciences (ENSA) Agadir.",
+      "Ecolos est un club qui représente les branches de l'énergétique, de l'environnement et du génie électrique de l'École Nationale des Sciences Appliquées (ENSA) d'Agadir. Écolos a été fondé en 2021 dans le but d'aider les étudiants de l'ENSA Agadir et tous ceux passionnés par le domaine de l'énergie et de l'environnement à comprendre le monde de l'Énergie et de l'Électrotechnique (E&E) et à améliorer leur capacité à résoudre diverses complications et difficultés.",
     links: {
       facebook: "https://www.facebook.com/EcolosENSAA",
       instagram: "https://instagram.com/club.ecolos/",

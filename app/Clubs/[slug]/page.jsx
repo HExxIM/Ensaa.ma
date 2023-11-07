@@ -31,6 +31,14 @@ export default function page({ params }) {
             )}
           </>
         ))}
+      </div>
+      <div className={styles.sidebar}>
+        <Image
+          alt="Logo"
+          className={styles.Logo}
+          src={club.logo}
+          width={230}
+        ></Image>
         <SocialMediaList
           direction="row"
           className={styles.SocialMediaList}
@@ -39,13 +47,13 @@ export default function page({ params }) {
           iconsGap="1.5rem"
           brightness="1"
         />
+        <iframe
+          src={club.links.instagram + "embed/"}
+          allowtransparency="true"
+          scrolling="no"
+          frameborder="0"
+        ></iframe>
       </div>
-      <iframe
-        src={club.links.instagram + "embed/"}
-        allowtransparency="true"
-        scrolling="no"
-        frameborder="0"
-      ></iframe>
     </div>
   );
 }
