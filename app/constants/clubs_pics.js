@@ -34,6 +34,11 @@ import creart2 from "../../public/images/ClubsConent/Creart/creart2.png";
 import creart3 from "../../public/images/ClubsConent/Creart/creart3.jpg";
 import creart4 from "../../public/images/ClubsConent/Creart/creart4.png";
 import creart5 from "../../public/images/ClubsConent/Creart/creart5.jpg";
+import social0 from "../../public/images/ClubsConent/Social/social0.jpg";
+import social1 from "../../public/images/ClubsConent/Social/social1.jpg";
+import social2 from "../../public/images/ClubsConent/Social/social2.jpg";
+import social3 from "../../public/images/ClubsConent/Social/social3.jpg";
+import social4 from "../../public/images/ClubsConent/Social/social4.jpg";
 
 export default {
   Fsf: [fsf1, fsf2, fsf3, fsf4, fsf5, fsf6],
@@ -45,4 +50,5 @@ export default {
   Enactus: [enactus1, enactus2, enactus3],
   Elect: [elect1],
   Creart: [creart1, creart2, creart3, creart4, creart5],
+  Social: [social0, social1, social2, social3, social4],
 };

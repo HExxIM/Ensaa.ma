@@ -149,7 +149,7 @@ export default [
     ],
   },
   {
-    name: "Club Tac",
+    name: "Traders & Analysts Club",
     slug: "tac",
     logo: tac,
     description:
@@ -172,15 +172,15 @@ export default [
         text: "The team wholeheartedly embraces the challenge of building strong connections. It seeks to foster connections between students and professionals in the financial engineering sector, emphasizing the importance of communication and knowledge sharing. This collaborative effort is crucial to foster cooperation not only among local groups and associations but also internationally.",
       },
       {
-        img: clubs_pics.TAC[2],
+        img: clubs_pics.TAC[3],
         text: "Through its various initiatives, the Traders & Analysts Club provides a unique platform for students to participate in the challenges of the financial technology world. Regular meetings, seminars and hands-on simulations empower members to develop a deeper understanding of financial markets, investment management and financial analysis",
       },
       {
-        img: clubs_pics.TAC[3],
+        img: clubs_pics.TAC[2],
         text: "In a rapidly evolving economic environment, the TAC is committed to ensuring that its members are well prepared to meet industry challenges not only with theoretical skills but also with practical experience in capital markets, currencies and commodities…",
       },
+      { img: clubs_pics.TAC[4] },
       {
-        img: clubs_pics.TAC[4],
         text: "In conclusion, the Traders & Analysts Club is a vibrant community where complex financial issues are explained and practiced. By fostering a deep interest in finance, networking and empowering its members with knowledge and hands-on skills.",
       },
     ],
@@ -232,15 +232,14 @@ export default [
     },
     content: [
       {
-        img: clubs_pics.Enactus[0],
+        img: clubs_pics.Enactus[2],
         text: "Enactus is a global non-profit organization that empowers university students to create positive social and environmental change through entrepreneurial action. Enactus teams in universities worldwide identify pressing issues within their communities and develop innovative, sustainable projects to address these challenges.",
       },
       {
-        img: clubs_pics.Enactus[1],
         text: "By blending business principles with social responsibility, Enactus members aim to improve livelihoods, promote economic development, and inspire a more sustainable future.",
+        img: clubs_pics.Enactus[0],
       },
       {
-        img: clubs_pics.Enactus[2],
         text: "Enactus provides a platform for students to apply their classroom knowledge to real-world problems, fostering leadership skills, entrepreneurship, and a strong sense of social responsibility. The organization encourages collaboration, creativity, and a commitment to making a meaningful impact on society.",
       },
     ],
@@ -314,12 +313,29 @@ export default [
     },
     content: [
       {
-        img: "",
-        text: "Ecolos is a club that represents the energetics, environmental and electrical engineering branches of the national school of applied sciences (ENSA) Agadir.",
+        title: "QUI SOMMES NOUS?",
+        text: "Ecolos est un club qui représente les branches de l'énergétique, de l'environnement et du génie électrique de l'École Nationale des Sciences Appliquées (ENSA) d'Agadir. Écolos a été fondé en 2021 dans le but d'aider les étudiants de l'ENSA Agadir et tous ceux passionnés par le domaine de l'énergie et de l'environnement à comprendre le monde de l'Énergie et de l'Électrotechnique (E&E) et à améliorer leur capacité à résoudre diverses complications et difficultés.",
       },
       {
-        img: "",
-        text: "Ecolos was founded in 2021 to help ENSA Agadir students and everyone passionate about the energy and environmental field to understand the world of E&E and to improve their ability in solving various complications and difficulties",
+        title: "ECOLOS’S OBJECTIFS",
+      },
+      {
+        subtitle: "ÉLARGISSEZ VOTRE SAVOIR ÉCOLOS",
+        text: "Cultivez votre expertise écolo : Grâce à nos visites, formations et réunions, au cœur de notre mission éducative.📚🌍",
+      },
+      {
+        text: "Unis pour un avenir vert : Tissez des liens inter-écoles en établissant des partenariats avec d'autres clubs d'énergie. Échangez des idées et des perspectives avec des étudiants engagés, tout en élargissant votre réseau et en maximisant votre impact.",
+      },
+      {
+        text: "Éveillez l'esprit créatif : Stimulez l'esprit des étudiants avec nos ateliers de résolution de problèmes. Nous suscitons la réflexion et encourageons la créativité ainsi que l'innovation dans la recherche de solutions.",
+      },
+      {
+        subtitle: "TRANSFORMER LA CONNAISSANCE EN ACTION",
+        text: "Nos ateliers et projets pratiques vous permettent de concrétiser vos idées🌱💡",
+      },
+      {
+        subtitle: "LA COURSE VERS UN AVENIR VERT",
+        text: "Notre compétition de fin d'année est bien plus qu'un simple défi. C'est une célébration de tout ce que nous avons appris et accompli au cours de l'année, 🌿🏁",
       },
     ],
   },
@@ -392,8 +408,11 @@ export default [
         text: "Sportif Club, founded in 2012, is a thriving hub for sports enthusiasts. Our club is dedicated to promoting a healthy and active lifestyle through a variety of activities. From rigorous sports training sessions to competitive tournaments and exciting outings, we offer a diverse range of experiences for our members.",
       },
       {
-        img: clubs_pics.Sportif[0],
         text: 'Our motto, "One Family, One Ambition," reflects our strong sense of unity and a shared commitment to achieving our goals together. We believe in fostering not only athletic excellence but also a tight-knit community that supports and motivates one another',
+      },
+      {
+        title: "Gallery",
+        img: clubs_pics.Sportif[0],
       },
       {
         img: clubs_pics.Sportif[1],
@@ -430,23 +449,23 @@ export default [
     content: [
       {
         img: clubs_pics.Creart[0],
-        text: "CreArt is a Club where you can escape your daily routine, giving you the opportunity to express yourself, highlight your hidden talents and explore your artistic side. The club makes you love art and learn more about it through three different cells: literature, painting and photography.",
+        // text: "CreArt is a Club where you can escape your daily routine, giving you the opportunity to express yourself, highlight your hidden talents and explore your artistic side. The club makes you love art and learn more about it through three different cells: literature, painting and photography.",
       },
-      {
-        img: clubs_pics.Creart[1],
-        subtitle: "The Literature Cell",
-        text: "It is an environment where you can enjoy reading and share your favorite books and thoughts with others. .",
-      },
-      {
-        img: clubs_pics.Creart[2],
-        subtitle: "The photography cell",
-        text: "where you will learn the basics of photography and receive a formation to improve your skills. .",
-      },
-      {
-        img: clubs_pics.Creart[3],
-        subtitle: "The painting cell",
-        text: "where you can express your creativity and talent through painting.",
-      },
+      // {
+      //   img: clubs_pics.Creart[1],
+      //   subtitle: "The Literature Cell",
+      //   text: "It is an environment where you can enjoy reading and share your favorite books and thoughts with others. .",
+      // },
+      // {
+      //   img: clubs_pics.Creart[2],
+      //   subtitle: "The photography cell",
+      //   text: "where you will learn the basics of photography and receive a formation to improve your skills. .",
+      // },
+      // {
+      //   img: clubs_pics.Creart[3],
+      //   subtitle: "The painting cell",
+      //   text: "where you can express your creativity and talent through painting.",
+      // },
     ],
   },
   {
@@ -478,19 +497,52 @@ export default [
     slug: "social",
     logo: Social,
     description:
-      "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand ....composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand  ....composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand ....composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand  ....",
+      "Club social est une entité à but non lucratif créée en 2004 et accréditée par l'association des étudiants d'ENSA Agadir. Depuis sa création, il ne cesse de se développer grâce aux membres dynamiques et créatifs qui se fixent des challenges et s’acharnent à les relever. Ainsi ils mettent toujours en avant leurs principes moraux et humanitaires pour affronter n’importe quel obstacle dans un cadre de travail d’équipe et de solidarité.",
     links: {
-      facebook: "https://www.instagram.com/ade.ensaa/",
-      instagram: "https://www.instagram.com/ade.ensaa/",
+      facebook: "https://www.facebook.com/ClubSocialEnsaAgadir/",
+      instagram: "https://instagram.com/clubsocial_ensaa/",
       X: "",
-      linkedin: "https://www.instagram.com/ade.ensaa/",
+      linkedin: "https://www.linkedin.com/company/club-social-ensa-agadir/",
       discord: "",
       website: "",
     },
     content: [
       {
-        img: "",
-        text: "",
+        text: "Club social est une entité à but non lucratif créée en 2004 et accréditée par l'association des étudiants d'ENSA Agadir. Depuis sa création, il ne cesse de se développer grâce aux membres dynamiques et créatifs qui se fixent des challenges et s’acharnent à les relever. Ainsi ils mettent toujours en avant leurs principes moraux et humanitaires pour affronter n’importe quel obstacle dans un cadre de travail d’équipe et de solidarité. Ce club a pour objectif l'organisation de plusieurs activités tout au long de l’année universitaire, à savoir : don du sang, les réaménagements des écoles, les caravane humanitaires, projet Sanad (Distribution des repas pendant le Ramadan) ….",
+        img: clubs_pics.Social[0],
+      },
+      {
+        text: "Le club social se compose de deux cellules qui travaillent en parallèle avec le club :",
+      },
+      {
+        subtitle: "La première cellule ANISS أنيس",
+
+        text: " Qui organise le long de chaque année en partenariat avec l'une des associations, des visites hebdomadaires au profit des enfants en situation difficile pour leur porter du soutien scolaire dans certaines matières, accompagné par des formations ou des ateliers d’animation.",
+        img: clubs_pics.Social[1],
+      },
+      {
+        subtitle: "La deuxième cellule MANSINAKOMCH مانسناكومش  ",
+        text: "Qui a but d’organiser des visites bimensuels ou mensuels spécifiquement pour les catégories marginalisées (les enfants sourds, les handicaps …), en partenariat avec les différentes associations et les maisons de retraite en leur apportant le support psychologique dont ils ont besoin, accompagné de diverses activités, notamment les repas collectifs qu’ils partagent avec nous dans une atmosphère chaleureuse et conviviale.",
+        img: clubs_pics.Social[2],
+      },
+      {
+        title: "Caravane humanitaire :ومضة أمل",
+        text: "C'est avec une grande fierté que nous présentons un projet qui incarne l'esprit de notre club et notre engagement envers la communauté et qui témoigne  notre désir de faire appeler à l'action pour un monde meilleur, il s'agit de  la caravane humanitaire.. La Caravane Humanitaire est un projet ambitieux et inspirant, conçu par notre club social ENSA Agadir ça fait maintenant 2 éditions pour apporter de l'aide humanitaire et étendre nos bras aimants pour apporter du réconfort à ceux qui en ont désespérément besoin. À travers Cette mission de solidarité qui nous emmène vers les coins les plus reculés , nous distribuons des vivres, des vêtements chauds et des couvertures contre le froid, redonnons vie aux écoles et aux mosquées locales, des lieux qui sont au centre de ces communautés. Et nous apportons également une caravane médicale qui offre des soins de santé essentiels ainsi que les médicaments.  ",
+        img: clubs_pics.Social[3],
+      },
+      {
+        title: "Réaménagement des écoles",
+        text: "Au sein du Club Social de l'ENSA Agadir, nous avons instauré une tradition annuelle qui nous tient particulièrement à cœur : l'initiative de réaménagement des écoles. Cette action vise à apporter des changements tangibles au sein de nos écoles locales en réorganisant les salles de classe, en améliorant les espaces extérieurs, en embellissant les écoles avec des couleurs vibrantes, et en créant un environnement propice à l'apprentissage et à la créativité. ",
+        img: clubs_pics.Social[4],
+      },
+      {
+        text: "Grâce à cette activité, nous aspirons à offrir aux élèves un environnement qui favorise leur épanouissement, stimule leur apprentissage, et encourage leur imagination. Nous croyons en l'importance de créer des espaces d'apprentissage dynamiques où l'interaction et la créativité sont encouragées. ",
+      },
+      {
+        text: "Nous sommes convaincus que cette tradition laisse une empreinte positive durable, tant dans la vie des élèves que dans le tissu éducatif de notre communauté.",
+      },
+      {
+        text: "Chacun de nous a un rôle à jouer, une contribution unique à apporter. Faites partie de cette adventure exceptionnelle",
       },
     ],
   },
@@ -499,19 +551,19 @@ export default [
     slug: "robotique",
     logo: CRRT,
     description:
-      "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand ....composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand  ....composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand ....composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand  ....",
+      "Club ROBOTIQUE & RECHERCHE TECHNOLOGIQUE: est un club crée en 2008 à ENSA Agadir par un groupe d'étudiants passionnés par la robotique et conscient des défis technologues qu'elle surmonte.",
     links: {
-      facebook: "https://www.instagram.com/ade.ensaa/",
-      instagram: "https://www.instagram.com/ade.ensaa/",
+      facebook: "https://www.facebook.com/crrtensa/",
+      instagram: "https://www.instagram.com/club_robotique_crrt/",
       X: "",
-      linkedin: "https://www.instagram.com/ade.ensaa/",
+      linkedin: "https://www.linkedin.com/company/crrt/",
       discord: "",
       website: "",
     },
     content: [
       {
         img: "",
-        text: "",
+        text: "Club ROBOTIQUE & RECHERCHE TECHNOLOGIQUE: est un club crée en 2008 à ENSA Agadir par un groupe d'étudiants passionnés par la robotique et conscient des défis technologues qu'elle surmonte.",
       },
     ],
   },
