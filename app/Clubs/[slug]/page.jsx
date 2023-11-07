@@ -1,10 +1,7 @@
 import styles from "./page.module.css";
-import Head from "next/head";
 import Image from "next/image";
 //data
 import clubsInfos from "../../Database/clubsInfos.js";
-// images
-import shapeBlur from "../../../public/images/shapeBlur.webp";
 //components
 import SocialMediaList from "../../Components/UI/SocialMediaList";
 
@@ -49,12 +46,6 @@ export default function page({ params }) {
         scrolling="no"
         frameborder="0"
       ></iframe>
-      {/* <Image
-        src={shapeBlur}
-        alt="shapeBlur"
-        className={styles.blurBottom}
-      ></Image>
-      <Image src={shapeBlur} alt="shapeBlur" className={styles.blurTop}></Image> */}
     </div>
   );
 }

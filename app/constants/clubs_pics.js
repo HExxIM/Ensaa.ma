@@ -1,7 +1,9 @@
-import fsf1 from "../../public/images/ClubsConent/Fsf/fsf1.jpeg";
+import fsf1 from "../../public/images/ClubsConent/Fsf/fsf1.jpg";
 import fsf2 from "../../public/images/ClubsConent/Fsf/fsf2.jpeg";
 import fsf3 from "../../public/images/ClubsConent/Fsf/fsf3.jpeg";
 import fsf4 from "../../public/images/ClubsConent/Fsf/fsf4.jpeg";
+import fsf5 from "../../public/images/ClubsConent/Fsf/fsf5.jpg";
+import fsf6 from "../../public/images/ClubsConent/Fsf/fsf6.jpg";
 import indus1 from "../../public/images/ClubsConent/Indus/indus1.jpg";
 import indus2 from "../../public/images/ClubsConent/Indus/indus2.jpg";
 import indus3 from "../../public/images/ClubsConent/Indus/indus3.jpg";
@@ -34,13 +36,13 @@ import creart4 from "../../public/images/ClubsConent/Creart/creart4.png";
 import creart5 from "../../public/images/ClubsConent/Creart/creart5.jpg";
 
 export default {
-    Fsf:[fsf1,fsf2,fsf3,fsf4],
-    Indus:[indus1,indus2,indus3,indus4,indus5],
-    Sportif:[sportif1,sportif2,sportif3,sportif4,sportif5],
-    Harmony:[harmony1],
-    TAC:[tac1,tac2,tac3,tac4,tac5],
-    BTP:[btp1,btp2,btp3,btp4,btp5],
-    Enactus:[enactus1,enactus2,enactus3],
-    Elect:[elect1],
-    Creart:[creart1,creart2,creart3,creart4,creart5]
+  Fsf: [fsf1, fsf2, fsf3, fsf4, fsf5, fsf6],
+  Indus: [indus1, indus2, indus3, indus4, indus5],
+  Sportif: [sportif1, sportif2, sportif3, sportif4, sportif5],
+  Harmony: [harmony1],
+  TAC: [tac1, tac2, tac3, tac4, tac5],
+  BTP: [btp1, btp2, btp3, btp4, btp5],
+  Enactus: [enactus1, enactus2, enactus3],
+  Elect: [elect1],
+  Creart: [creart1, creart2, creart3, creart4, creart5],
 };

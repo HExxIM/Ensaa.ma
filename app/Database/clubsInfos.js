@@ -18,13 +18,74 @@ import clubs_pics from "../constants/clubs_pics.js";
 
 export default [
   {
+    name: "Club BTP",
+    slug: "btp",
+    logo: Btp,
+    description:
+      'Le club "BTP" (Bâtiment et Travaux Publics) est un pilier fondamental de l\'École Nationale des Sciences Appliquées (ENSA). Créé dans le but de compléter la formation académique des étudiants, en particulier ceux de la filière Génie Civil, ce club offre un espace dédié à la mise en pratique des connaissances théoriques acquises en salle de cours. ',
+    links: {
+      facebook: "https://web.facebook.com/btp.ensaa",
+      instagram: "https://www.instagram.com/club_btp.ensaa/",
+      X: "",
+      linkedin:
+        "https://ma.linkedin.com/company/club-btp-ensa-agadir?trk=public_post_feed-actor-name",
+      discord: "",
+      website: "",
+    },
+    content: [
+      {
+        title: 'Club "BTP" (Bâtiment et Travaux Publics) ',
+        text: 'Le club "BTP" (Bâtiment et Travaux Publics) est un pilier fondamental de l\'École Nationale des Sciences Appliquées (ENSA). Créé dans le but de compléter la formation académique des étudiants, en particulier ceux de la filière Génie Civil, ce club offre un espace dédié à la mise en pratique des connaissances théoriques acquises en salle de cours. ',
+      },
+      {
+        text: "Le club \"BTP\" joue également un rôle crucial dans l'orientation des nouveaux étudiants, en mettant l'accent sur ceux du cycle préparatoire. Grâce à leur participation à nos activités, les étudiants ont l'opportunité de se familiariser avec les spécificités de la filière BTP, obtenant ainsi des informations de première main sur les divers domaines du génie civil. Cette expérience enrichissante les aide à prendre des décisions éclairées quant à leur avenir académique et professionnel. Le club \"BTP\" incarne l'engagement envers l'excellence académique et l'acquisition d'une expérience pratique précieuse au sein de l'ENSA.",
+      },
+      {
+        title: "Objectifs et Activités du Club :",
+      },
+      {
+        subtitle: "Formation en Logiciels Essentiels :  ",
+        text: "Le club propose des formations spécialisées visant à familiariser les étudiants avec les logiciels indispensables pour la conception et la gestion de projets en génie civil.",
+        img: clubs_pics.BTP[3],
+      },
+      {
+        subtitle: "Collaboration Inter-écoles :  ",
+        text: "Le club encourage la collaboration avec d'autres clubs BTP dans différentes institutions, permettant aux membres d'échanger des expériences et des connaissances.",
+      },
+      {
+        subtitle: "Compétitions et Défis : ",
+        text: "Les membres du club participent activement à des compétitions nationales mettant en avant leur expertise en génie civil.",
+      },
+      {
+        subtitle: "Visites de Chantiers Pratiques:  ",
+        img: clubs_pics.BTP[0],
+        text: "Les visites de chantiers sont essentielles pour les étudiants en génie civil. Le club organise régulièrement des visites sur le terrain, permettant aux membres de se familiariser avec les pratiques réelles du secteur.",
+      },
+      {
+        text: "En tant qu'entité parascolaire de l'ENSA, le club \"BTP\" contribue significativement à l'enrichissement de l'expérience éducative des étudiants. Il encourage la créativité, la collaboration et le développement de  compétences essentielles pour leur future carrière. De plus, le club organise des événements, des conférences et des ateliers qui viennent compléter le programme académique de l'école, offrant une dimension supplémentaire à la formation des étudiants.",
+      },
+      {
+        img: clubs_pics.BTP[1],
+      },
+      {
+        img: clubs_pics.BTP[2],
+      },
+      {
+        img: clubs_pics.BTP[4],
+      },
+      {
+        text: "Rejoignez-nous pour enrichir votre parcours éducatif et professionnel au sein de l'ENSA.",
+      },
+    ],
+  },
+  {
     name: "APPS Club",
     slug: "apps",
     logo: apps,
     description:
       "AppsClub est le club de l’informatique de l’école Ensa Agadir , apps est un mot qui signifie application (évidemment que c’est le domaine de l’informatique ), le but de ce club est de donner des formations sur le domaine pour tous les niveaux qui peuvent aider les élèves ingénieurs, organiser des conférences et des compétitions qui donnent une valeur ajoutée à l’école et aux étudiants .",
     links: {
-      facebook: "https://www.facebook.com/appsclubensaa?mibextid=LQQJ4d",
+      facebook: "https://www.facebook.com/appsclubensaa",
       instagram: "https://instagram.com/appsclub.ensaa/",
       X: "",
       linkedin: "https://www.linkedin.com/company/appsclub-ensa-agadir/",
@@ -66,19 +127,20 @@ export default [
     },
     content: [
       {
-        img: clubs_pics.Fsf[0],
         text: "Welcome to Fsf - Formation Sans Frontières, a place where educational horizons expand, and support knows no bounds. Our mission is to provide comprehensive assistance to students on their academic journey. Whether you're navigating complex coursework, seeking help with assignments and tests, or pursuing knowledge in various disciplines, we've got your back. With our innovative \"Cellule Compil Court\", you can access summaries, corrections, and academic guidance at your convenience.",
+        img: clubs_pics.Fsf[5],
       },
       {
-        img: clubs_pics.Fsf[1],
         text: "Fsf is more than academics; we're a vibrant community that fosters personal growth and cultural enrichment. Our \"Cellule Culturelle\" is the heart of our cultural and social activities, offering events that ignite your passions and introduce you to new experiences. Whether it's a captivating lecture or other stimulating cultural activities, there's always something happening to keep you engaged.",
+        img: clubs_pics.Fsf[0],
       },
       {
-        img: clubs_pics.Fsf[2],
         text: "We believe in holistic development, which is why we offer a diverse range of workshops and training programs. Our commitment to your growth extends beyond the classroom, encompassing skills like photography, first aid, LaTeX, and more. Fsf is your gateway to new learning experiences, personal discovery, and lasting friendships.",
+        img: clubs_pics.Fsf[4],
       },
+      { img: clubs_pics.Fsf[1] },
+
       {
-        img: clubs_pics.Fsf[3],
         text: "To all who visit our website, we extend a warm welcome. Here, you'll find not just a website but a community dedicated to your academic success and personal enrichment. Our doors are open to you, and we invite you to explore our wealth of resources and services, tailored to make your educational journey smoother and more fulfilling. You're not just a visitor; you're now a part of the Fsf family.",
       },
       {
@@ -347,63 +409,6 @@ export default [
       },
       {
         img: clubs_pics.Sportif[5],
-      },
-    ],
-  },
-  {
-    name: "Club BTP",
-    slug: "btp",
-    logo: Btp,
-    description:
-      'Le club "BTP" (Bâtiment et Travaux Publics) est un pilier fondamental de l\'École Nationale des Sciences Appliquées (ENSA). Créé dans le but de compléter la formation académique des étudiants, en particulier ceux de la filière Génie Civil, ce club offre un espace dédié à la mise en pratique des connaissances théoriques acquises en salle de cours. ',
-    links: {
-      facebook: "https://web.facebook.com/btp.ensaa",
-      instagram: "https://www.instagram.com/club_btp.ensaa/",
-      X: "",
-      linkedin:
-        "https://ma.linkedin.com/company/club-btp-ensa-agadir?trk=public_post_feed-actor-name",
-      discord: "",
-      website: "",
-    },
-    content: [
-      {
-        title: 'Club "BTP" (Bâtiment et Travaux Publics) ',
-        text: 'Le club "BTP" (Bâtiment et Travaux Publics) est un pilier fondamental de l\'École Nationale des Sciences Appliquées (ENSA). Créé dans le but de compléter la formation académique des étudiants, en particulier ceux de la filière Génie Civil, ce club offre un espace dédié à la mise en pratique des connaissances théoriques acquises en salle de cours. ',
-        img: clubs_pics.BTP[0],
-      },
-      {
-        text: "Le club \"BTP\" joue également un rôle crucial dans l'orientation des nouveaux étudiants, en mettant l'accent sur ceux du cycle préparatoire. Grâce à leur participation à nos activités, les étudiants ont l'opportunité de se familiariser avec les spécificités de la filière BTP, obtenant ainsi des informations de première main sur les divers domaines du génie civil. Cette expérience enrichissante les aide à prendre des décisions éclairées quant à leur avenir académique et professionnel. Le club \"BTP\" incarne l'engagement envers l'excellence académique et l'acquisition d'une expérience pratique précieuse au sein de l'ENSA.",
-        img: clubs_pics.BTP[1],
-      },
-      {
-        title: "Objectifs et Activités du Club :",
-      },
-      {
-        subtitle: "Formation en Logiciels Essentiels :  ",
-        text: "Le club propose des formations spécialisées visant à familiariser les étudiants avec les logiciels indispensables pour la conception et la gestion de projets en génie civil.",
-      },
-      {
-        subtitle: "Collaboration Inter-écoles :  ",
-        text: "Le club encourage la collaboration avec d'autres clubs BTP dans différentes institutions, permettant aux membres d'échanger des expériences et des connaissances.",
-      },
-      {
-        subtitle: "Compétitions et Défis : ",
-        text: "Les membres du club participent activement à des compétitions nationales mettant en avant leur expertise en génie civil.",
-      },
-      {
-        subtitle: "Visites de Chantiers Pratiques:  ",
-        text: "Les visites de chantiers sont essentielles pour les étudiants en génie civil. Le club organise régulièrement des visites sur le terrain, permettant aux membres de se familiariser avec les pratiques réelles du secteur.",
-      },
-      {
-        img: clubs_pics.BTP[2],
-      },
-      {
-        text: "En tant qu'entité parascolaire de l'ENSA, le club \"BTP\" contribue significativement à l'enrichissement de l'expérience éducative des étudiants. Il encourage la créativité, la collaboration et le développement de  compétences essentielles pour leur future carrière. De plus, le club organise des événements, des conférences et des ateliers qui viennent compléter le programme académique de l'école, offrant une dimension supplémentaire à la formation des étudiants.",
-        img: clubs_pics.BTP[3],
-      },
-      {
-        text: "Rejoignez-nous pour enrichir votre parcours éducatif et professionnel au sein de l'ENSA.",
-        img: clubs_pics.BTP[4],
       },
     ],
   },
