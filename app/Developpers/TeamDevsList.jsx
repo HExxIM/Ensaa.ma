@@ -11,6 +11,7 @@ export default function TeamDevsList() {
       image={dev.Image}
       name={dev.name}
       post={dev.post}
+      linkedin={dev.linkedin}
       alt={dev.name}
       description={dev.description}
     />

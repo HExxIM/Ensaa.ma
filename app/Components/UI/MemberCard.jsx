@@ -59,7 +59,7 @@ export default function MemberCard({
   linkedin,
 }) {
   return (
-    <Link href={linkedin ?? ""} target="blank" style={styles.card}>
+    <Link href={linkedin ?? ""} target="_blank" style={styles.card}>
       <div style={styles.imgContainer}>
         <Image style={styles.img} alt="Image" src={image} />
       </div>

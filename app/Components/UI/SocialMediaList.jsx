@@ -6,6 +6,8 @@ import instaLogo from "../../../public/svg/SocialMedia/instaLogo.svg";
 import linkedinLogo from "../../../public/svg/SocialMedia/linkedinLogo.svg";
 import facebookLogo from "../../../public/svg/SocialMedia/facebookLogo.svg";
 import XLogo from "../../../public/svg/SocialMedia/XLogo.svg";
+import WebsiteLogo from "../../../public/svg/SocialMedia/WebsiteLogo.svg";
+import tiktokLogo from "../../../public/svg/SocialMedia/tiktokLogo.svg";
 
 export default function socialMediaList({
   iconsSize,
@@ -39,6 +41,16 @@ export default function socialMediaList({
       name: "discord",
       link: links.discord,
       logo: discordLogo,
+    },
+    {
+      name: "tiktok",
+      link: links.tiktok,
+      logo: tiktokLogo,
+    },
+    {
+      name: "discord",
+      link: links.website,
+      logo: WebsiteLogo,
     },
   ];
 

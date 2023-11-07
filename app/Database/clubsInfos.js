@@ -62,7 +62,7 @@ export default [
       X: "",
       linkedin: "https://www.linkedin.com/company/clubfsf/",
       discord: "",
-      website: "#",
+      website: "",
     },
     content: [
       {
@@ -154,27 +154,6 @@ export default [
     ],
   },
   {
-    name: "Club Robotique",
-    slug: "robotique",
-    logo: CRRT,
-    description:
-      "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand ....composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand  ....composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand ....composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand  ....",
-    links: {
-      facebook: "https://www.instagram.com/ade.ensaa/",
-      instagram: "https://www.instagram.com/ade.ensaa/",
-      X: "https://www.instagram.com/ade.ensaa/",
-      linkedin: "https://www.instagram.com/ade.ensaa/",
-      discord: "https://www.instagram.com/ade.ensaa/",
-      website: "#",
-    },
-    content: [
-      {
-        img: "",
-        text: "",
-      },
-    ],
-  },
-  {
     name: "Club Enactus",
     slug: "enactus",
     logo: Enactus,
@@ -212,13 +191,13 @@ export default [
       "Welcome to Harmony, the beating heart of our university's musical passion. Here, the air is infused with the magic of melodies, and every note has a story to tell. Our club is more than just a place to play music; it's a sanctuary for self-expression and connection. Whether you're a musical maestro or just embarking on your melodic journey,Harmony beckons you to a place where imagination finds endless expression.",
     links: {
       facebook:
-        "https://www.facebook.com/people/Club-Harmony-Ensa-Agadir/100040872472654/?mibextid=LQQJ4d",
+        "https://www.facebook.com/people/Club-Harmony-Ensa-Agadir/100040872472654",
       instagram: "https://www.instagram.com/clubharmony_ensaa/",
       X: "",
       linkedin: "https://www.instagram.com/ade.ensaa/",
       discord: "",
-      website: "#",
-      tiktok: "https://www.tiktok.com/@clubharmony_ensaa?_t=8gqIQvhLQPe&_r=1",
+      website: "",
+      tiktok: "https://www.tiktok.com/@clubharmony_ensaa",
     },
     content: [
       {
@@ -267,8 +246,7 @@ export default [
       facebook: "https://www.facebook.com/EcolosENSAA",
       instagram: "https://instagram.com/club.ecolos/",
       X: "",
-      linkedin:
-        "https://www.linkedin.com/posts/club-ecolos-ensa-agadir_ecolos-environnement-aeznergiedurable-activity-7115505484228386816-xFPz?utm_source=share&utm_medium=member_android",
+      linkedin: "https://www.linkedin.com/company/club-ecolos-ensa-agadir/",
       discord: "",
       website: "https://ecolos.onrender.com/#/login",
     },
@@ -340,12 +318,12 @@ export default [
     description:
       "Sportif Club, founded in 2012, is a thriving hub for sports enthusiasts. Our club is dedicated to promoting a healthy and active lifestyle through a variety of activities. From rigorous sports training sessions to competitive tournaments and exciting outings, we offer a diverse range of experiences for our members.",
     links: {
-      facebook: "https://www.facebook.com/club.sportif.ensaa?mibextid=LQQJ4d",
+      facebook: "https://www.facebook.com/club.sportif.ensaa",
       instagram: "https://instagram.com/clubsportif_ensaa/",
       X: "",
       linkedin: "https://www.linkedin.com/company/club-sportif-ensa-agadir/",
       discord: "",
-      website: "#",
+      website: "",
     },
     content: [
       {
@@ -369,27 +347,6 @@ export default [
       },
       {
         img: clubs_pics.Sportif[5],
-      },
-    ],
-  },
-  {
-    name: "Club Social",
-    slug: "social",
-    logo: Social,
-    description:
-      "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand ....composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand  ....composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand ....composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand  ....",
-    links: {
-      facebook: "https://www.instagram.com/ade.ensaa/",
-      instagram: "https://www.instagram.com/ade.ensaa/",
-      X: "https://www.instagram.com/ade.ensaa/",
-      linkedin: "https://www.instagram.com/ade.ensaa/",
-      discord: "https://www.instagram.com/ade.ensaa/",
-      website: "#",
-    },
-    content: [
-      {
-        img: "",
-        text: "",
       },
     ],
   },
@@ -508,6 +465,48 @@ export default [
       {
         text: "The club provides a platform for members to attend conferences, training sessions, and discussions, facilitating knowledge and experience sharing and skill development. By doing so, it contributes to the growth of students' expertise in electrical engineering and related disciplines, ultimately preparing them for real-world challenges in these fields.",
         img: clubs_pics.Elect[0],
+      },
+    ],
+  },
+  {
+    name: "Club Social",
+    slug: "social",
+    logo: Social,
+    description:
+      "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand ....composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand  ....composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand ....composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand  ....",
+    links: {
+      facebook: "https://www.instagram.com/ade.ensaa/",
+      instagram: "https://www.instagram.com/ade.ensaa/",
+      X: "",
+      linkedin: "https://www.instagram.com/ade.ensaa/",
+      discord: "",
+      website: "",
+    },
+    content: [
+      {
+        img: "",
+        text: "",
+      },
+    ],
+  },
+  {
+    name: "Club Robotique",
+    slug: "robotique",
+    logo: CRRT,
+    description:
+      "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand ....composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand  ....composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand ....composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand  ....",
+    links: {
+      facebook: "https://www.instagram.com/ade.ensaa/",
+      instagram: "https://www.instagram.com/ade.ensaa/",
+      X: "",
+      linkedin: "https://www.instagram.com/ade.ensaa/",
+      discord: "",
+      website: "",
+    },
+    content: [
+      {
+        img: "",
+        text: "",
       },
     ],
   },

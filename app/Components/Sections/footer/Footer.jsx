@@ -14,8 +14,8 @@ export default function Footer() {
     facebook: "https://www.facebook.com/ade.ensaa",
     instagram: "https://www.instagram.com/ade.ensaa/",
     linkedin: "https://www.linkedin.com/company/ade-ensa-agadir/",
-    X: "#",
-    discord: "https://discord.gg/3q2j5t4",
+    X: "",
+    discord: "",
   };
 
   return (
