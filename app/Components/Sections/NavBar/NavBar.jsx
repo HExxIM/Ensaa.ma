@@ -15,6 +15,7 @@ import NavMenu from "./NavMenu";
 
 //utils
 import ClickOutsideHandler from "../../UI/ClickOutsideHandler";
+import useMediaQuery from "../../../hooks/useMediaQuery";
 
 export default function NavBar() {
   const pathname = usePathname();
@@ -73,6 +74,8 @@ export default function NavBar() {
     setShowmenu(false); // Ensure that the menu is initially hidden
   }, []);
 
+  const isBreakpoint = useMediaQuery(800);
+
   return (
     <ClickOutsideHandler onClickOutside={handleOutsideClick}>
       <div className="NavContainer">
@@ -81,7 +84,9 @@ export default function NavBar() {
         </Link>
         <div className="NavList">{NavList}</div>
         {showmenu && <NavMenu setShowmenu={setShowmenu} Navlist={NavList} />}
-        <Button className="contactUsButton" text="Contact us" link="/Contact" />
+        {!isBreakpoint && 
+          <Button className="contactUsButton" text="Contact us" link="/Contact" />
+        }
         <Image
           className="menuButton"
           alt="menuButton"
