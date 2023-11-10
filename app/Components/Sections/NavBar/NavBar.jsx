@@ -15,6 +15,7 @@ import NavMenu from "./NavMenu";
 
 //utils
 import ClickOutsideHandler from "../../UI/ClickOutsideHandler";
+import useViewportWidth from '../../../hooks/useViewportWidth';
 
 export default function NavBar() {
   const pathname = usePathname();
@@ -64,6 +65,7 @@ export default function NavBar() {
   ));
 
   const [showmenu, setShowmenu] = useState(false);
+  const windowWidth = useViewportWidth();
 
   const handleOutsideClick = () => {
     setShowmenu(false);
@@ -81,7 +83,9 @@ export default function NavBar() {
         </Link>
         <div className="NavList">{NavList}</div>
         {showmenu && <NavMenu setShowmenu={setShowmenu} Navlist={NavList} />}
-        <Button className="contactUsButton" text="Contact us" link="/Contact" />
+        {
+          windowWidth>820 && <Button className="contactUsButton" text="Contact us" link="/Contact" />
+        }
         <Image
           className="menuButton"
           alt="menuButton"

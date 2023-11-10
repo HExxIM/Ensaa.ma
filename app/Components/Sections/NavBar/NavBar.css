@@ -88,9 +88,6 @@
     display: block;
     cursor: pointer;
   }
-  .contactUsButton {
-    display: none;
-  }
 }
 
 @media only screen and (max-width: 900px) {
