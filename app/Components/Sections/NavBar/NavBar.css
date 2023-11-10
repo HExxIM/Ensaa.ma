@@ -63,18 +63,6 @@
   cursor: pointer;
 }
 
-@media only screen and (max-width: 900px) {
-  .NavList a {
-    margin: 0 0.6vw;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  .NavList a {
-    margin: 0;
-  }
-}
-
 @media only screen and (max-width: 600px) {
   .NavContainer {
     position: relative;
@@ -83,6 +71,12 @@
   }
   .logo {
     scale: 0.7;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .NavList a {
+    margin: 0;
   }
 }
 
@@ -96,5 +90,11 @@
   }
   .contactUsButton {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .NavList a {
+    margin: 0 0.6vw;
   }
 }

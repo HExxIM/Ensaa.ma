@@ -51,7 +51,7 @@ export default function page({ params }) {
           src={club.links.instagram + "embed/"}
           allowtransparency="true"
           scrolling="no"
-          frameborder="0"
+          frameBorder="0"
         ></iframe>
       </div>
     </div>
