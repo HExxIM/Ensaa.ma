@@ -8,6 +8,7 @@ import "./NavBar.css";
 //svgs
 import dreamersLogo from "../../../../public/svg/AdeAssets/dreamersLogo.svg";
 import navMobile from "../../../../public/svg/icons/navMobile.svg";
+import loading from "../../../../public/svg/loading3.svg";
 
 //components
 import Button from "../../UI/Button";
@@ -74,7 +75,7 @@ export default function NavBar() {
     setShowmenu(false); // Ensure that the menu is initially hidden
   }, []);
 
-  const isBreakpoint = useMediaQuery(800);
+  const { targetReached, isInitialized } = useMediaQuery(800);
 
   return (
     <ClickOutsideHandler onClickOutside={handleOutsideClick}>
@@ -84,8 +85,9 @@ export default function NavBar() {
         </Link>
         <div className="NavList">{NavList}</div>
         {showmenu && <NavMenu setShowmenu={setShowmenu} Navlist={NavList} />}
-        {!isBreakpoint && 
-          <Button className="contactUsButton" text="Contact us" link="/Contact" />
+        {(isInitialized && !targetReached) ? 
+          <Button className="contactUsButton" text="Contact us" link="/Contact" />:
+            <Image width={147} src={loading} className="loading" alt="loading"></Image>
         }
         <Image
           className="menuButton"

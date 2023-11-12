@@ -2,6 +2,7 @@ import { useState, useCallback, useEffect } from 'react';
 
 const useMediaQuery = (width) => {
   const [targetReached, setTargetReached] = useState(false);
+  const [isInitialized, setIsInitialized] = useState(false);
 
   const updateTarget = useCallback((e) => {
     if (e.matches) {
@@ -20,10 +21,14 @@ const useMediaQuery = (width) => {
       setTargetReached(true);
     }
 
+    // Ensure that initialization is complete before rendering
+    setIsInitialized(true);
+
     return () => media.removeListener(updateTarget);
   }, [width, updateTarget]);
 
-  return targetReached;
+  return { targetReached, isInitialized };
 };
+
 
 export default useMediaQuery;
