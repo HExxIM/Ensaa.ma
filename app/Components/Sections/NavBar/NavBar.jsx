@@ -84,7 +84,7 @@ export default function NavBar() {
           <Image src={dreamersLogo} alt="Logo"></Image>
         </Link>
         <div className="NavList">{NavList}</div>
-        {showmenu && <NavMenu setShowmenu={setShowmenu} Navlist={NavList} />}
+        {showmenu && <NavMenu setShowmenu={setShowmenu} showmenu={showmenu} Navlist={NavList} />}
         {(isInitialized && !targetReached) ? 
           <Button className="contactUsButton" text="Contact us" link="/Contact" />:
             <Image width={147} src={loading} className="loading" alt="loading"></Image>

@@ -46,6 +46,15 @@
   backdrop-filter: blur(51px);
   height: 23rem;
   border-radius: 7px;
+  animation: translateOpen 0.5s ease-in-out;
+}
+@keyframes translateOpen {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
 }
 .Navlist {
   display: flex;
