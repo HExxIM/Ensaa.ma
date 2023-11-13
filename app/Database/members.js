@@ -55,7 +55,7 @@ export const members = [
     post: "Team coordinator",
     linkedin:'https://www.linkedin.com/in/imad-aouragh-496607221/',
     description:
-      "UI is the saddle, the stirrups, & the reins. UX is the feeling you get being able to ride the horse.",
+      "Education is a weapon, whose effect depends on who holds it in his hands and at whom it is aimed",
   },
   {
     name: "Khalid Et-tazy",
