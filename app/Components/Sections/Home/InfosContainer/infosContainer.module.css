@@ -24,20 +24,6 @@
   height: fit-content;
   margin: 2vh 3vw;
 }
-.container .blurRight,
-.container .blurLeft {
-  position: absolute;
-  height: -moz-fit-content;
-  height: fit-content;
-}
-.container .blurRight {
-  right: -30vw;
-  bottom: -20vh;
-}
-.container .blurLeft {
-  left: -30vw;
-  top: -18vh;
-}
 
 @media only screen and (max-width: 768px) {
   .container {
@@ -59,9 +45,5 @@
   .container .mainInfos .logo {
     width: 40vw;
     order: 1;
-  }
-  .container .blurRight,
-  .container .blurLeft {
-    display: none;
   }
 }/*# sourceMappingURL=infosContainer.module.css.map */

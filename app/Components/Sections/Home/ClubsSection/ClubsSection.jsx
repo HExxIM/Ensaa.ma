@@ -1,10 +1,5 @@
-"use client";
-import Image from "next/image";
 import styles from "./sliderSection.module.css";
 // import { useRef } from "react";
-
-//Images
-import shapeBlur from "../../../../../public/images/shapeBlur.webp";
 
 //components
 import TitleBox from "../../../UI/TitleBox";
@@ -19,13 +14,6 @@ export default function ClubsSection() {
       <div className={styles.Slider}>
         <ClubsInfosList />
       </div>
-      <Image
-        className={styles.blurRight}
-        alt="blurRight"
-        src={shapeBlur}
-        height="auto" width="auto"
-      ></Image>
-      <Image className={styles.blurLeft} alt="blurLeft"  height="auto" width="auto" src={shapeBlur}></Image>
     </div>
   );
 }

@@ -2,7 +2,6 @@ import Image from "next/image";
 
 //Images
 import emptyStateIllustration from "../../../../public/images/emptyStateIllustration.webp";
-import shapeBlur from "../../../../public/images/shapeBlur.webp";
 
 export default function EmptyState() {
   const EmptyStateStyles = {
@@ -26,13 +25,6 @@ export default function EmptyState() {
       fontWeight: "200",
       textAlign: "center",
     },
-    blurTop: {
-      position: "absolute",
-      top: "-40vh",
-      right: "50vh",
-      scale: "1.3",
-      opacity: "0.7",
-    },
   };
   return (
     <div style={EmptyStateStyles.container}>
@@ -41,12 +33,6 @@ export default function EmptyState() {
         <p style={EmptyStateStyles.p}>Oops</p>
         <p style={EmptyStateStyles.p}>There's nothing here, yet</p>
       </div>
-      <Image
-        src={shapeBlur}
-        alt="blurTop"
-        style={EmptyStateStyles.blurTop}
-        height="auto" width="auto"
-      ></Image>
     </div>
   );
 }

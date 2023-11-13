@@ -42,18 +42,6 @@
     transform: translateX(-100%);
   }
 }
-.container .blurRight,
-.container .blurLeft {
-  position: absolute;
-  width: 50%;
-}
-.container .blurRight {
-  right: -20%;
-}
-.container .blurLeft {
-  left: -25%;
-  top: 1%;
-}
 
 @media only screen and (max-width: 768px) {
   .container .Sliders {
@@ -66,9 +54,5 @@
   .container .Sliders .Slider1 div img,
   .container .Sliders .Slider2 div img {
     margin: 2vh 6vw;
-  }
-  .container .blurRight,
-  .container .blurLeft {
-    display: none;
   }
 }/*# sourceMappingURL=SponsorsSection.module.css.map */

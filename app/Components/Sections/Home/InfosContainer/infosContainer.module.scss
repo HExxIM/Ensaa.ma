@@ -22,19 +22,6 @@
       margin: 2vh 3vw;
     }
   }
-  .blurRight,
-  .blurLeft {
-    position: absolute;
-    height: fit-content;
-  }
-  .blurRight {
-    right: -30vw;
-    bottom: -20vh;
-  }
-  .blurLeft {
-    left: -30vw;
-    top: -18vh;
-  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -56,10 +43,6 @@
         width: 40vw;
         order: 1;
       }
-    }
-    .blurRight,
-    .blurLeft {
-      display: none;
     }
   }
 }
