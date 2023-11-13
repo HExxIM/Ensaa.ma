@@ -9,7 +9,7 @@ export default function ClubCard({ image, name, description, links, slug }) {
   return (
     <div className={styles.card}>
       <Link href={"/Clubs/" + slug} className={styles.imgContainer}>
-        <Image width={120} src={image} alt={name} />
+        <Image priority={true} width={120} src={image} alt={name} />
       </Link>
       <div className={styles.SocialMediaList}>
         <SocialMediaList

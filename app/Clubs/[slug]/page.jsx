@@ -38,6 +38,7 @@ export default function page({ params }) {
           className={styles.Logo}
           src={club.logo}
           width={230}
+          priority={true}
         ></Image>
         <SocialMediaList
           direction="row"
