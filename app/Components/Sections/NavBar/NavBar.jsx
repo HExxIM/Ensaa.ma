@@ -15,7 +15,7 @@ import Button from "../../UI/Button";
 import NavMenu from "./NavMenu";
 
 //utils
-import ClickOutsideHandler from "../../UI/ClickOutsideHandler";
+import ClickOutsideHandler from "../../../utils/ClickOutsideHandler";
 import useMediaQuery from "../../../hooks/useMediaQuery";
 
 export default function NavBar() {

@@ -26,7 +26,7 @@ export default function page({ params }) {
             {item.text && <p>{item.text}</p>}
             {item.img && (
               <div className={styles.imgContainer}>
-                <Image className={styles.img} alt={slug} src={item.img} />
+                <Image className={styles.img} alt={slug} placeholder="blur" src={item.img} />
               </div>
             )}
           </>
@@ -38,6 +38,7 @@ export default function page({ params }) {
           className={styles.Logo}
           src={club.logo}
           width={230}
+          priority={true}
         ></Image>
         <SocialMediaList
           direction="row"

@@ -1,5 +1,5 @@
 import Hassan from "../../public/images/TeamMembers/Hassan.png";
-import Abdelhamid from "../../public/images/TeamMembers/Abdelhamid.JPG";
+import Abdelhamid from "../../public/images/TeamMembers/Abdelhamid.jpg";
 import Attik from "../../public/images/TeamMembers/Attik.png";
 import Ayoub from "../../public/images/TeamMembers/Ayoub.png";
 import Baroudi from "../../public/images/TeamMembers/Baroudi.jpg";

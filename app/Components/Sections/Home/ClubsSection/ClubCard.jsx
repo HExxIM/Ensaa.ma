@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function ClubCard({ image, name }) {
+export default function ClubCard({ image, name, slug }) {
   const containerStyles = {
     height: "205px",
     width: "150px",
@@ -24,12 +24,24 @@ export default function ClubCard({ image, name }) {
     justifyContent: "center",
   };
 
+  const titleStyles = {
+    color: "white",
+    fontSize: "1.2rem",
+    fontWeight: "600",
+  };
+
   return (
     <div style={containerStyles}>
       <div style={imageContainerStyles}>
-        <Image src={image} alt={name} width={90} />
+        <Image 
+          src={image} 
+          alt={slug} 
+          width={90} 
+          placeholder={typeof image === 'string' && image.endsWith('.svg')? "empty" : "blur"}
+          blurDataURL="undefined"
+        />
       </div>
-      <h3>{name}</h3>
+      <h1 style={titleStyles}>{name}</h1>
     </div>
   );
 }
