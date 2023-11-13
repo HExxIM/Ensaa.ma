@@ -44,6 +44,15 @@
   font-weight: 300;
   line-height: 180%;
 }
+.container .iframeContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .iframeContainer iframe {
+  border-radius: 9px;
+}
 
 @media only screen and (max-width: 912px) {
   .container {
