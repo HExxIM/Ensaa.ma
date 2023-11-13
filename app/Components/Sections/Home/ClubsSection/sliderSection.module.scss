@@ -50,17 +50,4 @@
   //     left: 0;
   //   }
   // }
-
-  .blurRight,
-  .blurLeft {
-    position: absolute;
-    width: 50%;
-  }
-  .blurRight {
-    right: -20%;
-  }
-  .blurLeft {
-    left: -25%;
-    top: 1%;
-  }
 }

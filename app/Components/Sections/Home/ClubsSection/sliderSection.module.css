@@ -27,16 +27,4 @@
 }
 .container .Slider .clubsList > div:hover {
   cursor: pointer;
-}
-.container .blurRight,
-.container .blurLeft {
-  position: absolute;
-  width: 50%;
-}
-.container .blurRight {
-  right: -20%;
-}
-.container .blurLeft {
-  left: -25%;
-  top: 1%;
 }/*# sourceMappingURL=sliderSection.module.css.map */

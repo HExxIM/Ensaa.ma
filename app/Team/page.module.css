@@ -12,18 +12,6 @@
   justify-content: center;
   z-index: 5;
 }
-.container .blurBottom {
-  position: absolute;
-  bottom: -45vh;
-  left: -20vw;
-  z-index: 2;
-}
-.container .blurTop {
-  position: absolute;
-  top: -30vh;
-  right: -15vw;
-  z-index: 2;
-}
 
 @media only screen and (max-width: 600px) {
   .container {
