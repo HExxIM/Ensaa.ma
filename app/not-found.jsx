@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 import "./stylings/not-found.css";
-//svgs
+//svg
 import ErrorIllustration from "../public/images/ErrorIllustration.webp";
 
 export default function NotFound() {
