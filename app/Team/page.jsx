@@ -23,8 +23,9 @@ export default function page() {
         src={shapeBlur}
         alt="shapeBlur"
         className={styles.blurBottom}
+        height="auto" width="auto"
       ></Image>
-      <Image src={shapeBlur} alt="shapeBlur" className={styles.blurTop}></Image>
+      <Image src={shapeBlur} alt="shapeBlur"  height="auto" width="auto" className={styles.blurTop}></Image>
     </div>
   );
 }

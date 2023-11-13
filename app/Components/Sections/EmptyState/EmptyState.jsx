@@ -45,6 +45,7 @@ export default function EmptyState() {
         src={shapeBlur}
         alt="blurTop"
         style={EmptyStateStyles.blurTop}
+        height="auto" width="auto"
       ></Image>
     </div>
   );

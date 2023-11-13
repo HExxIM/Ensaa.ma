@@ -20,6 +20,7 @@ export default function ContactUs() {
           src={shapeBlur}
           alt="shapeBlurLeft"
           className={styles.shapeBlurLeft}
+          height="auto" width="auto"
         ></Image>
       </div>
       <div className={styles.ContactUs}>

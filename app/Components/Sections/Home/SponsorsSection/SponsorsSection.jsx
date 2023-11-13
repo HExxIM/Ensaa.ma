@@ -24,8 +24,8 @@ export default function SponsorsSection() {
           <SponsorsInfosList />
         </div>
       </div>
-      <Image className={styles.blurRight} src={shapeBlur}></Image>
-      <Image className={styles.blurLeft} src={shapeBlur}></Image>
+      <Image className={styles.blurRight} alt="blur" src={shapeBlur} height="auto" width="auto"></Image>
+      <Image className={styles.blurLeft} alt="blur" src={shapeBlur}  height="auto" width="auto"></Image>
     </div>
   );
 }

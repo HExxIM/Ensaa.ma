@@ -23,8 +23,9 @@ export default function ClubsSection() {
         className={styles.blurRight}
         alt="blurRight"
         src={shapeBlur}
+        height="auto" width="auto"
       ></Image>
-      <Image className={styles.blurLeft} alt="blurLeft" src={shapeBlur}></Image>
+      <Image className={styles.blurLeft} alt="blurLeft"  height="auto" width="auto" src={shapeBlur}></Image>
     </div>
   );
 }

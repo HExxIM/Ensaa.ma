@@ -26,8 +26,9 @@ export default function InfosContainer({ text, logo, title, position }) {
         className={styles.blurRight}
         alt="blurRight"
         src={shapeBlur}
+        height="auto" width="auto"
       ></Image>
-      <Image className={styles.blurLeft} alt="blurLeft" src={shapeBlur}></Image>
+      <Image className={styles.blurLeft}  height="auto" width="auto" alt="blurLeft" src={shapeBlur}></Image>
     </div>
   );
 }

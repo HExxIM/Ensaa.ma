@@ -24,8 +24,9 @@ export default function HeroSection() {
         src={shapeBlur}
         alt="blurBottom"
         className={styles.blurBottom}
+        height="auto" width="auto"
       ></Image>
-      <Image src={shapeBlur} alt="blurTop" className={styles.blurTop}></Image>
+      <Image src={shapeBlur} alt="blurTop"  height="auto" width="auto" className={styles.blurTop}></Image>
 
       <div className={styles.Hero_left}>
         <h1>
