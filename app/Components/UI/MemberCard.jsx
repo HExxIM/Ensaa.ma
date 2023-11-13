@@ -62,7 +62,6 @@ export default function MemberCard({
     <Link href={linkedin ?? ""} target="_blank" style={styles.card}>
       <div style={styles.imgContainer}>
         <Image 
-          priority={true} 
           placeholder="blur" 
           style={styles.img} 
           alt="Image" 
