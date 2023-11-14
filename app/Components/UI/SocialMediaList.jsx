@@ -8,6 +8,7 @@ import facebookLogo from "../../../public/svg/SocialMedia/facebookLogo.svg";
 import XLogo from "../../../public/svg/SocialMedia/XLogo.svg";
 import WebsiteLogo from "../../../public/svg/SocialMedia/WebsiteLogo.svg";
 import tiktokLogo from "../../../public/svg/SocialMedia/tiktokLogo.svg";
+import youtubeLogo from "../../../public/svg/SocialMedia/youtubeLogo.svg";
 
 export default function socialMediaList({
   iconsSize,
@@ -48,9 +49,14 @@ export default function socialMediaList({
       logo: tiktokLogo,
     },
     {
-      name: "discord",
+      name: "website",
       link: links.website,
       logo: WebsiteLogo,
+    },
+    {
+      name: "youtube",
+      link: links.youtube,
+      logo: youtubeLogo,
     },
   ];
 
@@ -67,7 +73,7 @@ export default function socialMediaList({
             style={mediaStyles}
             src={media.logo}
             height={iconsSize}
-            width={iconsSize}
+            // width={iconsSize}
             alt={media.name}
           />
         </Link>

@@ -24,23 +24,30 @@ export default function page({ params }) {
       {New.content.map((item, index) => (
         <>
           <div className={styles.imgContainer}>
-            <Image placeholder="blur" className={styles.img} alt={slug} src={item.img} />
+            <Image
+              placeholder="blur"
+              className={styles.img}
+              alt={slug}
+              src={item.img}
+            />
           </div>
           <p>{item.text}</p>
         </>
       ))}
-      <div className={styles.iframeContainer}>
-        <iframe 
-          width="560" 
-          height="315" 
-          src={"https://www.youtube.com/embed/"+New.youtubeId} 
-          title={New.slug} 
-          frameBorder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-          allowFullScreen
-        ></iframe>
-      </div>
+      {New.youtubeId && (
+        <div className={styles.iframeContainer}>
+          <iframe
+            width="560"
+            height="315"
+            src={"https://www.youtube.com/embed/" + New.youtubeId}
+            title={New.slug}
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+            loading="lazy"
+          ></iframe>
+        </div>
+      )}
     </div>
   );
-
 }

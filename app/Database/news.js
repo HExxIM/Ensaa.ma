@@ -1,30 +1,33 @@
-import coverimg from "../../public/images/TeamMembers/Ibtissam.jpeg";
+import germanday from "../../public/images/News/germanday.png";
 import pic from "../../public/images/pic.jpeg";
 export default [
   {
-    title: "An Evening of Elegance: The Ensaiste Tradition Gala",
-    slug: "Gala",
-    category: "Entertainment",
-    youtubeId:"9D0l9ofzTK0",
+    title: "the German Day Conference",
+    slug: "germanDay",
+    category: "Conference",
     description:
-      "Entre cours quotidiens, contrôles hebdomadaires et travaux à rendre en permanence, voilà ...",
-    images: [coverimg],
+      "Découvrez les opportunités en Allemagne pour l'éducation, le travail et le développement professionnel. Étudiant ou professionnel, cet événement vous concerne !",
+    coverimg: germanday,
+    images: [germanday],
+    youtubeId: "tmSPw9sLmHs",
     links: {
-      facebook:
-        "https://www.facebook.com/photo/?fbid=725488382930295&set=a.454223453390124",
-      instagram: "https://www.instagram.com/p/CyyxnjsosCT/",
-      X: "",
-      linkedin: "https://www.instagram.com/ade.ensaa/",
-      discord: "",
+      facebook: "https://www.facebook.com/photo/?fbid=726514786160988",
+      instagram: "https://www.instagram.com/p/Cy3a1eNKcH5/",
+      linkedin:
+        "https://www.linkedin.com/posts/ade-ensa-agadir_rejoignez-nous-pour-une-session-sp%C3%A9ciale-activity-7123320060105879552-XhDX/",
     },
     content: [
       {
         img: pic,
-        text: "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.",
+        text: "The recent 'German Day' conference, hosted at ENSA AGADIR on Saturday, October 28, served as a dynamic platform that brought together a diverse audience, all with a common goal — to delve into the myriad opportunities Germany has to offer in the realms of education, work, and professional development. This insightful event, featuring Mr. Mohammed EL AZZABI, the esteemed Founder of EliteHaus Akademie, proved to be a beacon of knowledge, drawing from his extensive 15 years of experience in the field.",
       },
       {
         img: pic,
-        text: "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.",
+        text: "The event illuminated the myriad opportunities Germany offers to both students and professionals. Attendees delved into educational programs, scholarships, and valuable resources, making it an invaluable asset for those considering studying in Germany. The discussions seamlessly extended to employment opportunities, offering insights into the job market, work visas, and effective career growth strategies.",
+      },
+      {
+        img: pic,
+        text: "Whether prospective students, professionals, or individuals seeking skill enhancement, the conference delivered tailored insights. Covering a spectrum from academic pursuits to career advancements, it ensured relevance for everyone present. Beyond presenting opportunities, the 'German Day' conference equipped attendees with actionable steps, providing a concise yet comprehensive roadmap. From understanding the German education system to navigating the job market, and from acquiring new skills to staying globally competitive, the event was a valuable compass for success in the German landscape.",
       },
     ],
   },

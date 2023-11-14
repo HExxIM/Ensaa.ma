@@ -1,6 +1,5 @@
 import styles from "./page.module.css";
 //components
-import EmptyState from "../Components/Sections/EmptyState/EmptyState";
 import ClubCard from "../Components/UI/ClubCard/ClubCard";
 //data
 import clubsInfos from "../Database/clubsInfos";

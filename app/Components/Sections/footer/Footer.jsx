@@ -16,6 +16,7 @@ export default function Footer() {
     linkedin: "https://www.linkedin.com/company/ade-ensa-agadir/",
     X: "",
     discord: "",
+    youtube: "https://www.youtube.com/@ade-ensa-agadir/",
   };
 
   return (
