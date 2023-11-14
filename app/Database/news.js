@@ -57,9 +57,9 @@ export default [
       {
         text: "Amine Bellajdel's presentation catered to a diverse audience, making the event accessible and relevant to tech enthusiasts, budding developers, and anyone curious about the industry. The session not only delved into the current state of technology but also provided practical tips for developers and sparked discussions about the future landscape of the tech industry.",
       },
-      {
-        img: techmeeting1,
-      },
+      // {
+      //   img: techmeeting1,
+      // },
       {
         text: "While the live session may have concluded, the impact of the Monthly Technical Meeting persists. Attendees left with newfound knowledge and a deeper understanding of the tech world, reinforcing the webinar's role as a catalyst for ongoing learning and exploration in the ever-evolving realm of technology. Stay tuned for more enriching events that continue to fuel our collective curiosity and passion for innovation!",
       },
