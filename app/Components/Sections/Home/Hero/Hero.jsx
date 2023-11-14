@@ -17,6 +17,7 @@ export default function HeroSection() {
     linkedin: "https://www.linkedin.com/company/ade-ensa-agadir/",
     X: "",
     discord: "",
+    youtube: "https://www.youtube.com/@ade-ensa-agadir/",
   };
   return (
     <div className={styles.Hero_container}>
@@ -24,9 +25,16 @@ export default function HeroSection() {
         src={shapeBlur}
         alt="blurBottom"
         className={styles.blurBottom}
-        height="auto" width="auto"
+        height="auto"
+        width="auto"
       ></Image>
-      <Image src={shapeBlur} alt="blurTop"  height="auto" width="auto" className={styles.blurTop}></Image>
+      <Image
+        src={shapeBlur}
+        alt="blurTop"
+        height="auto"
+        width="auto"
+        className={styles.blurTop}
+      ></Image>
 
       <div className={styles.Hero_left}>
         <h1>
