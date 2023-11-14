@@ -1,6 +1,6 @@
 .container {
   display: flex;
-  padding: 18vh 5vw;
+  padding: 18vh 18vw 2vh 6vw;
   flex-direction: column;
   color: white;
   gap: 5vh;
@@ -26,9 +26,6 @@
   }
   .imgContainer {
     width: 100%;
-    // background-color: white;
-    // height: 720px;
-    // overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
