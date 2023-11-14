@@ -9,6 +9,8 @@
   width: 295px;
   height: 195px;
   background-color: white;
+  border-radius: 6px;
+  overflow: hidden;
 }
 .card .imgContainer .img {
   width: 100%;
