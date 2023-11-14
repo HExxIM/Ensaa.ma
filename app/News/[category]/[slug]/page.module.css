@@ -27,15 +27,12 @@
 }
 .container .imgContainer {
   width: 100%;
-  background-color: white;
-  height: 720px;
-  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .container .imgContainer .img {
-  width: 100%;
+  width: 85%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
