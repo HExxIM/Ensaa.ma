@@ -12,13 +12,13 @@ const styles = {
       "linear-gradient(178deg, rgba(5, 3, 17, 0.3) 33.7%, rgba(38, 169, 167, 0.3) 186.88%)",
     backdropFilter: "blur(63px)",
     width: "190px",
-    height: "15rem",
+    height: "250px",
     padding: "1.5rem 0.5rem",
     gap: "10px",
   },
   imgContainer: {
-    width: "100px",
-    height: "100px",
+    width: "90px",
+    height: "90px",
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
@@ -40,7 +40,7 @@ const styles = {
     fontSize: "0.87rem",
   },
   post: {
-    fontSize: "x-small",
+    fontSize: "small",
     opacity: "0.5",
   },
   description: {
@@ -61,12 +61,7 @@ export default function MemberCard({
   return (
     <Link href={linkedin ?? ""} target="_blank" style={styles.card}>
       <div style={styles.imgContainer}>
-        <Image 
-          placeholder="blur" 
-          style={styles.img} 
-          alt="Image" 
-          src={image} 
-        />
+        <Image placeholder="blur" style={styles.img} alt="Image" src={image} />
       </div>
       <div style={styles.titles}>
         <h3 style={styles.name}>{name}</h3>
