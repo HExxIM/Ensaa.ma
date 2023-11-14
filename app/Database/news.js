@@ -5,6 +5,7 @@ export default [
     title: "An Evening of Elegance: The Ensaiste Tradition Gala",
     slug: "Gala",
     category: "Entertainment",
+    youtubeId:"9D0l9ofzTK0",
     description:
       "Entre cours quotidiens, contrôles hebdomadaires et travaux à rendre en permanence, voilà ...",
     images: [coverimg],
