@@ -1,4 +1,7 @@
 /* Define the custom properties (variables) for your design system */
+
+@import url("/public/fonts/Montserrat.css");
+
 :root {
   --font-primary: "Montserrat", sans-serif;
   --font-secondary: "Poppins", sans-serif;
