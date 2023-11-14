@@ -1,6 +1,5 @@
 import styles from "./page.module.css";
 //components
-import EmptyState from "../Components/Sections/EmptyState/EmptyState";
 import NewsCard from "../Components/UI/NewsCard/NewsCard";
 
 //data
@@ -20,7 +19,7 @@ export default function page() {
         title={item.title}
         category={item.category}
         description={item.description}
-        img={item.images[0]}
+        img={item.coverimg}
         slug={item.slug}
       />
     ));
@@ -32,7 +31,7 @@ export default function page() {
         title={item.title}
         category={item.category}
         description={item.description}
-        img={item.images[0]}
+        img={item.coverimg}
         slug={item.slug}
         direction="column"
       />

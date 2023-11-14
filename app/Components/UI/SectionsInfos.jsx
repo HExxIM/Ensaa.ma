@@ -10,7 +10,7 @@ export default function SectionInfosList() {
     {
       title: "Ensa agadir",
       logo: EnsaLogo,
-      text: "The National School of Applied Sciences-Agadir (ENSAA) is an engineering training institution established in 1999. It provides a comprehensive and relatively versatile professional education over the course of five years to meticulously selected high school graduates.",
+      text: "Established in 1999 as part of Ibn ZOHR University, ENSA-AGADIR is a prominent engineering school in Morocco, offering a five-year program to highly selected high school graduates. As a key player in the ENSA network, it focuses on producing globally competitive engineers through a comprehensive two-year preparatory cycle and specialized disciplines such as Process Engineering, Civil Engineering, Industrial Engineering, Computer Engineering, Electrical Engineering, Finance, and Mechanical Engineering. Committed to excellence and innovation, ENSA-AGADIR equips students for impactful contributions in the engineering landscape.",
     },
     {
       title: "Dreamers",
