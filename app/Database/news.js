@@ -2,16 +2,17 @@ import germanday from "../../public/images/News/germanday.png";
 import germanday1 from "../../public/images/News/grmanday1.jpg";
 import germanday2 from "../../public/images/News/grmanday2.jpg";
 import techmeeting from "../../public/images/News/techmeeting.jpg";
-import techmeeting1 from "../../public/images/News/techmeeting1.jpg";
+import gala from "../../public/images/News/gala.jpg";
+
 export default [
   {
-    title: "The Monthly Technical Meeting",
-    slug: "techMeeting",
-    category: "Webinar",
+    title: "Gala",
+    slug: "gala",
+    category: "Entertainment",
     description:
       "Delving into the World of Tech: Highlights from the Monthly Technical Meeting",
-    coverimg: techmeeting,
-    images: [techmeeting1],
+    coverimg: gala,
+    images: [],
 
     links: {
       facebook:
@@ -26,9 +27,34 @@ export default [
       {
         text: "Amine Bellajdel's presentation catered to a diverse audience, making the event accessible and relevant to tech enthusiasts, budding developers, and anyone curious about the industry. The session not only delved into the current state of technology but also provided practical tips for developers and sparked discussions about the future landscape of the tech industry.",
       },
-      // {
-      //   img: techmeeting1,
-      // },
+      {
+        text: "While the live session may have concluded, the impact of the Monthly Technical Meeting persists. Attendees left with newfound knowledge and a deeper understanding of the tech world, reinforcing the webinar's role as a catalyst for ongoing learning and exploration in the ever-evolving realm of technology. Stay tuned for more enriching events that continue to fuel our collective curiosity and passion for innovation!",
+      },
+    ],
+  },
+  {
+    title: "The Monthly Technical Meeting",
+    slug: "techMeeting",
+    category: "Webinar",
+    description:
+      "Delving into the World of Tech: Highlights from the Monthly Technical Meeting",
+    coverimg: techmeeting,
+    images: [],
+
+    links: {
+      facebook:
+        "https://www.facebook.com/photo?fbid=733576768788123&set=a.454223453390124/",
+      instagram: "https://www.instagram.com/p/CzYoq7nKMqW/",
+    },
+    content: [
+      {
+        text: "The recently concluded 'Monthly Technical Meeting', hosted by ex-Google Software Engineer Amine Bellajdel on Thursday, November 9th, was a dynamic exploration of the tech industry's latest trends and innovations. In this engaging webinar, attendees, ranging from aspiring developers to seasoned professionals, had the opportunity to glean valuable insights from Bellajdel's experiences and extensive knowledge gained during his tenure at Google.",
+        youtubeId: "",
+      },
+      {
+        text: "Amine Bellajdel's presentation catered to a diverse audience, making the event accessible and relevant to tech enthusiasts, budding developers, and anyone curious about the industry. The session not only delved into the current state of technology but also provided practical tips for developers and sparked discussions about the future landscape of the tech industry.",
+      },
+
       {
         text: "While the live session may have concluded, the impact of the Monthly Technical Meeting persists. Attendees left with newfound knowledge and a deeper understanding of the tech world, reinforcing the webinar's role as a catalyst for ongoing learning and exploration in the ever-evolving realm of technology. Stay tuned for more enriching events that continue to fuel our collective curiosity and passion for innovation!",
       },
