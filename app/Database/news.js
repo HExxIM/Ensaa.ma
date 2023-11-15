@@ -48,8 +48,10 @@ export default [
     },
     content: [
       {
-        text: "The recently concluded 'Monthly Technical Meeting', hosted by ex-Google Software Engineer Amine Bellajdel on Thursday, November 9th, was a dynamic exploration of the tech industry's latest trends and innovations. In this engaging webinar, attendees, ranging from aspiring developers to seasoned professionals, had the opportunity to glean valuable insights from Bellajdel's experiences and extensive knowledge gained during his tenure at Google.",
         youtubeId: "h0Hk7Np5bLA",
+      },
+      {
+        text: "The recently concluded 'Monthly Technical Meeting', hosted by ex-Google Software Engineer Amine Bellajdel on Thursday, November 9th, was a dynamic exploration of the tech industry's latest trends and innovations. In this engaging webinar, attendees, ranging from aspiring developers to seasoned professionals, had the opportunity to glean valuable insights from Bellajdel's experiences and extensive knowledge gained during his tenure at Google.",
       },
       {
         text: "Amine Bellajdel's presentation catered to a diverse audience, making the event accessible and relevant to tech enthusiasts, budding developers, and anyone curious about the industry. The session not only delved into the current state of technology but also provided practical tips for developers and sparked discussions about the future landscape of the tech industry.",
