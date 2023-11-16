@@ -32,8 +32,8 @@
   align-items: center;
 }
 .container .imgContainer .img {
-  width: 85%;
   height: 100%;
+  width: 80%;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -59,8 +59,8 @@
     padding-right: 8vw;
     gap: 4vh;
   }
-  .container .imgContainer {
-    height: 670px;
+  .container .imgContainer .img {
+    width: 100%;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -73,9 +73,6 @@
   }
   .container h1 {
     font-size: 1.5rem;
-  }
-  .container .imgContainer {
-    height: 350px;
   }
   .container .infos {
     gap: 6vw;
