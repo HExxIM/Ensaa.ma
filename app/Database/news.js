@@ -6,29 +6,29 @@ import gala from "../../public/images/News/gala.jpg";
 
 export default [
   {
-    title: "Gala",
+    title: "Soirée traditionnelle",
     slug: "gala",
     category: "Entertainment",
     description:
-      "Delving into the World of Tech: Highlights from the Monthly Technical Meeting",
+      "Soirée Traditionnelle: A vibrant celebration of tradition, laughter, and camaraderie.",
     coverimg: gala,
     images: [],
 
     links: {
       facebook:
-        "https://www.facebook.com/photo?fbid=733576768788123&set=a.454223453390124/",
-      instagram: "https://www.instagram.com/p/CzYoq7nKMqW/",
+        "https://www.facebook.com/photo/?fbid=725488382930295&set=a.454223453390124/",
+      instagram: "https://www.instagram.com/p/CyyxnjsosCT/",
     },
     content: [
       {
-        text: "The recently concluded 'Monthly Technical Meeting', hosted by ex-Google Software Engineer Amine Bellajdel on Thursday, November 9th, was a dynamic exploration of the tech industry's latest trends and innovations. In this engaging webinar, attendees, ranging from aspiring developers to seasoned professionals, had the opportunity to glean valuable insights from Bellajdel's experiences and extensive knowledge gained during his tenure at Google.",
+        text: "In an effort to escape the monotony of our engineering studies, a group of us organized an exhilarating gala on the evening of Sunday, the 5th of November. This event was meticulously planned to provide a refreshing break from the demands of academic life, creating a space for enjoyment and camaraderie that welcomed all our guests.",
         youtubeId: "",
       },
       {
-        text: "Amine Bellajdel's presentation catered to a diverse audience, making the event accessible and relevant to tech enthusiasts, budding developers, and anyone curious about the industry. The session not only delved into the current state of technology but also provided practical tips for developers and sparked discussions about the future landscape of the tech industry.",
+        text: "From the very start, the venue was filled with an infectious joy that set the tone for an unforgettable experience. The celebration was characterized by lively interactions, engaging activities, and an abundance of laughter, ensuring that each guest was fully immersed in the sheer delight of the moment. It was a true respite from the routine, fostering connections and creating memories that will be cherished.",
       },
       {
-        text: "While the live session may have concluded, the impact of the Monthly Technical Meeting persists. Attendees left with newfound knowledge and a deeper understanding of the tech world, reinforcing the webinar's role as a catalyst for ongoing learning and exploration in the ever-evolving realm of technology. Stay tuned for more enriching events that continue to fuel our collective curiosity and passion for innovation!",
+        text: "Although the gala has come to an end, its impact endures, leaving a lasting impression on all who attended. As we reflect on the success of this event, we're eagerly anticipating the next one! Join us in looking forward to future celebrations filled with cheer and camaraderie, where we can create more memorable moments together.",
       },
     ],
   },
