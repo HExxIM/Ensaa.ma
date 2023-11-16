@@ -28,24 +28,14 @@ export default function Footer() {
             alt="ADE logo"
             className={styles.ADELogo}
           ></Image>
-          <Image
-            src={Rectangle}
-            alt="Rectangle"
-            className={styles.Rectangle}
-          ></Image>
-          <SocialMediaList
-            direction="row"
-            links={adelinks}
-            iconsSize="25"
-            iconsGap="1rem"
-            brightness="10"
-          />
         </div>
-        <div className={styles.links}>
-          <Link href="#">Terms of service</Link>
-          <Link href="/Contact">Contact</Link>
-          <Link href="#">Report</Link>
-        </div>
+        <SocialMediaList
+          direction="row"
+          links={adelinks}
+          iconsSize="25"
+          iconsGap="1rem"
+          brightness="10"
+        />
       </div>
       <p className={styles.copyrights}>
         Copyright © ADE ENSAA | Developped by{" "}
