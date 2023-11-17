@@ -44,14 +44,11 @@ export default function page({ params }) {
           {item.youtubeId && (
             <div className={styles.iframeContainer}>
               <iframe
-                width="560"
-                height="315"
                 src={"https://www.youtube.com/embed/" + item.youtubeId}
                 title={New.slug}
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
-                loading="lazy"
               ></iframe>
             </div>
           )}
