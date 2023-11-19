@@ -5,9 +5,6 @@ import Head from "next/head";
 import NavBar from "./Components/Sections/NavBar/NavBar";
 import Footer from "./Components/Sections/footer/Footer";
 
-//images
-import og_image from "../public/images/og/og_image.jpg";
-
 export const metadata = {
   title: "Ensaa",
   description: "ADE Ensaa",
