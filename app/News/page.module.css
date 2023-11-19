@@ -22,11 +22,17 @@
   gap: 3vh 1.5vw;
   justify-content: space-between;
 }
+.container .recentlyposted a {
+  flex-direction: row;
+}
 .container .allnews {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   gap: 5vh 1vw;
+}
+.container .allnews a {
+  flex-direction: column;
 }
 
 @media only screen and (max-width: 1250px) {
@@ -35,5 +41,10 @@
   }
   .container .allnews {
     justify-content: center;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .container .recentlyposted a {
+    flex-direction: column;
   }
 }/*# sourceMappingURL=page.module.css.map */

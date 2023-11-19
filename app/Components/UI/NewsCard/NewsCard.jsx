@@ -8,12 +8,12 @@ export default function NewsCard({
   category,
   description,
   img,
-  direction,
+  // direction,
 }) {
   return (
     <Link
       href={"/News/" + category + "/" + slug}
-      style={{ flexDirection: direction }}
+      // style={{ flexDirection: direction }}
       className={styles.card}
     >
       <div className={styles.imgContainer}>
