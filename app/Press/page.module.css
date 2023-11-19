@@ -1,11 +1,8 @@
 .container {
   display: flex;
   flex-direction: column;
-  position: relative;
   align-items: center;
-  gap: 4vh;
   justify-content: center;
-  margin: 25vh 0 13vh 0;
 }
 
 @media only screen and (max-width: 600px) {
