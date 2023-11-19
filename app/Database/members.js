@@ -83,8 +83,7 @@ export const members = [
     Image: members_pics.Ibtissam,
     post: "Student Affairs Coordinator",
     linkedin: "https://www.linkedin.com/in/ibtissam-massa/",
-    description:
-      "UI is the saddle, the stirrups, & the reins. UX is the feeling you get being able to ride the horse.",
+    description: ".",
   },
   {
     name: "Zakaria Ahrbil",
