@@ -4,6 +4,7 @@ import Image from "next/image";
 import clubsInfos from "../../Database/clubsInfos.js";
 //components
 import SocialMediaList from "../../Components/UI/SocialMediaList";
+import Iframe from "../../Components/UI/InstaIframe";
 
 export const metadata = {
   description: "Explore the diverse clubs and organizations at ENSAA.",
@@ -15,6 +16,7 @@ export default function page({ params }) {
   const slug = params.slug;
   metadata.title = `ENSAA - Clubs - ${slug}`;
   const club = clubsInfos.find((item) => item.slug === slug);
+
   return (
     <div className={styles.container}>
       <div className={styles.main}>
@@ -48,12 +50,7 @@ export default function page({ params }) {
           iconsGap="1.5rem"
           brightness="1"
         />
-        <iframe
-          src={club.links.instagram + "embed/"}
-          allowtransparency="true"
-          scrolling="no"
-          frameBorder="0"
-        ></iframe>
+        <Iframe club={club} />
       </div>
     </div>
   );
