@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-        <meta property="og:image" content={og_image} />
+        <meta property="og:image" content="https://www.google.com/url?sa=i&url=https%3A%2F%2Fhelpx.adobe.com%2Fca_fr%2Fphotoshop%2Fusing%2Fconvert-color-image-black-white.html&psig=AOvVaw2HgtVPtegGow7kFk0dwtuG&ust=1700503118875000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNCym_TR0IIDFQAAAAAdAAAAABAE" />
       </Head>
       <body>
         <NavBar />
