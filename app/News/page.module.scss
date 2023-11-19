@@ -1,69 +1,62 @@
-.container{
-    padding: 20vh 5vw;
+.container {
+  padding: 20vh 5vw;
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+  h1 {
+    font-size: 2rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: white;
+    span {
+      background: var(--light-glow);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+  .recentlyposted {
     display: flex;
-    flex-direction: column;
-    gap: 5vh;
-    h1{
-        font-size: 2rem;
-        font-weight: bolder;
-        text-transform: uppercase;
-        color: white;
-        span{
-            background: var(--light-glow);
-            background-clip: text;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-    }
-    .recentlyposted{
-        display: grid;
-        grid: auto / repeat(2, 1fr);
-        gap: 4%;
-        margin-bottom: 5vh;
-        justify-content: center;
-        align-items: center;
-    }
-    .allnews{
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 3vh;
-    }
+    flex-wrap: wrap;
+    gap: 5vh 2vw;
+    // justify-content: center;
+    // align-items: center;
+  }
+  .allnews {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3vh;
+  }
 }
-@media only screen and (max-width: 1025px){
-    .container{
-        gap: 4vh;
-        .recentlyposted{
-            grid: auto / repeat(1, 1fr);
-            width: 100%;
-            gap: 2%;
-            margin-bottom: 1vh;
-        }
-    }
+@media only screen and (max-width: 1025px) {
+  .container {
+    gap: 4vh;
+  }
 }
-@media only screen and (max-width: 912px){
-    .container{
-        padding-top: 13vh;
-        padding-bottom: 2vh;
-        padding-left: 8vw;
-        padding-right: 8vw;
-        .allnews{
-            justify-content: space-evenly;
-        }
+@media only screen and (max-width: 912px) {
+  .container {
+    padding-top: 13vh;
+    padding-bottom: 2vh;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    .allnews {
+      justify-content: space-evenly;
     }
+  }
 }
-@media only screen and (max-width: 600px){
-    .container{
-        padding-bottom: 2vh;
-        padding-top: 6vh;
-        padding-left: 8vw;
-        padding-right: 8vw;
-        h1{
-            font-size: 1.5rem;
-        }
-        .allnews{
-            justify-content: center;
-            align-items: center;
-        }
+@media only screen and (max-width: 600px) {
+  .container {
+    padding-bottom: 2vh;
+    padding-top: 6vh;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    h1 {
+      font-size: 1.5rem;
     }
+    .allnews {
+      justify-content: center;
+      align-items: center;
+    }
+  }
 }

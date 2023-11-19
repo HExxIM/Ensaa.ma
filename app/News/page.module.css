@@ -17,12 +17,9 @@
   -webkit-text-fill-color: transparent;
 }
 .container .recentlyposted {
-  display: grid;
-  grid: auto/repeat(2, 1fr);
-  gap: 4%;
-  margin-bottom: 5vh;
-  justify-content: center;
-  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5vh 2vw;
 }
 .container .allnews {
   width: 100%;
@@ -34,12 +31,6 @@
 @media only screen and (max-width: 1025px) {
   .container {
     gap: 4vh;
-  }
-  .container .recentlyposted {
-    grid: auto/repeat(1, 1fr);
-    width: 100%;
-    gap: 2%;
-    margin-bottom: 1vh;
   }
 }
 @media only screen and (max-width: 912px) {

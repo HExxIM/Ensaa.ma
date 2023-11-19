@@ -149,7 +149,7 @@ export default [
     ],
   },
   {
-    name: "Traders & Analysts Club",
+    name: "Traders & Analysts",
     slug: "tac",
     logo: tac,
     description:

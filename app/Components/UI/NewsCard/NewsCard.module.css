@@ -24,7 +24,8 @@
   align-items: flex-start;
   padding: 5% 2%;
   gap: 0.45rem;
-  width: 300px;
+  width: 280px;
+  background-color: rgb(160, 103, 103);
 }
 .card .textContainer .category {
   font-weight: 300;
