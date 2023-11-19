@@ -76,7 +76,7 @@ export const members = [
     Image: members_pics.Hassan,
     post: "Head of Innovation and IT",
     linkedin: "https://www.linkedin.com/in/el-qadi/",
-    description: "Be the architect of change, not a mimic of tradition.",
+    description: "When algorithms and art shake hands",
   },
   {
     name: "Ibtissam Massa",

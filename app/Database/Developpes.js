@@ -7,7 +7,7 @@ export const devs = [
     post: "Developer",
     linkedin: "https://www.linkedin.com/in/el-qadi/",
     description:
-      "UI is the saddle, the stirrups, & the reins. UX is the feeling you get being able to ride the horse.",
+      "When algorithms and art shake hands",
   },
   {
     name: "Ibtissam Massa",
