@@ -1,5 +1,12 @@
 import styles from "./page.module.css";
 
+export const metadata = {
+  title: "ENSAA - Developpers",
+  description: "Discover the brilliant minds behind the creation of the ENSAA website.",
+  keywords:
+    "ENSAA, website developers, team, creators, developers, coding, programming, tech team",
+};
+
 // components
 import TeamDevsList from "./TeamDevsList";
 
