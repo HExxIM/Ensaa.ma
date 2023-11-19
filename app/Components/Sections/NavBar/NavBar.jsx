@@ -60,6 +60,7 @@ export default function NavBar() {
       style={ElementActiveStyles(Element.path)}
       href={Element.path}
       key={Element.title}
+      onClick={() => setShowmenu(false)}
     >
       {Element.title}
     </Link>
