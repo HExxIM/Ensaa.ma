@@ -73,27 +73,20 @@
   margin: -5%;
 }
 
-@media only screen and (max-width: 600px) {
-  .NavContainer {
-    padding: 4% 8% 2% 2%;
-    backdrop-filter: blur(0px);
-  }
-  .logo {
-    scale: 0.7;
-  }
-}
-
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
   .NavList a {
-    margin: 0;
-  }
-  .loading {
-    display: none;
+    margin: 0 0.6vw;
   }
 }
 
 @media only screen and (max-width: 820px) {
   .NavList {
+    display: none;
+  }
+  .contactUsButton {
+    display: none;
+  }
+  .loading {
     display: none;
   }
   .menuButton {
@@ -102,8 +95,18 @@
   }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
   .NavList a {
-    margin: 0 0.6vw;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .NavContainer {
+    padding: 4% 8% 2% 2%;
+    backdrop-filter: blur(0px);
+  }
+  .logo {
+    scale: 0.7;
   }
 }
