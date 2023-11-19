@@ -26,8 +26,8 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-        <meta property="og:image" content="/og/opengraph-image.jpg" />
-        <meta property="og:image" content="/og/opengraph-facebook.jpg" />
+        <meta property="og:image" content="<generated>" />
+        <meta name="facebook:image" content="<generated>" />
       </Head>
       <body>
         <NavBar />
