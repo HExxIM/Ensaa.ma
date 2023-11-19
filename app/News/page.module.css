@@ -27,4 +27,13 @@
   display: flex;
   flex-wrap: wrap;
   gap: 5vh 1vw;
+}
+
+@media only screen and (max-width: 1250px) {
+  .container .recentlyposted {
+    justify-content: center;
+  }
+  .container .allnews {
+    justify-content: center;
+  }
 }/*# sourceMappingURL=page.module.css.map */
