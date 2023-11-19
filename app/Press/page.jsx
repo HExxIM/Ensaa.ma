@@ -2,6 +2,8 @@
 import MemberCard from "../Components/UI/MemberCard";
 import styles from "./page.module.css";
 import Ensapress from "./ensaPress.png";
+import EmptyState from "../Components/Sections/EmptyState/EmptyState";
+import Button from "../Components/UI/Button";
 
 export const metadata = {
   title: "ENSAA - Press",
@@ -12,15 +14,8 @@ export const metadata = {
 export default function page() {
   return (
     <div className={styles.container}>
-      <MemberCard
-        key="Ensa Press"
-        image={Ensapress}
-        name="Ensa Press"
-        post=""
-        linkedin="https://www.instagram.com/press.ensaa/"
-        alt="Ensaa Press"
-        description="A community of individuals dedicated to documenting and sharing noteworthy events within our school."
-      />
+      <EmptyState/>
+      <Button icon={Ensapress} text="Ensa Press" link="https://www.instagram.com/press.ensaa/"/>
     </div>
   );
 }
