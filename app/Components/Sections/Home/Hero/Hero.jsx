@@ -50,7 +50,7 @@ export default function HeroSection() {
         <div className={styles.button_promo}>
           <Button
             text="watch a video"
-            link="https://youtu.be/Ke0p8cVmlhc?si=GoTj03dXxdaPQHtU"
+            link="/News/Entertainment/integration23"
             __target="_blank"
             icon={playIcon}
           />

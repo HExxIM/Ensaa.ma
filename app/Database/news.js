@@ -3,6 +3,7 @@ import germanday1 from "../../public/images/News/grmanday1.jpg";
 import germanday2 from "../../public/images/News/grmanday2.jpg";
 import techmeeting from "../../public/images/News/techmeeting.jpg";
 import gala from "../../public/images/News/gala.jpg";
+import integration from "../../public/images/News/integration.jpg";
 
 export default [
   {
@@ -100,14 +101,14 @@ export default [
     category: "Entertainment",
     description:
       "Ensa Agadir 2023-2024 Integration Week: A Glimpse of Fun and Teamwork! ",
-    coverimg: germanday,
+    coverimg: integration,
     images: [],
 
     links: {
-      facebook: "https://www.facebook.com/photo/?fbid=726514786160988",
-      instagram: "https://www.instagram.com/p/Cy3a1eNKcH5/",
+      facebook: "https://www.facebook.com/adeensaa/videos/7128816273844031",
+      instagram: "https://www.instagram.com/p/CxNutQyNwZ5/",
       linkedin:
-        "https://www.linkedin.com/posts/ade-ensa-agadir_rejoignez-nous-pour-une-session-sp%C3%A9ciale-activity-7123320060105879552-XhDX/",
+        "https://www.linkedin.com/posts/ade-ensa-agadir_ensaintegrationweek2023-newbeginnings-activity-7108448392204140544-H4Wt",
     },
     content: [
       {
