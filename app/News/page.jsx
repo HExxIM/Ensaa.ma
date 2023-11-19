@@ -21,6 +21,7 @@ export default function page() {
         description={item.description}
         img={item.coverimg}
         slug={item.slug}
+        direction="row"
       />
     ));
 
