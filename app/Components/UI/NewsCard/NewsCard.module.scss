@@ -4,12 +4,18 @@
   gap: 1%;
   align-items: center;
   flex-direction: row;
+  background: linear-gradient(
+    90deg,
+    rgba(201, 255, 254, 0.1) -8.41%,
+    rgba(255, 237, 199, 0.1) 145.69%
+  );
+  backdrop-filter: blur(60px);
+  border-radius: 6px;
+  overflow: hidden;
   .imgContainer {
     width: 295px;
-    height: 195px;
+    height: 190px;
     background-color: white;
-    border-radius: 6px;
-    overflow: hidden;
     .img {
       width: 100%;
       height: 100%;
@@ -20,10 +26,10 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 5% 2%;
+    padding: 4% 2%;
     gap: 0.45rem;
     width: 280px;
-    background-color: rgb(160, 103, 103);
+    height: 100%;
     .category {
       font-weight: 300;
       font-size: small;
