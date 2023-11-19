@@ -15,7 +15,7 @@ export const devs = [
     post: "Developer",
     linkedin: "https://www.linkedin.com/in/ibtissam-massa/",
     description:
-      "A coding ninja by night 🥷, pretending to be a mere mortal by day.",
+      "A coding ninja by night 🐱‍👤, pretending to be a mere mortal by day.",
   },
   {
     name: "Zakaria Ahrbil",
