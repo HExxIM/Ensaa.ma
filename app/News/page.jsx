@@ -26,7 +26,7 @@ export default function page() {
     ));
 
   const othernews = news
-    .slice(3)
+    .slice(4)
     .map((item) => (
       <NewsCard
         title={item.title}
