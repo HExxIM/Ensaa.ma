@@ -26,8 +26,8 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-        <meta property="og:image" content="https://www.ensaa.ma/images/og/opengraph-image.jpg" />
-        <meta name="twitter:image" content="https://www.ensaa.ma/images/og/twitter-image.jpg" />
+        <meta property="og:image" content="<generated>" />
+        <meta name="twitter:image" content="<generated>" />
       </Head>
       <body>
         <NavBar />
