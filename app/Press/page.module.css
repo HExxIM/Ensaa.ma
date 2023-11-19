@@ -4,9 +4,3 @@
   align-items: center;
   justify-content: center;
 }
-
-@media only screen and (max-width: 600px) {
-  .container {
-    margin: 10vh 0;
-  }
-} /*# sourceMappingURL=page.module.css.map */

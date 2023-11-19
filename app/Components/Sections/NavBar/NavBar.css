@@ -75,7 +75,6 @@
 
 @media only screen and (max-width: 600px) {
   .NavContainer {
-    position: relative;
     padding: 4% 8% 2% 2%;
     backdrop-filter: blur(0px);
   }

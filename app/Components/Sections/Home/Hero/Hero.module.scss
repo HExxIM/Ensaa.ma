@@ -167,18 +167,17 @@
   .Hero_container {
     flex-direction: column;
     text-align: center;
-    // height: 92vh;
-    padding-top: 19vh;
+    padding-top: 24vh;
     .blurBottom,
     .blurTop {
       display: none;
       animation: none;
     }
     .Hero_left {
+      margin: -5vh 0 0 0;
       width: 100vw;
       justify-content: space-between;
       align-items: center;
-      margin-top: -5vh;
       p {
         font-size: 1.3rem;
         font-weight: 100;
@@ -200,7 +199,6 @@
       }
     }
     .socialMedia {
-      // position: absolute;
       bottom: 17vh;
       padding-left: 5vw;
     }
@@ -208,7 +206,7 @@
     .Hero_right {
       .moonLogo {
         opacity: 0.3;
-        top: -16vh;
+        top: -10vh;
         scale: 1.3;
         right: 0;
         width: 100vw;
