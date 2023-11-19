@@ -1,47 +1,46 @@
-.container{
-    padding: 20vh 5vw;
-    h1{
-        font-size: 2rem;
-        font-weight: bolder;
-        text-transform: uppercase;
-        color: white;
-        margin-bottom: 1.8rem;
-        span{
-            background: var(--light-glow);
-            background-clip: text;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
+.container {
+  padding: 20vh 5vw;
+  h1 {
+    font-size: 2rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 1.8rem;
+    span {
+      background: var(--light-glow);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
-    .cardsContainer{
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-    }
+  }
+  .cardsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
 }
-@media only screen and (max-width: 912px){
-    .container{
-        padding-bottom: 2vh;
-        padding-top: 13vh;
-    }
+@media only screen and (max-width: 912px) {
+  .container {
+    padding-bottom: 2vh;
+    padding-top: 13vh;
+  }
 }
-@media only screen and (max-width: 800px){
-    .container{
-        padding-bottom: 2vh;
-        padding-top: 13vh;
-        h1{
-            font-size: 1.5rem;
-        }
+@media only screen and (max-width: 800px) {
+  .container {
+    padding-bottom: 2vh;
+    padding-top: 13vh;
+    h1 {
+      font-size: 1.5rem;
     }
+  }
 }
-@media only screen and (max-width: 600px){
-    .container{
-        padding-bottom: 2vh;
-        padding-top: 6vh;
-        padding-left: 8vw;
-        padding-right: 8vw;
-        h1{
-            font-size: 1.5rem;
-        }
+@media only screen and (max-width: 600px) {
+  .container {
+    padding-bottom: 2vh;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    h1 {
+      font-size: 1.5rem;
     }
+  }
 }
