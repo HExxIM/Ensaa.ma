@@ -48,7 +48,12 @@ export default function HeroSection() {
           We assure you a better environment at ENSAA.
         </p>
         <div className={styles.button_promo}>
-          <Button text="watch a video" link="/" icon={playIcon} />
+          <Button
+            text="watch a video"
+            link="https://youtu.be/Ke0p8cVmlhc?si=GoTj03dXxdaPQHtU"
+            __target="_blank"
+            icon={playIcon}
+          />
           <p>25th promotion</p>
         </div>
       </div>

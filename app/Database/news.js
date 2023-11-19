@@ -22,7 +22,7 @@ export default [
     content: [
       {
         text: "In an effort to escape the monotony of our engineering studies, a group of us organized an exhilarating gala on the evening of Sunday, the 5th of November. This event was meticulously planned to provide a refreshing break from the demands of academic life, creating a space for enjoyment and camaraderie that welcomed all our guests.",
-        youtubeId: "",
+        youtubeId: "wmqF_ngDfvo",
       },
       {
         text: "From the very start, the venue was filled with an infectious joy that set the tone for an unforgettable experience. The celebration was characterized by lively interactions, engaging activities, and an abundance of laughter, ensuring that each guest was fully immersed in the sheer delight of the moment. It was a true respite from the routine, fostering connections and creating memories that will be cherished.",
@@ -95,13 +95,13 @@ export default [
     ],
   },
   {
-    title: "The German Day Conference",
-    slug: "germanDay",
-    category: "Conference",
+    title: "Integration Week 2023 - 2024",
+    slug: "integration23",
+    category: "Entertainment",
     description:
-      "Exploring Opportunities: Insights from the German Day Conference",
+      "Ensa Agadir 2023-2024 Integration Week: A Glimpse of Fun and Teamwork! ",
     coverimg: germanday,
-    images: [germanday1, germanday2],
+    images: [],
 
     links: {
       facebook: "https://www.facebook.com/photo/?fbid=726514786160988",
@@ -111,18 +111,8 @@ export default [
     },
     content: [
       {
-        text: "The recent 'German Day' conference, hosted at ENSA AGADIR on Saturday, October 28, served as a dynamic platform that brought together a diverse audience, all with a common goal — to delve into the myriad opportunities Germany has to offer in the realms of education, work, and professional development. This insightful event, featuring Mr. Mohammed EL AZZABI, the esteemed Founder of EliteHaus Akademie, proved to be a beacon of knowledge, drawing from his extensive 15 years of experience in the field.",
-        youtubeId: "tmSPw9sLmHs",
-      },
-      {
-        text: "The event illuminated the myriad opportunities Germany offers to both students and professionals. Attendees delved into educational programs, scholarships, and valuable resources, making it an invaluable asset for those considering studying in Germany. The discussions seamlessly extended to employment opportunities, offering insights into the job market, work visas, and effective career growth strategies.",
-      },
-      {
-        img: germanday1,
-      },
-      {
-        text: "Whether prospective students, professionals, or individuals seeking skill enhancement, the conference delivered tailored insights. Covering a spectrum from academic pursuits to career advancements, it ensured relevance for everyone present. Beyond presenting opportunities, the 'German Day' conference equipped attendees with actionable steps, providing a concise yet comprehensive roadmap. From understanding the German education system to navigating the job market, and from acquiring new skills to staying globally competitive, the event was a valuable compass for success in the German landscape.",
-        img: germanday2,
+        text: "Dive into the best moments of our Integration Week at Ensa Agadir for the academic year 2023-2024! From initial meet-ups to shared successes, this video is a quick glimpse into the fun, teamwork, and excitement that kick-started our journey as future engineers. Join the celebration, enjoy the memories, and get ready for an amazing year ahead!",
+        youtubeId: "Ke0p8cVmlhc",
       },
     ],
   },
