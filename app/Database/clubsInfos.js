@@ -562,8 +562,31 @@ export default [
     },
     content: [
       {
-        img: "",
-        text: "Club ROBOTIQUE & RECHERCHE TECHNOLOGIQUE: est un club crée en 2008 à ENSA Agadir par un groupe d'étudiants passionnés par la robotique et conscient des défis technologues qu'elle surmonte.",
+        text: "The CRRT, robotics club created in 2008, organizes Arduino, raspberry pi's training sessions for ENSAISTES and external participants, while creating an environment of technological innovation, and teaching engineering students the steps to enable them to develop their analysis skills and scientific research. Carry out several projects & participate in various competitions.",
+      },
+      {
+        title: "Among the club's achievements:",
+      },
+      {
+        subtitle:
+          "- Participation in “THE FIRST SUMMIT OF ENGINEERING” Al AKHAWAYN",
+      },
+      {
+        subtitle:
+          "- Representation of the UIZ at the MÉDINOVA international forum in Casablanca",
+      },
+      {
+        subtitle: "- 1st edition of the ENSAA national robotics competition",
+      },
+      {
+        subtitle: "- UM6P BENGUERIR Competition",
+      },
+      {
+        subtitle:
+          "- 2022/2023: 1st edition of the SOUTH ROBOTICS GATHERING (SRG) event. ",
+      },
+      {
+        text: "To find out more, browse our social networks",
       },
     ],
   },
