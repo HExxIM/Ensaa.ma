@@ -45,7 +45,7 @@ export const members = [
     Image: members_pics.Baroudi,
     post: "Head of Logistics",
     linkedin: "https://www.linkedin.com/in/medbaroudi/",
-    description: "The magic you are looking for is in the work you're avoiding",
+    description: "If you cannot do great things, do small things in a great way.",
   },
   {
     name: "Imad Aouragh",
