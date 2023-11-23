@@ -45,7 +45,7 @@ export const members = [
     Image: members_pics.Baroudi,
     post: "Head of Logistics",
     linkedin: "https://www.linkedin.com/in/medbaroudi/",
-    description: "The magic you are looking for is in the work you're avoiding",
+    description: "If you cannot do great things, do small things in a great way.",
   },
   {
     name: "Imad Aouragh",
@@ -76,14 +76,15 @@ export const members = [
     Image: members_pics.Hassan,
     post: "Head of Innovation and IT",
     linkedin: "https://www.linkedin.com/in/el-qadi/",
-    description: "Be the architect of change, not a mimic of tradition.",
+    description: "When algorithms and art shake hands",
   },
   {
     name: "Ibtissam Massa",
     Image: members_pics.Ibtissam,
     post: "Student Affairs Coordinator",
-    linkedin: "https://www.linkedin.com/in/ibtissam-massa/",
-    description: ".",
+    linkedin:'https://www.linkedin.com/in/ibtissam-massa/',
+    description:
+      "Like the stars, each of us shines with our own light, but together, we illuminate the sky with an unparalleled brilliance",
   },
   {
     name: "Zakaria Ahrbil",

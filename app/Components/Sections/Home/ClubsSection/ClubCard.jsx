@@ -28,6 +28,7 @@ export default function ClubCard({ image, name, slug }) {
     color: "white",
     fontSize: "1.2rem",
     fontWeight: "600",
+    marginTop: "20px",
   };
 
   return (
