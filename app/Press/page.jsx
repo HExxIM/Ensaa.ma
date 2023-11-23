@@ -15,7 +15,7 @@ export default function page() {
   return (
     <div className={styles.container}>
       <EmptyState/>
-      <Button icon={Ensapress} text="Ensa Press" link="https://www.instagram.com/press.ensaa/"/>
+      <Button icon={Ensapress} __target="_blank" text="Ensa Press" link="https://www.instagram.com/press.ensaa/"/>
     </div>
   );
 }
