@@ -1,5 +1,6 @@
 import "./globals.css";
 import Head from "next/head";
+import { Analytics } from "@vercel/analytics/react";
 
 //components
 import NavBar from "./Components/Sections/NavBar/NavBar";
@@ -25,7 +26,10 @@ export default function RootLayout({ children }) {
           href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
           rel="stylesheet"
         />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0"
+        ></meta>
         <meta property="og:image" content="<generated>" />
         <meta property="og:image:type" content="<generated>" />
         <meta property="og:image:width" content="<generated>" />
@@ -35,6 +39,7 @@ export default function RootLayout({ children }) {
         <NavBar />
         {children}
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
