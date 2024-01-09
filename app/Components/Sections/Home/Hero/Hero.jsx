@@ -38,11 +38,11 @@ export default function HeroSection() {
 
       <div className={styles.Hero_left}>
         <h1>
-          Together we
+          Good luck
           <br />
-          can make it
+          with your
           <br />
-          real!
+          exams!
         </h1>
         <p className={styles.description}>
           We assure you a better environment at ENSAA.
