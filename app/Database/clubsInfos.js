@@ -4,9 +4,9 @@ import fsf from "../../public/svg/ClubsLogos/fsf.svg";
 import Enactus from "../../public/svg/ClubsLogos/Enactus.svg";
 import tac from "../../public/svg/ClubsLogos/tac.png";
 import meca from "../../public/svg/ClubsLogos/meca.png";
-import CRRT from "../../public/svg/ClubsLogos/CRRT.png";
+import CRRT from "../../public/svg/ClubsLogos/CRRT.svg";
 import Harmony from "../../public/svg/ClubsLogos/Harmony.png";
-import Ecolos from "../../public/svg/ClubsLogos/Ecolos.png";
+import Ecolos from "../../public/svg/ClubsLogos/Ecolos.svg";
 import Indus from "../../public/svg/ClubsLogos/Indus.png";
 import sportif from "../../public/svg/ClubsLogos/sportif.png";
 import Social from "../../public/svg/ClubsLogos/Social.png";
@@ -551,7 +551,7 @@ export default [
     slug: "robotique",
     logo: CRRT,
     description:
-      "Club ROBOTIQUE & RECHERCHE TECHNOLOGIQUE: est un club crée en 2008 à ENSA Agadir par un groupe d'étudiants passionnés par la robotique et conscient des défis technologues qu'elle surmonte.",
+      "The CRRT, robotics club created in 2008, organizes Arduino, raspberry pi's training sessions for ENSAISTES and external participants, while creating an environment of technological innovation, and teaching engineering students the steps to enable them to develop their analysis skills and scientific research. Carry out several projects & participate in various competitions.",
     links: {
       facebook: "https://www.facebook.com/crrtensa/",
       instagram: "https://www.instagram.com/club_robotique_crrt/",
