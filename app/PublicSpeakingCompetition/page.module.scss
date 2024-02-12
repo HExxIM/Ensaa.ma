@@ -1,9 +1,10 @@
 .container {
-    padding: 20vh 5vw;
+    padding: 20vh 10vw;
     display: flex;
     flex-direction: column;
     gap: 3vh;
     align-items: center;
+    color: white;
     h1{
         font-size: 2rem;
         font-weight: bolder;
@@ -12,6 +13,10 @@
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+    }
+    p{
+        font-weight: 300;
+        line-height: 180%;
     }
     .infos{
         display:flex;
@@ -22,7 +27,7 @@
         display: flex;
         flex-wrap: wrap;
         width: 70%;
-        margin: 2% 0;
+        margin: 1% 0;
         justify-content: center;
         overflow: hidden;
         border-radius: 20px;

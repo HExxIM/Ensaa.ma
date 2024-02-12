@@ -26,6 +26,7 @@ function PublicSpeakingCompetition() {
                     brightness="1"
                 />
             </div>
+            <p>Découvrez les participants du concours L’INGÉNIEUR ENSAA PREND LA PAROLE ! Chaque image représente un individu talentueux prêt à mettre en valeur ses compétences. Gardez un œil sur les participants éliminés que nous marquons en niveau de gris. Qui émergera victorieux et prendra la parole ?</p>
             <div className={styles.participants}>
                 {
                     participants.map((participant, index) => {
