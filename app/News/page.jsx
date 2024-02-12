@@ -40,6 +40,9 @@ export default function page() {
 
   return (
     <div className={styles.container}>
+      {/* <div className={styles.newsBar}>
+        <p>Discover our new event</p>
+      </div> */}
       <h1>
         <span>Recently</span> posted
       </h1>

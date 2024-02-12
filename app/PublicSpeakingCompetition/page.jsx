@@ -1,0 +1,46 @@
+import styles from './page.module.css'
+import SocialMediaList from '../Components/UI/SocialMediaList';
+import participants from '../Database/PublicSpeakingCompetition'
+import Image from 'next/image';
+
+export const metadata = {
+    title: "Ensaa - PublicSpeakingCompetition",
+    description: "ADE Ensaa - PublicSpeakingCompetition",
+};
+
+function PublicSpeakingCompetition() {
+    const links = {
+        facebook:"https://www.facebook.com/photo/?fbid=788434646635668&set=a.454223453390124/",
+        instagram: "https://www.instagram.com/p/C3GVkUvsNZU/",
+      }
+    return ( 
+        <div className={styles.container}>
+            <h1>
+                L’ingénieur ENSAA prend la parole
+            </h1>
+            <div className={styles.infos}>
+                <SocialMediaList
+                    direction="row"
+                    className={styles.SocialMediaList}
+                    links={links}
+                    iconsSize="23"
+                    iconsGap="1.2rem"
+                    brightness="1"
+                />
+            </div>
+            <div className={styles.participants}>
+                {
+                    participants.map((participant, index) => {
+                        return (
+                            <div key={index} className={styles.participant}>
+                                <Image className={styles.img} src={participant.img} alt="participant"/>
+                            </div>
+                        )
+                    })
+                }
+            </div>
+        </div>
+     );
+}
+
+export default PublicSpeakingCompetition;
