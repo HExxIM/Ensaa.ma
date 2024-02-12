@@ -4,8 +4,58 @@ import germanday2 from "../../public/images/News/grmanday2.jpg";
 import techmeeting from "../../public/images/News/techmeeting.jpg";
 import gala from "../../public/images/News/gala.jpg";
 import integration from "../../public/images/News/integration.jpg";
+import PublicSpeaking from "../../public/images/News/PublicSpeaking.png";
+import { images } from "@/next.config";
 
 export default [
+  {
+    title: "L’ingénieur ENSAA prend la parole",
+    slug: "PublicSpeakingCompetition",
+    category: "Event",
+    description:
+      "Le lancement du concours de prise de parole dans sa première Edition, intitulé « L’ingénieur ENSAA prend la parole ».",
+    coverimg: PublicSpeaking,
+    images: [PublicSpeaking],
+
+    links: {
+      facebook:
+        "https://www.facebook.com/photo/?fbid=788434646635668&set=a.454223453390124/",
+      instagram: "https://www.instagram.com/p/C3GVkUvsNZU/",
+    },
+    content: [
+      {
+        text: "Qui ne rêve pas d'être un bon orateur ?",
+        img: PublicSpeaking,
+      },
+      {
+        text: "Nous sommes ravis d'annoncer le lancement du concours de prise de parole dans sa première Edition, intitulé « L’ingénieur ENSAA prend la parole ». Participer à un concours de prise de parole en 180 secondes offre de nombreux avantages pour les candidats courageux qui osent se lancer dans l'aventure. En plus de la possibilité de remporter des prix attractifs, les participants bénéficient également d'une formation précieuse en communication et en leadership et des attestations de participation à ce concours.",
+      },
+      {
+        text: "En affrontant le défi de prendre la parole en public en Arabe, français ou Anglais, les candidats acquièrent une expérience pratique qui les aide à développer leur confiance en eux, leur capacité à articuler leurs idées de manière claire et convaincante, ainsi que leur aptitude à gérer le stress et à rester calmes sous pression.",
+      },
+      {
+        text: "Nous encourageons tous les élèves ingénieurs à saisir cette occasion unique de développer leurs compétences et de se démarquer dans leur parcours académique et professionnel. Nous avons hâte de voir les talents et les idées innovantes que vous apporterez à ce concours. Bonne chance à tous les participants !",
+      },
+      {
+        text: "Le concours se déroule en Quatre étapes :",
+      },
+      {
+        text: " - Une première sélection aura lieu au sein de L’ENSA entre 12 Et 16 février 2024. (Élimination par vote)",
+      },
+      {
+        text: " - La deuxième étape, (formation en prise de parole au profit des sélectionnées)",
+      },
+      {
+        text: " - La troisième étape (l’élimination par jurys)",
+      },
+      {
+        text: " - La dernière étape, c’est la finale qui aura lieu le samedi 2 mars 2024 à ENSA au cours de laquelle s’affronteront les meilleurs demi-finalistes.",
+      },
+      {
+        text: "N’oubliez pas que le dernier délai pour remplir le formulaire est le 11février 2024.",
+      },
+    ],
+  },
   {
     title: "Soirée traditionnelle",
     slug: "gala",

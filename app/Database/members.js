@@ -45,7 +45,8 @@ export const members = [
     Image: members_pics.Baroudi,
     post: "Head of Logistics",
     linkedin: "https://www.linkedin.com/in/medbaroudi/",
-    description: "If you cannot do great things, do small things in a great way.",
+    description:
+      "If you cannot do great things, do small things in a great way.",
   },
   {
     name: "Imad Aouragh",
@@ -54,14 +55,6 @@ export const members = [
     linkedin: "https://www.linkedin.com/in/imad-aouragh-496607221/",
     description:
       "Education is a weapon, whose effect depends on who holds it in his hands and at whom it is aimed",
-  },
-  {
-    name: "Khalid Et-tazy",
-    Image: members_pics.Khalid,
-    post: "Event Manager",
-    linkedin: "https://www.linkedin.com/in/khalid-et-tazy-860a741b6/",
-    description:
-      "Se réunir est un début, rester ensemble est un progrès, travailler ensemble est la réussite.",
   },
   {
     name: "Samira Errai",
@@ -82,7 +75,7 @@ export const members = [
     name: "Ibtissam Massa",
     Image: members_pics.Ibtissam,
     post: "Student Affairs Coordinator",
-    linkedin:'https://www.linkedin.com/in/ibtissam-massa/',
+    linkedin: "https://www.linkedin.com/in/ibtissam-massa/",
     description:
       "Like the stars, each of us shines with our own light, but together, we illuminate the sky with an unparalleled brilliance",
   },
@@ -92,13 +85,6 @@ export const members = [
     post: "Designer and SM",
     linkedin: "https://www.linkedin.com/in/zakaria-ahrbil-772041236/",
     description: "I have no enemies.",
-  },
-  {
-    name: "Wissal Benider",
-    Image: members_pics.Wissal,
-    post: "Head of communication",
-    linkedin: "https://www.linkedin.com/in/wissal-benider-578471221/",
-    description: "life begins at the end of your comfort zone",
   },
   {
     name: "Malak Bourrich",
@@ -131,5 +117,12 @@ export const members = [
     linkedin: "https://www.linkedin.com/in/salma-mahmoud-981719230/",
     description:
       "Team work is the art of harmonizing diverse talents towards a common vision",
+  },
+  {
+    name: "Wissal Benider",
+    Image: members_pics.Wissal,
+    post: "Head of communication",
+    linkedin: "https://www.linkedin.com/in/wissal-benider-578471221/",
+    description: "life begins at the end of your comfort zone",
   },
 ];
