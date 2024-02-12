@@ -15,9 +15,7 @@ function PublicSpeakingCompetition() {
       }
     return ( 
         <div className={styles.container}>
-            <h1>
-                L’ingénieur ENSAA prend la parole
-            </h1>
+            <h1>L’ingénieur ENSAA prend la parole</h1>
             <div className={styles.infos}>
                 <SocialMediaList
                     direction="row"
@@ -32,7 +30,7 @@ function PublicSpeakingCompetition() {
                 {
                     participants.map((participant, index) => {
                         return (
-                            <div key={index} className={styles.participant}>
+                            <div key={index} className={participant.in==true ? styles.participant : styles.out}>
                                 <Image className={styles.img} src={participant.img} alt="participant"/>
                             </div>
                         )
