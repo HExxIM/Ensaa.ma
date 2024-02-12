@@ -12,7 +12,8 @@ export default function NewsCard({
 }) {
   return (
     <Link
-      href={(slug=="PublicSpeakingCompetition")?"/PublicSpeakingCompetition":"/News/" + category + "/" + slug}
+      // href={(slug=="PublicSpeakingCompetition")?"/PublicSpeakingCompetition":"/News/" + category + "/" + slug}
+      href={"/News/" + category + "/" + slug}
       // style={{ flexDirection: direction }}
       className={styles.card}
     >
