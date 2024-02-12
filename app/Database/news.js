@@ -24,8 +24,10 @@ export default [
     },
     content: [
       {
-        text: "Qui ne rêve pas d'être un bon orateur ?",
         img: PublicSpeaking,
+      },
+      {
+        text: "Qui ne rêve pas d'être un bon orateur ?",
       },
       {
         text: "Nous sommes ravis d'annoncer le lancement du concours de prise de parole dans sa première Edition, intitulé « L’ingénieur ENSAA prend la parole ». Participer à un concours de prise de parole en 180 secondes offre de nombreux avantages pour les candidats courageux qui osent se lancer dans l'aventure. En plus de la possibilité de remporter des prix attractifs, les participants bénéficient également d'une formation précieuse en communication et en leadership et des attestations de participation à ce concours.",
@@ -52,7 +54,7 @@ export default [
         text: " - La dernière étape, c’est la finale qui aura lieu le samedi 2 mars 2024 à ENSA au cours de laquelle s’affronteront les meilleurs demi-finalistes.",
       },
       {
-        text: "N’oubliez pas que le dernier délai pour remplir le formulaire est le 11février 2024.",
+        text: "N’oubliez pas que le dernier délai pour remplir le formulaire est le 11 Février 2024.",
       },
     ],
   },
