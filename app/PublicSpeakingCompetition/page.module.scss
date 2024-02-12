@@ -84,14 +84,17 @@
       padding-left: 8vw;
       padding-right: 8vw;
       gap: 3vh;
+      p{
+        font-size: 0.85rem;
+      }
+      .participants{
+          width: 100%;
+          .participant,.out{
+              width: 70px;
+              height: 70px;
+          }
+          }
     }
-    .participants{
-        width: 100%;
-        .participant,.out{
-            width: 70px;
-            height: 70px;
-        }
-        }
   }
   
   
