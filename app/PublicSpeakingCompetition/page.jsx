@@ -32,7 +32,7 @@ function PublicSpeakingCompetition() {
                     participants.map((participant, index) => {
                         return (
                             <div key={index} className={participant.in==true ? styles.participant : styles.out}>
-                                <Image className={styles.img} src={participant.img} alt="participant"/>
+                                <Image className={styles.img} src={participant.img} alt={participant.name}/>
                             </div>
                         )
                     })

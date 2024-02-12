@@ -42,9 +42,9 @@
             }
         }
         .out{
-            .img{
-                filter: grayscale(200%);
-            }
+            .img {
+                filter: grayscale(100%) brightness(80%);
+            }            
         }
     }
   }
