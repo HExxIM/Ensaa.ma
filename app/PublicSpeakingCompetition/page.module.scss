@@ -48,4 +48,50 @@
         }
     }
   }
+
+  @media only screen and (max-width: 600px) {
+    .container {
+      padding-bottom: 2vh;
+      padding-left: 8vw;
+      padding-right: 8vw;
+      gap: 3vh;
+      h1 {
+        font-size: 1.5rem;
+      }
+      .infos {
+        gap: 6vw;
+        span {
+          font-weight: 300;
+          background: var(--light-glow);
+          padding: 5px 8px;
+          border-radius: 3px;
+        }
+      }
+      .participants{
+        width: 100%;
+        .participant,.out{
+            width: 70px;
+            height: 70px;
+        }
+        }   
+    }
+  }
+  
+  @media only screen and (max-width: 912px) {
+    .container {
+      padding-top: 13vh;
+      padding-bottom: 2vh;
+      padding-left: 8vw;
+      padding-right: 8vw;
+      gap: 3vh;
+    }
+    .participants{
+        width: 100%;
+        .participant,.out{
+            width: 70px;
+            height: 70px;
+        }
+        }
+  }
+  
   
