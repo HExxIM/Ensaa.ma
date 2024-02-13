@@ -1,6 +1,6 @@
 .container {
   display: flex;
-  padding: 18vh 35vw 2vh 6vw;
+  padding: 16vh 35vw 2vh 6vw;
   flex-direction: column;
   color: white;
   gap: 5vh;

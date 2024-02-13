@@ -1,6 +1,6 @@
 import styles from './page.module.css'
-import SocialMediaList from '../Components/UI/SocialMediaList';
-import participants from '../Database/PublicSpeakingCompetition'
+import SocialMediaList from '../../UI/SocialMediaList';
+import participants from '../../../Database/PublicSpeakingCompetition'
 import Image from 'next/image';
 
 export const metadata = {

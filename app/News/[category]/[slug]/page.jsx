@@ -4,6 +4,7 @@ import Image from "next/image";
 import news from "../../../Database/news.js";
 //components
 import SocialMediaList from "../../../Components/UI/SocialMediaList";
+import PublicSpeakingCompetition from "../../../Components/Sections/PublicSpeakingCompetition/PublicSpeakingCompetition";
 
 export const metadata = {
   description: "Stay up-to-date with the latest news and updates from ENSAA.",
@@ -15,19 +16,24 @@ export default function page({ params }) {
   metadata.title = `ENSAA - News - ${slug}`;
   const New = news.find((item) => item.slug === slug);
   return (
+    <>
+    {slug === "PublicSpeakingCompetition" && <PublicSpeakingCompetition />}
     <div className={styles.container}>
       <h1>{New.title}</h1>
-      <div className={styles.infos}>
-        <span>{New.category}</span>
-        <SocialMediaList
-          direction="row"
-          className={styles.SocialMediaList}
-          links={New.links}
-          iconsSize="25"
-          iconsGap="1.2rem"
-          brightness="1"
-        />
-      </div>
+      {
+        slug != "PublicSpeakingCompetition" && 
+        <div className={styles.infos}>
+          <span>{New.category}</span>
+          <SocialMediaList
+            direction="row"
+            className={styles.SocialMediaList}
+            links={New.links}
+            iconsSize="25"
+            iconsGap="1.2rem"
+            brightness="1"
+          />
+        </div>
+      }
       {New.content.map((item, index) => (
         <>
           {item.text && <p>{item.text}</p>}
@@ -55,5 +61,6 @@ export default function page({ params }) {
         </>
       ))}
     </div>
+    </>
   );
 }

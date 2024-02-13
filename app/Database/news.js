@@ -5,11 +5,10 @@ import techmeeting from "../../public/images/News/techmeeting.jpg";
 import gala from "../../public/images/News/gala.jpg";
 import integration from "../../public/images/News/integration.jpg";
 import PublicSpeaking from "../../public/images/News/PublicSpeaking.png";
-import { images } from "@/next.config";
 
 export default [
   {
-    title: "L’ingénieur ENSAA prend la parole",
+    title: "La Voix de l'Ingénieur à l'ENSAA : Parcours vers la Victoire",
     slug: "PublicSpeakingCompetition",
     category: "Event",
     description:
