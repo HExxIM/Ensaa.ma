@@ -8,7 +8,7 @@ import PublicSpeaking from "../../public/images/News/PublicSpeaking.png";
 
 export default [
   {
-    title: "La Voix de l'Ingénieur à l'ENSAA : Parcours vers la Victoire",
+    title: "L’ingénieur ENSAA prend la parole",
     slug: "PublicSpeakingCompetition",
     category: "Event",
     description:

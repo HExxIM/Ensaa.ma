@@ -7,13 +7,13 @@
   color: white;
 }
 .container h1 {
-  font-size: 2rem;
   font-weight: bolder;
-  text-transform: uppercase;
+  font-size: 2.7rem;
   background: var(--light-glow);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  line-height: 140%;
 }
 .container p {
   font-weight: 300;
