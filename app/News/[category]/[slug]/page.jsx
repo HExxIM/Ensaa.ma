@@ -18,7 +18,7 @@ export default function page({ params }) {
   return (
     <>
     {slug === "PublicSpeakingCompetition" && <PublicSpeakingCompetition />}
-    <div className={styles.container}>
+    <div className={slug === "PublicSpeakingCompetition" ? styles.container+" center" : styles.container}>
       <h1>{slug === "PublicSpeakingCompetition" ? "La Voix de l'Ingénieur à l'ENSAA : Parcours vers la Victoire" : New.title}</h1>
       {
         slug != "PublicSpeakingCompetition" && 
