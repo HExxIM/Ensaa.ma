@@ -56,10 +56,9 @@
 
   @media only screen and (max-width: 600px) {
     .container {
-      padding-bottom: 2vh;
       padding-left: 8vw;
       padding-right: 8vw;
-      gap: 3vh;
+      gap: 3vh; 
       h1 {
         font-size: 1.5rem;
       }
@@ -78,27 +77,28 @@
             width: 70px;
             height: 70px;
         }
-        }   
+      }
     }
   }
   
   @media only screen and (max-width: 912px) {
     .container {
       padding-top: 13vh;
-      padding-bottom: 2vh;
       padding-left: 8vw;
       padding-right: 8vw;
-      gap: 3vh;
-      p{
-        font-size: 0.85rem;
+      gap: 4vh;
+      .imgContainer {
+        .img {
+          width: 100%;
+        }
       }
       .participants{
-          width: 100%;
-          .participant,.out{
-              width: 70px;
-              height: 70px;
-          }
-          }
+        width: 100%;
+        .participant,.out{
+            width: 70px;
+            height: 70px;
+        }
+    }
     }
   }
   
