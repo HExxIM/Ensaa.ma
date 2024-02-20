@@ -1,9 +1,8 @@
 .container {
-  padding: 20vh 10vw 0 10vw;
+  padding: 16vh 33vw 0vh 6vw;
   display: flex;
   flex-direction: column;
   gap: 3vh;
-  align-items: center;
   color: white;
 }
 .container h1 {
@@ -27,7 +26,7 @@
 .container .participants {
   display: flex;
   flex-wrap: wrap;
-  width: 70%;
+  width: 85%;
   margin-top: 1%;
   justify-content: center;
   overflow: hidden;

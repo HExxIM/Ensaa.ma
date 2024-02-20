@@ -117,12 +117,5 @@ export const members = [
     linkedin: "https://www.linkedin.com/in/salma-mahmoud-981719230/",
     description:
       "Team work is the art of harmonizing diverse talents towards a common vision",
-  },
-  {
-    name: "Wissal Benider",
-    Image: members_pics.Wissal,
-    post: "Head of communication",
-    linkedin: "https://www.linkedin.com/in/wissal-benider-578471221/",
-    description: "life begins at the end of your comfort zone",
-  },
+  }
 ];
