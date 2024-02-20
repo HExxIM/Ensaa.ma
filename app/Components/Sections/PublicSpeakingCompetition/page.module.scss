@@ -17,10 +17,16 @@
         font-weight: 300;
         line-height: 180%;
     }
-    .infos{
-        display:flex;
-        gap: 2vw;
-        align-items: center;
+    .infos {
+      display: flex;
+      gap: 2.3vw;
+      align-items: center;
+      span {
+        font-weight: 300;
+        background: var(--light-glow);
+        padding: 5px 8px;
+        border-radius: 3px;
+      }
     }
     .participants{
         display: flex;

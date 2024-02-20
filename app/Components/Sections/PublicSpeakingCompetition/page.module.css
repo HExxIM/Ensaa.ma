@@ -20,8 +20,14 @@
 }
 .container .infos {
   display: flex;
-  gap: 2vw;
+  gap: 2.3vw;
   align-items: center;
+}
+.container .infos span {
+  font-weight: 300;
+  background: var(--light-glow);
+  padding: 5px 8px;
+  border-radius: 3px;
 }
 .container .participants {
   display: flex;

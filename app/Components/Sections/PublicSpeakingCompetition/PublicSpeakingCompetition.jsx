@@ -17,6 +17,7 @@ function PublicSpeakingCompetition() {
         <div className={styles.container}>
             <h1>L’ingénieur ENSAA prend la parole</h1>
             <div className={styles.infos}>
+                <span>Event</span>
                 <SocialMediaList
                     direction="row"
                     className={styles.SocialMediaList}
@@ -25,7 +26,7 @@ function PublicSpeakingCompetition() {
                     iconsGap="1.2rem"
                     brightness="1"
                 />
-            </div>
+            </div>  
             <p>Découvrez les participants du concours L’INGÉNIEUR ENSAA PREND LA PAROLE ! Chaque image représente un individu talentueux prêt à mettre en valeur ses compétences. Gardez un œil sur les participants éliminés que nous marquons en niveau de gris. Qui émergera victorieux et prendra la parole ?</p>
             <div className={styles.participants}>
                 {
