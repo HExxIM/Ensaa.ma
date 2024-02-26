@@ -36,23 +36,7 @@ function PublicSpeakingCompetition() {
         ?
       </p>
       <div className={styles.participants}>
-        {participants[0].map((participant, index) => {
-          return (
-            <div
-              key={index}
-              className={
-                participant.in == true ? styles.participant : styles.out
-              }
-            >
-              <Image
-                className={styles.img}
-                src={participant.img}
-                alt={participant.name}
-              />
-            </div>
-          );
-        })}
-        {participants[1].map((participant, index) => {
+        {participants.map((participant, index) => {
           return (
             <div
               key={index}
