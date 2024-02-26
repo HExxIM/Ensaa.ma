@@ -39,7 +39,35 @@ function PublicSpeakingCompetition() {
       <div className={styles.participants}>
         {participants[0].map((participant, index) => {
           return (
-            <Link href={participant.in ? `/News/Event/PublicSpeakingCompetition/${participant.slug}` : `#`}
+            <Link
+              href={
+                participant.in
+                  ? `/News/Event/PublicSpeakingCompetition/${participant.slug}`
+                  : `#`
+              }
+              key={index}
+              className={
+                participant.in == true ? styles.participant : styles.out
+              }
+            >
+              <Image
+                className={styles.img}
+                src={participant.img}
+                alt={participant.name}
+              />
+            </Link>
+          );
+        })}
+      </div>
+      <div className={styles.participants}>
+        {participants[1].map((participant, index) => {
+          return (
+            <Link
+              href={
+                participant.in
+                  ? `/News/Event/PublicSpeakingCompetition/${participant.slug}`
+                  : `#`
+              }
               key={index}
               className={
                 participant.in == true ? styles.participant : styles.out
