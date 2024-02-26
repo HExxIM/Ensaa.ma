@@ -22,9 +22,9 @@ export default [
       instagram: "https://www.instagram.com/p/C3GVkUvsNZU/",
     },
     content: [
-      {
-        img: PublicSpeaking,
-      },
+      // {
+      //   img: PublicSpeaking,
+      // },
       {
         text: "Qui ne rêve pas d'être un bon orateur ?",
       },
