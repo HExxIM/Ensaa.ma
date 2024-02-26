@@ -36,7 +36,7 @@ function PublicSpeakingCompetition() {
         ?
       </p>
       <div className={styles.participants}>
-        {participants.map((participant, index) => {
+        {participants[0].map((participant, index) => {
           return (
             <div
               key={index}
