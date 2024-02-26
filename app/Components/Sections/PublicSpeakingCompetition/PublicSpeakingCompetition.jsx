@@ -2,6 +2,7 @@ import styles from './page.module.css'
 import SocialMediaList from '../../UI/SocialMediaList';
 import participants from '../../../Database/PublicSpeakingCompetition'
 import Image from 'next/image';
+import Link from 'next/link';
 
 export const metadata = {
     title: "Ensaa - PublicSpeakingCompetition",
@@ -32,9 +33,9 @@ function PublicSpeakingCompetition() {
                 {
                     participants.map((participant, index) => {
                         return (
-                            <div key={index} className={participant.in==true ? styles.participant : styles.out}>
+                            <Link href={"/News/Event/PublicSpeakingCompetition/"+participant.slug} key={index} className={participant.in==true ? styles.participant : styles.out}>
                                 <Image className={styles.img} src={participant.img} alt={participant.name}/>
-                            </div>
+                            </Link>
                         )
                     })
                 }
