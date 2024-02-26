@@ -48,6 +48,7 @@
   width: 90px;
   height: 90px;
   overflow: hidden;
+  cursor: auto;
 }
 .container .participants .participant .img,
 .container .participants .out .img {
@@ -81,7 +82,10 @@
   .container .participants {
     width: 100%;
   }
-  .container .participants .participant,
+  .container .participants .participant {
+    width: 90px;
+    height: 90px;
+  }
   .container .participants .out {
     width: 70px;
     height: 70px;
@@ -100,7 +104,10 @@
   .container .participants {
     width: 100%;
   }
-  .container .participants .participant,
+  .container .participants .participant {
+    width: 90px;
+    height: 90px;
+  }
   .container .participants .out {
     width: 70px;
     height: 70px;
