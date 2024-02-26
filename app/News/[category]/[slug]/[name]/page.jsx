@@ -1,8 +1,9 @@
+import styles from "./page.module.css";
 
 function page({params}) {
     const name = params.name;
     return ( 
-        <div>{name}</div>
+        <div className={styles.container}>{name}</div>
      );
 }
 
