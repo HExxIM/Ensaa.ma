@@ -40,10 +40,10 @@
       text-align: center;
       .name {
         font-size: 1.25rem;
-        margin-bottom: 2px;
+        margin-bottom: 5px;
       }
       .post {
-        font-size: 1rem;
+        font-size: 1.20rem;
         opacity: 0.5;
       }
       .description {
@@ -59,22 +59,23 @@
 
 @media only screen and (max-width: 600px) {
   .container {
-    padding-bottom: 2vh;
-    padding-left: 8vw;
-    padding-right: 8vw;
-    gap: 3vh;
     h1 {
       font-size: 1.5rem;
+    }
+    .imgContainer {
+      width: 60px;
+      height: 60px;
+      border-radius: 100%;
     }
   }
 }
 
 @media only screen and (max-width: 912px) {
   .container {
-    padding-top: 13vh;
-    padding-bottom: 2vh;
-    padding-left: 8vw;
-    padding-right: 8vw;
-    gap: 4vh;
+    .imgContainer {
+      width: 90px;
+      height: 90px;
+      border-radius: 100%;
+    }
   }
 }
