@@ -37,30 +37,40 @@ const participants = [
       img: cond1,
       in: true,
       slug: "Anonwodji-Kodjovi-Daniel",
+      niveau: "CP1",
+      description:'loreum ipsum text here lorem lorem ipsum some loreum ipsum text here lorem lorem ipsum some' 
     },
     {
       name: "Bakir Bassma",
       img: cond4,
       in: true,
       slug: "Bakir-Bassma",
+      niveau: "CP1",
+      description:'loreum ipsum text here lorem lorem ipsum some loreum ipsum text here lorem lorem ipsum some' 
     },
     {
       name: "Arssali Chaimae",
       img: cond6,
       in: true,
       slug: "Arssali-Chaimae",
+      niveau: "CP1",
+      description:'loreum ipsum text here lorem lorem ipsum some loreum ipsum text here lorem lorem ipsum some' 
     },
     {
       name: "MOUMEN Assia",
       img: cond24,
       in: true,
       slug: "MOUMEN-Assia",
+      niveau: "CP1",
+      description:'loreum ipsum text here lorem lorem ipsum some loreum ipsum text here lorem lorem ipsum some loreum ipsum text here lorem lorem ipsum some loreum ipsum text here lorem lorem ipsum some' 
     },
     {
       name: "EL HARRAZ Hafsa",
       img: cond26,
       in: true,
       slug: "EL-HARRAZ-Hafsa",
+      niveau: "CP1",
+      description:'loreum ipsum text here lorem lorem ipsum some loreum ipsum text here lorem lorem ipsum some' 
     },
   ],
   [
@@ -69,6 +79,8 @@ const participants = [
       img: cond3,
       in: false,
       slug: "Imich-Achraf",
+      niveau: "CP1",
+      description:'loreum ipsum text here lorem lorem ipsum some loreum ipsum text here lorem lorem ipsum some' 
     },
 
     {
@@ -76,6 +88,8 @@ const participants = [
       img: cond2,
       in: false,
       slug: "Chakir-Douae",
+      niveau: "CP1",
+      description:'loreum ipsum text here lorem lorem ipsum some loreum ipsum text here lorem lorem ipsum some' 
     },
 
     {
@@ -83,6 +97,8 @@ const participants = [
       img: cond5,
       in: false,
       slug: "Amemastron-Yaw-Luc",
+      niveau: "CP1",
+      description:'loreum ipsum text here lorem lorem ipsum some loreum ipsum text here lorem lorem ipsum some' 
     },
 
     {
@@ -90,102 +106,136 @@ const participants = [
       img: cond7,
       in: false,
       slug: "FIAVOR-Armel-Kossivi",
+      niveau: "CP1",
+      description:'loreum ipsum text here lorem lorem ipsum some loreum ipsum text here lorem lorem ipsum some' 
     },
     {
       name: "OUIHLANE Zhour",
       img: cond8,
       in: false,
       slug: "OUIHLANE-Zhour",
+      niveau: "CP1",
+      description:'loreum ipsum text here lorem lorem ipsum some loreum ipsum text here lorem lorem ipsum some' 
     },
     {
       name: "ABDESSAMAD Elmouatassim",
       img: cond9,
       in: false,
       slug: "ABDESSAMAD-Elmouatassim",
+      niveau: "CP1",
+      description:'loreum ipsum text here lorem lorem ipsum some loreum ipsum text here lorem lorem ipsum some' 
     },
     {
       name: "LAFTOUHI Wissal",
       img: cond10,
       in: false,
       slug: "LAFTOUHI-Wissal",
+      niveau: "CP1",
+      description:'loreum ipsum text here lorem lorem ipsum some loreum ipsum text here lorem lorem ipsum some' 
     },
     {
       name: "TIHAOUI Abdelfattah",
       img: cond11,
       in: false,
       slug: "TIHAOUI-Abdelfattah",
+      niveau: "CP1",
+      description:'loreum ipsum text here lorem lorem ipsum some loreum ipsum text here lorem lorem ipsum some' 
     },
     {
       name: "MOUSLIMO Elmoukhtar",
       img: cond12,
       in: false,
       slug: "MOUSLIMO-Elmoukhtar",
+      niveau: "CP1",
+      description:'loreum ipsum text here lorem lorem ipsum some loreum ipsum text here lorem lorem ipsum some' 
     },
     {
       name: "HOUBBANE Salma",
       img: cond13,
       in: false,
       slug: "HOUBBANE-Salma",
+      niveau: "CP1",
+      description:'loreum ipsum text here lorem lorem ipsum some loreum ipsum text here lorem lorem ipsum some' 
     },
     {
       name: "LATIF Hayat",
       img: cond14,
       in: false,
       slug: "LATIF-Hayat",
+      niveau: "CP1",
+      description:'loreum ipsum text here lorem lorem ipsum some loreum ipsum text here lorem lorem ipsum some' 
     },
     {
       name: "EL MOURTAJI Ali",
       img: cond15,
       in: false,
       slug: "EL-MOURTAJI-Ali",
+      niveau: "CP1",
+      description:'loreum ipsum text here lorem lorem ipsum some loreum ipsum text here lorem lorem ipsum some' 
     },
     {
       name: "BRIERE Hamza",
       img: cond16,
       in: false,
       slug: "BRIERE-Hamza",
+      niveau: "CP1",
+      description:'loreum ipsum text here lorem lorem ipsum some loreum ipsum text here lorem lorem ipsum some' 
     },
     {
       name: "NACIR Nizar",
       img: cond17,
       in: false,
       slug: "NACIR-Nizar",
+      niveau: "CP1",
+      description:'loreum ipsum text here lorem lorem ipsum some loreum ipsum text here lorem lorem ipsum some' 
     },
     {
       name: "ELHASSANI Youssef",
       img: cond18,
       in: false,
       slug: "ELHASSANI-Youssef",
+      niveau: "CP1",
+      description:'loreum ipsum text here lorem lorem ipsum some loreum ipsum text here lorem lorem ipsum some' 
     },
     {
       name: "ABHRY Mohammed",
       img: cond19,
       in: false,
       slug: "ABHRY-Mohammed",
+      niveau: "CP1",
+      description:'loreum ipsum text here lorem lorem ipsum some loreum ipsum text here lorem lorem ipsum some' 
     },
     {
       name: "DBIB Mariam",
       img: cond20,
       in: false,
       slug: "DBIB-Mariam",
+      niveau: "CP1",
+      description:'loreum ipsum text here lorem lorem ipsum some loreum ipsum text here lorem lorem ipsum some' 
     },
     {
       name: "BAYAD Safa",
       img: cond21,
       in: false,
       slug: "BAYAD-Safa",
+      niveau: "CP1",
+      description:'loreum ipsum text here lorem lorem ipsum some loreum ipsum text here lorem lorem ipsum some' 
     },
     {
       name: "MANSOURI Fatima Zahra",
       img: cond22,
       in: false,
       slug: "MANSOURI-Fatima-Zahra",
+      niveau: "CP1",
+      description:'loreum ipsum text here lorem lorem ipsum some loreum ipsum text here lorem lorem ipsum some' 
     },
     {
       name: "EL KHADIM Lahcen",
       img: cond23,
       in: false,
       slug: "EL-KHADIM-Lahcen",
+      niveau: "CP1",
+      description:'loreum ipsum text here lorem lorem ipsum some loreum ipsum text here lorem lorem ipsum some' 
     },
 
     {
@@ -193,6 +243,8 @@ const participants = [
       img: cond25,
       in: false,
       slug: "BADI-Sanae",
+      niveau: "CP1",
+      description:'loreum ipsum text here lorem lorem ipsum some loreum ipsum text here lorem lorem ipsum some' 
     },
 
     {
@@ -200,30 +252,40 @@ const participants = [
       img: cond27,
       in: false,
       slug: "KHARBOUCH-Khadija",
+      niveau: "CP1",
+      description:'loreum ipsum text here lorem lorem ipsum some loreum ipsum text here lorem lorem ipsum some' 
     },
     {
       name: "BOURKHA Hassna",
       img: cond28,
       in: false,
       slug: "BOURKHA-Hassna",
+      niveau: "CP1",
+      description:'loreum ipsum text here lorem lorem ipsum some loreum ipsum text here lorem lorem ipsum some' 
     },
     {
       name: "LAADIMI Mohammed",
       img: cond29,
       in: false,
       slug: "LAADIMI-Mohammed",
+      niveau: "CP1",
+      description:'loreum ipsum text here lorem lorem ipsum some loreum ipsum text here lorem lorem ipsum some' 
     },
     {
       name: "BAKARI Meriem",
       img: cond30,
       in: false,
       slug: "BAKARI-Meriem",
+      niveau: "CP1",
+      description:'loreum ipsum text here lorem lorem ipsum some loreum ipsum text here lorem lorem ipsum some' 
     },
     {
       name: "LOUHAM Nouhaila",
       img: cond31,
       in: false,
       slug: "LOUHAM-Nouhaila",
+      niveau: "CP1",
+      description:'loreum ipsum text here lorem lorem ipsum some loreum ipsum text here lorem lorem ipsum some' 
     },
   ],
 ];

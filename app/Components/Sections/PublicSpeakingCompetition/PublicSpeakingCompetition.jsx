@@ -1,6 +1,6 @@
 import styles from "./page.module.css";
 import SocialMediaList from "../../UI/SocialMediaList";
-import participants from "../../../Database/PublicSpeakingCompetition";
+import participants from "../../../Database/participants";
 import Image from "next/image";
 import Link from "next/link";
 
