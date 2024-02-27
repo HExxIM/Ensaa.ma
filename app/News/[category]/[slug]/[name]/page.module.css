@@ -59,13 +59,15 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .container h1 {
+  .container .card {
+    width: 80%;
+  }
+  .container .card h1 {
     font-size: 1.5rem;
   }
-  .container .imgContainer {
-    width: 60px;
-    height: 60px;
-    border-radius: 100%;
+  .container .card .imgContainer {
+    width: 150px;
+    height: 150px;
   }
 }
 @media only screen and (max-width: 912px) {
