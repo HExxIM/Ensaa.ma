@@ -69,11 +69,4 @@
     width: 150px;
     height: 150px;
   }
-}
-@media only screen and (max-width: 912px) {
-  .container .imgContainer {
-    width: 90px;
-    height: 90px;
-    border-radius: 100%;
-  }
 }/*# sourceMappingURL=page.module.css.map */
