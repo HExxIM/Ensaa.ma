@@ -3,7 +3,7 @@ import cond2 from "../../public/images/News/condidats/2.jpg";
 import cond3 from "../../public/images/News/condidats/3.PNG";
 import cond4 from "../../public/images/News/condidats/4.jpg";
 import cond5 from "../../public/images/News/condidats/5.PNG";
-import cond6 from "../../public/images/News/condidats/6.PNG";
+import cond6 from "../../public/images/News/condidats/6.jpg";
 import cond7 from "../../public/images/News/condidats/7.PNG";
 import cond8 from "../../public/images/News/condidats/8.PNG";
 import cond9 from "../../public/images/News/condidats/9.PNG";
@@ -46,15 +46,15 @@ const participants = [
       in: true,
       slug: "Bakir-Bassma",
       niveau: "CP2",
-      description:'loreum ipsum text here lorem lorem ipsum some loreum ipsum text here lorem lorem ipsum some' 
+      description:"“Those who submit to the divine essence of life will live in unperturbed tranquility and peace even when the whole wide world goes through turbulence “"
     },
     {
       name: "Arssali Chaimae",
       img: cond6,
       in: true,
       slug: "Arssali-Chaimae",
-      niveau: "CP1",
-      description:'loreum ipsum text here lorem lorem ipsum some loreum ipsum text here lorem lorem ipsum some' 
+      niveau: "BTP1",
+      description:"we were born to be real, not to be perfect" 
     },
     {
       name: "MOUMEN Assia",
