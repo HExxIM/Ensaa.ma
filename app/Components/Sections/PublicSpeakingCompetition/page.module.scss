@@ -77,10 +77,14 @@
       }
       .participants{
         width: 100%;
-        .participant,.out{
+        .out{
             width: 70px;
             height: 70px;
         }
+        .participant{
+            width: 80px;
+            height: 80px;
+          }
       }
     }
   }
