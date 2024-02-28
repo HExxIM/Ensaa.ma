@@ -1,7 +1,7 @@
-import cond1 from "../../public/images/News/condidats/1.PNG";
+import cond1 from "../../public/images/News/condidats/1.jpg";
 import cond2 from "../../public/images/News/condidats/2.jpg";
 import cond3 from "../../public/images/News/condidats/3.PNG";
-import cond4 from "../../public/images/News/condidats/4.PNG";
+import cond4 from "../../public/images/News/condidats/4.jpg";
 import cond5 from "../../public/images/News/condidats/5.PNG";
 import cond6 from "../../public/images/News/condidats/6.PNG";
 import cond7 from "../../public/images/News/condidats/7.PNG";
@@ -21,7 +21,7 @@ import cond20 from "../../public/images/News/condidats/20.PNG";
 import cond21 from "../../public/images/News/condidats/21.PNG";
 import cond22 from "../../public/images/News/condidats/22.PNG";
 import cond23 from "../../public/images/News/condidats/23.PNG";
-import cond24 from "../../public/images/News/condidats/24.PNG";
+import cond24 from "../../public/images/News/condidats/24.jpg";
 import cond25 from "../../public/images/News/condidats/25.PNG";
 import cond26 from "../../public/images/News/condidats/26.PNG";
 import cond27 from "../../public/images/News/condidats/27.PNG";
@@ -37,15 +37,15 @@ const participants = [
       img: cond1,
       in: true,
       slug: "Anonwodji-Kodjovi-Daniel",
-      niveau: "CP1",
-      description:'loreum ipsum text here lorem lorem ipsum some loreum ipsum text here lorem lorem ipsum some' 
+      niveau: "FID1",
+      description:"Je suis un étudiant en finance qui trouve son intérêt dans les domaines des mathématiques, de l'informatique et de la finance de marché. Parallèlement, je nourris une passion pour la culture générale et l'histoire." 
     },
     {
       name: "Bakir Bassma",
       img: cond4,
       in: true,
       slug: "Bakir-Bassma",
-      niveau: "CP1",
+      niveau: "CP2",
       description:'loreum ipsum text here lorem lorem ipsum some loreum ipsum text here lorem lorem ipsum some' 
     },
     {
@@ -61,8 +61,8 @@ const participants = [
       img: cond24,
       in: true,
       slug: "MOUMEN-Assia",
-      niveau: "CP1",
-      description:'loreum ipsum text here lorem lorem ipsum some loreum ipsum text here lorem lorem ipsum some loreum ipsum text here lorem lorem ipsum some loreum ipsum text here lorem lorem ipsum some' 
+      niveau: "GEE1",
+      description:"In the silent whispers of my aspirations, I navigate the journey of self-discovery, weaving dreams into the fabric of my being, sculpting the essence of the best version of me." 
     },
     {
       name: "EL HARRAZ Hafsa",

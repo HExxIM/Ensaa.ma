@@ -46,6 +46,10 @@
                 object-fit: cover;
             }
         }
+        .participant{
+          width: 120px;
+          height: 120px;
+        }
         .out{
             .img {
                 filter: grayscale(100%) brightness(80%);

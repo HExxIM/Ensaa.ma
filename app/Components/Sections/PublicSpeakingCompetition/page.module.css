@@ -49,6 +49,10 @@
   -o-object-fit: cover;
      object-fit: cover;
 }
+.container .participants .participant {
+  width: 120px;
+  height: 120px;
+}
 .container .participants .out .img {
   filter: grayscale(100%) brightness(80%);
 }
