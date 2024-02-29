@@ -23,7 +23,7 @@ import cond22 from "../../public/images/News/condidats/22.PNG";
 import cond23 from "../../public/images/News/condidats/23.PNG";
 import cond24 from "../../public/images/News/condidats/24.jpg";
 import cond25 from "../../public/images/News/condidats/25.PNG";
-import cond26 from "../../public/images/News/condidats/26.PNG";
+import cond26 from "../../public/images/News/condidats/26.jpg";
 import cond27 from "../../public/images/News/condidats/27.PNG";
 import cond28 from "../../public/images/News/condidats/28.PNG";
 import cond29 from "../../public/images/News/condidats/29.PNG";
@@ -69,8 +69,8 @@ const participants = [
       img: cond26,
       in: true,
       slug: "EL-HARRAZ-Hafsa",
-      niveau: "CP1",
-      description:'loreum ipsum text here lorem lorem ipsum some loreum ipsum text here lorem lorem ipsum some' 
+      niveau: "INDUS1",
+      description:"إذا الشعب يوماا اراد الحياة فلا بد ان يستجيب القدر **  ولا بد لليل ان ينجلي و لا بد للقيد ان ينكسر" 
     },
   ],
   [
