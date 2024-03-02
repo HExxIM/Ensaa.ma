@@ -1,6 +1,6 @@
-import cond1 from "../../public/images/News/condidats/1.jpg";
+import cond1 from "../../public/images/News/condidats/1.PNG";
 import cond2 from "../../public/images/News/condidats/2.jpg";
-import cond3 from "../../public/images/News/condidats/3.PNG";
+import cond3 from "../../public/images/News/condidats/3.jpg";
 import cond4 from "../../public/images/News/condidats/4.jpg";
 import cond5 from "../../public/images/News/condidats/5.PNG";
 import cond6 from "../../public/images/News/condidats/6.jpg";
@@ -33,12 +33,12 @@ import cond31 from "../../public/images/News/condidats/31.PNG";
 const participants = [
   [
     {
-      name: "Anonwodji Kodjovi Daniel",
-      img: cond1,
+      name: "Imich Achraf",
+      img: cond3,
       in: true,
-      slug: "Anonwodji-Kodjovi-Daniel",
-      niveau: "FID1",
-      description:"Je suis un étudiant en finance qui trouve son intérêt dans les domaines des mathématiques, de l'informatique et de la finance de marché. Parallèlement, je nourris une passion pour la culture générale et l'histoire." 
+      slug: "Imich-Achraf",
+      niveau: "CP2",
+      description:'Nature is change and it starts when we decide' 
     },
     {
       name: "Bakir Bassma",
@@ -75,14 +75,13 @@ const participants = [
   ],
   [
     {
-      name: "Imich Achraf",
-      img: cond3,
+      name: "Anonwodji Kodjovi Daniel",
+      img: cond1,
       in: false,
-      slug: "Imich-Achraf",
-      niveau: "CP1",
-      description:'loreum ipsum text here lorem lorem ipsum some loreum ipsum text here lorem lorem ipsum some' 
+      slug: "Anonwodji-Kodjovi-Daniel",
+      niveau: "FID1",
+      description:"Je suis un étudiant en finance qui trouve son intérêt dans les domaines des mathématiques, de l'informatique et de la finance de marché. Parallèlement, je nourris une passion pour la culture générale et l'histoire." 
     },
-
     {
       name: "Chakir Douae",
       img: cond2,
