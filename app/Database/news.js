@@ -5,8 +5,43 @@ import techmeeting from "../../public/images/News/techmeeting.jpg";
 import gala from "../../public/images/News/gala.jpg";
 import integration from "../../public/images/News/integration.jpg";
 import PublicSpeaking from "../../public/images/News/PublicSpeaking.png";
+import latex_temp1 from "../../public/images/News/latex_temp1.png";
 
 export default [
+  {
+    title: "LaTeX Theme for ENSAA Reports",
+    slug: "latex_template",
+    category: "Template",
+    description:
+      "PFA/PFE Template in LaTeX For ENSAA students By El Founani Mohamed",
+    coverimg: latex_temp1,
+    images: [latex_temp1],
+
+    links: {
+      facebook:
+        "https://www.facebook.com/adeensaa/posts/pfbid02iAsN7YQ1UUea5jgbpP4ptEW1yqWQArcXQy7QEfCwF1XFqUm9b1cYp6jMR9HsRwDUl/",
+      instagram: "https://www.instagram.com/p/C4Gp2CRKJjJ/",
+      linkedin:
+        "https://www.linkedin.com/feed/update/urn:li:ugcPost:7171572503318896640/",
+    },
+    content: [
+      {
+        img: latex_temp1,
+      },
+      {
+        text: "Hey, hi and hello, Embarking on the journey of creating themes and templates in LaTeX presents its fair share of challenges. Particularly, when tasked with composing a PFE/PFA report for the National School of Applied Sciences of Agadir, adhering to a specific theme becomes imperative. Fear not, for the LaTeX package, ensa-a, comes to your aid, facilitating the composition of reports in accordance with our school's prescribed standards.",
+      },
+      {
+        text: "Hey, hi and hello, Embarking on the journey of creating themes and teTo harness its capabilities, simply download this folder from google drive : https://drive.google.com/drive/folders/1YvJvVHVshsc0dcttIWU_DcwZZ7h8yGI3",
+      },
+      {
+        text: "Please follow the steps outlined in the video tutorial : https://youtu.be/4Q8AZvI34DA",
+      },
+      {
+        text: "For additional assistance or inquiries, feel free to reach out to the author, Mohamed El Founani, via email : elf12med@gmail.com",
+      },
+    ],
+  },
   {
     title: "L’ingénieur ENSAA prend la parole",
     slug: "PublicSpeakingCompetition",
