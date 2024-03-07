@@ -6,6 +6,7 @@ import gala from "../../public/images/News/gala.jpg";
 import integration from "../../public/images/News/integration.jpg";
 import PublicSpeaking from "../../public/images/News/PublicSpeaking.png";
 import latex_temp1 from "../../public/images/News/latex_temp1.png";
+import latex_temp2 from "../../public/images/News/latex_temp2.png";
 
 export default [
   {
@@ -15,7 +16,7 @@ export default [
     description:
       "PFA/PFE Template in LaTeX For ENSAA students By El Founani Mohamed",
     coverimg: latex_temp1,
-    images: [latex_temp1],
+    images: [latex_temp1, latex_temp2],
 
     links: {
       facebook:
@@ -26,7 +27,7 @@ export default [
     },
     content: [
       {
-        img: latex_temp1,
+        img: latex_temp2,
       },
       {
         text: "Hey, hi and hello, Embarking on the journey of creating themes and templates in LaTeX presents its fair share of challenges. Particularly, when tasked with composing a PFE/PFA report for the National School of Applied Sciences of Agadir, adhering to a specific theme becomes imperative. Fear not, for the LaTeX package, ensa-a, comes to your aid, facilitating the composition of reports in accordance with our school's prescribed standards.",
