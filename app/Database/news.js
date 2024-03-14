@@ -40,7 +40,7 @@ export default [
         text: "Please follow the steps outlined in the video tutorial",
       },
       {
-        text: "For additional assistance or inquiries, feel free to reach out to the author, Mohamed El Founani, via email : <a href='elf12med@gmail.com' style='color:var(--golden);text-decoration: underline;'>elf12med@gmail.com</a>",
+        text: "For additional assistance or inquiries, feel free to reach out to the author, Mohamed El Founani, via email : <a href='mailto:elf12med@gmail.com' style='color:var(--golden);text-decoration: underline;'>elf12med@gmail.com</a>",
       },
     ],
   },
