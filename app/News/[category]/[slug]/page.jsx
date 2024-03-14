@@ -36,7 +36,7 @@ export default function page({ params }) {
       }
       {New.content.map((item, index) => (
         <>
-          {item.text && <p>{item.text}</p>}
+          {item.text && <p dangerouslySetInnerHTML={{__html: item.text}}></p>}
           {item.img && (
             <div className={styles.imgContainer}>
               <Image

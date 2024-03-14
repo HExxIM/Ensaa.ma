@@ -27,19 +27,20 @@ export default [
     },
     content: [
       {
-        img: latex_temp2,
+        // img: latex_temp2,
+        youtubeId: "4Q8AZvI34DA",
       },
       {
         text: "Hey, hi and hello, Embarking on the journey of creating themes and templates in LaTeX presents its fair share of challenges. Particularly, when tasked with composing a PFE/PFA report for the National School of Applied Sciences of Agadir, adhering to a specific theme becomes imperative. Fear not, for the LaTeX package, ensa-a, comes to your aid, facilitating the composition of reports in accordance with our school's prescribed standards.",
       },
       {
-        text: "Hey, hi and hello, Embarking on the journey of creating themes and teTo harness its capabilities, simply download this folder from google drive : https://drive.google.com/drive/folders/1YvJvVHVshsc0dcttIWU_DcwZZ7h8yGI3",
+        text: "Simply download this folder from google drive : <a href='https://drive.google.com/drive/folders/1YvJvVHVshsc0dcttIWU_DcwZZ7h8yGI3' style='color:var(--light-blue);text-decoration: underline;'>https://drive.google.com/drive/folders/1YvJvVHVshsc0dcttIWU_DcwZZ7h8yGI3</a>",
       },
       {
-        text: "Please follow the steps outlined in the video tutorial : https://youtu.be/4Q8AZvI34DA",
+        text: "Please follow the steps outlined in the video tutorial",
       },
       {
-        text: "For additional assistance or inquiries, feel free to reach out to the author, Mohamed El Founani, via email : elf12med@gmail.com",
+        text: "For additional assistance or inquiries, feel free to reach out to the author, Mohamed El Founani, via email : <a href='elf12med@gmail.com' style='color:var(--golden);text-decoration: underline;'>elf12med@gmail.com</a>",
       },
     ],
   },
