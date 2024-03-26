@@ -1,9 +1,10 @@
 .container {
-  padding: 16vh 33vw 0vh 6vw;
+  padding: 16vh 18vw 0vh 16vw;
   display: flex;
   flex-direction: column;
   gap: 3vh;
   color: white;
+  align-items: center;
 }
 .container h1 {
   font-weight: bolder;
@@ -13,10 +14,12 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   line-height: 140%;
+  text-align: center;
 }
 .container p {
   font-weight: 300;
   line-height: 180%;
+  text-align: center;
 }
 .container .infos {
   display: flex;
@@ -37,13 +40,14 @@
   justify-content: center;
   overflow: hidden;
   border-radius: 20px;
+  align-items: end;
 }
-.container .participants .participant, .container .participants .out {
+.container .participants .participant, .container .participants .out, .container .participants .winner, .container .participants .demi {
   width: 90px;
   height: 90px;
   overflow: hidden;
 }
-.container .participants .participant .img, .container .participants .out .img {
+.container .participants .participant .img, .container .participants .out .img, .container .participants .winner .img, .container .participants .demi .img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -53,8 +57,18 @@
   width: 120px;
   height: 120px;
 }
+.container .participants .winner:hover .img, .container .participants .participant:hover .img, .container .participants .demi:hover .img {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
 .container .participants .out .img {
   filter: grayscale(100%) brightness(80%);
+}
+.container .participants .winner {
+  width: 200px;
+  height: 200px;
+  border: solid 3px;
+  border-color: var(--light-blue);
 }
 
 @media only screen and (max-width: 600px) {
@@ -64,7 +78,7 @@
     gap: 3vh;
   }
   .container h1 {
-    font-size: 1.5rem;
+    font-size: 1.45rem;
   }
   .container .infos {
     gap: 6vw;
@@ -78,9 +92,17 @@
   .container .participants {
     width: 100%;
   }
-  .container .participants .participant, .container .participants .out {
+  .container .participants .winner {
+    width: 150px;
+    height: 150px;
+  }
+  .container .participants .out, .container .participants .demi {
     width: 70px;
     height: 70px;
+  }
+  .container .participants .participant {
+    width: 100px;
+    height: 100px;
   }
 }
 @media only screen and (max-width: 912px) {
@@ -96,8 +118,16 @@
   .container .participants {
     width: 100%;
   }
-  .container .participants .participant, .container .participants .out {
+  .container .participants .winner {
+    width: 120px;
+    height: 120px;
+  }
+  .container .participants .demi, .container .participants .out {
     width: 70px;
     height: 70px;
+  }
+  .container .participants .participant {
+    width: 80px;
+    height: 80px;
   }
 }/*# sourceMappingURL=page.module.css.map */

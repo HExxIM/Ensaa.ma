@@ -33,6 +33,17 @@ import cond31 from "../../public/images/News/condidats/31.PNG";
 const participants = [
   [
     {
+      name: "MOUMEN Assia",
+      img: cond24,
+      in: true,
+      slug: "MOUMEN-Assia",
+      niveau: "GEE1",
+      description:"In the silent whispers of my aspirations, I navigate the journey of self-discovery, weaving dreams into the fabric of my being, sculpting the essence of the best version of me.",
+      win: true,
+    },
+  ],
+  [
+    {
       name: "Imich Achraf",
       img: cond3,
       in: true,
@@ -46,23 +57,8 @@ const participants = [
       in: true,
       slug: "Bakir-Bassma",
       niveau: "CP2",
-      description:"“Those who submit to the divine essence of life will live in unperturbed tranquility and peace even when the whole wide world goes through turbulence “"
-    },
-    {
-      name: "Arssali Chaimae",
-      img: cond6,
-      in: true,
-      slug: "Arssali-Chaimae",
-      niveau: "BTP1",
-      description:"we were born to be real, not to be perfect" 
-    },
-    {
-      name: "MOUMEN Assia",
-      img: cond24,
-      in: true,
-      slug: "MOUMEN-Assia",
-      niveau: "GEE1",
-      description:"In the silent whispers of my aspirations, I navigate the journey of self-discovery, weaving dreams into the fabric of my being, sculpting the essence of the best version of me." 
+      description:"“Those who submit to the divine essence of life will live in unperturbed tranquility and peace even when the whole wide world goes through turbulence “",
+      win: true,
     },
     {
       name: "EL HARRAZ Hafsa",
@@ -70,7 +66,16 @@ const participants = [
       in: true,
       slug: "EL-HARRAZ-Hafsa",
       niveau: "INDUS1",
-      description:"إذا الشعب يوماا اراد الحياة فلا بد ان يستجيب القدر **  ولا بد لليل ان ينجلي و لا بد للقيد ان ينكسر" 
+      description:"إذا الشعب يوماا اراد الحياة فلا بد ان يستجيب القدر **  ولا بد لليل ان ينجلي و لا بد للقيد ان ينكسر" ,
+      win: true,
+    },
+    {
+      name: "Arssali Chaimae",
+      img: cond6,
+      in: true,
+      slug: "Arssali-Chaimae",
+      niveau: "BTP1",
+      description:"we were born to be real, not to be perfect",
     },
   ],
   [
@@ -286,7 +291,7 @@ const participants = [
       niveau: "CP1",
       description:'loreum ipsum text here lorem lorem ipsum some loreum ipsum text here lorem lorem ipsum some' 
     },
-  ],
+  ]
 ];
 
 export default participants;

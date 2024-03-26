@@ -4,7 +4,10 @@ import participants from "../../../../Database/participants.js";
 
 function page({params}) {
     const name = params.name;
-    const condidat = participants[0].find((item) => item.slug === name);
+    let condidat = participants[1].find((item) => item.slug === name);
+    if(!condidat){
+        condidat = participants[0].find((item) => item.slug === name);
+    }
 
     return ( 
         <div className={styles.container}>

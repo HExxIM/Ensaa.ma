@@ -1,9 +1,10 @@
 .container {
-    padding: 16vh 33vw 0vh 6vw;
+    padding: 16vh 18vw 0vh 16vw;
     display: flex;
     flex-direction: column;
     gap: 3vh;
     color: white;
+    align-items: center;
     h1{
         font-weight: bolder;
         font-size: 2.7rem;
@@ -12,10 +13,12 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         line-height: 140%;
+        text-align: center;
     }
     p{
         font-weight: 300;
         line-height: 180%;
+        text-align: center;
     }
     .infos {
       display: flex;
@@ -36,7 +39,8 @@
         justify-content: center;
         overflow: hidden;
         border-radius: 20px;
-        .participant,.out{
+        align-items: end;
+        .participant,.out,.winner,.demi{
             width: 90px;
             height: 90px;
             overflow: hidden;
@@ -50,10 +54,22 @@
           width: 120px;
           height: 120px;
         }
+        .winner:hover,.participant:hover,.demi:hover{
+          .img{
+            transform: scale(1.1);
+            transition: transform 0.3s ease;
+          }
+        }
         .out{
             .img {
                 filter: grayscale(100%) brightness(80%);
             }            
+        }
+        .winner{
+          width: 200px;
+          height: 200px;
+          border: solid 3px;
+          border-color: var(--light-blue);
         }
     }
   }
@@ -77,13 +93,17 @@
       }
       .participants{
         width: 100%;
-        .out{
+        .winner{
+          width: 150px;
+          height: 150px;
+        }
+        .out,.demi{
             width: 70px;
             height: 70px;
         }
         .participant{
-            width: 80px;
-            height: 80px;
+            width: 100px;
+            height: 100px;
         }
       }
     }
@@ -102,9 +122,17 @@
       }
       .participants{
         width: 100%;
-        .participant,.out{
+        .winner{
+          width: 120px;
+          height: 120px;
+        }
+        .demi,.out{
             width: 70px;
             height: 70px;
+        }
+        .participant{
+            width: 80px;
+            height: 80px;
         }
     }
     }

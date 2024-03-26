@@ -17,7 +17,7 @@ export default function page({ params }) {
   const New = news.find((item) => item.slug === slug);
   return (
     <>
-    {slug === "PublicSpeakingCompetition" && <PublicSpeakingCompetition />}
+    {slug === "PublicSpeakingCompetition" ? <PublicSpeakingCompetition New={New} /> :
     <div className={styles.container}>
       <h1>{slug === "PublicSpeakingCompetition" ? "La Voix de l'Ingénieur à l'ENSAA : Parcours vers la Victoire" : New.title}</h1>
       {
@@ -60,7 +60,7 @@ export default function page({ params }) {
           )}
         </>
       ))}
-    </div>
+    </div> }
     </>
   );
 }
