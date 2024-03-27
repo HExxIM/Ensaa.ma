@@ -27,7 +27,7 @@ export default function NavBar() {
       path: "/",
     },
     {
-      title: "News",
+      title: "Events",
       path: "/News",
     },
     {
