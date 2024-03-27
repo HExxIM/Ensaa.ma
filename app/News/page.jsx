@@ -22,6 +22,7 @@ export default function page() {
         img={item.coverimg}
         slug={item.slug}
         direction="row"
+        link={"/News/" + item.category + "/" + item.slug}
       />
     ));
 
@@ -35,6 +36,7 @@ export default function page() {
         img={item.coverimg}
         slug={item.slug}
         direction="column"
+        link={"/News/" + item.category + "/" + item.slug}
       />
     ));
 

@@ -39,6 +39,10 @@ export default function NavBar() {
       path: "/Press",
     },
     {
+      title: "Fields",
+      path: "/Fields",
+    },
+    {
       title: "Team",
       path: "/Team",
     },

@@ -1,0 +1,37 @@
+.container {
+    padding: 20vh 5vw;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    color: white;
+    h1 {
+      font-size: 2rem;
+      font-weight: bolder;
+      text-transform: uppercase;
+      span {
+        background: var(--light-glow);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+    p {
+        font-weight: 300;
+        line-height: 180%;
+      }
+    .allFields {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5vh 1vw;
+      a {
+        flex-direction: column;
+      }
+    }
+  }
+  @media only screen and (max-width: 1250px) {
+    .container {
+      padding-top: 15vh;
+    }
+  }
+  
