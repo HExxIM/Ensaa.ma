@@ -19,7 +19,7 @@ export default function NewsCard({
       className={styles.card}
     >
       <div className={styles.imgContainer}>
-        <Image src={img} alt={slug} priority={true} className={styles.img} />
+        <Image src={img} alt={slug} priority={true} className={styles.img}/>
       </div>
       <div className={styles.textContainer}>
         {category && <span className={styles.category}>{category}</span>}

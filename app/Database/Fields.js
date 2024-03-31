@@ -1,54 +1,43 @@
-import PublicSpeaking from "../../public/images/News/PublicSpeaking.png";
+import btp from "../../public/images/fields/BTP.png";
+import info from "../../public/images/fields/info.png";
+import China from "../../public/images/fields/China.png";
 
 export default [
     {
-      title: "Civil Engineering",
+      title: "Civil Engineering (BTP)",
       slug: "btp",
       description:
-        "Are you intrigued by the fundamental principles behind designing, building, and maintaining the infrastructure that surrounds us? Do skyscrapers, roads, and architectural wonders captivate you every time you encounter them?",
-      coverimg: PublicSpeaking,
+        "Are you curious enough to understand the fundamental principles of designing, constructing, and maintaining the infrastructures that surround us? Do skyscrapers, roads, and works of art resonate with you every time you lay eyes on them? We kick off the 'ingénierie bla filtre' conference series with one of the oldest branches of engineering, civil engineering. To delve into a world of creativity, science, and technology, we invite our esteemed guest Mohammed Ali Chekka, a graduate of ENSA-A, currently working as a construction technical control engineer and freelancing in structural calculations in BA & CM.",
+      coverimg: btp,
+      content: [
+        {
+          youtubeId: "_7FeIse14cM",
+        },
+      ],
     },
     {
-      title: "Genie Electrique",
-      slug: "electrique",
+      title: "Computer engineering",
+      slug: "informatique",
       description:
-        "Le lancement du concours de prise de parole dans sa première Edition, intitulé « L’ingénieur ENSAA prend la parole ».",
-      coverimg: PublicSpeaking,
+        "We delved into the world of computer engineering, where innovation and technology intersected. We had the pleasure of hosting Imad Eddine Fouad, software engineer at Société Générale CIB, and Mohamed EL ATTAR, engineer at SQLI. They provided us with an overview of their journeys and opportunities in the field of computer science.",
+      coverimg: info,
+      content: [
+        {
+          youtubeId: "fAkF3hZJoF8",
+        },
+      ],
     },
     {
-      title: "Genie Electrique",
-      slug: "electrique",
+      title: "Study abroad (China)",
+      slug: "chine",
       description:
-        "Le lancement du concours de prise de parole dans sa première Edition, intitulé « L’ingénieur ENSAA prend la parole ».",
-      coverimg: PublicSpeaking,
-    },
-    {
-      title: "Genie Electrique",
-      slug: "electrique",
-      description:
-        "Le lancement du concours de prise de parole dans sa première Edition, intitulé « L’ingénieur ENSAA prend la parole ».",
-      coverimg: PublicSpeaking,
-    },
-    {
-      title: "Genie Electrique",
-      slug: "electrique",
-      description:
-        "Le lancement du concours de prise de parole dans sa première Edition, intitulé « L’ingénieur ENSAA prend la parole ».",
-      coverimg: PublicSpeaking,
-    },
-    {
-      title: "Genie Electrique",
-      slug: "electrique",
-      description:
-        "Le lancement du concours de prise de parole dans sa première Edition, intitulé « L’ingénieur ENSAA prend la parole ».",
-      coverimg: PublicSpeaking,
-    },
-    {
-      title: "Genie Electrique",
-      slug: "electrique",
-      description:
-        "Le lancement du concours de prise de parole dans sa première Edition, intitulé « L’ingénieur ENSAA prend la parole ».",
-      coverimg: PublicSpeaking,
+        "A special bonus where Ibrahim CHENNAH and Safa DOUH, educational consultants, shared their knowledge about studying in China. They explored how the educational process unfolds, providing valuable insights for those interested in the academic experience abroad.",
+      coverimg: China,
+      // content: [
+      //   {
+      //     youtubeId: "_7FeIse14cM",
+      //   },
+      // ],
     },
   ];
   

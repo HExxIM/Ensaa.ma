@@ -7,6 +7,7 @@ import integration from "../../public/images/News/integration.jpg";
 import PublicSpeaking from "../../public/images/News/PublicSpeaking.png";
 import latex_temp1 from "../../public/images/News/latex_temp1.png";
 import latex_temp2 from "../../public/images/News/latex_temp2.png";
+import ing_blafiltre from "../../public/images/News/ingblaFiltre.png";
 
 export default [
   {

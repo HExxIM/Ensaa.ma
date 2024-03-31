@@ -20,6 +20,7 @@ function Fields() {
           img={item.coverimg}
           slug={item.slug}
           direction="column"
+          link={item.content ? "/Fields/" + item.slug : ''}
         />
       ));
 
@@ -29,7 +30,6 @@ function Fields() {
         Engineering <span>bla filtre</span>
       </h1>
       <p>Explore the academic pathways offered at ENSAA, covering a wide array of fields including electrical engineering, computer science, and more. Our programs are designed to provide students with a comprehensive education, blending theoretical knowledge with practical skills.</p>
-      <p>On the agenda: Civil Engineering, Industrial Engineering, Computer Engineering, Finance and Decision Engineering, Electrical Engineering, Mechanical Engineering, and Energy and Environmental Process Engineering.</p>
       <div className={styles.allFields}>{fields}</div>
     </div>
      );
