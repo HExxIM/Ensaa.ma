@@ -16,7 +16,7 @@ export default [
       ],
     },
     {
-      title: "Computer engineering",
+      title: "Software engineering",
       slug: "informatique",
       description:
         "We delved into the world of computer engineering, where innovation and technology intersected. We had the pleasure of hosting Imad Eddine Fouad, software engineer at Société Générale CIB, and Mohamed EL ATTAR, engineer at SQLI. They provided us with an overview of their journeys and opportunities in the field of computer science.",
