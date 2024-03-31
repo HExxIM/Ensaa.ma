@@ -1,5 +1,5 @@
 import btp from "../../public/images/fields/BTP.png";
-import info from "../../public/images/fields/info.png";
+import info from "../../public/images/fields/Info.png";
 import China from "../../public/images/fields/China.png";
 
 export default [
