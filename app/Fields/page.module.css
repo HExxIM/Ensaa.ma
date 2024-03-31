@@ -24,7 +24,7 @@
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  gap: 5vh 1vw;
+  gap: 3vh 1vw;
 }
 .container .allFields a {
   flex-direction: column;
@@ -33,5 +33,8 @@
 @media only screen and (max-width: 1250px) {
   .container {
     padding-top: 15vh;
+  }
+  .container .allFields {
+    justify-content: center;
   }
 }/*# sourceMappingURL=page.module.css.map */

@@ -27,7 +27,7 @@ function Fields() {
     return ( 
     <div className={styles.container}>
       <h1>
-        Engineering <span>bla filtre</span>
+        L'ingénierie <span>bla filtre</span>
       </h1>
       <p>Explore the academic pathways offered at ENSAA, covering a wide array of fields including electrical engineering, computer science, and more. Our programs are designed to provide students with a comprehensive education, blending theoretical knowledge with practical skills.</p>
       <div className={styles.allFields}>{fields}</div>

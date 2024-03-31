@@ -23,7 +23,7 @@
       width: 100%;
       display: flex;
       flex-wrap: wrap;
-      gap: 5vh 1vw;
+      gap: 3vh 1vw;
       a {
         flex-direction: column;
       }
@@ -32,6 +32,9 @@
   @media only screen and (max-width: 1250px) {
     .container {
       padding-top: 15vh;
+      .allFields {
+        justify-content: center;
+      }
     }
   }
   
