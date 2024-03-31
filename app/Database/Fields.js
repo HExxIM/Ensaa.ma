@@ -33,11 +33,11 @@ export default [
       description:
         "A special bonus where Ibrahim CHENNAH and Safa DOUH, educational consultants, shared their knowledge about studying in China. They explored how the educational process unfolds, providing valuable insights for those interested in the academic experience abroad.",
       coverimg: China,
-      // content: [
-      //   {
-      //     youtubeId: "_7FeIse14cM",
-      //   },
-      // ],
+      content: [
+        {
+          youtubeId: "xVyf1QCryKk",
+        },
+      ],
     },
   ];
   

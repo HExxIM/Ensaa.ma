@@ -11,6 +11,14 @@ import ing_blafiltre from "../../public/images/News/ingblaFiltre.png";
 
 export default [
   {
+    title: "L'ingénierie bla filtre",
+    slug: "ingblaFiltre",
+    category: "Conference",
+    description:
+      "Explore the academic pathways offered at ENSAA, covering a wide array of fields including electrical engineering, computer science, and more. Our programs are designed to provide students with a comprehensive education, blending theoretical knowledge with practical skills.",
+    coverimg: ing_blafiltre,
+  },
+  {
     title: "LaTeX Theme for ENSAA Reports",
     slug: "latex_template",
     category: "Template",

@@ -22,7 +22,7 @@ export default function page() {
         img={item.coverimg}
         slug={item.slug}
         direction="row"
-        link={"/News/" + item.category + "/" + item.slug}
+        link={item.slug=="ingblaFiltre" ? '/Fields' : "/News/" + item.category + "/" + item.slug}
       />
     ));
 
