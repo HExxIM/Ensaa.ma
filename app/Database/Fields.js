@@ -1,7 +1,7 @@
 import btp from "../../public/images/fields/BTP.png";
 import info from "../../public/images/fields/Info.png";
 import China from "../../public/images/fields/China.png";
-import Fid from "../../public/images/fields/Fid.png";
+import Fid from "../../public/images/fields/FID.png";
 
 export default [
     {
