@@ -1,6 +1,7 @@
 import btp from "../../public/images/fields/BTP.png";
 import info from "../../public/images/fields/Info.png";
 import China from "../../public/images/fields/China.png";
+import Fid from "../../public/images/fields/Fid.png";
 
 export default [
     {
@@ -38,6 +39,18 @@ export default [
           youtubeId: "xVyf1QCryKk",
         },
       ],
+    },
+    {
+      title: "Finance and Decision Engineering (FID)",
+      slug: "fid",
+      description:
+        "Join our upcoming session , dedicated to Finance and Decision Engineering, with Mohamed Hicham Echaoui, Valuation and P&L Analyst at ENGIE, on Wednesday, April 3rd at 10:00 PM on Google Meet. Get ready for an episode that promises to shed light on the converging paths of finance and engineering, without delving into technical details, but with the guarantee of an exciting exploration. An opportunity not to be missed to enrich your understanding and stimulate your curiosity in this dynamic field.",
+      coverimg: Fid,
+      // content: [
+      //   {
+      //     youtubeId: "xVyf1QCryKk",
+      //   },
+      // ],
     },
   ];
   

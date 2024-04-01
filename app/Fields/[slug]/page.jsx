@@ -16,7 +16,7 @@ function page({ params }) {
         <div className={styles.container}>
             <h1>{Field.title}</h1>
             <p>{Field.description}</p>
-        {Field.content.map((item, index) => (
+        {Field.content && Field.content.map((item, index) => (
         <>
           {item.text && <p dangerouslySetInnerHTML={{__html: item.text}}></p>}
           {item.img && (
