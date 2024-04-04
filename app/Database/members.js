@@ -95,6 +95,14 @@ export const members = [
       "Strategic Sponsorship Manager : Expert in driving partnerships.",
   },
   {
+    name: "Salma Mahmoud",
+    Image: members_pics.Salma,
+    post: "Head of communication",
+    linkedin: "https://www.linkedin.com/in/salma-mahmoud-981719230/",
+    description:
+      "Team work is the art of harmonizing diverse talents towards a common vision",
+  },
+  {
     name: "Mehdi Abouelmouahib",
     Image: members_pics.Mehdi,
     post: "Assistant Member",
@@ -110,12 +118,4 @@ export const members = [
     description:
       "A lot of people tell me I’m a bit dreamy. But I like the idea of that. Of being somewhere else.",
   },
-  {
-    name: "Salma Mahmoud",
-    Image: members_pics.Salma,
-    post: "Assistant Member",
-    linkedin: "https://www.linkedin.com/in/salma-mahmoud-981719230/",
-    description:
-      "Team work is the art of harmonizing diverse talents towards a common vision",
-  }
 ];
