@@ -1,9 +1,11 @@
 .container {
   margin: 20vh 5vw;
   display: flex;
+  flex-direction: column;
   position: relative;
   align-items: center;
   justify-content: center;
+  gap: 20px;
 }
 .container .Team {
   display: flex;
@@ -11,4 +13,4 @@
   gap: 4vh;
   justify-content: center;
   z-index: 5;
-}/*# sourceMappingURL=page.module.css.map */
+} /*# sourceMappingURL=page.module.css.map */

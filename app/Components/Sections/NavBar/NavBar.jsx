@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 import "./NavBar.css";
 
 //svgs
-import dreamersLogo from "../../../../public/svg/AdeAssets/dreamersLogo.svg";
+import dreamersLogo from "../../../../public/svg/AdeAssets/IGlogo.png";
 import navMobile from "../../../../public/svg/icons/navMobile.svg";
 import loading from "../../../../public/svg/loading3.svg";
 
@@ -85,15 +85,36 @@ export default function NavBar() {
   return (
     <ClickOutsideHandler onClickOutside={handleOutsideClick}>
       <div className="NavContainer">
-        <Link className="logo" href="/">
-          <Image src={dreamersLogo} alt="Logo"></Image>
+        <Link className="logo " href="/">
+          <Image
+            src={dreamersLogo}
+            alt="Logo"
+            height={44}
+            className="h-8"
+          ></Image>
         </Link>
         <div className="NavList">{NavList}</div>
-        {showmenu && <NavMenu setShowmenu={setShowmenu} showmenu={showmenu} Navlist={NavList} />}
-        {(isInitialized && !targetReached) ? 
-          <Button className="contactUsButton" text="Contact us" link="/Contact" />:
-            <Image width={147} src={loading} className="loading" alt="loading"></Image>
-        }
+        {showmenu && (
+          <NavMenu
+            setShowmenu={setShowmenu}
+            showmenu={showmenu}
+            Navlist={NavList}
+          />
+        )}
+        {isInitialized && !targetReached ? (
+          <Button
+            className="contactUsButton"
+            text="Contact us"
+            link="/Contact"
+          />
+        ) : (
+          <Image
+            width={147}
+            src={loading}
+            className="loading"
+            alt="loading"
+          ></Image>
+        )}
         <Image
           className="menuButton"
           alt="menuButton"

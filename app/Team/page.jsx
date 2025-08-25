@@ -1,4 +1,5 @@
 import styles from "./page.module.css";
+import TitleBox from "../Components/UI/TitleBox";
 
 export const metadata = {
   title: "ENSAA - Team",
@@ -8,13 +9,18 @@ export const metadata = {
 };
 
 // components
-import TeamMembersList from "./TeamMembersList";
+import { TeamMembers1, TeamMembers2 } from "./TeamMembersList";
 
 export default function page() {
   return (
     <div className={styles.container}>
+      <TitleBox title="Igniters" />
       <div className={styles.Team}>
-        <TeamMembersList />
+        <TeamMembers1 />
+      </div>
+      <TitleBox title="Dreamers" />
+      <div className={styles.Team}>
+        <TeamMembers2 />
       </div>
     </div>
   );

@@ -1,9 +1,20 @@
-import members_pics from "../constants/members_pics";
+import members_picsDreamers from "../constants/members_pics";
 
-export const members = [
+const membersIgniters = [
+  {
+    name: "Mehdi Abouelmouahib",
+    Image: members_picsDreamers.Mehdi,
+    post: "President",
+    linkedin: "https://www.linkedin.com/in/mehdi-abouelmouahib-52b161254/",
+    description:
+      "Like lines of code 👨🏻‍💻, the choices we make in life determine the output we receive. Choose Wisely 🧙🏼‍♂️!",
+  },
+];
+
+const membersDreamers = [
   {
     name: "Mouad Benlamine",
-    Image: members_pics.Mouad,
+    Image: members_picsDreamers.Mouad,
     post: "President",
     linkedin: "https://www.linkedin.com/in/mouad-benlamine-002671201/",
     description:
@@ -11,7 +22,7 @@ export const members = [
   },
   {
     name: "Mohamed El Founani",
-    Image: members_pics.Founani,
+    Image: members_picsDreamers.Founani,
     post: "Vice-President",
     linkedin: "https://www.linkedin.com/in/mohamed-euler-founani/",
     description:
@@ -19,14 +30,14 @@ export const members = [
   },
   {
     name: "Ayoub Bahti",
-    Image: members_pics.Ayoub,
+    Image: members_picsDreamers.Ayoub,
     post: "Treasurer",
     linkedin: "https://www.linkedin.com/in/ayoub-bahti/",
     description: "Opportunities don’t happen .you create them.",
   },
   {
     name: "Abdelhamid ElBannani",
-    Image: members_pics.Abdelhamid,
+    Image: members_picsDreamers.Abdelhamid,
     post: "General secretary",
     linkedin: "https://www.linkedin.com/in/abdelhamid-el-bannani/",
     description:
@@ -34,7 +45,7 @@ export const members = [
   },
   {
     name: "Manal Attik",
-    Image: members_pics.Attik,
+    Image: members_picsDreamers.Attik,
     post: "Head of Int/Ext Relations",
     linkedin: "https://www.linkedin.com/in/manal-attik-71b492279/",
     description:
@@ -42,7 +53,7 @@ export const members = [
   },
   {
     name: "Mohamed Baroudi",
-    Image: members_pics.Baroudi,
+    Image: members_picsDreamers.Baroudi,
     post: "Head of Logistics",
     linkedin: "https://www.linkedin.com/in/medbaroudi/",
     description:
@@ -50,7 +61,7 @@ export const members = [
   },
   {
     name: "Imad Aouragh",
-    Image: members_pics.Imad,
+    Image: members_picsDreamers.Imad,
     post: "Team coordinator",
     linkedin: "https://www.linkedin.com/in/imad-aouragh-496607221/",
     description:
@@ -58,7 +69,7 @@ export const members = [
   },
   {
     name: "Samira Errai",
-    Image: members_pics.Samira,
+    Image: members_picsDreamers.Samira,
     post: "Clubs Coordinator",
     linkedin: "https://www.linkedin.com/in/samira-errai-0656b2184/",
     description:
@@ -66,14 +77,14 @@ export const members = [
   },
   {
     name: "Hassan elqadi",
-    Image: members_pics.Hassan,
+    Image: members_picsDreamers.Hassan,
     post: "Head of Innovation and IT",
     linkedin: "https://www.linkedin.com/in/el-qadi/",
     description: "When algorithms and art shake hands",
   },
   {
     name: "Ibtissam Massa",
-    Image: members_pics.Ibtissam,
+    Image: members_picsDreamers.Ibtissam,
     post: "Student Affairs Coordinator",
     linkedin: "https://www.linkedin.com/in/ibtissam-massa/",
     description:
@@ -81,14 +92,14 @@ export const members = [
   },
   {
     name: "Zakaria Ahrbil",
-    Image: members_pics.zakaria,
+    Image: members_picsDreamers.zakaria,
     post: "Designer and SM",
     linkedin: "https://www.linkedin.com/in/zakaria-ahrbil-772041236/",
     description: "I have no enemies.",
   },
   {
     name: "Malak Bourrich",
-    Image: members_pics.Malak,
+    Image: members_picsDreamers.Malak,
     post: "Head of sponsoring",
     linkedin: "https://www.linkedin.com/in/malak-bourrich-6a5193249/",
     description:
@@ -96,7 +107,7 @@ export const members = [
   },
   {
     name: "Salma Mahmoud",
-    Image: members_pics.Salma,
+    Image: members_picsDreamers.Salma,
     post: "Head of communication",
     linkedin: "https://www.linkedin.com/in/salma-mahmoud-981719230/",
     description:
@@ -104,7 +115,7 @@ export const members = [
   },
   {
     name: "Mehdi Abouelmouahib",
-    Image: members_pics.Mehdi,
+    Image: members_picsDreamers.Mehdi,
     post: "Assistant Member",
     linkedin: "https://www.linkedin.com/in/mehdi-abouelmouahib-52b161254/",
     description:
@@ -112,10 +123,12 @@ export const members = [
   },
   {
     name: "Somaya Arouch",
-    Image: members_pics.Somaya,
+    Image: members_picsDreamers.Somaya,
     post: "Assistant Member",
     linkedin: "https://www.linkedin.com/in/somaya-arouch-889982265/",
     description:
       "A lot of people tell me I’m a bit dreamy. But I like the idea of that. Of being somewhere else.",
   },
 ];
+
+export { membersDreamers, membersIgniters };
