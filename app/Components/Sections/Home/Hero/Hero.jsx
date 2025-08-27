@@ -2,7 +2,7 @@ import Image from "next/image";
 import styles from "./Hero.module.css";
 
 //assets
-import moonLogo from "../../../../../public/svg/AdeAssets/moonLogo.svg";
+import moonLogo from "../../../../../public/svg/AdeAssets/ig_logo.png";
 import playIcon from "../../../../../public/svg/icons/playIcon.svg";
 import shapeBlur from "../../../../../public/images/shapeBlur.webp";
 
@@ -71,6 +71,8 @@ export default function HeroSection() {
           src={moonLogo}
           alt="moonlogo"
           className={styles.moonLogo}
+          priority
+          unoptimized
         ></Image>
       </div>
     </div>
