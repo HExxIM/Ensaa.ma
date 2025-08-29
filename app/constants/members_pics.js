@@ -1,20 +1,20 @@
-import Hassan from "../../public/images/TeamMembers/Hassan.png";
-import Abdelhamid from "../../public/images/TeamMembers/Abdelhamid.jpg";
-import Attik from "../../public/images/TeamMembers/Attik.png";
-import Ayoub from "../../public/images/TeamMembers/Ayoub.jpg";
-import Baroudi from "../../public/images/TeamMembers/Baroudi.jpg";
-import Founani from "../../public/images/TeamMembers/Founani.png";
-import Ibtissam from "../../public/images/TeamMembers/Ibtissam.jpeg";
-import Imad from "../../public/images/TeamMembers/Imad.png";
-import Khalid from "../../public/images/TeamMembers/Khalid.png";
-import Malak from "../../public/images/TeamMembers/Malak.jpeg";
-import Mehdi from "../../public/images/TeamMembers/Mehdi.png";
-import Mouad from "../../public/images/TeamMembers/Mouad.jpeg";
-import Salma from "../../public/images/TeamMembers/Salma.png";
-import Samira from "../../public/images/TeamMembers/Samira.png";
-import Somaya from "../../public/images/TeamMembers/Somaya.png";
-import Wissal from "../../public/images/TeamMembers/Wissal.jpeg";
-import zakaria from "../../public/images/TeamMembers/zakaria.png";
+import Hassan from "../../public/images/Dreamers/Hassan.png";
+import Abdelhamid from "../../public/images/Dreamers/Abdelhamid.jpg";
+import Attik from "../../public/images/Dreamers/Attik.png";
+import Ayoub from "../../public/images/Dreamers/Ayoub.jpg";
+import Baroudi from "../../public/images/Dreamers/Baroudi.jpg";
+import Founani from "../../public/images/Dreamers/Founani.png";
+import Ibtissam from "../../public/images/Dreamers/Ibtissam.jpeg";
+import Imad from "../../public/images/Dreamers/Imad.png";
+import Khalid from "../../public/images/Dreamers/Khalid.png";
+import Malak from "../../public/images/Dreamers/Malak.jpeg";
+import Mehdi from "../../public/images/Dreamers/Mehdi.png";
+import Mouad from "../../public/images/Dreamers/Mouad.jpeg";
+import Salma from "../../public/images/Dreamers/Salma.png";
+import Samira from "../../public/images/Dreamers/Samira.png";
+import Somaya from "../../public/images/Dreamers/Somaya.png";
+import Wissal from "../../public/images/Dreamers/Wissal.jpeg";
+import zakaria from "../../public/images/Dreamers/zakaria.png";
 
 export default {
   Hassan,
